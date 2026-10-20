@@ -1,0 +1,641 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?state=uncertain#order
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/?state=uncertain#order
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=uncertain#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=uncertain#overview
+						45 text / Commande D-1042 Belgique · FR · EUR
+					46 container
+						47 texte COMMERCE / COMMANDES
+						48 en-tête Commande D-1042, Value: 1
+							49 texte Commande D-1042
+						50 texte 20 octobre 2026, 09 h 42 · Client de démonstration
+						51 texte 86,00 €
+						52 texte Total TTC · EUR
+						53 container Résultat toujours incertain
+							54 en-tête Résultat toujours incertain, Value: 2
+								55 texte Résultat toujours incertain
+							56 texte La consultation de PAI-DEMO-1042 n'a pas permis de confirmer l'encaissement. Aucun nouveau débit ne doit être lancé sur cette seule base.
+							57 bouton Vérifier l'état
+						58 container États de la commande
+							59 container
+								60 en-tête PAIEMENT, Value: 2
+									61 texte PAIEMENT
+								62 text À confirmer Tentative de 86,00 € enregistrée
+							63 container
+								64 en-tête PRÉPARATION, Value: 2
+									65 texte PRÉPARATION
+								66 text Non commencée 0 article préparé sur 3
+							67 container
+								68 en-tête LIVRAISON, Value: 2
+									69 texte LIVRAISON
+								70 text Non expédiée Aucune prise en charge confirmée
+						71 container Vérifier le paiement avant de préparer
+							72 en-tête Vérifier le paiement avant de préparer, Value: 2
+								73 texte Vérifier le paiement avant de préparer
+							74 texte La tentative existe, mais son encaissement n'est pas confirmé. Consultez son état avant toute nouvelle opération.
+							75 bouton Vérifier le paiement
+						76 container Articles 3
+							77 en-tête Articles 3, Value: 2
+								78 text Articles 3
+							79 texte Prix TTC
+							80 tableau Articles de la commande D-1042, données de démonstration
+								81 texte Articles de la commande D-1042, données de démonstration
+								82 row
+									83 en-tête de colonne
+										84 texte Article
+									85 en-tête de colonne
+										86 texte Qté
+									87 en-tête de colonne
+										88 texte Prix unitaire
+									89 en-tête de colonne
+										90 texte Total
+								91 row
+									92 cellule
+										93 texte Tasse Atelier
+										94 container
+											95 text Craie ·  TAS-CRAIE
+									96 cellule
+										97 texte Quantité
+										98 texte 2
+									99 cellule
+										100 texte Prix unitaire
+										101 texte 24,00 €
+									102 cellule
+										103 texte Total
+										104 texte 48,00 €
+								105 row
+									106 cellule
+										107 texte Plateau Atelier
+										108 container
+											109 text Petit ·  PLA-PETIT
+									110 cellule
+										111 texte Quantité
+										112 texte 1
+									113 cellule
+										114 texte Prix unitaire
+										115 texte 32,00 €
+									116 cellule
+										117 texte Total
+										118 texte 32,00 €
+							119 liste de définitions
+								120 texte Sous-total des articles
+								121 texte 80,00 €
+								122 texte Livraison standard
+								123 texte 6,00 €
+								124 texte Total TTC
+								125 texte 86,00 €
+							126 texte Montants de démonstration. L'application utilisera les montants calculés par le moteur commercial.
+						127 container Historique de la commande
+							128 en-tête Historique de la commande, Value: 2
+								129 texte Historique de la commande
+							130 texte 20 octobre
+							131 Liste du contenu
+								132 container
+									133 text 10:00 État toujours à vérifier La commande reste en attente de confirmation.
+								134 container
+									135 text 09:43 Confirmation du paiement absente Aucune conclusion sur l'encaissement.
+								136 container
+									137 text 09:42 Tentative de paiement enregistrée PAI-DEMO-1042  · 86,00 €
+							138 en-tête Retours et remboursements, Value: 3
+								139 texte Retours et remboursements
+							140 texte Aucun retour ni remboursement enregistré dans cet exemple.
+						141 container Informations complémentaires
+							142 container
+								143 en-tête Client et destination, Value: 2
+									144 texte Client et destination
+								145 liste de définitions
+									146 texte Client
+									147 texte Client de démonstration
+									148 texte Adresse de livraison
+									149 container
+										150 texte Adresse de démonstration
+										151 texte Belgique
+									152 texte Marché
+									153 texte Belgique · Français · EUR
+									154 texte Livraison
+									155 texte Standard · 6,00 €
+							156 container
+								157 en-tête Suivi du paiement, Value: 2
+									158 texte Suivi du paiement
+								159 liste de définitions
+									160 texte Référence de la tentative
+									161 texte PAI-DEMO-1042
+									162 texte Dernière mise à jour
+									163 texte 20 octobre, 10 h 00
+									164 texte Résultat
+									165 texte Non confirmé
+								166 bouton Consulter le dossier
+						167 texte L'assistant travaille dans le contexte de cet écran.
+						168 bouton Ouvrir l'assistant
+					169 container
+						170 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				171 text MacBook Pro 1440 x 900
+				172 bouton Refresh This View
+				173 bouton Quick Screenshot
+				174 bouton Full Page Screenshot
+				175 bouton Design Overlay
+				176 bouton Disable Event Mirroring
+				177 bouton Open Devtools
+				178 bouton (disabled) Rotation not available for non-mobile devices
+				179 bouton Scroll to Top
+				180 bouton Show rulers
+				181 bouton de menu local
+				182 bouton Enable Individual Layout
+				183 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/?state=uncertain#order
+					184 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=uncertain#main
+					185 texte S01
+					186 texte Maquette interactive
+					187 texte Données de démonstration
+					188 bouton Examiner un état
+					189 container Navigation principale
+						190 texte Atelier Démo
+						191 texte Votre boutique de démonstration
+						192 container Activités
+							193 Liste du contenu
+								194 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/?state=uncertain#overview
+								195 texte COMMERCE
+								196 link Description: Commandes, Value: 127.0.0.1:5102/?state=uncertain#order
+								197 container
+									198 text Catalogue aperçu
+								199 container
+									200 text Stocks aperçu
+								201 texte BOUTIQUE
+								202 container
+									203 text Pages & contenus aperçu
+								204 texte CROISSANCE
+								205 link Description: SEO, Value: 127.0.0.1:5102/?state=uncertain#seo
+								206 container
+									207 text Campagnes aperçu
+								208 container
+									209 text Expériences aperçu
+								210 texte PILOTAGE
+								211 container
+									212 text Analyses aperçu
+								213 container
+									214 text Réglages aperçu
+							215 texte Les entrées « aperçu » sont hors maquette.
+						216 texte Environnement de démonstration
+						217 texte Membre démo
+						218 texte Administration
+					219 container
+						220 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=uncertain#overview
+						221 text / Commande D-1042 Belgique · FR · EUR
+					222 container
+						223 texte COMMERCE / COMMANDES
+						224 en-tête Commande D-1042, Value: 1
+							225 texte Commande D-1042
+						226 texte 20 octobre 2026, 09 h 42 · Client de démonstration
+						227 texte 86,00 €
+						228 texte Total TTC · EUR
+						229 container Résultat toujours incertain
+							230 en-tête Résultat toujours incertain, Value: 2
+								231 texte Résultat toujours incertain
+							232 texte La consultation de PAI-DEMO-1042 n'a pas permis de confirmer l'encaissement. Aucun nouveau débit ne doit être lancé sur cette seule base.
+							233 bouton Vérifier l'état
+						234 container États de la commande
+							235 container
+								236 en-tête PAIEMENT, Value: 2
+									237 texte PAIEMENT
+								238 text À confirmer Tentative de 86,00 € enregistrée
+							239 container
+								240 en-tête PRÉPARATION, Value: 2
+									241 texte PRÉPARATION
+								242 text Non commencée 0 article préparé sur 3
+							243 container
+								244 en-tête LIVRAISON, Value: 2
+									245 texte LIVRAISON
+								246 text Non expédiée Aucune prise en charge confirmée
+						247 container Vérifier le paiement avant de préparer
+							248 en-tête Vérifier le paiement avant de préparer, Value: 2
+								249 texte Vérifier le paiement avant de préparer
+							250 texte La tentative existe, mais son encaissement n'est pas confirmé. Consultez son état avant toute nouvelle opération.
+							251 bouton Vérifier le paiement
+						252 container Articles 3
+							253 en-tête Articles 3, Value: 2
+								254 text Articles 3
+							255 texte Prix TTC
+							256 tableau Articles de la commande D-1042, données de démonstration
+								257 texte Articles de la commande D-1042, données de démonstration
+								258 row
+									259 en-tête de colonne
+										260 texte Article
+									261 en-tête de colonne
+										262 texte Qté
+									263 en-tête de colonne
+										264 texte Prix unitaire
+									265 en-tête de colonne
+										266 texte Total
+								267 row
+									268 cellule
+										269 texte Tasse Atelier
+										270 container
+											271 text Craie ·  TAS-CRAIE
+									272 cellule
+										273 texte 2
+									274 cellule
+										275 texte 24,00 €
+									276 cellule
+										277 texte 48,00 €
+								278 row
+									279 cellule
+										280 texte Plateau Atelier
+										281 container
+											282 text Petit ·  PLA-PETIT
+									283 cellule
+										284 texte 1
+									285 cellule
+										286 texte 32,00 €
+									287 cellule
+										288 texte 32,00 €
+							289 liste de définitions
+								290 texte Sous-total des articles
+								291 texte 80,00 €
+								292 texte Livraison standard
+								293 texte 6,00 €
+								294 texte Total TTC
+								295 texte 86,00 €
+							296 texte Montants de démonstration. L'application utilisera les montants calculés par le moteur commercial.
+						297 container Historique de la commande
+							298 en-tête Historique de la commande, Value: 2
+								299 texte Historique de la commande
+							300 texte 20 octobre
+							301 Liste du contenu
+								302 container
+									303 text 10:00 État toujours à vérifier La commande reste en attente de confirmation.
+								304 container
+									305 text 09:43 Confirmation du paiement absente Aucune conclusion sur l'encaissement.
+								306 container
+									307 text 09:42 Tentative de paiement enregistrée PAI-DEMO-1042  · 86,00 €
+							308 en-tête Retours et remboursements, Value: 3
+								309 texte Retours et remboursements
+							310 texte Aucun retour ni remboursement enregistré dans cet exemple.
+						311 container Informations complémentaires
+							312 container
+								313 en-tête Client et destination, Value: 2
+									314 texte Client et destination
+								315 liste de définitions
+									316 texte Client
+									317 texte Client de démonstration
+									318 texte Adresse de livraison
+									319 container
+										320 texte Adresse de démonstration
+										321 texte Belgique
+									322 texte Marché
+									323 texte Belgique · Français · EUR
+									324 texte Livraison
+									325 texte Standard · 6,00 €
+							326 container
+								327 en-tête Suivi du paiement, Value: 2
+									328 texte Suivi du paiement
+								329 liste de définitions
+									330 texte Référence de la tentative
+									331 texte PAI-DEMO-1042
+									332 texte Dernière mise à jour
+									333 texte 20 octobre, 10 h 00
+									334 texte Résultat
+									335 texte Non confirmé
+								336 bouton Consulter le dossier
+						337 texte L'assistant travaille dans le contexte de cet écran.
+						338 bouton Ouvrir l'assistant
+					339 container
+						340 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				341 text Galaxy S21 360 x 800
+				342 bouton Refresh This View
+				343 bouton Quick Screenshot
+				344 bouton Full Page Screenshot
+				345 bouton Design Overlay
+				346 bouton Disable Event Mirroring
+				347 bouton Open Devtools
+				348 bouton (disabled) Rotation not available for non-mobile devices
+				349 bouton Scroll to Top
+				350 bouton Show rulers
+				351 bouton de menu local
+				352 bouton Enable Individual Layout
+				353 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/?state=uncertain#order
+					354 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=uncertain#main
+					355 texte S01
+					356 texte Données de démonstration
+					357 bouton Examiner un état
+					358 container
+						359 bouton Ouvrir la navigation
+						360 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=uncertain#overview
+						361 text / Commande D-1042 Belgique · FR · EUR
+					362 container
+						363 texte COMMERCE / COMMANDES
+						364 en-tête Commande D-1042, Value: 1
+							365 texte Commande D-1042
+						366 texte 20 octobre 2026, 09 h 42 · Client de démonstration
+						367 texte 86,00 €
+						368 texte Total TTC · EUR
+						369 container Résultat toujours incertain
+							370 en-tête Résultat toujours incertain, Value: 2
+								371 texte Résultat toujours incertain
+							372 texte La consultation de PAI-DEMO-1042 n'a pas permis de confirmer l'encaissement. Aucun nouveau débit ne doit être lancé sur cette seule base.
+							373 bouton Vérifier l'état
+						374 container États de la commande
+							375 container
+								376 en-tête PAIEMENT, Value: 2
+									377 texte PAIEMENT
+								378 text À confirmer Tentative de 86,00 € enregistrée
+							379 container
+								380 en-tête PRÉPARATION, Value: 2
+									381 texte PRÉPARATION
+								382 text Non commencée 0 article préparé sur 3
+							383 container
+								384 en-tête LIVRAISON, Value: 2
+									385 texte LIVRAISON
+								386 text Non expédiée Aucune prise en charge confirmée
+						387 container Vérifier le paiement avant de préparer
+							388 en-tête Vérifier le paiement avant de préparer, Value: 2
+								389 texte Vérifier le paiement avant de préparer
+							390 texte La tentative existe, mais son encaissement n'est pas confirmé. Consultez son état avant toute nouvelle opération.
+							391 bouton Vérifier le paiement
+						392 container Articles 3
+							393 en-tête Articles 3, Value: 2
+								394 text Articles 3
+							395 texte Prix TTC
+							396 tableau Articles de la commande D-1042, données de démonstration
+								397 texte Articles de la commande D-1042, données de démonstration
+								398 row
+									399 en-tête de colonne
+										400 texte Article
+									401 en-tête de colonne
+										402 texte Qté
+									403 en-tête de colonne
+										404 texte Prix unitaire
+									405 en-tête de colonne
+										406 texte Total
+								407 row
+									408 cellule
+										409 texte Tasse Atelier
+										410 container
+											411 text Craie ·  TAS-CRAIE
+									412 cellule
+										413 texte Quantité
+										414 texte 2
+									415 cellule
+										416 texte Prix unitaire
+										417 texte 24,00 €
+									418 cellule
+										419 texte Total
+										420 texte 48,00 €
+								421 row
+									422 cellule
+										423 texte Plateau Atelier
+										424 container
+											425 text Petit ·  PLA-PETIT
+									426 cellule
+										427 texte Quantité
+										428 texte 1
+									429 cellule
+										430 texte Prix unitaire
+										431 texte 32,00 €
+									432 cellule
+										433 texte Total
+										434 texte 32,00 €
+							435 liste de définitions
+								436 texte Sous-total des articles
+								437 texte 80,00 €
+								438 texte Livraison standard
+								439 texte 6,00 €
+								440 texte Total TTC
+								441 texte 86,00 €
+							442 texte Montants de démonstration. L'application utilisera les montants calculés par le moteur commercial.
+						443 container Historique de la commande
+							444 en-tête Historique de la commande, Value: 2
+								445 texte Historique de la commande
+							446 texte 20 octobre
+							447 Liste du contenu
+								448 container
+									449 text 10:00 État toujours à vérifier La commande reste en attente de confirmation.
+								450 container
+									451 text 09:43 Confirmation du paiement absente Aucune conclusion sur l'encaissement.
+								452 container
+									453 text 09:42 Tentative de paiement enregistrée PAI-DEMO-1042  · 86,00 €
+							454 en-tête Retours et remboursements, Value: 3
+								455 texte Retours et remboursements
+							456 texte Aucun retour ni remboursement enregistré dans cet exemple.
+						457 container Informations complémentaires
+							458 container
+								459 en-tête Client et destination, Value: 2
+									460 texte Client et destination
+								461 liste de définitions
+									462 texte Client
+									463 texte Client de démonstration
+									464 texte Adresse de livraison
+									465 container
+										466 texte Adresse de démonstration
+										467 texte Belgique
+									468 texte Marché
+									469 texte Belgique · Français · EUR
+									470 texte Livraison
+									471 texte Standard · 6,00 €
+							472 container
+								473 en-tête Suivi du paiement, Value: 2
+									474 texte Suivi du paiement
+								475 liste de définitions
+									476 texte Référence de la tentative
+									477 texte PAI-DEMO-1042
+									478 texte Dernière mise à jour
+									479 texte 20 octobre, 10 h 00
+									480 texte Résultat
+									481 texte Non confirmé
+								482 bouton Consulter le dossier
+						483 texte L'assistant travaille dans le contexte de cet écran.
+						484 bouton Ouvrir l'assistant
+					485 container
+						486 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				487 text G0 Tablette paysage 1024 x 768
+				488 bouton Refresh This View
+				489 bouton Quick Screenshot
+				490 bouton Full Page Screenshot
+				491 bouton Design Overlay
+				492 bouton Disable Event Mirroring
+				493 bouton Open Devtools
+				494 bouton (disabled) Rotation not available for non-mobile devices
+				495 bouton Scroll to Top
+				496 bouton Show rulers
+				497 bouton de menu local
+				498 bouton Enable Individual Layout
+				499 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/?state=uncertain#order
+					500 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=uncertain#main
+					501 texte S01
+					502 texte Maquette interactive
+					503 texte Données de démonstration
+					504 bouton Examiner un état
+					505 container
+						506 bouton Ouvrir la navigation
+						507 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=uncertain#overview
+						508 text / Commande D-1042 Belgique · FR · EUR
+					509 container
+						510 texte COMMERCE / COMMANDES
+						511 en-tête Commande D-1042, Value: 1
+							512 texte Commande D-1042
+						513 texte 20 octobre 2026, 09 h 42 · Client de démonstration
+						514 texte 86,00 €
+						515 texte Total TTC · EUR
+						516 container Résultat toujours incertain
+							517 en-tête Résultat toujours incertain, Value: 2
+								518 texte Résultat toujours incertain
+							519 texte La consultation de PAI-DEMO-1042 n'a pas permis de confirmer l'encaissement. Aucun nouveau débit ne doit être lancé sur cette seule base.
+							520 bouton Vérifier l'état
+						521 container États de la commande
+							522 container
+								523 en-tête PAIEMENT, Value: 2
+									524 texte PAIEMENT
+								525 text À confirmer Tentative de 86,00 € enregistrée
+							526 container
+								527 en-tête PRÉPARATION, Value: 2
+									528 texte PRÉPARATION
+								529 text Non commencée 0 article préparé sur 3
+							530 container
+								531 en-tête LIVRAISON, Value: 2
+									532 texte LIVRAISON
+								533 text Non expédiée Aucune prise en charge confirmée
+						534 container Vérifier le paiement avant de préparer
+							535 en-tête Vérifier le paiement avant de préparer, Value: 2
+								536 texte Vérifier le paiement avant de préparer
+							537 texte La tentative existe, mais son encaissement n'est pas confirmé. Consultez son état avant toute nouvelle opération.
+							538 bouton Vérifier le paiement
+						539 container Articles 3
+							540 en-tête Articles 3, Value: 2
+								541 text Articles 3
+							542 texte Prix TTC
+							543 tableau Articles de la commande D-1042, données de démonstration
+								544 texte Articles de la commande D-1042, données de démonstration
+								545 row
+									546 en-tête de colonne
+										547 texte Article
+									548 en-tête de colonne
+										549 texte Qté
+									550 en-tête de colonne
+										551 texte Prix unitaire
+									552 en-tête de colonne
+										553 texte Total
+								554 row
+									555 cellule
+										556 texte Tasse Atelier
+										557 container
+											558 text Craie ·  TAS-CRAIE
+									559 cellule
+										560 texte 2
+									561 cellule
+										562 texte 24,00 €
+									563 cellule
+										564 texte 48,00 €
+								565 row
+									566 cellule
+										567 texte Plateau Atelier
+										568 container
+											569 text Petit ·  PLA-PETIT
+									570 cellule
+										571 texte 1
+									572 cellule
+										573 texte 32,00 €
+									574 cellule
+										575 texte 32,00 €
+							576 liste de définitions
+								577 texte Sous-total des articles
+								578 texte 80,00 €
+								579 texte Livraison standard
+								580 texte 6,00 €
+								581 texte Total TTC
+								582 texte 86,00 €
+							583 texte Montants de démonstration. L'application utilisera les montants calculés par le moteur commercial.
+						584 container Historique de la commande
+							585 en-tête Historique de la commande, Value: 2
+								586 texte Historique de la commande
+							587 texte 20 octobre
+							588 Liste du contenu
+								589 container
+									590 text 10:00 État toujours à vérifier La commande reste en attente de confirmation.
+								591 container
+									592 text 09:43 Confirmation du paiement absente Aucune conclusion sur l'encaissement.
+								593 container
+									594 text 09:42 Tentative de paiement enregistrée PAI-DEMO-1042  · 86,00 €
+							595 en-tête Retours et remboursements, Value: 3
+								596 texte Retours et remboursements
+							597 texte Aucun retour ni remboursement enregistré dans cet exemple.
+						598 container Informations complémentaires
+							599 container
+								600 en-tête Client et destination, Value: 2
+									601 texte Client et destination
+								602 liste de définitions
+									603 texte Client
+									604 texte Client de démonstration
+									605 texte Adresse de livraison
+									606 container
+										607 texte Adresse de démonstration
+										608 texte Belgique
+									609 texte Marché
+									610 texte Belgique · Français · EUR
+									611 texte Livraison
+									612 texte Standard · 6,00 €
+							613 container
+								614 en-tête Suivi du paiement, Value: 2
+									615 texte Suivi du paiement
+								616 liste de définitions
+									617 texte Référence de la tentative
+									618 texte PAI-DEMO-1042
+									619 texte Dernière mise à jour
+									620 texte 20 octobre, 10 h 00
+									621 texte Résultat
+									622 texte Non confirmé
+								623 bouton Consulter le dossier
+						624 texte L'assistant travaille dans le contexte de cet écran.
+						625 bouton Ouvrir l'assistant
+					626 container
+						627 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		628 container
+	629 Bouton de fermeture
+	630 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	631 bouton de minimisation
+632 menu bar
+	633 ResponsivelyApp
+	634 Edit
+	635 View
+	636 Window
+	637 Help
+
+The focused UI element is 37 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/?state=uncertain#order

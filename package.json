@@ -1,0 +1,28 @@
+{
+  "name": "e-com-system-ai",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "npm@11.9.0",
+  "engines": { "node": ">=24.14.0 <25", "npm": ">=11 <12" },
+  "workspaces": ["apps/commerce", "apps/dashboard", "packages/contracts"],
+  "overrides": { "react-hook-form": "7.71.0" },
+  "scripts": {
+    "predev": "npm run build --workspace @ecom/commerce",
+    "dev": "node infra/dev/run.mjs",
+    "dev:prepare": "node infra/dev/prepare.mjs",
+    "dev:check": "node infra/dev/check-running.mjs",
+    "db:backup": "node infra/dev/backup.mjs",
+    "db:restore": "node infra/dev/backup.mjs --restore",
+    "build": "npm run build --workspace @ecom/commerce && npm run build --workspace @ecom/dashboard",
+    "typecheck": "npm run typecheck --workspace @ecom/commerce && npm run typecheck --workspace @ecom/dashboard",
+    "test:contracts": "python3 docs/livraisons/S02/verify.py",
+    "test": "npm run build --workspace @ecom/commerce && node --experimental-vm-modules --test infra/dev/session.test.mjs infra/dev/run.test.mjs && node infra/dev/verify.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "embedded-postgres": "18.4.0-beta.17",
+    "pg": "8.23.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  }
+}

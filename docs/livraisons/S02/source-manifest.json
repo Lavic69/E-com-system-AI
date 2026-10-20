@@ -1,0 +1,100 @@
+{
+  "consultedAt": "2026-10-20",
+  "baseGitHead": null,
+  "vendureVersion": "3.8.0",
+  "scope": "Sources lues ; aucune exécution du moteur par S02",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "9efc4e46834fb0e4dac17e306379bcce474fc76c96059d2517f6c96ad857aef2"
+    },
+    {
+      "path": "docs/pilotage/missions/S02-contrats.md",
+      "sha256": "e8b6b87056e186fed141782ddc85e15067a5c77d2447431bc9917c5428645e1c"
+    },
+    {
+      "path": "docs/pilotage/PLAN_EXECUTION.md",
+      "sha256": "961839e09b82ce32eeca339dc12acfdcb8dfccfbbd68c8d93e5573840e66e18c"
+    },
+    {
+      "path": "docs/pilotage/COORDINATION.md",
+      "sha256": "7631d0ff6910779f76f9c1bcc6e1b09599c14d31653109e57ff9876cde5eb2a7"
+    },
+    {
+      "path": "docs/produit/GLOSSARY.md",
+      "sha256": "14c9603752b52c8464d059cbb3ab3d2e29bc504468d3befdd96d318326a3a2d4"
+    },
+    {
+      "path": "docs/produit/ARCHITECTURE.md",
+      "sha256": "d3f8f2394d582c7c18f6274cd4a0c8a735ea0b255a04c5a72accadb02afaff53"
+    },
+    {
+      "path": "experiments/core-validation/README.md",
+      "sha256": "4d7852fa09a6d5842fd803908395ba5bfab10f05f23be5d52cc9f2f9da0a7b62"
+    },
+    {
+      "path": "experiments/core-validation/package.json",
+      "sha256": "3bbf8d6950ad6126d0c857916b6cec42ef258573c2787c0cee99597cae212ffa"
+    },
+    {
+      "path": "experiments/core-validation/package-lock.json",
+      "sha256": "2afb0b7b7de8934800f52dd9277f9a338db837e9b45d8f177ce6091e291c96b3"
+    },
+    {
+      "path": "experiments/core-validation/src/stock-eligibility.cjs",
+      "sha256": "4898271cafccdd6d864014ebd4aa3e1a46c5a45df45bd450455ef7cf30470e64"
+    },
+    {
+      "path": "experiments/core-validation/reports/run-2026-10-20T15-24-40-784Z-postgres-guarded.json",
+      "sha256": "0f9bf068cd51012d04e0e1b36d9080f8ade1857c134d9650174b6466dac8f07b"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/package.json",
+      "sha256": "16aa43601c12fecdb4fb1de04311676b8bd3cc8e926e7193ba6b2eae22d6f5fa"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/payment/payment-method-handler.d.ts",
+      "sha256": "84154d0608ec77afcffebe3dea9a7aa1286b54179b2e1363464c30ea45fac40f"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/order/stock-allocation-strategy.d.ts",
+      "sha256": "7a5ad1ce51738ca2f96a17cabf83e5ba0f85648a47991d6a4c37a8f810c0afa5"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/event-bus/event-bus.js",
+      "sha256": "7fe8c57e449ffc1dfb7525fa9df6c1a0cb83f33a26ba18549ac0b384813c0bcd"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/entity/default-money-strategy.js",
+      "sha256": "05e436e98f4ac3514c0f8bb295d2ff773e427f83225453523b3d2cf83dbeec03"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/order/default-stock-allocation-strategy.js",
+      "sha256": "7c17d67a7094ee1161514ebdd076de4579f3a8fe344b9dda3d26839387cce644"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/service/services/stock-movement.service.d.ts",
+      "sha256": "6fac48ebe9104805376ee53309035c81bad7cfc5cab57759a1f46805479fe031"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/payment/default-payment-process.js",
+      "sha256": "e7fe5339384be68617fdf01df90549b00a5544d3cf280e4f3615c990c27960be"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/api/common/request-context.d.ts",
+      "sha256": "7b1f7f45450319c34fd25105afc028f6adc5e4ad50998d9af9f3a757116776fe"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/entity/channel/channel.entity.d.ts",
+      "sha256": "f7a5548ec2c7a41269ddb35fbdfe1956fb21b0f0437cf21fad74e5932023a953"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/entity/base/base.entity.d.ts",
+      "sha256": "94a584148fb3130f34cd5cbee445288d3ec3db2a8864cd7b76758b3b103445ba"
+    },
+    {
+      "path": "../validation-socle/node_modules/@vendure/core/dist/config/order/default-order-process.js",
+      "sha256": "11acf6e541664c1ddb6f6d525ee73e587c8846962b2c4a415071538a351fbc7e"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/#order
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/#order
+					38 container Vérifier le paiement
+						39 en-tête Vérifier le paiement, Value: 2
+							40 texte Vérifier le paiement
+						41 bouton Fermer la fenêtre
+						42 container
+							43 text Consulter la tentative existante pour la commande  D-1042 .
+						44 liste de définitions
+							45 texte Référence
+							46 texte PAI-DEMO-1042
+							47 texte Montant attendu
+							48 texte 86,00 €
+							49 texte État connu
+							50 texte Confirmation attendue
+						51 texte Maquette : aucun prestataire n'est interrogé et aucun débit n'est créé. Le bouton suivant montre la variante sans confirmation.
+						52 bouton Fermer
+						53 bouton Voir le résultat incertain
+				54 text iPad 768 x 1024
+				55 bouton Refresh This View
+				56 bouton Quick Screenshot
+				57 bouton Full Page Screenshot
+				58 bouton Design Overlay
+				59 bouton Disable Event Mirroring
+				60 bouton Open Devtools
+				61 bouton (disabled) Rotation not available for non-mobile devices
+				62 bouton Scroll to Top
+				63 bouton Show rulers
+				64 bouton de menu local
+				65 bouton Enable Individual Layout
+				66 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/#order
+					67 container Vérifier le paiement
+						68 en-tête Vérifier le paiement, Value: 2
+							69 texte Vérifier le paiement
+						70 bouton Fermer la fenêtre
+						71 container
+							72 text Consulter la tentative existante pour la commande  D-1042 .
+						73 liste de définitions
+							74 texte Référence
+							75 texte PAI-DEMO-1042
+							76 texte Montant attendu
+							77 texte 86,00 €
+							78 texte État connu
+							79 texte Confirmation attendue
+						80 texte Maquette : aucun prestataire n'est interrogé et aucun débit n'est créé. Le bouton suivant montre la variante sans confirmation.
+						81 bouton Fermer
+						82 bouton Voir le résultat incertain
+				83 text MacBook Pro 1440 x 900
+				84 bouton Refresh This View
+				85 bouton Quick Screenshot
+				86 bouton Full Page Screenshot
+				87 bouton Design Overlay
+				88 bouton Disable Event Mirroring
+				89 bouton Open Devtools
+				90 bouton (disabled) Rotation not available for non-mobile devices
+				91 bouton Scroll to Top
+				92 bouton Show rulers
+				93 bouton de menu local
+				94 bouton Enable Individual Layout
+				95 Contenu HTML Commande D-1042 · Maquette S01, URL: 127.0.0.1:5102/#order
+					96 container Vérifier le paiement
+						97 en-tête Vérifier le paiement, Value: 2
+							98 texte Vérifier le paiement
+						99 bouton Fermer la fenêtre
+						100 container
+							101 text Consulter la tentative existante pour la commande  D-1042 .
+						102 liste de définitions
+							103 texte Référence
+							104 texte PAI-DEMO-1042
+							105 texte Montant attendu
+							106 texte 86,00 €
+							107 texte État connu
+							108 texte Confirmation attendue
+						109 texte Maquette : aucun prestataire n'est interrogé et aucun débit n'est créé. Le bouton suivant montre la variante sans confirmation.
+						110 bouton Fermer
+						111 bouton Voir le résultat incertain
+		112 container
+	113 Bouton de fermeture
+	114 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	115 bouton de minimisation
+116 menu bar
+	117 ResponsivelyApp
+	118 Edit
+	119 View
+	120 Window
+	121 Help
+
+The focused UI element is 41 bouton Fermer la fenêtre

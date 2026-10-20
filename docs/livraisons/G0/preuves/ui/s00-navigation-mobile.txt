@@ -1,0 +1,254 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/platform-foundation
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					38 container
+						39 container Notifications alt+T
+						40 container Sidebar
+							41 container
+								42 en-tête Sidebar, Value: 2
+									43 texte Sidebar
+								44 texte Displays the mobile sidebar.
+							45 Liste du contenu
+								46 bouton de menu local Default channel Language: English
+							47 container
+								48 Liste du contenu
+									49 container
+										50 bouton Environnement local
+										51 Liste du contenu
+											52 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+									53 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							54 Liste du contenu
+								55 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									56 texte Démonstration
+									57 texte g0-ui-foundation
+									58 texte g0-ui-foundation@local.test
+				59 text MacBook Pro 1440 x 900
+				60 bouton Refresh This View
+				61 bouton Quick Screenshot
+				62 bouton Full Page Screenshot
+				63 bouton Design Overlay
+				64 bouton Disable Event Mirroring
+				65 bouton Open Devtools
+				66 bouton (disabled) Rotation not available for non-mobile devices
+				67 bouton Scroll to Top
+				68 bouton Show rulers
+				69 bouton de menu local
+				70 bouton Enable Individual Layout
+				71 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					72 container
+						73 container
+							74 Liste du contenu
+								75 container
+									76 bouton de menu local Default channel Language: English
+									77 menu Default channel Language: English, Secondary Actions: Cancel
+										78 container
+											79 container Channels
+											80 Default channel Current
+												81 texte Default channel
+												82 texte Current
+											83 Content: English
+							84 Liste du contenu
+								85 container
+									86 bouton Environnement local
+									87 Liste du contenu
+										88 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								89 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							90 Liste du contenu
+								91 container
+									92 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+										93 texte Démonstration
+										94 texte g0-ui-foundation
+										95 texte g0-ui-foundation@local.test
+									96 menu Démonstration g0-ui-foundation g0-ui-foundation@local.test, Secondary Actions: Cancel
+										97 container Démonstration g0-ui-foundation g0-ui-foundation@local.test
+										98 Explore Platform & Cloud
+										99 container
+											100 Profile
+											101 bouton de menu local Language English
+												102 texte Language
+												103 texte English
+											104 Theme
+												105 texte Theme
+										106 Dev Mode
+											107 texte Dev Mode
+										108 Log out
+										109 container
+											110 image
+											111 text Vendure v 3.8.0
+							112 bouton Toggle Sidebar
+						113 container
+							114 container
+								115 bouton Toggle Sidebar
+								116 container breadcrumb
+									117 Liste du contenu
+										118 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							119 bouton de menu local
+							120 en-tête Vérification du socle, Value: 1
+								121 texte Vérification du socle
+							122 container
+								123 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								124 liste de définitions
+									125 texte Session locale
+									126 texte v0-s00-a
+									127 texte Canal actif
+									128 texte __default_channel__
+								129 bouton Vérifier à nouveau
+						130 container Notifications alt+T
+				131 text Galaxy S21 360 x 800
+				132 bouton Refresh This View
+				133 bouton Quick Screenshot
+				134 bouton Full Page Screenshot
+				135 bouton Design Overlay
+				136 bouton Disable Event Mirroring
+				137 bouton Open Devtools
+				138 bouton (disabled) Rotation not available for non-mobile devices
+				139 bouton Scroll to Top
+				140 bouton Show rulers
+				141 bouton de menu local
+				142 bouton Enable Individual Layout
+				143 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					144 container
+						145 container Notifications alt+T
+						146 container Sidebar
+							147 container
+								148 en-tête Sidebar, Value: 2
+									149 texte Sidebar
+								150 texte Displays the mobile sidebar.
+							151 Liste du contenu
+								152 bouton de menu local Default channel Language: English
+							153 container
+								154 Liste du contenu
+									155 container
+										156 bouton Environnement local
+										157 Liste du contenu
+											158 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+									159 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							160 Liste du contenu
+								161 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									162 texte Démonstration
+									163 texte g0-ui-foundation
+									164 texte g0-ui-foundation@local.test
+				165 text G0 Tablette paysage 1024 x 768
+				166 bouton Refresh This View
+				167 bouton Quick Screenshot
+				168 bouton Full Page Screenshot
+				169 bouton Design Overlay
+				170 bouton Disable Event Mirroring
+				171 bouton Open Devtools
+				172 bouton (disabled) Rotation not available for non-mobile devices
+				173 bouton Scroll to Top
+				174 bouton Show rulers
+				175 bouton de menu local
+				176 bouton Enable Individual Layout
+				177 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					178 container
+						179 container
+							180 Liste du contenu
+								181 container
+									182 bouton de menu local Default channel Language: English
+									183 menu Default channel Language: English, Secondary Actions: Cancel
+										184 container
+											185 container Channels
+											186 Default channel Current
+												187 texte Default channel
+												188 texte Current
+											189 Content: English
+							190 Liste du contenu
+								191 container
+									192 bouton Environnement local
+									193 Liste du contenu
+										194 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								195 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							196 Liste du contenu
+								197 container
+									198 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+										199 texte Démonstration
+										200 texte g0-ui-foundation
+										201 texte g0-ui-foundation@local.test
+									202 menu Démonstration g0-ui-foundation g0-ui-foundation@local.test, Secondary Actions: Cancel
+										203 container Démonstration g0-ui-foundation g0-ui-foundation@local.test
+										204 Explore Platform & Cloud
+										205 container
+											206 Profile
+											207 bouton de menu local Language English
+												208 texte Language
+												209 texte English
+											210 Theme
+												211 texte Theme
+										212 Dev Mode
+											213 texte Dev Mode
+										214 Log out
+										215 container
+											216 image
+											217 text Vendure v 3.8.0
+							218 bouton Toggle Sidebar
+						219 container
+							220 container
+								221 bouton Toggle Sidebar
+								222 container breadcrumb
+									223 Liste du contenu
+										224 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							225 bouton de menu local
+							226 en-tête Vérification du socle, Value: 1
+								227 texte Vérification du socle
+							228 container
+								229 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								230 liste de définitions
+									231 texte Session locale
+									232 texte v0-s00-a
+									233 texte Canal actif
+									234 texte __default_channel__
+								235 bouton Vérifier à nouveau
+						236 container Notifications alt+T
+		237 container
+	238 Bouton de fermeture
+	239 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	240 bouton de minimisation
+241 menu bar
+	242 ResponsivelyApp
+	243 Edit
+	244 View
+	245 Window
+	246 Help
+
+Selected text: ```
+￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

@@ -1,0 +1,201 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?g0=final&state=error#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=error#seo
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=error#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=error#overview
+						45 text / SEO-018 Belgique · FR · EUR
+					46 container
+						47 texte MAQUETTE S01
+						48 en-tête Dossier SEO-018, Value: 1
+							49 texte Dossier SEO-018
+						50 texte État examiné : Erreur récupérable
+						51 en-tête Les données n'ont pas pu être chargées, Value: 2
+							52 texte Les données n'ont pas pu être chargées
+						53 texte La tentative a échoué. Vous pouvez réessayer sans lancer d'opération commerciale. Les autres écrans restent accessibles.
+						54 bouton Réessayer
+						55 bouton Revenir à l'état nominal
+					56 container
+						57 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				58 text MacBook Pro 1440 x 900
+				59 bouton Refresh This View
+				60 bouton Quick Screenshot
+				61 bouton Full Page Screenshot
+				62 bouton Design Overlay
+				63 bouton Disable Event Mirroring
+				64 bouton Open Devtools
+				65 bouton (disabled) Rotation not available for non-mobile devices
+				66 bouton Scroll to Top
+				67 bouton Show rulers
+				68 bouton de menu local
+				69 bouton Enable Individual Layout
+				70 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=error#seo
+					71 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=error#main
+					72 texte S01
+					73 texte Maquette interactive
+					74 texte Données de démonstration
+					75 bouton Examiner un état
+					76 container Navigation principale
+						77 texte Atelier Démo
+						78 texte Votre boutique de démonstration
+						79 container Activités
+							80 Liste du contenu
+								81 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/?g0=final&state=error#overview
+								82 texte COMMERCE
+								83 link Description: Commandes, Value: 127.0.0.1:5102/?g0=final&state=error#order
+								84 container
+									85 text Catalogue aperçu
+								86 container
+									87 text Stocks aperçu
+								88 texte BOUTIQUE
+								89 container
+									90 text Pages & contenus aperçu
+								91 texte CROISSANCE
+								92 link Description: SEO, Value: 127.0.0.1:5102/?g0=final&state=error#seo
+								93 container
+									94 text Campagnes aperçu
+								95 container
+									96 text Expériences aperçu
+								97 texte PILOTAGE
+								98 container
+									99 text Analyses aperçu
+								100 container
+									101 text Réglages aperçu
+							102 texte Les entrées « aperçu » sont hors maquette.
+						103 texte Environnement de démonstration
+						104 texte Membre démo
+						105 texte Administration
+					106 container
+						107 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=error#overview
+						108 text / SEO-018 Belgique · FR · EUR
+					109 container
+						110 texte MAQUETTE S01
+						111 en-tête Dossier SEO-018, Value: 1
+							112 texte Dossier SEO-018
+						113 texte État examiné : Erreur récupérable
+						114 en-tête Les données n'ont pas pu être chargées, Value: 2
+							115 texte Les données n'ont pas pu être chargées
+						116 texte La tentative a échoué. Vous pouvez réessayer sans lancer d'opération commerciale. Les autres écrans restent accessibles.
+						117 bouton Réessayer
+						118 bouton Revenir à l'état nominal
+					119 container
+						120 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				121 text Galaxy S21 360 x 800
+				122 bouton Refresh This View
+				123 bouton Quick Screenshot
+				124 bouton Full Page Screenshot
+				125 bouton Design Overlay
+				126 bouton Disable Event Mirroring
+				127 bouton Open Devtools
+				128 bouton (disabled) Rotation not available for non-mobile devices
+				129 bouton Scroll to Top
+				130 bouton Show rulers
+				131 bouton de menu local
+				132 bouton Enable Individual Layout
+				133 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=error#seo
+					134 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=error#main
+					135 texte S01
+					136 texte Données de démonstration
+					137 bouton Examiner un état
+					138 container
+						139 bouton Ouvrir la navigation
+						140 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=error#overview
+						141 text / SEO-018 Belgique · FR · EUR
+					142 container
+						143 texte MAQUETTE S01
+						144 en-tête Dossier SEO-018, Value: 1
+							145 texte Dossier SEO-018
+						146 texte État examiné : Erreur récupérable
+						147 en-tête Les données n'ont pas pu être chargées, Value: 2
+							148 texte Les données n'ont pas pu être chargées
+						149 texte La tentative a échoué. Vous pouvez réessayer sans lancer d'opération commerciale. Les autres écrans restent accessibles.
+						150 bouton Réessayer
+						151 bouton Revenir à l'état nominal
+					152 container
+						153 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				154 text G0 Tablette paysage 1024 x 768
+				155 bouton Refresh This View
+				156 bouton Quick Screenshot
+				157 bouton Full Page Screenshot
+				158 bouton Design Overlay
+				159 bouton Disable Event Mirroring
+				160 bouton Open Devtools
+				161 bouton (disabled) Rotation not available for non-mobile devices
+				162 bouton Scroll to Top
+				163 bouton Show rulers
+				164 bouton de menu local
+				165 bouton Enable Individual Layout
+				166 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=error#seo
+					167 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=error#main
+					168 texte S01
+					169 texte Maquette interactive
+					170 texte Données de démonstration
+					171 bouton Examiner un état
+					172 container
+						173 bouton Ouvrir la navigation
+						174 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=error#overview
+						175 text / SEO-018 Belgique · FR · EUR
+					176 container
+						177 texte MAQUETTE S01
+						178 en-tête Dossier SEO-018, Value: 1
+							179 texte Dossier SEO-018
+						180 texte État examiné : Erreur récupérable
+						181 en-tête Les données n'ont pas pu être chargées, Value: 2
+							182 texte Les données n'ont pas pu être chargées
+						183 texte La tentative a échoué. Vous pouvez réessayer sans lancer d'opération commerciale. Les autres écrans restent accessibles.
+						184 bouton Réessayer
+						185 bouton Revenir à l'état nominal
+					186 container
+						187 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		188 container
+	189 Bouton de fermeture
+	190 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	191 bouton de minimisation
+192 menu bar
+	193 ResponsivelyApp
+	194 Edit
+	195 View
+	196 Window
+	197 Help
+
+The focused UI element is 37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=error#seo

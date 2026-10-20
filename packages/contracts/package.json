@@ -1,0 +1,9 @@
+{
+  "name": "@ecom/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./schema": "./contracts.schema.json",
+    "./examples": "./examples.json"
+  }
+}

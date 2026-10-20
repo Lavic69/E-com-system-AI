@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "paths": {
+      "@/vdb/*": ["../../node_modules/@vendure/dashboard/src/lib/*"]
+    }
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "../../node_modules/@vendure/dashboard/src/vite-env.d.ts"]
+}

@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-20T18:48:17.761792+00:00",
+  "status": "checks_passed_initial_commit_authorized",
+  "node": "v24.14.0",
+  "npm": "11.9.0",
+  "vendure": "3.8.0",
+  "installation": "passed_npm_ci",
+  "typecheck": "passed",
+  "build": "passed",
+  "unitAndLauncherTests": {
+    "passed": 9,
+    "total": 9
+  },
+  "integrationScenarios": {
+    "passed": 16,
+    "total": 16
+  },
+  "contracts": {
+    "passed": 81,
+    "total": 81
+  },
+  "interfaceStaticChecks": {
+    "passed": 26,
+    "total": 26
+  },
+  "sourceHashesMatchIntegration": true,
+  "contractSourceHashesMatch": true,
+  "schemaAndExamplesUnchangedFromS02": true,
+  "knownLocalSecretsAndCredentialPatternsAbsentFromCandidatesAndBundle": true,
+  "localDocumentLinks": "passed",
+  "candidateFiles": 217,
+  "responsively": "passed_scoped_recipe_4_viewports_one_mobile_css_fix",
+  "git": {
+    "committed": false,
+    "staged": false,
+    "pushed": false,
+    "remoteEmpty": true,
+    "visibility": "PUBLIC",
+    "phase": "before_initial_commit",
+    "commitAuthorized": true
+  },
+  "evidenceSha256": {
+    "integration.json": "39a629216298db3f07025ca6044e2cd62f53555e30e94bb0534d486a174be70f",
+    "contracts.json": "e0908843f38c7b8539f1fe8789d286e7cdfe9510bdc3cde24533e4be55786c95",
+    "interface-statique.json": "e43fd805ad7630d7a25d2fad2292bf47f524b10af11191c070eae478f795da49",
+    "ui/validation.json": "69877b19e00e3e00f91b899b80b4ede01c286cb27d37ff3dd849fa4c2e2f9aa9",
+    "etat-revu.json": "ca34a79896fe7c63a7858888a114b587d915c21b6b4db005e2aa80e95c0826f1"
+  },
+  "localLogSha256": {
+    "g0-install.log": "a26d733b16a3235d9356c70c1a4d8e610931655a593a66a38f413f67eec51ca6",
+    "g0-typecheck.log": "8d12239cb49057f2da1a4545c97e71492b7d065a696faa3b840ded2ee1918abe",
+    "g0-build.log": "a89c950dd358f50c5b07631a77a02708c5b253e34bddd31bad5f245b4ff3be97",
+    "g0-tests-final.log": "94188ba03d1c76ba54fe0d57f0d887e71a117c490524072527856cd1c4066344"
+  },
+  "notTested": [
+    "Focus de titre apres navigation SPA dans Responsively",
+    "Audit exhaustif accessibilite, lecteurs ecran et appareils physiques",
+    "Scenarios metier asynchrones des futurs modules",
+    "Fournisseurs reels",
+    "Audit de securite exhaustif"
+  ],
+  "reviewedSourceBytes": 15640888,
+  "recheckScope": "Responsively S00/S01, roles API, CSS correction and 26 S01 static checks; prior backend tests retained on unchanged source hashes",
+  "uiEvidence": "ui/validation.json",
+  "commitPreparation": {
+    "checkedAt": "2026-10-20T21:08:56.520538+00:00",
+    "changedSinceUiReview": [
+      "README.md",
+      "docs/livraisons/G0/PLAN.md",
+      "docs/livraisons/G0/RESULTAT.md",
+      "docs/pilotage/DEMARRER.md",
+      "docs/pilotage/PLAN_EXECUTION.md",
+      "docs/pilotage/missions/S10-catalogue.md",
+      "docs/pilotage/missions/S11-pages.md",
+      "docs/pilotage/missions/S12-operations.md"
+    ],
+    "scope": "Documentation de cloture G0 uniquement ; sources testees et captures inchangees",
+    "candidateFiles": 217,
+    "sourceProofsMatch": true,
+    "localLinks": "passed",
+    "secretScan": "no_matches"
+  }
+}

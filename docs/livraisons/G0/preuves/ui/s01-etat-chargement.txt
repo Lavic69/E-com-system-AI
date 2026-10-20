@@ -1,0 +1,165 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?state=loading#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=loading#seo
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=loading#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=loading#overview
+						45 text / SEO-018 Belgique · FR · EUR
+					46 container
+						47 texte MAQUETTE S01
+						48 en-tête Dossier SEO-018, Value: 1
+							49 texte Dossier SEO-018
+						50 texte État examiné : Chargement
+						51 en-tête Chargement des données…, Value: 2
+							52 texte Chargement des données…
+						53 texte Les informations de cet écran sont en cours de récupération. Aucun montant ni compteur ne peut encore être affiché.
+						54 bouton Revenir à l'état nominal
+					55 container
+						56 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				57 text iPad 768 x 1024
+				58 bouton Refresh This View
+				59 bouton Quick Screenshot
+				60 bouton Full Page Screenshot
+				61 bouton Design Overlay
+				62 bouton Disable Event Mirroring
+				63 bouton Open Devtools
+				64 bouton (disabled) Rotation not available for non-mobile devices
+				65 bouton Scroll to Top
+				66 bouton Show rulers
+				67 bouton de menu local
+				68 bouton Enable Individual Layout
+				69 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=loading#seo
+					70 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=loading#main
+					71 texte S01
+					72 texte Maquette interactive
+					73 texte Données de démonstration
+					74 bouton Examiner un état
+					75 container
+						76 bouton Ouvrir la navigation
+						77 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=loading#overview
+						78 text / SEO-018 Belgique · FR · EUR
+					79 container
+						80 texte MAQUETTE S01
+						81 en-tête Dossier SEO-018, Value: 1
+							82 texte Dossier SEO-018
+						83 texte État examiné : Chargement
+						84 en-tête Chargement des données…, Value: 2
+							85 texte Chargement des données…
+						86 texte Les informations de cet écran sont en cours de récupération. Aucun montant ni compteur ne peut encore être affiché.
+						87 bouton Revenir à l'état nominal
+					88 container
+						89 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				90 text MacBook Pro 1440 x 900
+				91 bouton Refresh This View
+				92 bouton Quick Screenshot
+				93 bouton Full Page Screenshot
+				94 bouton Design Overlay
+				95 bouton Disable Event Mirroring
+				96 bouton Open Devtools
+				97 bouton (disabled) Rotation not available for non-mobile devices
+				98 bouton Scroll to Top
+				99 bouton Show rulers
+				100 bouton de menu local
+				101 bouton Enable Individual Layout
+				102 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=loading#seo
+					103 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=loading#main
+					104 texte S01
+					105 texte Maquette interactive
+					106 texte Données de démonstration
+					107 bouton Examiner un état
+					108 container Navigation principale
+						109 texte Atelier Démo
+						110 texte Votre boutique de démonstration
+						111 container Activités
+							112 Liste du contenu
+								113 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/?state=loading#overview
+								114 texte COMMERCE
+								115 link Description: Commandes, Value: 127.0.0.1:5102/?state=loading#order
+								116 container
+									117 text Catalogue aperçu
+								118 container
+									119 text Stocks aperçu
+								120 texte BOUTIQUE
+								121 container
+									122 text Pages & contenus aperçu
+								123 texte CROISSANCE
+								124 link Description: SEO, Value: 127.0.0.1:5102/?state=loading#seo
+								125 container
+									126 text Campagnes aperçu
+								127 container
+									128 text Expériences aperçu
+								129 texte PILOTAGE
+								130 container
+									131 text Analyses aperçu
+								132 container
+									133 text Réglages aperçu
+							134 texte Les entrées « aperçu » sont hors maquette.
+						135 texte Environnement de démonstration
+						136 texte Membre démo
+						137 texte Administration
+					138 container
+						139 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=loading#overview
+						140 text / SEO-018 Belgique · FR · EUR
+					141 container
+						142 texte MAQUETTE S01
+						143 en-tête Dossier SEO-018, Value: 1
+							144 texte Dossier SEO-018
+						145 texte État examiné : Chargement
+						146 en-tête Chargement des données…, Value: 2
+							147 texte Chargement des données…
+						148 texte Les informations de cet écran sont en cours de récupération. Aucun montant ni compteur ne peut encore être affiché.
+						149 bouton Revenir à l'état nominal
+					150 container
+						151 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		152 container
+	153 Bouton de fermeture
+	154 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	155 bouton de minimisation
+156 menu bar
+	157 ResponsivelyApp
+	158 Edit
+	159 View
+	160 Window
+	161 Help
+
+The focused UI element is 37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=loading#seo

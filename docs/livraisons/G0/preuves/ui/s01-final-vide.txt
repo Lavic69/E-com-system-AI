@@ -1,0 +1,197 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?g0=final&state=empty#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=empty#seo
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=empty#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=empty#overview
+						45 text / SEO-018 Belgique · FR · EUR
+					46 container
+						47 texte MAQUETTE S01
+						48 en-tête Dossier SEO-018, Value: 1
+							49 texte Dossier SEO-018
+						50 texte État examiné : Données absentes
+						51 en-tête Aucune proposition disponible, Value: 2
+							52 texte Aucune proposition disponible
+						53 texte Un audit doit d'abord identifier une page et des sources suffisantes. Aucune métrique égale à zéro n'est déduite de cette absence.
+						54 bouton Revenir à l'état nominal
+					55 container
+						56 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				57 text MacBook Pro 1440 x 900
+				58 bouton Refresh This View
+				59 bouton Quick Screenshot
+				60 bouton Full Page Screenshot
+				61 bouton Design Overlay
+				62 bouton Disable Event Mirroring
+				63 bouton Open Devtools
+				64 bouton (disabled) Rotation not available for non-mobile devices
+				65 bouton Scroll to Top
+				66 bouton Show rulers
+				67 bouton de menu local
+				68 bouton Enable Individual Layout
+				69 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=empty#seo
+					70 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=empty#main
+					71 texte S01
+					72 texte Maquette interactive
+					73 texte Données de démonstration
+					74 bouton Examiner un état
+					75 container Navigation principale
+						76 texte Atelier Démo
+						77 texte Votre boutique de démonstration
+						78 container Activités
+							79 Liste du contenu
+								80 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/?g0=final&state=empty#overview
+								81 texte COMMERCE
+								82 link Description: Commandes, Value: 127.0.0.1:5102/?g0=final&state=empty#order
+								83 container
+									84 text Catalogue aperçu
+								85 container
+									86 text Stocks aperçu
+								87 texte BOUTIQUE
+								88 container
+									89 text Pages & contenus aperçu
+								90 texte CROISSANCE
+								91 link Description: SEO, Value: 127.0.0.1:5102/?g0=final&state=empty#seo
+								92 container
+									93 text Campagnes aperçu
+								94 container
+									95 text Expériences aperçu
+								96 texte PILOTAGE
+								97 container
+									98 text Analyses aperçu
+								99 container
+									100 text Réglages aperçu
+							101 texte Les entrées « aperçu » sont hors maquette.
+						102 texte Environnement de démonstration
+						103 texte Membre démo
+						104 texte Administration
+					105 container
+						106 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=empty#overview
+						107 text / SEO-018 Belgique · FR · EUR
+					108 container
+						109 texte MAQUETTE S01
+						110 en-tête Dossier SEO-018, Value: 1
+							111 texte Dossier SEO-018
+						112 texte État examiné : Données absentes
+						113 en-tête Aucune proposition disponible, Value: 2
+							114 texte Aucune proposition disponible
+						115 texte Un audit doit d'abord identifier une page et des sources suffisantes. Aucune métrique égale à zéro n'est déduite de cette absence.
+						116 bouton Revenir à l'état nominal
+					117 container
+						118 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				119 text Galaxy S21 360 x 800
+				120 bouton Refresh This View
+				121 bouton Quick Screenshot
+				122 bouton Full Page Screenshot
+				123 bouton Design Overlay
+				124 bouton Disable Event Mirroring
+				125 bouton Open Devtools
+				126 bouton (disabled) Rotation not available for non-mobile devices
+				127 bouton Scroll to Top
+				128 bouton Show rulers
+				129 bouton de menu local
+				130 bouton Enable Individual Layout
+				131 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=empty#seo
+					132 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=empty#main
+					133 texte S01
+					134 texte Données de démonstration
+					135 bouton Examiner un état
+					136 container
+						137 bouton Ouvrir la navigation
+						138 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=empty#overview
+						139 text / SEO-018 Belgique · FR · EUR
+					140 container
+						141 texte MAQUETTE S01
+						142 en-tête Dossier SEO-018, Value: 1
+							143 texte Dossier SEO-018
+						144 texte État examiné : Données absentes
+						145 en-tête Aucune proposition disponible, Value: 2
+							146 texte Aucune proposition disponible
+						147 texte Un audit doit d'abord identifier une page et des sources suffisantes. Aucune métrique égale à zéro n'est déduite de cette absence.
+						148 bouton Revenir à l'état nominal
+					149 container
+						150 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				151 text G0 Tablette paysage 1024 x 768
+				152 bouton Refresh This View
+				153 bouton Quick Screenshot
+				154 bouton Full Page Screenshot
+				155 bouton Design Overlay
+				156 bouton Disable Event Mirroring
+				157 bouton Open Devtools
+				158 bouton (disabled) Rotation not available for non-mobile devices
+				159 bouton Scroll to Top
+				160 bouton Show rulers
+				161 bouton de menu local
+				162 bouton Enable Individual Layout
+				163 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=empty#seo
+					164 link Description: Aller au contenu, Value: 127.0.0.1:5102/?g0=final&state=empty#main
+					165 texte S01
+					166 texte Maquette interactive
+					167 texte Données de démonstration
+					168 bouton Examiner un état
+					169 container
+						170 bouton Ouvrir la navigation
+						171 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?g0=final&state=empty#overview
+						172 text / SEO-018 Belgique · FR · EUR
+					173 container
+						174 texte MAQUETTE S01
+						175 en-tête Dossier SEO-018, Value: 1
+							176 texte Dossier SEO-018
+						177 texte État examiné : Données absentes
+						178 en-tête Aucune proposition disponible, Value: 2
+							179 texte Aucune proposition disponible
+						180 texte Un audit doit d'abord identifier une page et des sources suffisantes. Aucune métrique égale à zéro n'est déduite de cette absence.
+						181 bouton Revenir à l'état nominal
+					182 container
+						183 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		184 container
+	185 Bouton de fermeture
+	186 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	187 bouton de minimisation
+188 menu bar
+	189 ResponsivelyApp
+	190 Edit
+	191 View
+	192 Window
+	193 Help
+
+The focused UI element is 37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final&state=empty#seo

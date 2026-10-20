@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Vue d&#x27;ensemble : maquette statique, données de démonstration">
+<style>text{font-family:Helvetica,Arial,sans-serif} .mono{font-family:Menlo,monospace}</style>
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#f6f5f1"/>
+<rect x="0" y="0" width="1440" height="44" rx="0" fill="#eaece4"/>
+<text x="24" y="26.0" fill="#242925" font-size="11" font-weight="600" class="mono">S01</text>
+<text x="64" y="26.0" fill="#505750" font-size="10" font-weight="400">Maquette statique · Données de démonstration</text>
+<text x="1268" y="26.0" fill="#505750" font-size="11" font-weight="400">Examiner un état  ⌄</text>
+<rect x="224" y="108" width="1216" height="1" rx="0" fill="#dcded6"/>
+<text x="260" y="82.0" fill="#505750" font-size="11" font-weight="400">Vue d&#x27;ensemble</text>
+<text x="1280" y="82.0" fill="#505750" font-size="11" font-weight="400">Belgique · FR · EUR</text>
+<rect x="224" y="44" width="1" height="856" rx="0" fill="#dcded6"/>
+<rect x="20" y="76" width="36" height="40" rx="8" fill="#e9ece1" stroke="#dcded6"/>
+<text x="30" y="104.0" fill="#242925" font-size="25" font-weight="600">a.</text>
+<text x="68" y="91.0" fill="#242925" font-size="15" font-weight="600">Atelier Démo</text>
+<text x="68" y="109.0" fill="#646b64" font-size="9" font-weight="400">Boutique de démonstration</text>
+<rect x="16" y="130" width="192" height="40" rx="6" fill="#e5e9de"/>
+<text x="28" y="156.0" fill="#505750" font-size="13" font-weight="600">Vue d&#x27;ensemble</text>
+<text x="28" y="212.0" fill="#646b64" font-size="10" font-weight="600">COMMERCE</text>
+<text x="28" y="250.0" fill="#505750" font-size="13" font-weight="400">Commandes</text>
+<text x="28" y="294.0" fill="#505750" font-size="13" font-weight="400">Catalogue</text>
+<text x="28" y="338.0" fill="#505750" font-size="13" font-weight="400">Stocks</text>
+<text x="28" y="394.0" fill="#646b64" font-size="10" font-weight="600">BOUTIQUE</text>
+<text x="28" y="432.0" fill="#505750" font-size="13" font-weight="400">Pages &amp; contenus</text>
+<text x="28" y="488.0" fill="#646b64" font-size="10" font-weight="600">CROISSANCE</text>
+<text x="28" y="526.0" fill="#646b64" font-size="10" font-weight="600">SEO</text>
+<text x="28" y="570.0" fill="#505750" font-size="13" font-weight="400">Campagnes</text>
+<text x="28" y="614.0" fill="#505750" font-size="13" font-weight="400">Expériences</text>
+<text x="28" y="670.0" fill="#646b64" font-size="10" font-weight="600">PILOTAGE</text>
+<text x="28" y="708.0" fill="#505750" font-size="13" font-weight="400">Analyses</text>
+<text x="28" y="752.0" fill="#505750" font-size="13" font-weight="400">Réglages</text>
+<text x="28" y="852.0" fill="#646b64" font-size="9" font-weight="400">Environnement de démonstration</text>
+<text x="260" y="144.0" fill="#646b64" font-size="10" font-weight="600">MARDI 20 OCTOBRE 2026</text>
+<text x="260" y="180.0" fill="#242925" font-size="30" font-weight="600">À traiter aujourd&#x27;hui</text>
+<text x="260" y="229.0" fill="#505750" font-size="12" font-weight="400">Deux blocages, une commande à préparer, une proposition à examiner.</text>
+<rect x="260" y="271.0" width="1144" height="360" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="280" y="303.0" fill="#242925" font-size="16" font-weight="600">Votre file de travail · 4</text>
+<text x="1284" y="303.0" fill="#646b64" font-size="10" font-weight="400">4 actions</text>
+<rect x="260" y="327.0" width="1144" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="284" y="343.0" width="36" height="36" rx="8" fill="#fbf0de"/>
+<text x="298" y="367.0" fill="#8a4d13" font-size="18" font-weight="600">!</text>
+<text x="336" y="355.0" fill="#242925" font-size="13" font-weight="600">Paiement à confirmer</text>
+<text x="336" y="374.0" fill="#646b64" font-size="11" font-weight="400">Réponse du prestataire attendue depuis 09 h 42.</text>
+<text x="1114" y="355.0" fill="#242925" font-size="11" font-weight="400" class="mono">Commande D-1042</text>
+<text x="1114" y="374.0" fill="#646b64" font-size="10" font-weight="400">86,00 € · Belgique</text>
+<text x="1292" y="361.0" fill="#2856ba" font-size="11" font-weight="600">Examiner →</text>
+<rect x="260" y="395.0" width="1144" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="284" y="411.0" width="36" height="36" rx="8" fill="#fbf0de"/>
+<text x="298" y="435.0" fill="#8a4d13" font-size="18" font-weight="600">!</text>
+<text x="336" y="423.0" fill="#242925" font-size="13" font-weight="600">Stock indisponible</text>
+<text x="336" y="442.0" fill="#646b64" font-size="11" font-weight="400">Une commande attend cette variante.</text>
+<text x="1114" y="423.0" fill="#242925" font-size="11" font-weight="400" class="mono">SAC-SABLE</text>
+<text x="1114" y="442.0" fill="#646b64" font-size="10" font-weight="400">Disponibilité à vérifier</text>
+<text x="1292" y="429.0" fill="#646b64" font-size="11" font-weight="600">Hors maquette</text>
+<rect x="260" y="463.0" width="1144" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="284" y="479.0" width="36" height="36" rx="8" fill="#efeee8"/>
+<text x="298" y="503.0" fill="#2856ba" font-size="18" font-weight="600">›</text>
+<text x="336" y="491.0" fill="#242925" font-size="13" font-weight="600">Une commande prête à préparer</text>
+<text x="336" y="510.0" fill="#646b64" font-size="11" font-weight="400">Encaissement confirmé, articles disponibles.</text>
+<text x="1114" y="491.0" fill="#242925" font-size="11" font-weight="400" class="mono">Commande D-1041</text>
+<text x="1114" y="510.0" fill="#646b64" font-size="10" font-weight="400">Préparation non commencée</text>
+<text x="1292" y="497.0" fill="#646b64" font-size="11" font-weight="600">Hors maquette</text>
+<rect x="260" y="531.0" width="1144" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="284" y="547.0" width="36" height="36" rx="8" fill="#eaf0fc"/>
+<text x="298" y="571.0" fill="#2856ba" font-size="18" font-weight="600">›</text>
+<text x="336" y="559.0" fill="#242925" font-size="13" font-weight="600">Un titre de collection à préciser</text>
+<text x="336" y="578.0" fill="#646b64" font-size="11" font-weight="400">Une proposition SEO est prête à être examinée.</text>
+<text x="1114" y="559.0" fill="#242925" font-size="11" font-weight="400" class="mono">Dossier SEO-018</text>
+<text x="1114" y="578.0" fill="#646b64" font-size="10" font-weight="400">Version v12 → v13</text>
+<text x="1292" y="565.0" fill="#2856ba" font-size="11" font-weight="600">Comparer →</text>
+<rect x="260" y="599.0" width="1144" height="1" rx="0" fill="#e8e9e2"/>
+<text x="284" y="617.0" fill="#646b64" font-size="10" font-weight="400">Les blocages sont présentés en premier pour permettre le traitement des commandes.</text>
+<rect x="260" y="655.0" width="604.8000000000001" height="220" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="280" y="687.0" fill="#242925" font-size="16" font-weight="600">Activité des agents</text>
+<rect x="260" y="711.0" width="604.8000000000001" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="284" y="733.0" width="6" height="6" rx="3" fill="#266344"/>
+<text x="302" y="739.0" fill="#242925" font-size="12" font-weight="400">Audit de la collection terminé</text>
+<text x="302" y="757.0" fill="#646b64" font-size="10" font-weight="400">SEO-018 · Proposition à examiner</text>
+<rect x="284" y="781.0" width="6" height="6" rx="3" fill="#2856ba"/>
+<text x="302" y="787.0" fill="#242925" font-size="12" font-weight="400">Création en cours de génération</text>
+<text x="302" y="805.0" fill="#646b64" font-size="10" font-weight="400">Campagne de démonstration · Coût à confirmer</text>
+<rect x="284" y="829.0" width="6" height="6" rx="3" fill="#646b64"/>
+<text x="302" y="835.0" fill="#242925" font-size="12" font-weight="400">Synchronisation en attente</text>
+<text x="302" y="853.0" fill="#646b64" font-size="10" font-weight="400">Catalogue de démonstration · Dernier relevé 09:00</text>
+<rect x="888.8000000000001" y="655.0" width="515.1999999999999" height="220" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="908.8000000000001" y="687.0" fill="#242925" font-size="16" font-weight="600">Encaissements</text>
+<text x="1284.0" y="687.0" fill="#646b64" font-size="10" font-weight="400">13 → 19 oct.</text>
+<rect x="888.8000000000001" y="711.0" width="515.1999999999999" height="1" rx="0" fill="#e8e9e2"/>
+<text x="912.8000000000001" y="747.0" fill="#505750" font-size="11" font-weight="400">Commandes encaissées</text>
+<text x="1156.7040000000002" y="747.0" fill="#505750" font-size="11" font-weight="400">Montant encaissé</text>
+<text x="912.8000000000001" y="791.0" fill="#242925" font-size="30" font-weight="600">12</text>
+<text x="1156.7040000000002" y="791.0" fill="#242925" font-size="28" font-weight="500">1 248,00 €</text>
+<text x="912.8000000000001" y="831.0" fill="#646b64" font-size="10" font-weight="400">Paiements de démonstration · Relevé à 09 h 55</text>
+<rect x="0" y="872" width="1440" height="28" rx="0" fill="#eaece4"/>
+<text x="16" y="890.0" fill="#505750" font-size="10" font-weight="400">PLANCHE STATIQUE · 1440 × 900 · Ce dessin n&#x27;est pas une capture d&#x27;application.</text>
+</svg>

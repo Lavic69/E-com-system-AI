@@ -1,0 +1,668 @@
+{
+  "generatedAt": "2026-10-20T16:27:16.982939Z",
+  "scope": "Validation documentaire et cohérence de données synthétiques uniquement",
+  "python": "3.9.6",
+  "jsonschema": "4.23.0",
+  "publicContracts": 17,
+  "positiveExamples": 29,
+  "negativeExamples": 38,
+  "passed": 81,
+  "total": 81,
+  "files": {
+    "CONTRATS.md": "18ebb4b3c48af92b0b18f1512d52356413a827679f590937584f911908708bfb",
+    "RESULTAT.md": "ff69ab5e3bef5576c912bda174a82b03a63af60a00719ff912bc0bdd122f00db",
+    "SCENARIOS.md": "61d03e3e714c30d2eccd3c3484c47a4b0099ffc74ce5809bcc943eb5d831fd2c",
+    "SOURCES.md": "8c652658673de159e8afcef6a144498b559a859d141fbef8522f1e8e51ae7d59",
+    "contracts.schema.json": "5b962bdfc9581084a408f5e170a45ed902464f7e7c799f8f68b8c65f7f79cfed",
+    "examples.json": "7acbac0a2fe18187e82cf0e1f2ceefdc220f2e0f34ebf408f3977031fa5b7698",
+    "source-manifest.json": "d1d3e8c9801a4bfba32b16bcd8f610c74bf4a39027a33932cf63b5fb3cb2e994",
+    "verify.py": "a7f6257155a627cd332a0013719cb60d2afacb6d1da4df64450f71e95621ae9d"
+  },
+  "notTested": [
+    "Transactions et crash",
+    "Concurrence PostgreSQL",
+    "Permissions serveur",
+    "Fournisseurs et webhooks",
+    "Envoi de messages",
+    "Cache et interface rendue",
+    "Scénarios SC01 à SC08 sur une application"
+  ],
+  "checks": [
+    {
+      "name": "schema_2020_12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_example_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_public_contracts_have_examples",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:context_be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:context_us",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:money_eur",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:amount_estimated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:amount_unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:quote_be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:quote_us",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:event_settled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:event_settled_duplicate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:event_authorized_late",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:action_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:operation_uncertain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:connection_media",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:connection_payment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:connection_email",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:budget_uncertain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:budget_reconciled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:budget_overrun",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:content_home",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:lease_experiment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:publication_home",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:exposure_b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:reservation_uncertain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:payment_unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:audience_withdrawn",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:audience_granted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:creation_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:creation_unknown_rights",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "example:operation_succeeded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reject:decimal_money",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "25.5 is not of type 'integer'"
+        ]
+      }
+    },
+    {
+      "name": "reject:negative_money",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "-1 is less than the minimum of 0"
+        ]
+      }
+    },
+    {
+      "name": "reject:money_overflow",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "2147483648 is greater than the maximum of 2147483647"
+        ]
+      }
+    },
+    {
+      "name": "reject:unsupported_currency",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "'JPY' is not one of ['EUR', 'USD']"
+        ]
+      }
+    },
+    {
+      "name": "reject:wrong_scale",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "2 was expected"
+        ]
+      }
+    },
+    {
+      "name": "reject:unknown_is_not_zero",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "{'minor': 0, 'currency': 'EUR', 'scale': 2} is not of type 'null'"
+        ]
+      }
+    },
+    {
+      "name": "reject:estimate_without_expiry",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:invalid_date",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "'2026-02-30T10:00:00Z' is not a 'date-time'"
+        ]
+      }
+    },
+    {
+      "name": "reject:market_channel_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Liaison marché/canal invalide"
+        ]
+      }
+    },
+    {
+      "name": "reject:market_currency_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Langue ou devise non autorisée sur le marché"
+        ]
+      }
+    },
+    {
+      "name": "reject:market_language_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Langue ou devise non autorisée sur le marché"
+        ]
+      }
+    },
+    {
+      "name": "reject:cross_shop_target",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Référence hors boutique"
+        ]
+      }
+    },
+    {
+      "name": "reject:quote_currency_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Mélange de devises"
+        ]
+      }
+    },
+    {
+      "name": "reject:quote_wrong_total",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Total différent de net + taxes"
+        ]
+      }
+    },
+    {
+      "name": "reject:quote_expired_before_calculation",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Intervalle invalide : calculatedAt/validUntil"
+        ]
+      }
+    },
+    {
+      "name": "reject:queue_without_authority",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'object'"
+        ]
+      }
+    },
+    {
+      "name": "reject:approval_binding_changed",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Approbation liée à une autre proposition"
+        ]
+      }
+    },
+    {
+      "name": "reject:approval_policy_changed",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Autorité liée à une autre politique"
+        ]
+      }
+    },
+    {
+      "name": "reject:success_without_evidence",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "[] should be non-empty"
+        ]
+      }
+    },
+    {
+      "name": "reject:unknown_without_error",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'object'"
+        ]
+      }
+    },
+    {
+      "name": "reject:unknown_quota_is_not_zero",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "0 is not of type 'null'"
+        ]
+      }
+    },
+    {
+      "name": "reject:uncertain_budget_released",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Réserve ouverte différente du plafond"
+        ]
+      }
+    },
+    {
+      "name": "reject:budget_currency_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Mélange de devises",
+          "Réserve ouverte différente du plafond"
+        ]
+      }
+    },
+    {
+      "name": "reject:cost_reconciled_without_receipt",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "[] should be non-empty"
+        ]
+      }
+    },
+    {
+      "name": "reject:cache_wrong_market",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Liaison marché/canal invalide",
+          "Cache incohérent avec la publication"
+        ]
+      }
+    },
+    {
+      "name": "reject:cache_wrong_artifact",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Cache incohérent avec la publication"
+        ]
+      }
+    },
+    {
+      "name": "reject:stale_lease_expiry",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Intervalle invalide : acquiredAt/expiresAt"
+        ]
+      }
+    },
+    {
+      "name": "reject:reservation_zero_quantity",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "0 is less than the minimum of 1"
+        ]
+      }
+    },
+    {
+      "name": "reject:confirmed_payment_without_proof",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'",
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:payment_currency_mismatch",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Mélange de devises"
+        ]
+      }
+    },
+    {
+      "name": "reject:consent_without_proof",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:suppression_without_date",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:rights_without_evidence",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:creation_cross_shop",
+      "passed": true,
+      "details": {
+        "expected": "semantic",
+        "actual": "semantic",
+        "reasons": [
+          "Référence hors boutique"
+        ]
+      }
+    },
+    {
+      "name": "reject:secret_in_context",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "Additional properties are not allowed ('sessionToken' was unexpected)"
+        ]
+      }
+    },
+    {
+      "name": "reject:provider_event_without_account",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "None is not of type 'string'"
+        ]
+      }
+    },
+    {
+      "name": "reject:pending_reservation_resolved",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "'2026-10-20T10:16:00Z' is not of type 'null'"
+        ]
+      }
+    },
+    {
+      "name": "reject:unknown_direct_retry",
+      "passed": true,
+      "details": {
+        "expected": "schema",
+        "actual": "schema",
+        "reasons": [
+          "'reconcile_first' was expected"
+        ]
+      }
+    },
+    {
+      "name": "payment_reservation_references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "payment_quote_amount",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "operation_connection_budget_references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "payment_connection_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "rendered_version_references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "duplicate_same_business_content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "late_event_fixture",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local_links:CONTRATS.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local_links:RESULTAT.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local_links:SCENARIOS.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local_links:SOURCES.md",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

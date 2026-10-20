@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768" role="img" aria-label="Commande D-1042 : maquette statique, données de démonstration">
+<style>text{font-family:Helvetica,Arial,sans-serif} .mono{font-family:Menlo,monospace}</style>
+<rect x="0" y="0" width="1024" height="768" rx="0" fill="#f6f5f1"/>
+<rect x="0" y="0" width="1024" height="44" rx="0" fill="#eaece4"/>
+<text x="24" y="26.0" fill="#242925" font-size="11" font-weight="600" class="mono">S01</text>
+<text x="64" y="26.0" fill="#505750" font-size="10" font-weight="400">Maquette statique · Données de démonstration</text>
+<text x="852" y="26.0" fill="#505750" font-size="11" font-weight="400">Examiner un état  ⌄</text>
+<rect x="0" y="108" width="1024" height="1" rx="0" fill="#dcded6"/>
+<rect x="28" y="68" width="16" height="1" rx="0" fill="#505750"/>
+<rect x="28" y="74" width="16" height="1" rx="0" fill="#505750"/>
+<rect x="28" y="80" width="16" height="1" rx="0" fill="#505750"/>
+<text x="64" y="82.0" fill="#505750" font-size="11" font-weight="400">Commande D-1042</text>
+<text x="864" y="82.0" fill="#505750" font-size="11" font-weight="400">Belgique · FR · EUR</text>
+<text x="28" y="144.0" fill="#646b64" font-size="10" font-weight="600">COMMERCE / COMMANDES</text>
+<text x="28" y="180.0" fill="#242925" font-size="30" font-weight="600">Commande D-1042</text>
+<text x="28" y="229.0" fill="#505750" font-size="12" font-weight="400">20 octobre, 09 h 42 · Client de démonstration · Total 86,00 € TTC</text>
+<rect x="28" y="271.0" width="960" height="104" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="52.0" y="299.0" fill="#646b64" font-size="10" font-weight="600">PAIEMENT</text>
+<text x="52.0" y="329.0" fill="#8a4d13" font-size="16" font-weight="600">À confirmer</text>
+<text x="52.0" y="353.0" fill="#646b64" font-size="11" font-weight="400">Tentative de 86,00 € enregistrée</text>
+<text x="372.0" y="299.0" fill="#646b64" font-size="10" font-weight="600">PRÉPARATION</text>
+<text x="372.0" y="329.0" fill="#242925" font-size="16" font-weight="600">Non commencée</text>
+<text x="372.0" y="353.0" fill="#646b64" font-size="11" font-weight="400">0 article préparé sur 3</text>
+<rect x="348.0" y="271.0" width="1" height="104.0" rx="0" fill="#dcded6"/>
+<text x="692.0" y="299.0" fill="#646b64" font-size="10" font-weight="600">LIVRAISON</text>
+<text x="692.0" y="329.0" fill="#242925" font-size="16" font-weight="600">Non expédiée</text>
+<text x="692.0" y="353.0" fill="#646b64" font-size="11" font-weight="400">Aucune prise en charge confirmée</text>
+<rect x="668.0" y="271.0" width="1" height="104.0" rx="0" fill="#dcded6"/>
+<rect x="28" y="395.0" width="960" height="100" rx="8" fill="#fbf0de" stroke="#e6d4b9"/>
+<text x="48" y="423.0" fill="#8a4d13" font-size="13" font-weight="600">Vérifier le paiement avant de préparer</text>
+<text x="48" y="447.0" fill="#8a4d13" font-size="11" font-weight="400">La tentative existe, mais son encaissement n&#x27;est pas confirmé.</text>
+<rect x="784" y="423.0" width="184" height="44" rx="6" fill="#2856ba" stroke="#2856ba"/>
+<text x="798" y="450.0" fill="#ffffff" font-size="12" font-weight="600">Vérifier le paiement</text>
+<rect x="28" y="519.0" width="648" height="300" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="48" y="551.0" fill="#242925" font-size="16" font-weight="600">Articles · 3</text>
+<rect x="28" y="575.0" width="648" height="1" rx="0" fill="#e8e9e2"/>
+<text x="52" y="607.0" fill="#242925" font-size="13" font-weight="600">Tasse Atelier</text>
+<text x="52" y="627.0" fill="#646b64" font-size="10" font-weight="400">Craie · TAS-CRAIE</text>
+<text x="436" y="607.0" fill="#242925" font-size="12" font-weight="400">Qté 2</text>
+<text x="516" y="607.0" fill="#242925" font-size="12" font-weight="400">24,00 €</text>
+<text x="592" y="607.0" fill="#242925" font-size="12" font-weight="400">48,00 €</text>
+<rect x="28" y="647.0" width="648" height="1" rx="0" fill="#e8e9e2"/>
+<text x="52" y="675.0" fill="#242925" font-size="13" font-weight="600">Plateau Atelier</text>
+<text x="52" y="695.0" fill="#646b64" font-size="10" font-weight="400">Petit · PLA-PETIT</text>
+<text x="436" y="675.0" fill="#242925" font-size="12" font-weight="400">Qté 1</text>
+<text x="516" y="675.0" fill="#242925" font-size="12" font-weight="400">32,00 €</text>
+<text x="592" y="675.0" fill="#242925" font-size="12" font-weight="400">32,00 €</text>
+<rect x="28" y="715.0" width="648" height="1" rx="0" fill="#e8e9e2"/>
+<text x="52" y="759.0" fill="#505750" font-size="12" font-weight="400">Livraison standard</text>
+<text x="592" y="759.0" fill="#242925" font-size="12" font-weight="400">6,00 €</text>
+<text x="52" y="797.0" fill="#242925" font-size="15" font-weight="600">Total TTC</text>
+<text x="584" y="797.0" fill="#242925" font-size="15" font-weight="600">86,00 €</text>
+<rect x="700" y="519.0" width="288" height="300" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="720" y="551.0" fill="#242925" font-size="16" font-weight="600">Client et destination</text>
+<rect x="700" y="575.0" width="288" height="1" rx="0" fill="#e8e9e2"/>
+<text x="724" y="605.0" fill="#646b64" font-size="10" font-weight="400">CLIENT</text>
+<text x="724" y="627.0" fill="#242925" font-size="12" font-weight="400">Client de démonstration</text>
+<text x="724" y="673.0" fill="#646b64" font-size="10" font-weight="400">ADRESSE</text>
+<text x="724" y="695.0" fill="#242925" font-size="12" font-weight="400">Adresse de démonstration, Belgique</text>
+<text x="724" y="741.0" fill="#646b64" font-size="10" font-weight="400">MARCHÉ</text>
+<text x="724" y="763.0" fill="#242925" font-size="12" font-weight="400">Belgique · Français · EUR</text>
+<rect x="28" y="843.0" width="960" height="220" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="48" y="875.0" fill="#242925" font-size="16" font-weight="600">Historique de la commande</text>
+<rect x="28" y="899.0" width="960" height="1" rx="0" fill="#e8e9e2"/>
+<text x="52" y="931.0" fill="#242925" font-size="12" font-weight="400">10:00   État toujours à vérifier</text>
+<text x="52" y="969.0" fill="#242925" font-size="12" font-weight="400">09:43   Confirmation du paiement absente</text>
+<text x="52" y="1007.0" fill="#242925" font-size="12" font-weight="400">09:42   Tentative PAI-DEMO-1042 enregistrée · 86,00 €</text>
+<rect x="0" y="740" width="1024" height="28" rx="0" fill="#eaece4"/>
+<text x="16" y="758.0" fill="#505750" font-size="10" font-weight="400">PLANCHE STATIQUE · 1024 × 768 · Ce dessin n&#x27;est pas une capture d&#x27;application.</text>
+</svg>

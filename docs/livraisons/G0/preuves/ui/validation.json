@@ -1,0 +1,248 @@
+{
+  "checkedAt": "2026-10-20T18:48:17.761792+00:00",
+  "status": "passed_scoped_ui_recipe",
+  "application": "/Applications/ResponsivelyApp.app",
+  "version": "1.18.0",
+  "control": "CUA native UI",
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      360,
+      800
+    ]
+  ],
+  "s00": {
+    "authentication": "passed",
+    "navigationAndDirectRoute": "passed",
+    "roleReadCatalog": "denied_foundation_in_4_views",
+    "roleReadPlatformFoundation": "allowed_foundation_in_4_views_catalog_hidden",
+    "serverPermissions": "permissions-api.json",
+    "loading": "real_api_pause_with_automatic_resume",
+    "keyboard": "Tab_focus_and_Enter_request_observed_on_mobile",
+    "apiFailure": "error_replaces_success_in_4_views",
+    "apiRecovery": "success_restored_in_4_views"
+  },
+  "s01": {
+    "screens": [
+      "overview",
+      "order",
+      "seo"
+    ],
+    "flows": [
+      "queue_filter",
+      "order_navigation",
+      "payment_dialog_uncertain",
+      "seo_approval_without_application",
+      "dated_source_dialog",
+      "contextual_assistant"
+    ],
+    "keyboard": "Tab_ShiftTab_Enter_Space_Escape_and_dialog_focus_return_exercised",
+    "stateChecks": [
+      {
+        "state": "chargement",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-chargement.txt",
+        "status": "passed"
+      },
+      {
+        "state": "vide",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-vide.txt",
+        "status": "passed"
+      },
+      {
+        "state": "refus",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-refus.txt",
+        "status": "passed"
+      },
+      {
+        "state": "erreur",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-erreur.txt",
+        "status": "passed"
+      },
+      {
+        "state": "longue",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-longue.txt",
+        "status": "passed"
+      },
+      {
+        "state": "incertain",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-incertain.txt",
+        "status": "passed"
+      },
+      {
+        "state": "conflit",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-conflit.txt",
+        "status": "passed"
+      },
+      {
+        "state": "non-connecte",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-non-connecte.txt",
+        "status": "passed"
+      },
+      {
+        "state": "ancienne",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-ancienne.txt",
+        "status": "passed"
+      },
+      {
+        "state": "quota",
+        "matchedViews": 4,
+        "expectedViews": 4,
+        "evidence": "s01-final-quota.txt",
+        "status": "passed"
+      }
+    ],
+    "fix": {
+      "file": "docs/livraisons/S01/prototype/styles.css",
+      "property": "mobile .notice .button width",
+      "before": "100% plus 32px left margin",
+      "after": "calc(100% - 32px) plus 32px left margin",
+      "beforeScreenshot": "s01-commande-clavier.jpg",
+      "afterScreenshot": "s01-commande-corrigee-4-formats.jpg",
+      "recheckedWidths": [
+        360,
+        390
+      ]
+    }
+  },
+  "sourceSha256": {
+    "docs/livraisons/S01/prototype/index.html": "65c8a7ab361990230a8925e9b4b34a30e877a4f086e67ab157fb8e7f5b4af848",
+    "docs/livraisons/S01/prototype/app.js": "bdb960367afa19f599b799650e8d79f63a513d2dacd175eda1032d471ba7152e",
+    "docs/livraisons/S01/prototype/styles.css": "bc2af170c7338d0dc4f12b309fcf9eefa3c1d9ffbf02679f264e8949cc1c0e3b",
+    "apps/dashboard/src/extensions/foundation.tsx": "d4fe92993b4664412b370796fca5668ce8d4278473851c8ded03440bf1c8d2a0",
+    "apps/dashboard/vite.config.mts": "d6d3c1ba047aaa58618feac867e94fdd75eb607ef66d15afe8458fc1ec570c72",
+    "apps/commerce/src/plugins/foundation/foundation.plugin.ts": "67c91a4b1e010c84c16e9caf1f461227beab941148804c73381bfe615d2cd148",
+    "apps/commerce/src/vendure-config.ts": "f27e4157cc9669c5fb9b83c74d00ecd4c5337ef4ede805ee5b9a025d6af08a7b",
+    "infra/dev/run.mjs": "1e135c9ca8b4eb2181c999bd15a2450f175970550e17ed9eaced6fe09f352c59",
+    "package-lock.json": "e9357ae7983605520042f6d733dc379ad24acd982b4ca115788ba8d7185c32bc"
+  },
+  "evidenceSha256": {
+    "configuration-restauree.txt": "d23b8dafe456db16e4bf11fd4384a753ec2a280640792cbd672c46edbeababae",
+    "formats-projet.txt": "2d9dd70cb0914280eb3f8f7f77e3f96f5cd1928962bc6405229c0aed01ba1c01",
+    "permissions-api.json": "d93673b0f0e505e91a954ca2084ad41e0bd39849c2e353467a83c6fea20eceb5",
+    "s00-acces-direct-4-formats.jpg": "98a8a32a5f44b2ee963d343300b0d2cfffe302e3611f408ef11b3974ee42bd9e",
+    "s00-acces-direct-4-formats.txt": "8ece8c944ea4a1c50b1b01198709525532f36bdf0bfaa5cba78c5a469713396e",
+    "s00-actualisation-clavier.txt": "438d77ca62e27207ed7cfef8896fecf47670906af9b99911e11d97eee933d05c",
+    "s00-actualisation-clic.txt": "438d77ca62e27207ed7cfef8896fecf47670906af9b99911e11d97eee933d05c",
+    "s00-api-indisponible-4-formats.jpg": "c3c122fab172cb6914b938752b7bbb4a9f7752fd56373f8e9aa92eb0708ed0a4",
+    "s00-api-indisponible-4-formats.txt": "6717bb1515bc823268f6545c3cf1737753836dd2b25a6040ec3e883cbcef48f9",
+    "s00-api-indisponible.jpg": "871b6680173c94e6156c7df0b4c027b996685ba776141a99be1cca162e2b9a4e",
+    "s00-api-indisponible.txt": "ca5e39c77783186a6da20dd1c874ba5f2bbc6623ec824ce6a761145f2fbf4e01",
+    "s00-catalogue-navigation.jpg": "3f12879891cb5371fe2d0f369e2a456ee61b0767908976985a8607f79e4e941b",
+    "s00-catalogue-navigation.txt": "9bd225ab33c72d0be314a3eb6b8d87dd278c79ddb0d11a7c00e33035bb399373",
+    "s00-catalogue-refus-direct.jpg": "da8016cca11dbdbce6d47ea09f3192c9f9bebc9cb471c37cdea61dcdf9c32d6b",
+    "s00-catalogue-refus-direct.txt": "5ac14fd639460e0cb912b5a4f0b2b6b19980ebd1854fd93d68ae7ca950692f98",
+    "s00-chargement-reel.jpg": "0707a20dbc82c253b4e131a19888790783d239db4c81ef30078d161a7ceba643",
+    "s00-chargement-reel.txt": "c9f2fff1a4fe16b468f84e60872795bb48fed1a9acc1c2f75d2b7582159b2e4b",
+    "s00-clavier-entree-charge.jpg": "16d9393a85fdbc671b67ed20cbdb91e363580f88ba1366f6a0e6a23bc350a24f",
+    "s00-clavier-entree-charge.txt": "a4b9dd6f8cfe9a52841067bf7629850ebb1e5ba61a5d9f38a83e55b2cf7b72b6",
+    "s00-clavier-focus.jpg": "037090c083c4ace16c50e88c67c8d978f4e580e607aaa54b3735f6fd0f91ce5d",
+    "s00-clavier-focus.txt": "94a5c01a94e7133845fe399ed56d41b27ff6a78590f08a7cd5f1db0b0fba51de",
+    "s00-navigation-mobile.jpg": "dd45982e690a7e2fa3c926758b89c586fc340f86cdd0741b562d1594d927d74e",
+    "s00-navigation-mobile.txt": "f1ae83df8c9f173f3e5a30d0dda598779ac2a19254f4f5362fb52aebb92c165e",
+    "s00-reprise-api.txt": "5913d0de82f2ad103fb0dc8d95a4e752f212080e70decff80225af52aa73f9c5",
+    "s00-socle-admin.jpg": "ff52987f5ab6955f8f13eafd4079fbf82a18d84acf7759eed2033e0e907d240a",
+    "s00-socle-admin.txt": "bd9d88b2e3baab5cad7f639a835dc59e1bdabbb08e3eecc4bb87f62c9005ed04",
+    "s00-socle-seul-autorise.jpg": "e0e36b2424927361d3d5c9003aa17da9bc6b52c5408911a7cf5848eb5c918c2c",
+    "s00-socle-seul-autorise.txt": "ee758485e282e7ce718f07adf35ad614eb1c26f96202fac08d405d0c087a24ad",
+    "s00-socle-seul-navigation.jpg": "64210c593c94861f49ba3285c2d50874cb9895b1de1fb909ab2df20996fe8c6d",
+    "s00-socle-seul-navigation.txt": "8476588ae1927889909acf776cd5097d741bb5508b4d6c709566b542330d5526",
+    "s01-approuve.jpg": "006e3f1f94ff40329df4aeed91869b1e93245a70f99fc7a15d4decce5f8dfa1b",
+    "s01-approuve.txt": "502feba3e60798e965b66ad62f8c1c99c4995b6d91b12ecd870bec4848bcedc3",
+    "s01-assistant.txt": "312969a386d4fcd4c255209d4fa1abaa46653536c291f64fd98af954bfd427e5",
+    "s01-commande-clavier.jpg": "24324be1f8e4c0a53e2fdab1c9bdb37f82029ee76cc4014787eb96adb530254f",
+    "s01-commande-clavier.txt": "c7e88b9588699300e3f6319061a7e998dbcdec5f23e7b96a57a0629d1f192924",
+    "s01-commande-corrigee-4-formats.jpg": "51461f931a0d308b45c5be6ed311db11b885361c4ba5819d5a63e4243f7168ba",
+    "s01-commande-corrigee-4-formats.txt": "87243d0cfecb2a3937bea7ec3871246ce1a04053b207e0f6e46d5fb2c7f7d819",
+    "s01-commande-defilement.jpg": "36c0ea2594ee77c92ad4e8d7f40d081bd56b5d45fb0a300f2462d6aaece162ff",
+    "s01-commande-defilement.txt": "87243d0cfecb2a3937bea7ec3871246ce1a04053b207e0f6e46d5fb2c7f7d819",
+    "s01-commande.jpg": "0a733061c9867e117b542a1448464214a63271fec2518f5801670b954044a58c",
+    "s01-commande.txt": "0dce60681235750215df8d8a5b2657e0c2f4d00f91ec1b370eef6f915ada3823",
+    "s01-comparaison-4-formats.jpg": "94713cb7cab0a1de14bfdb8715a33f5da5fb929c5a29303f135be8566e5b4647",
+    "s01-comparaison-4-formats.txt": "06f19de694a2d7dd6c77e72c238ce1f798355f4a158915574bc4704dc92fd9fa",
+    "s01-comparaison-bas.jpg": "1bf77394b321e60588b32832b0a9a00fefc7cbd347439d740ccaa52826ac0dd7",
+    "s01-comparaison-bas.txt": "12c79f7d58287ac19dadd35a15d715aa8293e1f91637ba1ec7c8428dafe9929b",
+    "s01-comparaison-defilement.jpg": "ffbe8857d748649230f0aedc37b5a8710a7396c042214373977a7ede189abf7b",
+    "s01-comparaison-defilement.txt": "12c79f7d58287ac19dadd35a15d715aa8293e1f91637ba1ec7c8428dafe9929b",
+    "s01-confirmation-seo.txt": "84331df9e5f28a4bfcfb43ed9c446611ec1cc0979733e6456bd868052b9de9f7",
+    "s01-conflit.jpg": "1da9ffcf0f05125693153da0a2b632dbe73306e726f388c306d8884ce6f0bbde",
+    "s01-conflit.txt": "385efc9bb6a4c8cf1181e29fa2721e3c24b3a12a29f59eb10be3f25db620b683",
+    "s01-dialogue-escape.txt": "5194b8308945ccf2555e384aebc486c30f0b87f21d07d95500d35e460d4879e3",
+    "s01-dialogue-paiement.jpg": "3ebed1a6b1fed25504d399d7747f49f4974fe635c318e36d629160105792d0cf",
+    "s01-dialogue-paiement.txt": "55f9355ac379a495334c84940ba06c2f78cfa590a61dccbb69e616a587f1f3d7",
+    "s01-dialogue-tab.txt": "aff755008966209462f12b9a440c94d00a9af39916438a6cfc06007510de4a9d",
+    "s01-etat-chargement.txt": "8859af0006b9b21be8a6ebb02d20cf0a1069049bb79ca2e60bd14a13091dea81",
+    "s01-etat-erreur.txt": "ab6b6432abf80e2d606000fb9763f4931768d9bcfa42197e262ab935719beeb2",
+    "s01-etat-incertain.txt": "3562a616be80c77d019ad5f021d872675bd9a6b99e44b14c36e363bacd8f2049",
+    "s01-etat-longue.txt": "46c800602f8a76c33ccfe0bd28ed7cc5da201c300f03f0f49cba2717c442619a",
+    "s01-etat-non-connecte.txt": "372b6f4a3f84e650c73c00361595337614191d55e5bfa81f48c4dc4629a888e8",
+    "s01-etat-quota.txt": "a24c1db74e477edf41335427b9f1b9197f99761a071968a73edd23a6e68057f8",
+    "s01-etat-refus.txt": "ebbfb3e8160c2e7b1bc3155734684a9cca30e9528b5cecc79c0d7ac12594cebb",
+    "s01-etat-vide.txt": "817789ee28b036a7ab50becabd565f85b7d6badf3dbe008bdfd030aeb7f14b5b",
+    "s01-filtre-blocages.txt": "98378f244400c81abfe61173a6a4aba06fbb9ef27e07d0a2d631f771cf78b822",
+    "s01-final-ancienne.txt": "b3de48c07233690d86e1e99d61e877193de551006d8255959065f6230f511750",
+    "s01-final-chargement.txt": "15448f76094d62ebba9a4945cf172dd046fc74515421a8ad21638ec76ddc4b68",
+    "s01-final-conflit.txt": "74d27df4a7b501ea503c6f4fe9576d616f5c10a9d8eb69d6ffcd70b786e5ebcf",
+    "s01-final-erreur.txt": "a2039c44d058fa1cc1dc3d0c265068a1bef3979b48b8ba61d1c262d7a901fb23",
+    "s01-final-incertain.txt": "cfc7bcdb2182f6da6c6ec9eb73e6a758f9f2dda5346cfb7d55b039875dbdad05",
+    "s01-final-longue.txt": "8acce43e41ecba998b113710652a5650886f7405669b3f901c3ac00593b7f335",
+    "s01-final-non-connecte.txt": "e6f31e43617fca2f83f978ebc38735fce40c24ef082f52d4f36f5b2d53e3fd99",
+    "s01-final-quota.txt": "cc9b39261f56a36421c15167fada0fc7433b4644516ce50d8e84c55d8b351fa0",
+    "s01-final-refus.txt": "52c135ca782ec4577466131dc8355a3a7b819a9eaf57cd0568164e9305538c90",
+    "s01-final-vide.txt": "26030aa1be368ee82ac38d21b1a7e35d994da812bc2e3e25a7bf54a177c3a974",
+    "s01-final-vue-ensemble.jpg": "b66e0b1ef44e31d352adcf16ada3d37cf67db6887f6abeaaf6fa8a0db3bb82e3",
+    "s01-final-vue-ensemble.txt": "c3b1685d3b1b8aa33ae751bdf1baa19cbdc4e70ad110e76b202dd4e2cdc0bd3d",
+    "s01-focus-apres-navigation.txt": "0c370f41a50bfdefedacbc6ad662ee9dd0914b3b16c8d02f4ff641e4271ff759",
+    "s01-navigation-escape.txt": "458d22326d04490cbdfbb7ee84c85a57f04760701b0f84d6763428d7c12eb01c",
+    "s01-navigation-espace.txt": "fcf708b7a9c43f36920dca4b8d11b1d9f37b39ac39e38e0829ebe1255872d8cb",
+    "s01-navigation-mobile.txt": "fcf708b7a9c43f36920dca4b8d11b1d9f37b39ac39e38e0829ebe1255872d8cb",
+    "s01-paiement-incertain.txt": "827dfb1cbe7cff962129d45ebb7617d9aa7b2a2f55b5b7c20fd46c2305522086",
+    "s01-reprise-erreur.txt": "e9d80c22ba3931a4fdd958b0240beca137226c4700e45c973a0338dbf918904a",
+    "s01-seo.jpg": "2d630d87f6ef67e05261edd69100d1b051dd8fa190998028c075e2bfb3491005",
+    "s01-seo.txt": "a3407d9b2e318051b7cf75b7e968cf8f6a24b1b0a8a0822f5f3a7e89015f42b9",
+    "s01-source-ancienne.txt": "ae6629bc0f781c9e223d814c889ac6672f2c1de327a5f6415738ec6af79677ce",
+    "s01-source-datee.txt": "eb656abc37bc0f2447faa44270974e62fce38a30ba042939e0304fb32e3659f8",
+    "s01-vue-ensemble-4-formats.jpg": "f91f218ee30699c2fd57a3a732bf6a47b270ca5552eaafec73934e2c59749750",
+    "s01-vue-ensemble-4-formats.txt": "c3b1685d3b1b8aa33ae751bdf1baa19cbdc4e70ad110e76b202dd4e2cdc0bd3d",
+    "s01-vue-ensemble.jpg": "ceee3a5cf874f8097269d684cee89fb6086d6afb93b756467a6a395d5a5c6cbc",
+    "s01-vue-ensemble.txt": "4185d0e4f8f7a6675d5dafe9dd51a4f72ef6cfcd75907ad339a13d55b0580788"
+  },
+  "notCovered": [
+    "Physical devices and Safari",
+    "Exhaustive accessibility audit and screen readers",
+    "SPA route title focus under Responsively navigation mirroring",
+    "Final personal approval of visual mockups",
+    "Real business operations or providers in S01"
+  ],
+  "servicesStartedForRecipeStopped": true,
+  "originalS01ServerPreserved": true,
+  "originalThreeDeviceSelectionRestored": true
+}

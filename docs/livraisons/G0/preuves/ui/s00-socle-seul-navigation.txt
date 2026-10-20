@@ -1,0 +1,170 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 container
+								45 en-tête Insights, Value: 1
+									46 texte Insights
+								47 bouton Edit layout
+							48 texte No widgets to display. Use "Edit Layout" to add widgets.
+						49 container Notifications alt+T
+				50 text MacBook Pro 1440 x 900
+				51 bouton Refresh This View
+				52 bouton Quick Screenshot
+				53 bouton Full Page Screenshot
+				54 bouton Design Overlay
+				55 bouton Disable Event Mirroring
+				56 bouton Open Devtools
+				57 bouton (disabled) Rotation not available for non-mobile devices
+				58 bouton Scroll to Top
+				59 bouton Show rulers
+				60 bouton de menu local
+				61 bouton Enable Individual Layout
+				62 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					63 container
+						64 container
+							65 Liste du contenu
+								66 bouton de menu local Default channel Language: English
+							67 Liste du contenu
+								68 bouton Environnement local
+								69 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							70 Liste du contenu
+								71 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									72 texte Démonstration
+									73 texte g0-ui-foundation
+									74 texte g0-ui-foundation@local.test
+							75 bouton Toggle Sidebar
+						76 container
+							77 container
+								78 bouton Toggle Sidebar
+								79 container breadcrumb
+									80 Liste du contenu
+										81 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							82 bouton de menu local
+							83 container
+								84 en-tête Insights, Value: 1
+									85 texte Insights
+								86 bouton de menu local Oct 1 – 20, 2026
+								87 bouton Refresh
+								88 bouton Edit layout
+							89 texte No widgets to display. Use "Edit Layout" to add widgets.
+						90 container Notifications alt+T
+				91 text Galaxy S21 360 x 800
+				92 bouton Refresh This View
+				93 bouton Quick Screenshot
+				94 bouton Full Page Screenshot
+				95 bouton Design Overlay
+				96 bouton Disable Event Mirroring
+				97 bouton Open Devtools
+				98 bouton (disabled) Rotation not available for non-mobile devices
+				99 bouton Scroll to Top
+				100 bouton Show rulers
+				101 bouton de menu local
+				102 bouton Enable Individual Layout
+				103 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					104 container
+						105 container
+							106 container
+								107 bouton Toggle Sidebar
+								108 container breadcrumb
+							109 bouton de menu local
+							110 container
+								111 en-tête Insights, Value: 1
+									112 texte Insights
+								113 bouton Edit layout
+							114 texte No widgets to display. Use "Edit Layout" to add widgets.
+						115 container Notifications alt+T
+				116 text G0 Tablette paysage 1024 x 768
+				117 bouton Refresh This View
+				118 bouton Quick Screenshot
+				119 bouton Full Page Screenshot
+				120 bouton Design Overlay
+				121 bouton Disable Event Mirroring
+				122 bouton Open Devtools
+				123 bouton (disabled) Rotation not available for non-mobile devices
+				124 bouton Scroll to Top
+				125 bouton Show rulers
+				126 bouton de menu local
+				127 bouton Enable Individual Layout
+				128 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					129 container
+						130 container
+							131 Liste du contenu
+								132 bouton de menu local Default channel Language: English
+							133 Liste du contenu
+								134 bouton Environnement local
+								135 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							136 Liste du contenu
+								137 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									138 texte Démonstration
+									139 texte g0-ui-foundation
+									140 texte g0-ui-foundation@local.test
+							141 bouton Toggle Sidebar
+						142 container
+							143 container
+								144 bouton Toggle Sidebar
+								145 container breadcrumb
+									146 Liste du contenu
+										147 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							148 bouton de menu local
+							149 container
+								150 en-tête Insights, Value: 1
+									151 texte Insights
+								152 bouton de menu local Oct 1 – 20, 2026
+								153 bouton Refresh
+								154 bouton Edit layout
+							155 texte No widgets to display. Use "Edit Layout" to add widgets.
+						156 container Notifications alt+T
+		157 container
+	158 Bouton de fermeture
+	159 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	160 bouton de minimisation
+161 menu bar
+	162 ResponsivelyApp
+	163 Edit
+	164 View
+	165 Window
+	166 Help
+
+The focused UI element is 37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/

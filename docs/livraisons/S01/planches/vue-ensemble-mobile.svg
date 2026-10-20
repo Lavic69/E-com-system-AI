@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="Vue d&#x27;ensemble : maquette statique, données de démonstration">
+<style>text{font-family:Helvetica,Arial,sans-serif} .mono{font-family:Menlo,monospace}</style>
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#f6f5f1"/>
+<rect x="0" y="0" width="390" height="52" rx="0" fill="#eaece4"/>
+<text x="16" y="26.0" fill="#242925" font-size="11" font-weight="600" class="mono">S01</text>
+<text x="52" y="26.0" fill="#505750" font-size="10" font-weight="400">Données de démonstration</text>
+<rect x="0" y="116" width="390" height="1" rx="0" fill="#dcded6"/>
+<rect x="16" y="76" width="16" height="1" rx="0" fill="#505750"/>
+<rect x="16" y="82" width="16" height="1" rx="0" fill="#505750"/>
+<rect x="16" y="88" width="16" height="1" rx="0" fill="#505750"/>
+<text x="52" y="90.0" fill="#505750" font-size="11" font-weight="400">Vue d&#x27;ensemble</text>
+<text x="16" y="152.0" fill="#646b64" font-size="10" font-weight="600">MARDI 20 OCTOBRE 2026</text>
+<text x="16" y="188.0" fill="#242925" font-size="26" font-weight="600">À traiter aujourd&#x27;hui</text>
+<text x="16" y="231.0" fill="#505750" font-size="12" font-weight="400">Deux blocages, une commande à préparer, une</text>
+<text x="16" y="249.0" fill="#505750" font-size="12" font-weight="400">proposition à examiner.</text>
+<rect x="16" y="291.0" width="358" height="732" rx="8" fill="#fcfbf8" stroke="#dcded6"/>
+<text x="36" y="323.0" fill="#242925" font-size="16" font-weight="600">Votre file de travail · 4</text>
+<rect x="16" y="347.0" width="358" height="1" rx="0" fill="#e8e9e2"/>
+<text x="32" y="379.0" fill="#505750" font-size="11" font-weight="500">Tout · 4    Blocages · 2    Propositions · 1</text>
+<rect x="32" y="407.0" width="28" height="28" rx="6" fill="#fbf0de"/>
+<text x="41" y="426.0" fill="#8a4d13" font-size="14" font-weight="600">!</text>
+<text x="72" y="421.0" fill="#242925" font-size="13" font-weight="600">Paiement à confirmer</text>
+<text x="72" y="444.5" fill="#646b64" font-size="11" font-weight="400">Réponse du prestataire attendue depuis 09 h 42.</text>
+<text x="72" y="465.0" fill="#242925" font-size="11" font-weight="400">Commande D-1042</text>
+<text x="72" y="485.5" fill="#2856ba" font-size="12" font-weight="600">Examiner →</text>
+<rect x="16" y="543.0" width="358" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="32" y="559.0" width="28" height="28" rx="6" fill="#fbf0de"/>
+<text x="41" y="578.0" fill="#8a4d13" font-size="14" font-weight="600">!</text>
+<text x="72" y="573.0" fill="#242925" font-size="13" font-weight="600">Stock indisponible</text>
+<text x="72" y="596.5" fill="#646b64" font-size="11" font-weight="400">Une commande attend cette variante.</text>
+<text x="72" y="617.0" fill="#242925" font-size="11" font-weight="400">SAC-SABLE</text>
+<text x="72" y="637.5" fill="#646b64" font-size="12" font-weight="600">Hors maquette</text>
+<rect x="16" y="695.0" width="358" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="32" y="711.0" width="28" height="28" rx="6" fill="#efeee8"/>
+<text x="41" y="730.0" fill="#2856ba" font-size="14" font-weight="600">›</text>
+<text x="72" y="725.0" fill="#242925" font-size="13" font-weight="600">Une commande prête à préparer</text>
+<text x="72" y="748.5" fill="#646b64" font-size="11" font-weight="400">Encaissement confirmé, articles disponibles.</text>
+<text x="72" y="769.0" fill="#242925" font-size="11" font-weight="400">Commande D-1041</text>
+<text x="72" y="789.5" fill="#646b64" font-size="12" font-weight="600">Hors maquette</text>
+<rect x="16" y="847.0" width="358" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="32" y="863.0" width="28" height="28" rx="6" fill="#eaf0fc"/>
+<text x="41" y="882.0" fill="#2856ba" font-size="14" font-weight="600">›</text>
+<text x="72" y="877.0" fill="#242925" font-size="13" font-weight="600">Un titre de collection à préciser</text>
+<text x="72" y="900.5" fill="#646b64" font-size="11" font-weight="400">Une proposition SEO est prête à être examinée.</text>
+<text x="72" y="921.0" fill="#242925" font-size="11" font-weight="400">Dossier SEO-018</text>
+<text x="72" y="941.5" fill="#2856ba" font-size="12" font-weight="600">Comparer →</text>
+<rect x="16" y="999.0" width="358" height="1" rx="0" fill="#e8e9e2"/>
+<rect x="0" y="816" width="390" height="28" rx="0" fill="#eaece4"/>
+<text x="16" y="834.0" fill="#505750" font-size="8" font-weight="400">PLANCHE STATIQUE · 390 × 844 · Ce dessin n&#x27;est pas une capture d&#x27;application.</text>
+</svg>

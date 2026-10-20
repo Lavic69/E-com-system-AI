@@ -1,0 +1,366 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/#overview
+						45 text / SEO-018 Belgique · FR · EUR
+					46 container
+						47 texte CROISSANCE / SEO / DOSSIER SEO-018
+						48 en-tête Préciser le titre de la collection, Value: 1
+							49 texte Préciser le titre de la collection
+						50 texte Tasses en céramique · Belgique · Français · Version courante v12
+						51 texte À examiner
+						52 container Sections du dossier
+							53 link Description: 01 Sources, Value: 127.0.0.1:5102/#sources
+							54 link Description: 02 Proposition, Value: 127.0.0.1:5102/#proposal
+							55 link Description: 03 Contrôles, Value: 127.0.0.1:5102/#checks
+							56 link Description: 04 Décision, Value: 127.0.0.1:5102/#decision
+							57 link Description: 05 Résultat, Value: 127.0.0.1:5102/#result
+						58 container 01 / Sources
+							59 en-tête 01 / Sources, Value: 2
+								60 text 01 / Sources
+							61 texte Relevé du 20 octobre
+							62 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							63 texte Catalogue de la boutique
+							64 texte Vérifié
+							65 texte 8 produits de type tasse en céramique.
+							66 texte Jeu de démonstration · 20 octobre, 09 h 00
+							67 texte Search Console
+							68 bouton Voir le relevé
+							69 container
+								70 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							71 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							72 texte Lecture de la page
+							73 texte v12
+							74 texte Titre relevé : « Notre collection ».
+							75 texte 20 octobre, 09 h 12 · Version de démonstration
+							76 texte DataForSEO
+							77 texte Non connecté
+							78 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						79 container 02 / Proposition
+							80 en-tête 02 / Proposition, Value: 2
+								81 text 02 / Proposition
+							82 texte 2 champs modifiés
+							83 container
+								84 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							85 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						86 container 03 / Contrôles
+							87 en-tête 03 / Contrôles, Value: 2
+								88 text 03 / Contrôles
+							89 texte À revérifier à l'application
+							90 Liste du contenu
+								91 container
+									92 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								93 container
+									94 text Aucune expérience active sur ces champs Contrôle fictif de l'instantané du 20 octobre, 09 h 20.
+								95 container
+									96 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						97 container 04 / Décision
+							98 en-tête 04 / Décision, Value: 2
+								99 texte 04 / Décision
+							100 texte Validation requise
+							101 container
+								102 texte Une page, deux champs.
+								103 text Proposition  v13  basée sur  v12 .
+							104 liste de définitions
+								105 texte Coût connu
+								106 texte 0,08 €
+								107 texte Montant réservé
+								108 texte 0,12 €
+								109 texte Plafond de l'action
+								110 texte 1,00 €
+							111 bouton Examiner la validation
+							112 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							113 bouton Examiner avec l'assistant
+						114 container 05 / Résultat
+							115 en-tête 05 / Résultat, Value: 2
+								116 text 05 / Résultat
+							117 texte Non appliquée
+							118 en-tête Aucun résultat mesuré, Value: 3
+								119 texte Aucun résultat mesuré
+							120 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							121 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					122 container
+						123 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				124 text iPad 768 x 1024
+				125 bouton Refresh This View
+				126 bouton Quick Screenshot
+				127 bouton Full Page Screenshot
+				128 bouton Design Overlay
+				129 bouton Disable Event Mirroring
+				130 bouton Open Devtools
+				131 bouton (disabled) Rotation not available for non-mobile devices
+				132 bouton Scroll to Top
+				133 bouton Show rulers
+				134 bouton de menu local
+				135 bouton Enable Individual Layout
+				136 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					137 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					138 texte S01
+					139 texte Maquette interactive
+					140 texte Données de démonstration
+					141 bouton Examiner un état
+					142 container
+						143 bouton Ouvrir la navigation
+						144 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/#overview
+						145 text / SEO-018 Belgique · FR · EUR
+					146 container
+						147 texte CROISSANCE / SEO / DOSSIER SEO-018
+						148 en-tête Préciser le titre de la collection, Value: 1
+							149 texte Préciser le titre de la collection
+						150 texte Tasses en céramique · Belgique · Français · Version courante v12
+						151 texte À examiner
+						152 container Sections du dossier
+							153 link Description: 01 Sources, Value: 127.0.0.1:5102/#sources
+							154 link Description: 02 Proposition, Value: 127.0.0.1:5102/#proposal
+							155 link Description: 03 Contrôles, Value: 127.0.0.1:5102/#checks
+							156 link Description: 04 Décision, Value: 127.0.0.1:5102/#decision
+							157 link Description: 05 Résultat, Value: 127.0.0.1:5102/#result
+						158 container 01 / Sources
+							159 en-tête 01 / Sources, Value: 2
+								160 text 01 / Sources
+							161 texte Relevé du 20 octobre
+							162 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							163 texte Catalogue de la boutique
+							164 texte Vérifié
+							165 texte 8 produits de type tasse en céramique.
+							166 texte Jeu de démonstration · 20 octobre, 09 h 00
+							167 texte Search Console
+							168 bouton Voir le relevé
+							169 container
+								170 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							171 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							172 texte Lecture de la page
+							173 texte v12
+							174 texte Titre relevé : « Notre collection ».
+							175 texte 20 octobre, 09 h 12 · Version de démonstration
+							176 texte DataForSEO
+							177 texte Non connecté
+							178 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						179 container 02 / Proposition
+							180 en-tête 02 / Proposition, Value: 2
+								181 text 02 / Proposition
+							182 texte 2 champs modifiés
+							183 container
+								184 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							185 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						186 container 03 / Contrôles
+							187 en-tête 03 / Contrôles, Value: 2
+								188 text 03 / Contrôles
+							189 texte À revérifier à l'application
+							190 Liste du contenu
+								191 container
+									192 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								193 container
+									194 text Aucune expérience active sur ces champs Contrôle fictif de l'instantané du 20 octobre, 09 h 20.
+								195 container
+									196 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						197 container 04 / Décision
+							198 en-tête 04 / Décision, Value: 2
+								199 texte 04 / Décision
+							200 texte Validation requise
+							201 container
+								202 texte Une page, deux champs.
+								203 text Proposition  v13  basée sur  v12 .
+							204 liste de définitions
+								205 texte Coût connu
+								206 texte 0,08 €
+								207 texte Montant réservé
+								208 texte 0,12 €
+								209 texte Plafond de l'action
+								210 texte 1,00 €
+							211 bouton Examiner la validation
+							212 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							213 bouton Examiner avec l'assistant
+						214 container 05 / Résultat
+							215 en-tête 05 / Résultat, Value: 2
+								216 text 05 / Résultat
+							217 texte Non appliquée
+							218 en-tête Aucun résultat mesuré, Value: 3
+								219 texte Aucun résultat mesuré
+							220 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							221 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					222 container
+						223 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				224 text MacBook Pro 1440 x 900
+				225 bouton Refresh This View
+				226 bouton Quick Screenshot
+				227 bouton Full Page Screenshot
+				228 bouton Design Overlay
+				229 bouton Disable Event Mirroring
+				230 bouton Open Devtools
+				231 bouton (disabled) Rotation not available for non-mobile devices
+				232 bouton Scroll to Top
+				233 bouton Show rulers
+				234 bouton de menu local
+				235 bouton Enable Individual Layout
+				236 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					237 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					238 texte S01
+					239 texte Maquette interactive
+					240 texte Données de démonstration
+					241 bouton Examiner un état
+					242 container Navigation principale
+						243 texte Atelier Démo
+						244 texte Votre boutique de démonstration
+						245 container Activités
+							246 Liste du contenu
+								247 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								248 texte COMMERCE
+								249 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								250 container
+									251 text Catalogue aperçu
+								252 container
+									253 text Stocks aperçu
+								254 texte BOUTIQUE
+								255 container
+									256 text Pages & contenus aperçu
+								257 texte CROISSANCE
+								258 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								259 container
+									260 text Campagnes aperçu
+								261 container
+									262 text Expériences aperçu
+								263 texte PILOTAGE
+								264 container
+									265 text Analyses aperçu
+								266 container
+									267 text Réglages aperçu
+							268 texte Les entrées « aperçu » sont hors maquette.
+						269 texte Environnement de démonstration
+						270 texte Membre démo
+						271 texte Administration
+					272 container
+						273 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/#overview
+						274 text / SEO-018 Belgique · FR · EUR
+					275 container
+						276 texte CROISSANCE / SEO / DOSSIER SEO-018
+						277 en-tête Préciser le titre de la collection, Value: 1
+							278 texte Préciser le titre de la collection
+						279 texte Tasses en céramique · Belgique · Français · Version courante v12
+						280 texte À examiner
+						281 container Sections du dossier
+							282 link Description: 01 Sources, Value: 127.0.0.1:5102/#sources
+							283 link Description: 02 Proposition, Value: 127.0.0.1:5102/#proposal
+							284 link Description: 03 Contrôles, Value: 127.0.0.1:5102/#checks
+							285 link Description: 04 Décision, Value: 127.0.0.1:5102/#decision
+							286 link Description: 05 Résultat, Value: 127.0.0.1:5102/#result
+						287 container 01 / Sources
+							288 en-tête 01 / Sources, Value: 2
+								289 text 01 / Sources
+							290 texte Relevé du 20 octobre
+							291 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							292 texte Catalogue de la boutique
+							293 texte Vérifié
+							294 texte 8 produits de type tasse en céramique.
+							295 texte Jeu de démonstration · 20 octobre, 09 h 00
+							296 texte Search Console
+							297 bouton Voir le relevé
+							298 container
+								299 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							300 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							301 texte Lecture de la page
+							302 texte v12
+							303 texte Titre relevé : « Notre collection ».
+							304 texte 20 octobre, 09 h 12 · Version de démonstration
+							305 texte DataForSEO
+							306 texte Non connecté
+							307 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						308 container 02 / Proposition
+							309 en-tête 02 / Proposition, Value: 2
+								310 text 02 / Proposition
+							311 texte 2 champs modifiés
+							312 container
+								313 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							314 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						315 container 03 / Contrôles
+							316 en-tête 03 / Contrôles, Value: 2
+								317 text 03 / Contrôles
+							318 texte À revérifier à l'application
+							319 Liste du contenu
+								320 container
+									321 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								322 container
+									323 text Aucune expérience active sur ces champs Contrôle fictif de l'instantané du 20 octobre, 09 h 20.
+								324 container
+									325 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						326 container 04 / Décision
+							327 en-tête 04 / Décision, Value: 2
+								328 texte 04 / Décision
+							329 texte Validation requise
+							330 container
+								331 texte Une page, deux champs.
+								332 text Proposition  v13  basée sur  v12 .
+							333 liste de définitions
+								334 texte Coût connu
+								335 texte 0,08 €
+								336 texte Montant réservé
+								337 texte 0,12 €
+								338 texte Plafond de l'action
+								339 texte 1,00 €
+							340 bouton Examiner la validation
+							341 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							342 bouton Examiner avec l'assistant
+						343 container 05 / Résultat
+							344 en-tête 05 / Résultat, Value: 2
+								345 text 05 / Résultat
+							346 texte Non appliquée
+							347 en-tête Aucun résultat mesuré, Value: 3
+								348 texte Aucun résultat mesuré
+							349 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							350 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					351 container
+						352 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		353 container
+	354 Bouton de fermeture
+	355 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	356 bouton de minimisation
+357 menu bar
+	358 ResponsivelyApp
+	359 Edit
+	360 View
+	361 Window
+	362 Help
+
+The focused UI element is 37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo

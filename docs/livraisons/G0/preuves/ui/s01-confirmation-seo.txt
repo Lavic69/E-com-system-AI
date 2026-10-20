@@ -1,0 +1,134 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					38 container Examiner la validation
+						39 en-tête Examiner la validation, Value: 2
+							40 texte Examiner la validation
+						41 bouton Fermer la fenêtre
+						42 texte La validation concerne cette proposition précise.
+						43 liste de définitions
+							44 texte Objet et marché
+							45 texte Collection « Tasses en céramique » · Belgique · Français
+							46 texte Version
+							47 texte Proposition v13 basée sur v12
+							48 texte Changements
+							49 texte Titre SEO et description SEO. URL, prix et stock inchangés.
+							50 texte Coûts de démonstration
+							51 texte Connu 0,08 € · Réservé 0,12 € · Plafond 1,00 €
+							52 texte Effet de l'accord
+							53 texte Approuver la proposition. L'application et la publication restent des étapes distinctes.
+						54 texte Simulation locale : aucune modification de page ni publication. Cet état disparaît au rechargement de la maquette.
+						55 bouton Revenir à la comparaison
+						56 bouton Approuver la proposition
+				57 text iPad 768 x 1024
+				58 bouton Refresh This View
+				59 bouton Quick Screenshot
+				60 bouton Full Page Screenshot
+				61 bouton Design Overlay
+				62 bouton Disable Event Mirroring
+				63 bouton Open Devtools
+				64 bouton (disabled) Rotation not available for non-mobile devices
+				65 bouton Scroll to Top
+				66 bouton Show rulers
+				67 bouton de menu local
+				68 bouton Enable Individual Layout
+				69 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					70 container Examiner la validation
+						71 en-tête Examiner la validation, Value: 2
+							72 texte Examiner la validation
+						73 bouton Fermer la fenêtre
+						74 texte La validation concerne cette proposition précise.
+						75 liste de définitions
+							76 texte Objet et marché
+							77 texte Collection « Tasses en céramique » · Belgique · Français
+							78 texte Version
+							79 texte Proposition v13 basée sur v12
+							80 texte Changements
+							81 texte Titre SEO et description SEO. URL, prix et stock inchangés.
+							82 texte Coûts de démonstration
+							83 texte Connu 0,08 € · Réservé 0,12 € · Plafond 1,00 €
+							84 texte Effet de l'accord
+							85 texte Approuver la proposition. L'application et la publication restent des étapes distinctes.
+						86 texte Simulation locale : aucune modification de page ni publication. Cet état disparaît au rechargement de la maquette.
+						87 bouton Revenir à la comparaison
+						88 bouton Approuver la proposition
+				89 text MacBook Pro 1440 x 900
+				90 bouton Refresh This View
+				91 bouton Quick Screenshot
+				92 bouton Full Page Screenshot
+				93 bouton Design Overlay
+				94 bouton Disable Event Mirroring
+				95 bouton Open Devtools
+				96 bouton (disabled) Rotation not available for non-mobile devices
+				97 bouton Scroll to Top
+				98 bouton Show rulers
+				99 bouton de menu local
+				100 bouton Enable Individual Layout
+				101 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/#seo
+					102 container Examiner la validation
+						103 en-tête Examiner la validation, Value: 2
+							104 texte Examiner la validation
+						105 bouton Fermer la fenêtre
+						106 texte La validation concerne cette proposition précise.
+						107 liste de définitions
+							108 texte Objet et marché
+							109 texte Collection « Tasses en céramique » · Belgique · Français
+							110 texte Version
+							111 texte Proposition v13 basée sur v12
+							112 texte Changements
+							113 texte Titre SEO et description SEO. URL, prix et stock inchangés.
+							114 texte Coûts de démonstration
+							115 texte Connu 0,08 € · Réservé 0,12 € · Plafond 1,00 €
+							116 texte Effet de l'accord
+							117 texte Approuver la proposition. L'application et la publication restent des étapes distinctes.
+						118 texte Simulation locale : aucune modification de page ni publication. Cet état disparaît au rechargement de la maquette.
+						119 bouton Revenir à la comparaison
+						120 bouton Approuver la proposition
+		121 container
+	122 Bouton de fermeture
+	123 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	124 bouton de minimisation
+125 menu bar
+	126 ResponsivelyApp
+	127 Edit
+	128 View
+	129 Window
+	130 Help
+
+The focused UI element is 71 en-tête Examiner la validation, Value: 2

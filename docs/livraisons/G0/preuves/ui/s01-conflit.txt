@@ -1,0 +1,381 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?state=conflict#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=conflict#seo
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=conflict#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=conflict#overview
+						45 text / SEO-018 Belgique · FR · EUR
+					46 container
+						47 texte CROISSANCE / SEO / DOSSIER SEO-018
+						48 en-tête Préciser le titre de la collection, Value: 1
+							49 texte Préciser le titre de la collection
+						50 texte Tasses en céramique · Belgique · Français · Version courante v12
+						51 texte Modification bloquée
+						52 container Une expérience protège ce titre
+							53 en-tête Une expérience protège ce titre, Value: 2
+								54 texte Une expérience protège ce titre
+							55 texte EXP-007 utilise le titre de la collection. La proposition reste consultable, mais sa validation est bloquée.
+						56 container Sections du dossier
+							57 link Description: 01 Sources, Value: 127.0.0.1:5102/?state=conflict#sources
+							58 link Description: 02 Proposition, Value: 127.0.0.1:5102/?state=conflict#proposal
+							59 link Description: 03 Contrôles, Value: 127.0.0.1:5102/?state=conflict#checks
+							60 link Description: 04 Décision, Value: 127.0.0.1:5102/?state=conflict#decision
+							61 link Description: 05 Résultat, Value: 127.0.0.1:5102/?state=conflict#result
+						62 container 01 / Sources
+							63 en-tête 01 / Sources, Value: 2
+								64 text 01 / Sources
+							65 texte Relevé du 20 octobre
+							66 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							67 texte Catalogue de la boutique
+							68 texte Vérifié
+							69 texte 8 produits de type tasse en céramique.
+							70 texte Jeu de démonstration · 20 octobre, 09 h 00
+							71 texte Search Console
+							72 bouton Voir le relevé
+							73 container
+								74 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							75 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							76 texte Lecture de la page
+							77 texte v12
+							78 texte Titre relevé : « Notre collection ».
+							79 texte 20 octobre, 09 h 12 · Version de démonstration
+							80 texte DataForSEO
+							81 texte Non connecté
+							82 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						83 container 02 / Proposition
+							84 en-tête 02 / Proposition, Value: 2
+								85 text 02 / Proposition
+							86 texte 2 champs modifiés
+							87 container
+								88 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							89 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						90 container 03 / Contrôles
+							91 en-tête 03 / Contrôles, Value: 2
+								92 text 03 / Contrôles
+							93 texte 1 conflit
+							94 Liste du contenu
+								95 container
+									96 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								97 container
+									98 text EXP-007 utilise le titre de cette collection Modification bloquée. Examiner l'expérience avant de préparer une nouvelle proposition.
+								99 container
+									100 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						101 container 04 / Décision
+							102 en-tête 04 / Décision, Value: 2
+								103 texte 04 / Décision
+							104 texte Validation requise
+							105 container
+								106 texte Une page, deux champs.
+								107 text Proposition  v13  basée sur  v12 .
+							108 liste de définitions
+								109 texte Coût connu
+								110 texte 0,08 €
+								111 texte Montant réservé
+								112 texte 0,12 €
+								113 texte Plafond de l'action
+								114 texte 1,00 €
+							115 bouton (disabled) Validation indisponible
+							116 texte Conflit avec EXP-007. L’expérience doit être examinée avant de poursuivre.
+							117 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							118 bouton Examiner avec l'assistant
+						119 container 05 / Résultat
+							120 en-tête 05 / Résultat, Value: 2
+								121 text 05 / Résultat
+							122 texte Non appliquée
+							123 en-tête Aucun résultat mesuré, Value: 3
+								124 texte Aucun résultat mesuré
+							125 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							126 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					127 container
+						128 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				129 text iPad 768 x 1024
+				130 bouton Refresh This View
+				131 bouton Quick Screenshot
+				132 bouton Full Page Screenshot
+				133 bouton Design Overlay
+				134 bouton Disable Event Mirroring
+				135 bouton Open Devtools
+				136 bouton (disabled) Rotation not available for non-mobile devices
+				137 bouton Scroll to Top
+				138 bouton Show rulers
+				139 bouton de menu local
+				140 bouton Enable Individual Layout
+				141 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=conflict#seo
+					142 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=conflict#main
+					143 texte S01
+					144 texte Maquette interactive
+					145 texte Données de démonstration
+					146 bouton Examiner un état
+					147 container
+						148 bouton Ouvrir la navigation
+						149 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=conflict#overview
+						150 text / SEO-018 Belgique · FR · EUR
+					151 container
+						152 texte CROISSANCE / SEO / DOSSIER SEO-018
+						153 en-tête Préciser le titre de la collection, Value: 1
+							154 texte Préciser le titre de la collection
+						155 texte Tasses en céramique · Belgique · Français · Version courante v12
+						156 texte Modification bloquée
+						157 container Une expérience protège ce titre
+							158 en-tête Une expérience protège ce titre, Value: 2
+								159 texte Une expérience protège ce titre
+							160 texte EXP-007 utilise le titre de la collection. La proposition reste consultable, mais sa validation est bloquée.
+						161 container Sections du dossier
+							162 link Description: 01 Sources, Value: 127.0.0.1:5102/?state=conflict#sources
+							163 link Description: 02 Proposition, Value: 127.0.0.1:5102/?state=conflict#proposal
+							164 link Description: 03 Contrôles, Value: 127.0.0.1:5102/?state=conflict#checks
+							165 link Description: 04 Décision, Value: 127.0.0.1:5102/?state=conflict#decision
+							166 link Description: 05 Résultat, Value: 127.0.0.1:5102/?state=conflict#result
+						167 container 01 / Sources
+							168 en-tête 01 / Sources, Value: 2
+								169 text 01 / Sources
+							170 texte Relevé du 20 octobre
+							171 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							172 texte Catalogue de la boutique
+							173 texte Vérifié
+							174 texte 8 produits de type tasse en céramique.
+							175 texte Jeu de démonstration · 20 octobre, 09 h 00
+							176 texte Search Console
+							177 bouton Voir le relevé
+							178 container
+								179 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							180 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							181 texte Lecture de la page
+							182 texte v12
+							183 texte Titre relevé : « Notre collection ».
+							184 texte 20 octobre, 09 h 12 · Version de démonstration
+							185 texte DataForSEO
+							186 texte Non connecté
+							187 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						188 container 02 / Proposition
+							189 en-tête 02 / Proposition, Value: 2
+								190 text 02 / Proposition
+							191 texte 2 champs modifiés
+							192 container
+								193 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							194 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						195 container 03 / Contrôles
+							196 en-tête 03 / Contrôles, Value: 2
+								197 text 03 / Contrôles
+							198 texte 1 conflit
+							199 Liste du contenu
+								200 container
+									201 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								202 container
+									203 text EXP-007 utilise le titre de cette collection Modification bloquée. Examiner l'expérience avant de préparer une nouvelle proposition.
+								204 container
+									205 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						206 container 04 / Décision
+							207 en-tête 04 / Décision, Value: 2
+								208 texte 04 / Décision
+							209 texte Validation requise
+							210 container
+								211 texte Une page, deux champs.
+								212 text Proposition  v13  basée sur  v12 .
+							213 liste de définitions
+								214 texte Coût connu
+								215 texte 0,08 €
+								216 texte Montant réservé
+								217 texte 0,12 €
+								218 texte Plafond de l'action
+								219 texte 1,00 €
+							220 bouton (disabled) Validation indisponible
+							221 texte Conflit avec EXP-007. L’expérience doit être examinée avant de poursuivre.
+							222 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							223 bouton Examiner avec l'assistant
+						224 container 05 / Résultat
+							225 en-tête 05 / Résultat, Value: 2
+								226 text 05 / Résultat
+							227 texte Non appliquée
+							228 en-tête Aucun résultat mesuré, Value: 3
+								229 texte Aucun résultat mesuré
+							230 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							231 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					232 container
+						233 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				234 text MacBook Pro 1440 x 900
+				235 bouton Refresh This View
+				236 bouton Quick Screenshot
+				237 bouton Full Page Screenshot
+				238 bouton Design Overlay
+				239 bouton Disable Event Mirroring
+				240 bouton Open Devtools
+				241 bouton (disabled) Rotation not available for non-mobile devices
+				242 bouton Scroll to Top
+				243 bouton Show rulers
+				244 bouton de menu local
+				245 bouton Enable Individual Layout
+				246 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=conflict#seo
+					247 link Description: Aller au contenu, Value: 127.0.0.1:5102/?state=conflict#main
+					248 texte S01
+					249 texte Maquette interactive
+					250 texte Données de démonstration
+					251 bouton Examiner un état
+					252 container Navigation principale
+						253 texte Atelier Démo
+						254 texte Votre boutique de démonstration
+						255 container Activités
+							256 Liste du contenu
+								257 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/?state=conflict#overview
+								258 texte COMMERCE
+								259 link Description: Commandes, Value: 127.0.0.1:5102/?state=conflict#order
+								260 container
+									261 text Catalogue aperçu
+								262 container
+									263 text Stocks aperçu
+								264 texte BOUTIQUE
+								265 container
+									266 text Pages & contenus aperçu
+								267 texte CROISSANCE
+								268 link Description: SEO, Value: 127.0.0.1:5102/?state=conflict#seo
+								269 container
+									270 text Campagnes aperçu
+								271 container
+									272 text Expériences aperçu
+								273 texte PILOTAGE
+								274 container
+									275 text Analyses aperçu
+								276 container
+									277 text Réglages aperçu
+							278 texte Les entrées « aperçu » sont hors maquette.
+						279 texte Environnement de démonstration
+						280 texte Membre démo
+						281 texte Administration
+					282 container
+						283 link Description: Vue d’ensemble, Value: 127.0.0.1:5102/?state=conflict#overview
+						284 text / SEO-018 Belgique · FR · EUR
+					285 container
+						286 texte CROISSANCE / SEO / DOSSIER SEO-018
+						287 en-tête Préciser le titre de la collection, Value: 1
+							288 texte Préciser le titre de la collection
+						289 texte Tasses en céramique · Belgique · Français · Version courante v12
+						290 texte Modification bloquée
+						291 container Une expérience protège ce titre
+							292 en-tête Une expérience protège ce titre, Value: 2
+								293 texte Une expérience protège ce titre
+							294 texte EXP-007 utilise le titre de la collection. La proposition reste consultable, mais sa validation est bloquée.
+						295 container Sections du dossier
+							296 link Description: 01 Sources, Value: 127.0.0.1:5102/?state=conflict#sources
+							297 link Description: 02 Proposition, Value: 127.0.0.1:5102/?state=conflict#proposal
+							298 link Description: 03 Contrôles, Value: 127.0.0.1:5102/?state=conflict#checks
+							299 link Description: 04 Décision, Value: 127.0.0.1:5102/?state=conflict#decision
+							300 link Description: 05 Résultat, Value: 127.0.0.1:5102/?state=conflict#result
+						301 container 01 / Sources
+							302 en-tête 01 / Sources, Value: 2
+								303 text 01 / Sources
+							304 texte Relevé du 20 octobre
+							305 texte Le titre « Notre collection » décrit peu le contenu. La proposition s'appuie sur les produits et la page existante.
+							306 texte Catalogue de la boutique
+							307 texte Vérifié
+							308 texte 8 produits de type tasse en céramique.
+							309 texte Jeu de démonstration · 20 octobre, 09 h 00
+							310 texte Search Console
+							311 bouton Voir le relevé
+							312 container
+								313 text 3 200  impressions ·  64  clics ·  2,0 %  de CTR
+							314 texte 22 sept. → 19 oct. · Collecté le 20 oct. à 09 h 10 · Données fictives
+							315 texte Lecture de la page
+							316 texte v12
+							317 texte Titre relevé : « Notre collection ».
+							318 texte 20 octobre, 09 h 12 · Version de démonstration
+							319 texte DataForSEO
+							320 texte Non connecté
+							321 texte Aucun volume ni score disponible. Cette source n'a pas été utilisée.
+						322 container 02 / Proposition
+							323 en-tête 02 / Proposition, Value: 2
+								324 text 02 / Proposition
+							325 texte 2 champs modifiés
+							326 container
+								327 text Actuel v12 Titre SEO Notre collection Description SEO Découvrez notre collection. Proposé v13 Titre SEO Tasses en céramique · Atelier Démo Description SEO Découvrez les tasses en céramique Atelier Démo, leurs formats et les coloris disponibles. Texte de remplacement
+							328 texte URL, prix et stock inchangés. L'affichage réel dans Google n'est pas garanti.
+						329 container 03 / Contrôles
+							330 en-tête 03 / Contrôles, Value: 2
+								331 text 03 / Contrôles
+							332 texte 1 conflit
+							333 Liste du contenu
+								334 container
+									335 text La proposition cible la version v12 La version devra être vérifiée à nouveau lors de l'application.
+								336 container
+									337 text EXP-007 utilise le titre de cette collection Modification bloquée. Examiner l'expérience avant de préparer une nouvelle proposition.
+								338 container
+									339 text Les caractéristiques viennent du catalogue Aucune promesse commerciale ajoutée.
+						340 container 04 / Décision
+							341 en-tête 04 / Décision, Value: 2
+								342 texte 04 / Décision
+							343 texte Validation requise
+							344 container
+								345 texte Une page, deux champs.
+								346 text Proposition  v13  basée sur  v12 .
+							347 liste de définitions
+								348 texte Coût connu
+								349 texte 0,08 €
+								350 texte Montant réservé
+								351 texte 0,12 €
+								352 texte Plafond de l'action
+								353 texte 1,00 €
+							354 bouton (disabled) Validation indisponible
+							355 texte Conflit avec EXP-007. L’expérience doit être examinée avant de poursuivre.
+							356 texte Coûts fictifs. L'approbation ne vaut ni application ni publication.
+							357 bouton Examiner avec l'assistant
+						358 container 05 / Résultat
+							359 en-tête 05 / Résultat, Value: 2
+								360 text 05 / Résultat
+							361 texte Non appliquée
+							362 en-tête Aucun résultat mesuré, Value: 3
+								363 texte Aucun résultat mesuré
+							364 texte La proposition n'est pas appliquée. L'observation pourra commencer après publication confirmée.
+							365 texte Période proposée : 28 jours. Une évolution observée ne prouvera pas, à elle seule, l'effet de cette modification.
+					366 container
+						367 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+		368 container
+	369 Bouton de fermeture
+	370 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	371 bouton de minimisation
+372 menu bar
+	373 ResponsivelyApp
+	374 Edit
+	375 View
+	376 Window
+	377 Help
+
+The focused UI element is 37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?state=conflict#seo

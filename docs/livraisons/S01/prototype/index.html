@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Maquettes locales S01 de l'administration. Données de démonstration.">
+  <title>Vue d'ensemble · Maquette S01</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="prototype-bar">
+    <span><strong>S01</strong> <span class="prototype-label">Maquette interactive</span> <span class="demo-label">Données de démonstration</span></span>
+    <button class="prototype-control" id="scenario-button" type="button">Examiner un état <span aria-hidden="true">⌄</span></button>
+  </div>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigation principale">
+      <div class="shop-brand"><span class="brand-mark" aria-hidden="true">a.</span><div><strong>Atelier Démo</strong><span>Votre boutique de démonstration</span></div></div>
+      <div id="side-nav"></div>
+      <div class="sidebar-bottom">
+        <p class="environment"><span aria-hidden="true"></span>Environnement de démonstration</p>
+        <div class="member"><span class="avatar" aria-hidden="true">MD</span><div><strong>Membre démo</strong><span>Administration</span></div></div>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-location"><button type="button" class="icon-button mobile-menu" id="menu-button" aria-label="Ouvrir la navigation"></button><span id="breadcrumb"></span></div>
+        <div class="market"><span class="market-dot" aria-hidden="true"></span> Belgique <span class="market-language">· FR · EUR</span></div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="workspace-footer"><span>Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles</span><span>Consultation locale · Aucune opération réelle</span></footer>
+    </div>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <dialog id="navigation-dialog" class="navigation-dialog" aria-labelledby="navigation-title"></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

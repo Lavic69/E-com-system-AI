@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-20T18:37:42.551Z",
+  "syntheticData": true,
+  "checks": [
+    {
+      "role": "catalogue",
+      "allowedQuery": "passed",
+      "forbiddenQuery": "passed",
+      "codes": [
+        "FORBIDDEN"
+      ]
+    },
+    {
+      "role": "foundation",
+      "allowedQuery": "passed",
+      "forbiddenQuery": "passed",
+      "codes": [
+        "FORBIDDEN"
+      ]
+    }
+  ]
+}

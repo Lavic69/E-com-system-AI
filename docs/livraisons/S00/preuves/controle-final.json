@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T16:43:11.870235+00:00",
+  "status": "technical_passed_ui_pending",
+  "unitTests": 2,
+  "integrationScenarios": 14,
+  "installationFromLockfile": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "sourceHashesMatchIntegration": true,
+  "sessionASecretsAbsentFromSourcesAndDashboardBundle": true,
+  "sessionAPortsFree": [
+    4101,
+    5101,
+    5541
+  ],
+  "sessionALockRemoved": true,
+  "ctrlCFromNpm": "passed_exit_0",
+  "responsively": "not_tested_tool_access_denied",
+  "chrome": "not_tested_tool_access_denied",
+  "integrationReportSha256": "92bdba239adacd49a096420cc5d54d8301aa1afd4464640da466ef70ce08b83f"
+}

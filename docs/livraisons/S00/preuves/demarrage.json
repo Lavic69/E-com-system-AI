@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-20T16:36:32.724Z",
+  "session": "v0-s00-a",
+  "status": "passed",
+  "authenticatedApi": true,
+  "dashboardHtmlAndEntryScripts": true,
+  "renderedInterface": "not_tested",
+  "note": "Contrôle HTTP du serveur réel. Ne constitue pas une recette visuelle ou un parcours navigateur."
+}

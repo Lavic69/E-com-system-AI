@@ -1,0 +1,103 @@
+{
+  "startedAt": "2026-10-20T17:41:32.308Z",
+  "node": "v24.14.0",
+  "vendure": "3.8.0",
+  "cases": [
+    {
+      "name": "Migration sur PostgreSQL vide et second passage sans modification",
+      "status": "passed"
+    },
+    {
+      "name": "API authentifiée et worker démarrent sur la configuration applicative",
+      "status": "passed"
+    },
+    {
+      "name": "Lecture du socle refusée sans authentification",
+      "status": "passed"
+    },
+    {
+      "name": "Requête sans précontrôle CSRF refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Compte catalogue refusé sur la permission propre au socle",
+      "status": "passed"
+    },
+    {
+      "name": "Permission du socle accordée sans ouvrir le catalogue",
+      "status": "passed"
+    },
+    {
+      "name": "Donnée de démonstration créée puis relue par API",
+      "status": "passed"
+    },
+    {
+      "name": "Deux sessions actives ont des bases, comptes et médias indépendants",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde refusée lorsque PostgreSQL est encore actif",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt propre de nos API, worker et instances PostgreSQL",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde physique à froid et restauration dans une destination vide",
+      "status": "passed"
+    },
+    {
+      "name": "Relecture API après restauration : données, migration et permissions conservées",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt demandé par SIGTERM répété : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt demandé par SIGINT répété : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt inattendu de l’API réelle : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt inattendu du processus PostgreSQL réel : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-10-20T17:42:13.395Z",
+  "lockfileSha256": "e9357ae7983605520042f6d733dc379ad24acd982b4ca115788ba8d7185c32bc",
+  "sourceSha256": {
+    "apps/commerce/src/migrate.ts": "e6d1d8aa75f8ae6739d30c78deb60e718fda3dc867cbdc3a7c91a5494085d9af",
+    "apps/commerce/src/runtime.ts": "a13dad1193c4f35c27ae0ac038b145efb1e2eb3bb691c3f878a1ea961ed7bbb8",
+    "apps/commerce/src/server.ts": "8cede3ab335a48fff520be3541842e40fe64f984cf643769761ad796e79537fc",
+    "apps/commerce/src/vendure-config.ts": "f27e4157cc9669c5fb9b83c74d00ecd4c5337ef4ede805ee5b9a025d6af08a7b",
+    "apps/commerce/src/worker.ts": "c165c806e21f4bf1a56f437c2c5040e8e0fe56d7d6f37880ce13c631be75aee7",
+    "apps/commerce/src/plugins/index.ts": "b862493368af05a6cb0fd00857f9bb46c49224531fc1db2f7e450eb6a99fa3f7",
+    "apps/commerce/src/plugins/foundation/foundation.plugin.ts": "67c91a4b1e010c84c16e9caf1f461227beab941148804c73381bfe615d2cd148",
+    "apps/commerce/src/migrations/1792513149156-InitialSchema.ts": "561502078a72690a40171281a9a65f839d947f38eabdc3c19e100d54e806a4ac",
+    "apps/dashboard/src/extensions/foundation.tsx": "d4fe92993b4664412b370796fca5668ce8d4278473851c8ded03440bf1c8d2a0",
+    "infra/dev/README.md": "75733a07bbebe0a0992e243371c10b58f7b067277dcd8b3015a093a786f345fb",
+    "infra/dev/backup.mjs": "3121c857a94b4f8378bdf969eac31afeed7deece94e2449779540b977f2bbb57",
+    "infra/dev/check-running.mjs": "8dd5922a495c2874591c6f4cdf5855531b9ffb74e7a104f8667a2425001a8d61",
+    "infra/dev/graphql.mjs": "3ccf7fbd7f3eb7ba91e6e604e4fb61b8094337ffa99620113ef2a0ddd199f81e",
+    "infra/dev/postgres-service.mjs": "d4f62e2026f72fadd5706cf01cbe37fcc031f0e7b7032fd21dbcaf4f88a9ba6d",
+    "infra/dev/postgres.mjs": "ce123251ebc296dd7eeaf1b636a943237f69be991337ae6444208ddab403d1ce",
+    "infra/dev/prepare.mjs": "2bd4db8aac0c9fd5c1ab444f3b0fd2222a35431776cb7e2172b5c6d2e357a194",
+    "infra/dev/processes.mjs": "dc808e5bff2a70d7dc57a6870de2b426e245a795821cff59520e906631ffca00",
+    "infra/dev/run.mjs": "1e135c9ca8b4eb2181c999bd15a2450f175970550e17ed9eaced6fe09f352c59",
+    "infra/dev/run.test.mjs": "114747e0eebb04dc15aeafbb965a3fa4c154d9a336a0ac31bb524e306798d7ca",
+    "infra/dev/session.mjs": "6b8448ea6bbc4fba3fa05076c84bd9b4b1ccdcb62ff192add8d603012bc809e5",
+    "infra/dev/session.test.mjs": "c298ed6881c93e9b2dcc8886acaada4e278415561d30df1bfdad1f40aebe0d20",
+    "infra/dev/verify.mjs": "1e1e67131d81d2918f554acb41a517bfd72f69fadbc053e5b843e88347b0fa8a",
+    "package.json": "500c58d32928a5d2913b3a6c6d75ec40685430a6f501083f72f410299ba3de4c",
+    "package-lock.json": "e9357ae7983605520042f6d733dc379ad24acd982b4ca115788ba8d7185c32bc",
+    "apps/commerce/tsconfig.json": "b7ac73f642812fb3b053ff3dcec79b7ba654b584ecc782ee189a24a1cb94af06",
+    "apps/dashboard/tsconfig.json": "aa836d5fcb062f98ae7d005a0acc45bc3e2ebfe10cefe289092595cf003ee1c0",
+    "apps/dashboard/vite.config.mts": "d6d3c1ba047aaa58618feac867e94fdd75eb607ef66d15afe8458fc1ec570c72"
+  }
+}

@@ -1,0 +1,1394 @@
+{
+  "fixtureVersion": 1,
+  "description": "Exemples synthétiques, preuves fixture: fictives. Les états ne sont pas des résultats observés. Les snapshots alternatifs ne sont pas un journal à appliquer ensemble.",
+  "marketRegistry": [
+    {
+      "shopId": "shop-demo",
+      "marketId": "market-be",
+      "channelId": "channel-be",
+      "languages": [
+        "fr",
+        "nl"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    {
+      "shopId": "shop-demo",
+      "marketId": "market-us",
+      "channelId": "channel-us",
+      "languages": [
+        "en"
+      ],
+      "currencies": [
+        "USD"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "context_be",
+      "contract": "Context",
+      "value": {
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "actor": {
+          "kind": "agent",
+          "id": "agent-seo-demo",
+          "delegationId": "delegation-seo-demo"
+        },
+        "permissionCodes": [
+          "platform.content.propose",
+          "platform.content.apply"
+        ],
+        "policyVersion": "policy-1",
+        "resolvedAt": "2026-10-20T10:00:00Z",
+        "requestId": "request-1"
+      }
+    },
+    {
+      "id": "context_us",
+      "contract": "Context",
+      "value": {
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-us",
+          "channelId": "channel-us",
+          "languageCode": "en",
+          "currencyCode": "USD"
+        },
+        "actor": {
+          "kind": "agent",
+          "id": "agent-seo-demo",
+          "delegationId": "delegation-seo-demo"
+        },
+        "permissionCodes": [
+          "platform.content.propose",
+          "platform.content.apply"
+        ],
+        "policyVersion": "policy-1",
+        "resolvedAt": "2026-10-20T10:00:00Z",
+        "requestId": "request-2"
+      }
+    },
+    {
+      "id": "money_eur",
+      "contract": "Money",
+      "value": {
+        "minor": 2500,
+        "currency": "EUR",
+        "scale": 2
+      }
+    },
+    {
+      "id": "amount_estimated",
+      "contract": "AmountObservation",
+      "value": {
+        "status": "estimated",
+        "value": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "sourceRef": "fixture:estimate-media",
+        "observedAt": "2026-10-20T10:00:00Z",
+        "validUntil": "2026-10-20T10:15:00Z"
+      }
+    },
+    {
+      "id": "amount_unknown",
+      "contract": "AmountObservation",
+      "value": {
+        "status": "unknown",
+        "value": null,
+        "sourceRef": "fixture:timeout-media",
+        "observedAt": "2026-10-20T10:15:00Z",
+        "validUntil": null
+      }
+    },
+    {
+      "id": "quote_be",
+      "contract": "Quote",
+      "value": {
+        "id": "quote-1",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "order": {
+          "shopId": "shop-demo",
+          "kind": "Order",
+          "id": "order-a",
+          "version": "order-a-v1"
+        },
+        "status": "known",
+        "netMinor": 5500,
+        "taxMinor": 0,
+        "total": {
+          "minor": 5500,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "roundingPolicy": "vendure-default-money-3.8.0",
+        "taxConfigurationRef": "fixture:zero-tax",
+        "calculatedAt": "2026-10-20T10:00:00Z",
+        "validUntil": "2026-10-20T10:15:00Z"
+      }
+    },
+    {
+      "id": "quote_us",
+      "contract": "Quote",
+      "value": {
+        "id": "quote-us",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-us",
+          "channelId": "channel-us",
+          "languageCode": "en",
+          "currencyCode": "USD"
+        },
+        "order": {
+          "shopId": "shop-demo",
+          "kind": "Order",
+          "id": "order-us",
+          "version": "order-us-v1"
+        },
+        "status": "known",
+        "netMinor": 6000,
+        "taxMinor": 0,
+        "total": {
+          "minor": 6000,
+          "currency": "USD",
+          "scale": 2
+        },
+        "roundingPolicy": "vendure-default-money-3.8.0",
+        "taxConfigurationRef": "fixture:zero-tax",
+        "calculatedAt": "2026-10-20T10:00:00Z",
+        "validUntil": "2026-10-20T10:15:00Z"
+      }
+    },
+    {
+      "id": "event_settled",
+      "contract": "Event",
+      "value": {
+        "eventId": "evt-payment-settled",
+        "schemaVersion": 1,
+        "type": "commerce.payment.observed",
+        "payloadVersion": 1,
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "source": {
+          "kind": "provider",
+          "module": "connector-demo",
+          "accountId": "account-payment-demo",
+          "sourceEventId": "provider-evt-2"
+        },
+        "deduplicationKey": "provider-demo:account-payment-demo:provider-evt-2",
+        "occurredAt": "2026-10-20T10:02:00Z",
+        "receivedAt": "2026-10-20T10:02:01Z",
+        "recordedAt": "2026-10-20T10:02:01Z",
+        "aggregate": {
+          "shopId": "shop-demo",
+          "kind": "Payment",
+          "id": "payment-demo"
+        },
+        "sequence": 2,
+        "correlationId": "checkout-a",
+        "causationId": null,
+        "payload": {
+          "paymentId": "payment-demo",
+          "observedState": "settled",
+          "amount": {
+            "minor": 5500,
+            "currency": "EUR",
+            "scale": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "event_settled_duplicate",
+      "contract": "Event",
+      "value": {
+        "eventId": "evt-payment-settled",
+        "schemaVersion": 1,
+        "type": "commerce.payment.observed",
+        "payloadVersion": 1,
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "source": {
+          "kind": "provider",
+          "module": "connector-demo",
+          "accountId": "account-payment-demo",
+          "sourceEventId": "provider-evt-2"
+        },
+        "deduplicationKey": "provider-demo:account-payment-demo:provider-evt-2",
+        "occurredAt": "2026-10-20T10:02:00Z",
+        "receivedAt": "2026-10-20T10:03:00Z",
+        "recordedAt": "2026-10-20T10:03:00Z",
+        "aggregate": {
+          "shopId": "shop-demo",
+          "kind": "Payment",
+          "id": "payment-demo"
+        },
+        "sequence": 2,
+        "correlationId": "checkout-a",
+        "causationId": null,
+        "payload": {
+          "paymentId": "payment-demo",
+          "observedState": "settled",
+          "amount": {
+            "minor": 5500,
+            "currency": "EUR",
+            "scale": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "event_authorized_late",
+      "contract": "Event",
+      "value": {
+        "eventId": "evt-payment-authorized",
+        "schemaVersion": 1,
+        "type": "commerce.payment.observed",
+        "payloadVersion": 1,
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "source": {
+          "kind": "provider",
+          "module": "connector-demo",
+          "accountId": "account-payment-demo",
+          "sourceEventId": "provider-evt-1"
+        },
+        "deduplicationKey": "provider-demo:account-payment-demo:provider-evt-1",
+        "occurredAt": "2026-10-20T10:01:00Z",
+        "receivedAt": "2026-10-20T10:04:00Z",
+        "recordedAt": "2026-10-20T10:04:00Z",
+        "aggregate": {
+          "shopId": "shop-demo",
+          "kind": "Payment",
+          "id": "payment-demo"
+        },
+        "sequence": 1,
+        "correlationId": "checkout-a",
+        "causationId": null,
+        "payload": {
+          "paymentId": "payment-demo",
+          "observedState": "authorized",
+          "amount": {
+            "minor": 5500,
+            "currency": "EUR",
+            "scale": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "action_approved",
+      "contract": "Action",
+      "value": {
+        "id": "action-seo-1",
+        "revision": 1,
+        "context": {
+          "scope": {
+            "shopId": "shop-demo",
+            "marketId": "market-be",
+            "channelId": "channel-be",
+            "languageCode": "fr",
+            "currencyCode": "EUR"
+          },
+          "actor": {
+            "kind": "agent",
+            "id": "agent-seo-demo",
+            "delegationId": "delegation-seo-demo"
+          },
+          "permissionCodes": [
+            "platform.content.propose",
+            "platform.content.apply"
+          ],
+          "policyVersion": "policy-1",
+          "resolvedAt": "2026-10-20T10:00:00Z",
+          "requestId": "request-1"
+        },
+        "target": {
+          "shopId": "shop-demo",
+          "kind": "Page",
+          "id": "home",
+          "version": "page-v7"
+        },
+        "proposal": {
+          "version": "proposal-1",
+          "changeRef": "fixture:change-title",
+          "bindingDigest": "sha256:09321e74c4854013e1c638eb12395e170ab439499277a3e8e86741aad1f07866",
+          "costCeiling": {
+            "minor": 0,
+            "currency": "EUR",
+            "scale": 2
+          }
+        },
+        "authorization": {
+          "kind": "approval",
+          "referenceId": "approval-1",
+          "actorId": "member-demo",
+          "bindingDigest": "sha256:09321e74c4854013e1c638eb12395e170ab439499277a3e8e86741aad1f07866",
+          "policyVersion": "policy-1",
+          "issuedAt": "2026-10-20T10:00:00Z",
+          "expiresAt": "2026-10-20T10:15:00Z"
+        },
+        "state": "queued",
+        "operations": [
+          {
+            "operationId": "op-page-1",
+            "idempotencyKey": "shop-demo:op-page-1",
+            "requestDigest": "sha256:ece611aa6ec64dacb7208b3e63387d15f5a939a3d85ed112cfd561e99c5e51d9",
+            "capability": "content.apply",
+            "connectionId": null,
+            "budgetReservationId": null,
+            "state": "prepared",
+            "attemptCount": 0,
+            "providerRequestId": null,
+            "evidenceRefs": [],
+            "error": null
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "operation_uncertain",
+      "contract": "Operation",
+      "value": {
+        "operationId": "op-media-1",
+        "idempotencyKey": "shop-demo:op-media-1",
+        "requestDigest": "sha256:51e589c376bd1d9fbcf41862358188569d4d2ce2e64af0aa53cb53d56b48612b",
+        "capability": "media.generate",
+        "connectionId": "connection-media",
+        "budgetReservationId": "budget-hold-1",
+        "state": "uncertain",
+        "attemptCount": 1,
+        "providerRequestId": null,
+        "evidenceRefs": [
+          "fixture:local-request-sent"
+        ],
+        "error": {
+          "code": "PROVIDER_RESULT_UNKNOWN",
+          "retry": "reconcile_first",
+          "message": "Délai dépassé ; effet et coût inconnus."
+        }
+      }
+    },
+    {
+      "id": "connection_media",
+      "contract": "Connection",
+      "value": {
+        "id": "connection-media",
+        "shopId": "shop-demo",
+        "provider": "provider-demo",
+        "accountId": "account-media-demo",
+        "environment": "simulation",
+        "state": "connected",
+        "secretRef": "fixture:server-secret-reference-only",
+        "capabilities": [
+          {
+            "code": "media.generate",
+            "idempotency": "supported",
+            "lookup": "supported",
+            "idempotencyWindowSeconds": 86400
+          }
+        ],
+        "quota": {
+          "status": "known",
+          "remaining": 10,
+          "unit": "request",
+          "observedAt": "2026-10-20T10:00:00Z",
+          "resetsAt": "2026-10-21T00:00:00Z"
+        },
+        "perOperationCeiling": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "checkedAt": "2026-10-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "connection_payment",
+      "contract": "Connection",
+      "value": {
+        "id": "connection-payment",
+        "shopId": "shop-demo",
+        "provider": "provider-demo",
+        "accountId": "account-payment-demo",
+        "environment": "simulation",
+        "state": "connected",
+        "secretRef": "fixture:server-secret-reference-only",
+        "capabilities": [
+          {
+            "code": "payment.create",
+            "idempotency": "supported",
+            "lookup": "supported",
+            "idempotencyWindowSeconds": 86400
+          }
+        ],
+        "quota": {
+          "status": "known",
+          "remaining": 10,
+          "unit": "request",
+          "observedAt": "2026-10-20T10:00:00Z",
+          "resetsAt": "2026-10-21T00:00:00Z"
+        },
+        "perOperationCeiling": {
+          "minor": 5500,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "checkedAt": "2026-10-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "connection_email",
+      "contract": "Connection",
+      "value": {
+        "id": "connection-email",
+        "shopId": "shop-demo",
+        "provider": "provider-demo",
+        "accountId": "account-email-demo",
+        "environment": "simulation",
+        "state": "connected",
+        "secretRef": "fixture:server-secret-reference-only",
+        "capabilities": [
+          {
+            "code": "email.send",
+            "idempotency": "unsupported",
+            "lookup": "unsupported",
+            "idempotencyWindowSeconds": null
+          }
+        ],
+        "quota": {
+          "status": "unknown",
+          "remaining": null,
+          "unit": "message",
+          "observedAt": "2026-10-20T10:00:00Z",
+          "resetsAt": null
+        },
+        "perOperationCeiling": {
+          "minor": 50,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "checkedAt": "2026-10-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "budget_uncertain",
+      "contract": "BudgetReservation",
+      "value": {
+        "id": "budget-hold-1",
+        "shopId": "shop-demo",
+        "budgetId": "budget-media-day",
+        "operationId": "op-media-1",
+        "connectionId": "connection-media",
+        "periodStart": "2026-10-20T00:00:00Z",
+        "periodEnd": "2026-10-21T00:00:00Z",
+        "state": "uncertain",
+        "ceiling": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "held": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "knownCost": null,
+        "evidenceRefs": []
+      }
+    },
+    {
+      "id": "budget_reconciled",
+      "contract": "BudgetReservation",
+      "value": {
+        "id": "budget-hold-1",
+        "shopId": "shop-demo",
+        "budgetId": "budget-media-day",
+        "operationId": "op-media-1",
+        "connectionId": "connection-media",
+        "periodStart": "2026-10-20T00:00:00Z",
+        "periodEnd": "2026-10-21T00:00:00Z",
+        "state": "reconciled",
+        "ceiling": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "held": {
+          "minor": 0,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "knownCost": {
+          "minor": 240,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "evidenceRefs": [
+          "fixture:receipt-240"
+        ]
+      }
+    },
+    {
+      "id": "budget_overrun",
+      "contract": "BudgetReservation",
+      "value": {
+        "id": "budget-hold-1",
+        "shopId": "shop-demo",
+        "budgetId": "budget-media-day",
+        "operationId": "op-media-1",
+        "connectionId": "connection-media",
+        "periodStart": "2026-10-20T00:00:00Z",
+        "periodEnd": "2026-10-21T00:00:00Z",
+        "state": "reconciled",
+        "ceiling": {
+          "minor": 300,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "held": {
+          "minor": 0,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "knownCost": {
+          "minor": 400,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "evidenceRefs": [
+          "fixture:receipt-400-incident-required"
+        ]
+      }
+    },
+    {
+      "id": "content_home",
+      "contract": "ContentVersion",
+      "value": {
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "pageId": "home",
+        "version": "page-v7",
+        "parentVersion": "page-v6",
+        "state": "validated",
+        "contentDigest": "sha256:456d2e1fc6d9c6395b30d5e4ecd706da74d44f26fbc6945ede4ce82db0dc300e",
+        "themeVersion": "theme-v2",
+        "validatedAt": "2026-10-20T10:00:00Z",
+        "evidenceRefs": [
+          "fixture:content-review-v7"
+        ]
+      }
+    },
+    {
+      "id": "lease_experiment",
+      "contract": "EditLease",
+      "value": {
+        "id": "lease-home",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "target": {
+          "shopId": "shop-demo",
+          "kind": "Page",
+          "id": "home",
+          "version": "page-v7"
+        },
+        "paths": [
+          "/"
+        ],
+        "holder": {
+          "shopId": "shop-demo",
+          "kind": "Experiment",
+          "id": "exp-home"
+        },
+        "reason": "experiment",
+        "state": "active",
+        "fencingToken": 4,
+        "acquiredAt": "2026-10-20T10:00:00Z",
+        "expiresAt": "2026-10-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "publication_home",
+      "contract": "Publication",
+      "value": {
+        "id": "pub-7",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "revision": 7,
+        "previousPublicationId": "pub-6",
+        "page": {
+          "shopId": "shop-demo",
+          "kind": "Page",
+          "id": "home",
+          "version": "page-v7"
+        },
+        "themeVersion": "theme-v2",
+        "artifact": {
+          "id": "artifact-7",
+          "digest": "sha256:e45e96213f25478d5ccf376177d3d26a7dbf6cf9fb15d0e10f88b4e1f40b3379",
+          "verificationRefs": [
+            "fixture:build-check-7"
+          ]
+        },
+        "state": "published",
+        "publishedAt": "2026-10-20T10:00:00Z",
+        "cache": {
+          "scope": {
+            "shopId": "shop-demo",
+            "marketId": "market-be",
+            "channelId": "channel-be",
+            "languageCode": "fr",
+            "currencyCode": "EUR"
+          },
+          "publicationId": "pub-7",
+          "artifactId": "artifact-7",
+          "pageId": "home",
+          "pageVersion": "page-v7",
+          "experimentId": "exp-home",
+          "experimentVersion": "experiment-v1",
+          "variantId": "b",
+          "audiencePartition": "public",
+          "catalogRevision": "catalog-v1"
+        }
+      }
+    },
+    {
+      "id": "exposure_b",
+      "contract": "Exposure",
+      "value": {
+        "id": "exposure-1",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "experimentId": "exp-home",
+        "experimentVersion": "experiment-v1",
+        "protocolVersion": "protocol-v1",
+        "variantId": "b",
+        "assignmentId": "assignment-opaque-1",
+        "subjectPseudonym": "subject-opaque-1",
+        "page": {
+          "shopId": "shop-demo",
+          "kind": "Page",
+          "id": "home",
+          "version": "page-v7"
+        },
+        "artifactId": "artifact-7",
+        "renderedAt": "2026-10-20T10:01:00Z",
+        "deduplicationKey": "exp-home:experiment-v1:assignment-opaque-1:view-1"
+      }
+    },
+    {
+      "id": "reservation_uncertain",
+      "contract": "StockReservation",
+      "value": {
+        "id": "stock-hold-a",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "revision": 3,
+        "order": {
+          "shopId": "shop-demo",
+          "kind": "Order",
+          "id": "order-a",
+          "version": "order-a-v1"
+        },
+        "orderDigest": "sha256:17fa706ad239a840e21caf5bec896f597ff9ea6557b20ef72412ce5918f826cd",
+        "state": "uncertain",
+        "lines": [
+          {
+            "orderLineId": "line-a",
+            "variant": {
+              "shopId": "shop-demo",
+              "kind": "ProductVariant",
+              "id": "variant-demo"
+            },
+            "stockLocation": {
+              "shopId": "shop-demo",
+              "kind": "StockLocation",
+              "id": "warehouse-demo"
+            },
+            "quantity": 1,
+            "allocationIds": [
+              "allocation-a"
+            ]
+          }
+        ],
+        "paymentAttemptId": "attempt-a",
+        "createdAt": "2026-10-20T10:00:00Z",
+        "expiresAt": "2026-10-20T10:15:00Z",
+        "resolvedAt": null,
+        "evidenceRefs": [
+          "fixture:payment-status-timeout"
+        ]
+      }
+    },
+    {
+      "id": "payment_unknown",
+      "contract": "PaymentAttempt",
+      "value": {
+        "id": "attempt-a",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "order": {
+          "shopId": "shop-demo",
+          "kind": "Order",
+          "id": "order-a",
+          "version": "order-a-v1"
+        },
+        "reservationId": "stock-hold-a",
+        "connectionId": "connection-payment",
+        "operationId": "op-payment-a",
+        "idempotencyKey": "shop-demo:op-payment-a",
+        "requestDigest": "sha256:0b213aebc15c4554c676e65cc52bc044f0fdf7eb9822b2b80514ef90564d6305",
+        "amount": {
+          "minor": 5500,
+          "currency": "EUR",
+          "scale": 2
+        },
+        "state": "unknown",
+        "vendurePaymentId": null,
+        "providerPaymentId": null,
+        "observedAt": "2026-10-20T10:16:00Z",
+        "evidenceRefs": [
+          "fixture:payment-status-timeout"
+        ]
+      }
+    },
+    {
+      "id": "audience_withdrawn",
+      "contract": "AudienceMember",
+      "value": {
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "customer": {
+          "shopId": "shop-demo",
+          "kind": "Customer",
+          "id": "customer-demo"
+        },
+        "groupIds": [
+          "group-newsletter-demo"
+        ],
+        "membershipObservedAt": "2026-10-20T10:00:00Z",
+        "destinationRef": "fixture:server-email-reference",
+        "purpose": "marketing",
+        "channel": "email",
+        "consent": {
+          "version": "consent-v2",
+          "status": "withdrawn",
+          "effectiveAt": "2026-10-20T10:05:00Z",
+          "validUntil": null,
+          "evidenceRef": "fixture:unsubscribe-event"
+        },
+        "suppression": {
+          "active": true,
+          "effectiveAt": "2026-10-20T10:05:00Z",
+          "evidenceRef": "fixture:unsubscribe-event"
+        },
+        "evaluatedAt": "2026-10-20T10:06:00Z",
+        "validUntil": "2026-10-20T10:07:00Z"
+      }
+    },
+    {
+      "id": "audience_granted",
+      "contract": "AudienceMember",
+      "value": {
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "customer": {
+          "shopId": "shop-demo",
+          "kind": "Customer",
+          "id": "customer-demo"
+        },
+        "groupIds": [
+          "group-newsletter-demo"
+        ],
+        "membershipObservedAt": "2026-10-20T10:00:00Z",
+        "destinationRef": "fixture:server-email-reference",
+        "purpose": "marketing",
+        "channel": "email",
+        "consent": {
+          "version": "consent-v1",
+          "status": "granted",
+          "effectiveAt": "2026-10-20T10:00:00Z",
+          "validUntil": "2026-10-21T00:00:00Z",
+          "evidenceRef": "fixture:consent-record"
+        },
+        "suppression": {
+          "active": false,
+          "effectiveAt": null,
+          "evidenceRef": null
+        },
+        "evaluatedAt": "2026-10-20T10:00:00Z",
+        "validUntil": "2026-10-20T10:01:00Z"
+      }
+    },
+    {
+      "id": "creation_image",
+      "contract": "Creation",
+      "value": {
+        "id": "creation-demo",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "version": "creation-v1",
+        "products": [
+          {
+            "shopId": "shop-demo",
+            "kind": "Product",
+            "id": "product-demo",
+            "version": "product-v3"
+          }
+        ],
+        "briefVersion": "brief-v1",
+        "provider": {
+          "connectionId": "connection-media",
+          "model": "model-demo",
+          "modelVersion": "model-v1",
+          "requestId": "provider-media-request-demo"
+        },
+        "provenanceRefs": [
+          "fixture:product-photo-authorized",
+          "fixture:brief-v1"
+        ],
+        "artifact": {
+          "id": "media-demo",
+          "digest": "sha256:75b08260bd2aefc193805b0b7c484632ae04aa29cc61d75802b21ea2ac1df2e0"
+        },
+        "fidelityStatus": "approved",
+        "fidelityEvidenceRef": "fixture:product-fidelity-review",
+        "rights": {
+          "status": "cleared",
+          "holder": "Titulaire fictif",
+          "uses": [
+            "marketing"
+          ],
+          "channels": [
+            "email"
+          ],
+          "territories": [
+            "BE"
+          ],
+          "validFrom": "2026-10-20T10:00:00Z",
+          "validUntil": "2026-10-21T00:00:00Z",
+          "evidenceRef": "fixture:rights-proof"
+        }
+      }
+    },
+    {
+      "id": "creation_unknown_rights",
+      "contract": "Creation",
+      "value": {
+        "id": "creation-demo",
+        "scope": {
+          "shopId": "shop-demo",
+          "marketId": "market-be",
+          "channelId": "channel-be",
+          "languageCode": "fr",
+          "currencyCode": "EUR"
+        },
+        "version": "creation-v2",
+        "products": [
+          {
+            "shopId": "shop-demo",
+            "kind": "Product",
+            "id": "product-demo",
+            "version": "product-v3"
+          }
+        ],
+        "briefVersion": "brief-v1",
+        "provider": {
+          "connectionId": "connection-media",
+          "model": "model-demo",
+          "modelVersion": "model-v1",
+          "requestId": "provider-media-request-demo"
+        },
+        "provenanceRefs": [
+          "fixture:product-photo-authorized",
+          "fixture:brief-v1"
+        ],
+        "artifact": {
+          "id": "media-demo",
+          "digest": "sha256:75b08260bd2aefc193805b0b7c484632ae04aa29cc61d75802b21ea2ac1df2e0"
+        },
+        "fidelityStatus": "unreviewed",
+        "fidelityEvidenceRef": null,
+        "rights": {
+          "status": "unknown",
+          "holder": null,
+          "uses": [],
+          "channels": [],
+          "territories": [],
+          "validFrom": null,
+          "validUntil": null,
+          "evidenceRef": null
+        }
+      }
+    },
+    {
+      "id": "operation_succeeded",
+      "contract": "Operation",
+      "value": {
+        "operationId": "op-media-1",
+        "idempotencyKey": "shop-demo:op-media-1",
+        "requestDigest": "sha256:51e589c376bd1d9fbcf41862358188569d4d2ce2e64af0aa53cb53d56b48612b",
+        "capability": "media.generate",
+        "connectionId": "connection-media",
+        "budgetReservationId": "budget-hold-1",
+        "state": "succeeded",
+        "attemptCount": 1,
+        "providerRequestId": "provider-media-request-demo",
+        "evidenceRefs": [
+          "fixture:completed-media-receipt"
+        ],
+        "error": null
+      }
+    }
+  ],
+  "negativeCases": [
+    {
+      "id": "decimal_money",
+      "baseCase": "money_eur",
+      "path": [
+        "minor"
+      ],
+      "value": 25.5,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "negative_money",
+      "baseCase": "money_eur",
+      "path": [
+        "minor"
+      ],
+      "value": -1,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "money_overflow",
+      "baseCase": "money_eur",
+      "path": [
+        "minor"
+      ],
+      "value": 2147483648,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "unsupported_currency",
+      "baseCase": "money_eur",
+      "path": [
+        "currency"
+      ],
+      "value": "JPY",
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "wrong_scale",
+      "baseCase": "money_eur",
+      "path": [
+        "scale"
+      ],
+      "value": 3,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "unknown_is_not_zero",
+      "baseCase": "amount_unknown",
+      "path": [
+        "value"
+      ],
+      "value": {
+        "minor": 0,
+        "currency": "EUR",
+        "scale": 2
+      },
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "estimate_without_expiry",
+      "baseCase": "amount_estimated",
+      "path": [
+        "validUntil"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "invalid_date",
+      "baseCase": "amount_estimated",
+      "path": [
+        "observedAt"
+      ],
+      "value": "2026-02-30T10:00:00Z",
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "market_channel_mismatch",
+      "baseCase": "context_be",
+      "path": [
+        "scope",
+        "channelId"
+      ],
+      "value": "channel-us",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "market_currency_mismatch",
+      "baseCase": "context_be",
+      "path": [
+        "scope",
+        "currencyCode"
+      ],
+      "value": "USD",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "market_language_mismatch",
+      "baseCase": "context_us",
+      "path": [
+        "scope",
+        "languageCode"
+      ],
+      "value": "fr",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "cross_shop_target",
+      "baseCase": "action_approved",
+      "path": [
+        "target",
+        "shopId"
+      ],
+      "value": "shop-other",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "quote_currency_mismatch",
+      "baseCase": "quote_be",
+      "path": [
+        "total",
+        "currency"
+      ],
+      "value": "USD",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "quote_wrong_total",
+      "baseCase": "quote_be",
+      "path": [
+        "total",
+        "minor"
+      ],
+      "value": 5400,
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "quote_expired_before_calculation",
+      "baseCase": "quote_be",
+      "path": [
+        "validUntil"
+      ],
+      "value": "2026-10-19T10:00:00Z",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "queue_without_authority",
+      "baseCase": "action_approved",
+      "path": [
+        "authorization"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "approval_binding_changed",
+      "baseCase": "action_approved",
+      "path": [
+        "authorization",
+        "bindingDigest"
+      ],
+      "value": "sha256:d345a753d91a5ef3013dbc8aacd5eea33a1eecb9676685230b4c6104570756a1",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "approval_policy_changed",
+      "baseCase": "action_approved",
+      "path": [
+        "authorization",
+        "policyVersion"
+      ],
+      "value": "policy-other",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "success_without_evidence",
+      "baseCase": "operation_succeeded",
+      "path": [
+        "evidenceRefs"
+      ],
+      "value": [],
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "unknown_without_error",
+      "baseCase": "operation_uncertain",
+      "path": [
+        "error"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "unknown_quota_is_not_zero",
+      "baseCase": "connection_email",
+      "path": [
+        "quota",
+        "remaining"
+      ],
+      "value": 0,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "uncertain_budget_released",
+      "baseCase": "budget_uncertain",
+      "path": [
+        "held",
+        "minor"
+      ],
+      "value": 0,
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "budget_currency_mismatch",
+      "baseCase": "budget_uncertain",
+      "path": [
+        "held",
+        "currency"
+      ],
+      "value": "USD",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "cost_reconciled_without_receipt",
+      "baseCase": "budget_reconciled",
+      "path": [
+        "evidenceRefs"
+      ],
+      "value": [],
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "cache_wrong_market",
+      "baseCase": "publication_home",
+      "path": [
+        "cache",
+        "scope",
+        "marketId"
+      ],
+      "value": "market-us",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "cache_wrong_artifact",
+      "baseCase": "publication_home",
+      "path": [
+        "cache",
+        "artifactId"
+      ],
+      "value": "artifact-other",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "stale_lease_expiry",
+      "baseCase": "lease_experiment",
+      "path": [
+        "expiresAt"
+      ],
+      "value": "2026-10-19T00:00:00Z",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "reservation_zero_quantity",
+      "baseCase": "reservation_uncertain",
+      "path": [
+        "lines",
+        0,
+        "quantity"
+      ],
+      "value": 0,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "confirmed_payment_without_proof",
+      "baseCase": "payment_unknown",
+      "path": [
+        "state"
+      ],
+      "value": "settled",
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "payment_currency_mismatch",
+      "baseCase": "payment_unknown",
+      "path": [
+        "amount",
+        "currency"
+      ],
+      "value": "USD",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "consent_without_proof",
+      "baseCase": "audience_granted",
+      "path": [
+        "consent",
+        "evidenceRef"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "suppression_without_date",
+      "baseCase": "audience_withdrawn",
+      "path": [
+        "suppression",
+        "effectiveAt"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "rights_without_evidence",
+      "baseCase": "creation_image",
+      "path": [
+        "rights",
+        "evidenceRef"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "creation_cross_shop",
+      "baseCase": "creation_image",
+      "path": [
+        "products",
+        0,
+        "shopId"
+      ],
+      "value": "shop-other",
+      "expectedLayer": "semantic"
+    },
+    {
+      "id": "secret_in_context",
+      "baseCase": "context_be",
+      "path": [
+        "sessionToken"
+      ],
+      "value": "fixture-forbidden-field",
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "provider_event_without_account",
+      "baseCase": "event_settled",
+      "path": [
+        "source",
+        "accountId"
+      ],
+      "value": null,
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "pending_reservation_resolved",
+      "baseCase": "reservation_uncertain",
+      "path": [
+        "resolvedAt"
+      ],
+      "value": "2026-10-20T10:16:00Z",
+      "expectedLayer": "schema"
+    },
+    {
+      "id": "unknown_direct_retry",
+      "baseCase": "operation_uncertain",
+      "path": [
+        "error",
+        "retry"
+      ],
+      "value": "after_revalidation",
+      "expectedLayer": "schema"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "startedAt": "2026-10-20T16:41:42.191Z",
+  "node": "v24.14.0",
+  "vendure": "3.8.0",
+  "cases": [
+    {
+      "name": "Migration sur PostgreSQL vide et second passage sans modification",
+      "status": "passed"
+    },
+    {
+      "name": "API authentifiée et worker démarrent sur la configuration applicative",
+      "status": "passed"
+    },
+    {
+      "name": "Lecture du socle refusée sans authentification",
+      "status": "passed"
+    },
+    {
+      "name": "Requête sans précontrôle CSRF refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Compte catalogue refusé sur la permission propre au socle",
+      "status": "passed"
+    },
+    {
+      "name": "Permission du socle accordée sans ouvrir le catalogue",
+      "status": "passed"
+    },
+    {
+      "name": "Donnée de démonstration créée puis relue par API",
+      "status": "passed"
+    },
+    {
+      "name": "Deux sessions actives ont des bases, comptes et médias indépendants",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde refusée lorsque PostgreSQL est encore actif",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt propre de nos API, worker et instances PostgreSQL",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde physique à froid et restauration dans une destination vide",
+      "status": "passed"
+    },
+    {
+      "name": "Relecture API après restauration : données, migration et permissions conservées",
+      "status": "passed"
+    },
+    {
+      "name": "Lanceur complet arrêté par SIGTERM répété sans processus ni verrou résiduel",
+      "status": "passed"
+    },
+    {
+      "name": "Lanceur complet arrêté par SIGINT répété sans processus ni verrou résiduel",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-10-20T16:42:09.381Z",
+  "lockfileSha256": "e514089a5cbd4adf0854ab82c4f6f06bdd9f44cf2eb4d8ba867996bfe6fcee1b",
+  "sourceSha256": {
+    "apps/commerce/src/migrate.ts": "e6d1d8aa75f8ae6739d30c78deb60e718fda3dc867cbdc3a7c91a5494085d9af",
+    "apps/commerce/src/runtime.ts": "a13dad1193c4f35c27ae0ac038b145efb1e2eb3bb691c3f878a1ea961ed7bbb8",
+    "apps/commerce/src/server.ts": "8cede3ab335a48fff520be3541842e40fe64f984cf643769761ad796e79537fc",
+    "apps/commerce/src/vendure-config.ts": "f27e4157cc9669c5fb9b83c74d00ecd4c5337ef4ede805ee5b9a025d6af08a7b",
+    "apps/commerce/src/worker.ts": "c165c806e21f4bf1a56f437c2c5040e8e0fe56d7d6f37880ce13c631be75aee7",
+    "apps/commerce/src/plugins/index.ts": "b862493368af05a6cb0fd00857f9bb46c49224531fc1db2f7e450eb6a99fa3f7",
+    "apps/commerce/src/plugins/foundation/foundation.plugin.ts": "67c91a4b1e010c84c16e9caf1f461227beab941148804c73381bfe615d2cd148",
+    "apps/commerce/src/migrations/1792513149156-InitialSchema.ts": "561502078a72690a40171281a9a65f839d947f38eabdc3c19e100d54e806a4ac",
+    "apps/dashboard/src/extensions/foundation.tsx": "d4fe92993b4664412b370796fca5668ce8d4278473851c8ded03440bf1c8d2a0",
+    "infra/dev/README.md": "c492c61ecd75760d18a55952387419c93f4c877c88189c7a46feee214c380559",
+    "infra/dev/backup.mjs": "fe50182da5fd524596aa82e1fe645c3e68976e71ab971a5ab18043f92c0afb6f",
+    "infra/dev/check-running.mjs": "965158e0e8a77814133eada2aba03fac6da56a0b488e915bc55810194eb56784",
+    "infra/dev/graphql.mjs": "3ccf7fbd7f3eb7ba91e6e604e4fb61b8094337ffa99620113ef2a0ddd199f81e",
+    "infra/dev/postgres-service.mjs": "d4f62e2026f72fadd5706cf01cbe37fcc031f0e7b7032fd21dbcaf4f88a9ba6d",
+    "infra/dev/postgres.mjs": "ce123251ebc296dd7eeaf1b636a943237f69be991337ae6444208ddab403d1ce",
+    "infra/dev/prepare.mjs": "211e76de5c1bff8c27ed0171bf02158ea3d8f2861d0b79ee8c42456665611dd1",
+    "infra/dev/processes.mjs": "dc808e5bff2a70d7dc57a6870de2b426e245a795821cff59520e906631ffca00",
+    "infra/dev/run.mjs": "1acb918e4b2c97f4ee81437404b87eb4b4baebbd0e84e7cf150921b98c83ad2f",
+    "infra/dev/session.mjs": "92ceb13b4719ef05594a3bb78c278b459f6e1a29b5a796263c0de9978e594269",
+    "infra/dev/session.test.mjs": "2ba7916fd21ca42aac0f36a10d67085b02a84dcfabf31f36271143d9df65ab8a",
+    "infra/dev/verify.mjs": "7125e6f5163d62c84e2f82c16c4d2b5ba3d55efd9b06ff7f4d61572a93c7023e",
+    "package.json": "441d39255ff33dd019f3ed8e82df7ced996827a069b8e6cbacef88a7c5c66370",
+    "package-lock.json": "e514089a5cbd4adf0854ab82c4f6f06bdd9f44cf2eb4d8ba867996bfe6fcee1b",
+    "apps/commerce/tsconfig.json": "b7ac73f642812fb3b053ff3dcec79b7ba654b584ecc782ee189a24a1cb94af06",
+    "apps/dashboard/tsconfig.json": "aa836d5fcb062f98ae7d005a0acc45bc3e2ebfe10cefe289092595cf003ee1c0",
+    "apps/dashboard/vite.config.mts": "d6d3c1ba047aaa58618feac867e94fdd75eb607ef66d15afe8458fc1ec570c72"
+  }
+}

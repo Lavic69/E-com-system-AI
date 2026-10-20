@@ -1,0 +1,471 @@
+{
+  "date_utc": "2026-10-20T18:46:39.859556+00:00",
+  "portee": "Contrôles statiques uniquement ; aucune interaction de navigateur.",
+  "checks": [
+    {
+      "name": "syntaxe_javascript",
+      "passed": true,
+      "detail": "node --check réussi"
+    },
+    {
+      "name": "langue_html",
+      "passed": true,
+      "detail": "fr"
+    },
+    {
+      "name": "ressources_locales",
+      "passed": true,
+      "detail": [
+        "styles.css",
+        "app.js"
+      ]
+    },
+    {
+      "name": "liens_documentaires_locaux",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "montants_exemples",
+      "passed": true,
+      "detail": {
+        "commande_eur": 86,
+        "ctr_pourcent": 2
+      }
+    },
+    {
+      "name": "contraste_ink_paper",
+      "passed": true,
+      "detail": 13.57
+    },
+    {
+      "name": "contraste_ink-secondary_sheet",
+      "passed": true,
+      "detail": 7.2
+    },
+    {
+      "name": "contraste_ink-metadata_sheet",
+      "passed": true,
+      "detail": 5.3
+    },
+    {
+      "name": "contraste_action_sheet",
+      "passed": true,
+      "detail": 6.48
+    },
+    {
+      "name": "contraste_confirmed_confirmed-tint",
+      "passed": true,
+      "detail": 6.18
+    },
+    {
+      "name": "contraste_attention_attention-tint",
+      "passed": true,
+      "detail": 5.91
+    },
+    {
+      "name": "contraste_blocked_blocked-tint",
+      "passed": true,
+      "detail": 5.58
+    },
+    {
+      "name": "contraste_control-border_sheet",
+      "passed": true,
+      "detail": 3.27
+    },
+    {
+      "name": "contraste_#ffffff_action",
+      "passed": true,
+      "detail": 6.71
+    },
+    {
+      "name": "dimensions_vue-ensemble-ordinateur",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1440,
+          900
+        ],
+        "png": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "name": "dimensions_vue-ensemble-tablette",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1024,
+          768
+        ],
+        "png": [
+          1024,
+          768
+        ]
+      }
+    },
+    {
+      "name": "dimensions_vue-ensemble-mobile",
+      "passed": true,
+      "detail": {
+        "svg": [
+          390,
+          844
+        ],
+        "png": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "dimensions_vue-ensemble-mobile-etroit",
+      "passed": true,
+      "detail": {
+        "svg": [
+          360,
+          800
+        ],
+        "png": [
+          360,
+          800
+        ]
+      }
+    },
+    {
+      "name": "dimensions_commande-ordinateur",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1440,
+          900
+        ],
+        "png": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "name": "dimensions_commande-tablette",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1024,
+          768
+        ],
+        "png": [
+          1024,
+          768
+        ]
+      }
+    },
+    {
+      "name": "dimensions_commande-mobile",
+      "passed": true,
+      "detail": {
+        "svg": [
+          390,
+          844
+        ],
+        "png": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "dimensions_commande-mobile-etroit",
+      "passed": true,
+      "detail": {
+        "svg": [
+          360,
+          800
+        ],
+        "png": [
+          360,
+          800
+        ]
+      }
+    },
+    {
+      "name": "dimensions_seo-ordinateur",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1440,
+          900
+        ],
+        "png": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "name": "dimensions_seo-tablette",
+      "passed": true,
+      "detail": {
+        "svg": [
+          1024,
+          768
+        ],
+        "png": [
+          1024,
+          768
+        ]
+      }
+    },
+    {
+      "name": "dimensions_seo-mobile",
+      "passed": true,
+      "detail": {
+        "svg": [
+          390,
+          844
+        ],
+        "png": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "dimensions_seo-mobile-etroit",
+      "passed": true,
+      "detail": {
+        "svg": [
+          360,
+          800
+        ],
+        "png": [
+          360,
+          800
+        ]
+      }
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.57,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "ink-secondary",
+      "background": "sheet",
+      "ratio": 7.2,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "ink-metadata",
+      "background": "sheet",
+      "ratio": 5.3,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "action",
+      "background": "sheet",
+      "ratio": 6.48,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "confirmed",
+      "background": "confirmed-tint",
+      "ratio": 6.18,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "attention",
+      "background": "attention-tint",
+      "ratio": 5.91,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "blocked",
+      "background": "blocked-tint",
+      "ratio": 5.58,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "control-border",
+      "background": "sheet",
+      "ratio": 3.27,
+      "minimum": 3
+    },
+    {
+      "foreground": "#ffffff",
+      "background": "action",
+      "ratio": 6.71,
+      "minimum": 4.5
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "planches/commande-mobile-etroit.png",
+      "sha256": "d2e417497b08b696d4f32d914e79dd58f6411d9297ae30be9654637098c6904f",
+      "bytes": 66854
+    },
+    {
+      "file": "planches/commande-mobile-etroit.svg",
+      "sha256": "86329c5444e0cfc08f5f01bfa88c799afcf54a974ecea0612dcb75135b06a469",
+      "bytes": 4567
+    },
+    {
+      "file": "planches/commande-mobile.png",
+      "sha256": "aff88fde7b413c5c461d3db4cee7b24b0ccea711a60ddd02c3a5234ebd239952",
+      "bytes": 70542
+    },
+    {
+      "file": "planches/commande-mobile.svg",
+      "sha256": "2baf063339a4221de28381971e1f396bd2466d006fd654ac4208d1dd4b0d8429",
+      "bytes": 4567
+    },
+    {
+      "file": "planches/commande-ordinateur.png",
+      "sha256": "3fa606f45f2b4c6268bf747ca6e89a0a65ac49204af73f03c964605addf12c85",
+      "bytes": 165457
+    },
+    {
+      "file": "planches/commande-ordinateur.svg",
+      "sha256": "ed0cf17f7aff44382d9b9eca4d825addd4178d6af0a253155d9eefcccdf86705",
+      "bytes": 8401
+    },
+    {
+      "file": "planches/commande-tablette.png",
+      "sha256": "ecbe8b9d4e0c12fd487adeca58d35863e61387588381d66bcde6bdc38e74dd8d",
+      "bytes": 104195
+    },
+    {
+      "file": "planches/commande-tablette.svg",
+      "sha256": "767ab53436d9ce7a1318214dffe79b66932d435374339c1169cba67bed645566",
+      "bytes": 6598
+    },
+    {
+      "file": "planches/seo-comparaison-mobile.png",
+      "sha256": "1e196a6a4671b62dd97dc030a82c36e14dc95dd689f75d751c92faf9ae3c763b",
+      "bytes": 75568
+    },
+    {
+      "file": "planches/seo-comparaison-mobile.svg",
+      "sha256": "b5595faa18fcdd21aed5616448a9f7e65cd68c34666fae24afc4710e4c432250",
+      "bytes": 3645
+    },
+    {
+      "file": "planches/seo-mobile-etroit.png",
+      "sha256": "f0e5ea3e6e8001974b2f29f262ae9f9cd4a64104933edac3f59e2cb9e869a453",
+      "bytes": 76031
+    },
+    {
+      "file": "planches/seo-mobile-etroit.svg",
+      "sha256": "9ad1404cf26b3fb23acefca00cca7d5cb2158ee06a46a28d68cea2ad8e453073",
+      "bytes": 4708
+    },
+    {
+      "file": "planches/seo-mobile.png",
+      "sha256": "4577baa7a4973ca5b6c851271d1c7c8e34623a6d5ac08d662d287de6a72ae40b",
+      "bytes": 79858
+    },
+    {
+      "file": "planches/seo-mobile.svg",
+      "sha256": "9e62d7c271e5c09a6078a6e6d69898a6bc0a8ae15dc62eca62f7881d18162870",
+      "bytes": 4629
+    },
+    {
+      "file": "planches/seo-ordinateur.png",
+      "sha256": "79ce403fd55f7a191adc71b9e5e3bd27086cc39c694adc56712af8cc41f25787",
+      "bytes": 188940
+    },
+    {
+      "file": "planches/seo-ordinateur.svg",
+      "sha256": "f39333061eb6248053831c1ea08459aa33f2e5d3541dae9cb897b7e432909160",
+      "bytes": 7994
+    },
+    {
+      "file": "planches/seo-tablette.png",
+      "sha256": "e7e6f26fea697caa7638ef247329acd537316a981e7dba1635d43d69b764907d",
+      "bytes": 124360
+    },
+    {
+      "file": "planches/seo-tablette.svg",
+      "sha256": "0df477449c3e34f6356cf30f32f17181a038ab14a26ba5dae2c944248a4e9014",
+      "bytes": 6376
+    },
+    {
+      "file": "planches/vue-ensemble-mobile-etroit.png",
+      "sha256": "6a032f2446c15bc3d16b1c882d60158de54b5aec0cad21ab9556f7764f9d7032",
+      "bytes": 68423
+    },
+    {
+      "file": "planches/vue-ensemble-mobile-etroit.svg",
+      "sha256": "50e96eca0ee532050a8a430b04c597370aeb9108e6c8a3612354bb4272bc9460",
+      "bytes": 4803
+    },
+    {
+      "file": "planches/vue-ensemble-mobile.png",
+      "sha256": "cdc5756ecf3521cc0acb9d888dd0cc05152b20132c90e0b5940b3c90c4960ebc",
+      "bytes": 72755
+    },
+    {
+      "file": "planches/vue-ensemble-mobile.svg",
+      "sha256": "576071753a9a1ea9aaa625e05d8122a6319f080aec86c1f3b96ccd94f932d49d",
+      "bytes": 4569
+    },
+    {
+      "file": "planches/vue-ensemble-ordinateur.png",
+      "sha256": "03b47823b93911916bc0cd668b5f685f0ebb6c71d36fd51dc1e4bc08d87bd7de",
+      "bytes": 198361
+    },
+    {
+      "file": "planches/vue-ensemble-ordinateur.svg",
+      "sha256": "536ffa03ff8f09ef1e4b494fc32a7b8ad515aa70025119f8a52c8ff676a735d9",
+      "bytes": 9219
+    },
+    {
+      "file": "planches/vue-ensemble-tablette.png",
+      "sha256": "dac8b2106f9ffacd3976383a57b03d299336f2f164035388cd649cc61f65b15f",
+      "bytes": 120087
+    },
+    {
+      "file": "planches/vue-ensemble-tablette.svg",
+      "sha256": "4d654298d35b4b4aaf7fcebf4e35f22ba88c0d6ec7d6fea309547c0c0a16746b",
+      "bytes": 7447
+    },
+    {
+      "file": "preuves/commande-mobile-controle.png",
+      "sha256": "9c13a0197ae264a83e07cf03252ef694945918f32b652b300a605d3673fdc98a",
+      "bytes": 70542
+    },
+    {
+      "file": "preuves/seo-mobile-controle.png",
+      "sha256": "24da4edf0918544c3375b6d039c6434a250bbd18d0f9a60127ada442424af56b",
+      "bytes": 79858
+    },
+    {
+      "file": "prototype/app.js",
+      "sha256": "bdb960367afa19f599b799650e8d79f63a513d2dacd175eda1032d471ba7152e",
+      "bytes": 36079
+    },
+    {
+      "file": "prototype/index.html",
+      "sha256": "65c8a7ab361990230a8925e9b4b34a30e877a4f086e67ab157fb8e7f5b4af848",
+      "bytes": 2345
+    },
+    {
+      "file": "prototype/styles.css",
+      "sha256": "bc2af170c7338d0dc4f12b309fcf9eefa3c1d9ffbf02679f264e8949cc1c0e3b",
+      "bytes": 30943
+    }
+  ],
+  "not_tested": [
+    "Rendu HTML/CSS dans un navigateur",
+    "Clavier et focus réels",
+    "Responsively aux quatre dimensions",
+    "Parcours de l'application Vendure",
+    "Permissions serveur et opérations commerciales"
+  ],
+  "failures": []
+}

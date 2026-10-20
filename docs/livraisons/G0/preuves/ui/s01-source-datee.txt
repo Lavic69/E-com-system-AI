@@ -1,0 +1,158 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?g0=final#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					38 container Relevé Search Console
+						39 en-tête Relevé Search Console, Value: 2
+							40 texte Relevé Search Console
+						41 bouton Fermer la fenêtre
+						42 texte Données de démonstration associées à la collection « Tasses en céramique ».
+						43 liste de définitions
+							44 texte Périmètre
+							45 texte Page de collection · Belgique · Français · Appareils agrégés
+							46 texte Période
+							47 texte 22 septembre au 19 octobre 2026
+							48 texte Collecte
+							49 texte 20 octobre 2026, 09 h 10 · Europe/Brussels
+							50 texte Valeurs
+							51 texte 3 200 impressions · 64 clics · CTR 2,0 %
+							52 texte Limite
+							53 texte Ces observations ne prouvent aucun effet de la proposition.
+						54 bouton Fermer
+				55 text MacBook Pro 1440 x 900
+				56 bouton Refresh This View
+				57 bouton Quick Screenshot
+				58 bouton Full Page Screenshot
+				59 bouton Design Overlay
+				60 bouton Disable Event Mirroring
+				61 bouton Open Devtools
+				62 bouton (disabled) Rotation not available for non-mobile devices
+				63 bouton Scroll to Top
+				64 bouton Show rulers
+				65 bouton de menu local
+				66 bouton Enable Individual Layout
+				67 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					68 container Relevé Search Console
+						69 en-tête Relevé Search Console, Value: 2
+							70 texte Relevé Search Console
+						71 bouton Fermer la fenêtre
+						72 texte Données de démonstration associées à la collection « Tasses en céramique ».
+						73 liste de définitions
+							74 texte Périmètre
+							75 texte Page de collection · Belgique · Français · Appareils agrégés
+							76 texte Période
+							77 texte 22 septembre au 19 octobre 2026
+							78 texte Collecte
+							79 texte 20 octobre 2026, 09 h 10 · Europe/Brussels
+							80 texte Valeurs
+							81 texte 3 200 impressions · 64 clics · CTR 2,0 %
+							82 texte Limite
+							83 texte Ces observations ne prouvent aucun effet de la proposition.
+						84 bouton Fermer
+				85 text Galaxy S21 360 x 800
+				86 bouton Refresh This View
+				87 bouton Quick Screenshot
+				88 bouton Full Page Screenshot
+				89 bouton Design Overlay
+				90 bouton Disable Event Mirroring
+				91 bouton Open Devtools
+				92 bouton (disabled) Rotation not available for non-mobile devices
+				93 bouton Scroll to Top
+				94 bouton Show rulers
+				95 bouton de menu local
+				96 bouton Enable Individual Layout
+				97 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					98 container Relevé Search Console
+						99 en-tête Relevé Search Console, Value: 2
+							100 texte Relevé Search Console
+						101 bouton Fermer la fenêtre
+						102 texte Données de démonstration associées à la collection « Tasses en céramique ».
+						103 liste de définitions
+							104 texte Périmètre
+							105 texte Page de collection · Belgique · Français · Appareils agrégés
+							106 texte Période
+							107 texte 22 septembre au 19 octobre 2026
+							108 texte Collecte
+							109 texte 20 octobre 2026, 09 h 10 · Europe/Brussels
+							110 texte Valeurs
+							111 texte 3 200 impressions · 64 clics · CTR 2,0 %
+							112 texte Limite
+							113 texte Ces observations ne prouvent aucun effet de la proposition.
+						114 bouton Fermer
+				115 text G0 Tablette paysage 1024 x 768
+				116 bouton Refresh This View
+				117 bouton Quick Screenshot
+				118 bouton Full Page Screenshot
+				119 bouton Design Overlay
+				120 bouton Disable Event Mirroring
+				121 bouton Open Devtools
+				122 bouton (disabled) Rotation not available for non-mobile devices
+				123 bouton Scroll to Top
+				124 bouton Show rulers
+				125 bouton de menu local
+				126 bouton Enable Individual Layout
+				127 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					128 container Relevé Search Console
+						129 en-tête Relevé Search Console, Value: 2
+							130 texte Relevé Search Console
+						131 bouton Fermer la fenêtre
+						132 texte Données de démonstration associées à la collection « Tasses en céramique ».
+						133 liste de définitions
+							134 texte Périmètre
+							135 texte Page de collection · Belgique · Français · Appareils agrégés
+							136 texte Période
+							137 texte 22 septembre au 19 octobre 2026
+							138 texte Collecte
+							139 texte 20 octobre 2026, 09 h 10 · Europe/Brussels
+							140 texte Valeurs
+							141 texte 3 200 impressions · 64 clics · CTR 2,0 %
+							142 texte Limite
+							143 texte Ces observations ne prouvent aucun effet de la proposition.
+						144 bouton Fermer
+		145 container
+	146 Bouton de fermeture
+	147 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	148 bouton de minimisation
+149 menu bar
+	150 ResponsivelyApp
+	151 Edit
+	152 View
+	153 Window
+	154 Help
+
+The focused UI element is 7 champ de texte (settable) http://127.0.0.1:5102/?g0=final#seo

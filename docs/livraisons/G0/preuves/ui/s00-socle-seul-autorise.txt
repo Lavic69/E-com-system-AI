@@ -1,0 +1,196 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/platform-foundation
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 en-tête Vérification du socle, Value: 1
+								45 texte Vérification du socle
+							46 container
+								47 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								48 liste de définitions
+									49 texte Session locale
+									50 texte v0-s00-a
+									51 texte Canal actif
+									52 texte __default_channel__
+								53 bouton Vérifier à nouveau
+						54 container Notifications alt+T
+				55 text MacBook Pro 1440 x 900
+				56 bouton Refresh This View
+				57 bouton Quick Screenshot
+				58 bouton Full Page Screenshot
+				59 bouton Design Overlay
+				60 bouton Disable Event Mirroring
+				61 bouton Open Devtools
+				62 bouton (disabled) Rotation not available for non-mobile devices
+				63 bouton Scroll to Top
+				64 bouton Show rulers
+				65 bouton de menu local
+				66 bouton Enable Individual Layout
+				67 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					68 container
+						69 container
+							70 Liste du contenu
+								71 bouton de menu local Default channel Language: English
+							72 Liste du contenu
+								73 container
+									74 bouton Environnement local
+									75 Liste du contenu
+										76 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								77 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							78 Liste du contenu
+								79 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									80 texte Démonstration
+									81 texte g0-ui-foundation
+									82 texte g0-ui-foundation@local.test
+							83 bouton Toggle Sidebar
+						84 container
+							85 container
+								86 bouton Toggle Sidebar
+								87 container breadcrumb
+									88 Liste du contenu
+										89 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							90 bouton de menu local
+							91 en-tête Vérification du socle, Value: 1
+								92 texte Vérification du socle
+							93 container
+								94 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								95 liste de définitions
+									96 texte Session locale
+									97 texte v0-s00-a
+									98 texte Canal actif
+									99 texte __default_channel__
+								100 bouton Vérifier à nouveau
+						101 container Notifications alt+T
+				102 text Galaxy S21 360 x 800
+				103 bouton Refresh This View
+				104 bouton Quick Screenshot
+				105 bouton Full Page Screenshot
+				106 bouton Design Overlay
+				107 bouton Disable Event Mirroring
+				108 bouton Open Devtools
+				109 bouton (disabled) Rotation not available for non-mobile devices
+				110 bouton Scroll to Top
+				111 bouton Show rulers
+				112 bouton de menu local
+				113 bouton Enable Individual Layout
+				114 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					115 container
+						116 container
+							117 container
+								118 bouton Toggle Sidebar
+								119 container breadcrumb
+							120 bouton de menu local
+							121 en-tête Vérification du socle, Value: 1
+								122 texte Vérification du socle
+							123 container
+								124 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								125 liste de définitions
+									126 texte Session locale
+									127 texte v0-s00-a
+									128 texte Canal actif
+									129 texte __default_channel__
+								130 bouton Vérifier à nouveau
+						131 container Notifications alt+T
+				132 text G0 Tablette paysage 1024 x 768
+				133 bouton Refresh This View
+				134 bouton Quick Screenshot
+				135 bouton Full Page Screenshot
+				136 bouton Design Overlay
+				137 bouton Disable Event Mirroring
+				138 bouton Open Devtools
+				139 bouton (disabled) Rotation not available for non-mobile devices
+				140 bouton Scroll to Top
+				141 bouton Show rulers
+				142 bouton de menu local
+				143 bouton Enable Individual Layout
+				144 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					145 container
+						146 container
+							147 Liste du contenu
+								148 bouton de menu local Default channel Language: English
+							149 Liste du contenu
+								150 container
+									151 bouton Environnement local
+									152 Liste du contenu
+										153 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								154 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+							155 Liste du contenu
+								156 bouton de menu local Démonstration g0-ui-foundation g0-ui-foundation@local.test
+									157 texte Démonstration
+									158 texte g0-ui-foundation
+									159 texte g0-ui-foundation@local.test
+							160 bouton Toggle Sidebar
+						161 container
+							162 container
+								163 bouton Toggle Sidebar
+								164 container breadcrumb
+									165 Liste du contenu
+										166 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							167 bouton de menu local
+							168 en-tête Vérification du socle, Value: 1
+								169 texte Vérification du socle
+							170 container
+								171 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								172 liste de définitions
+									173 texte Session locale
+									174 texte v0-s00-a
+									175 texte Canal actif
+									176 texte __default_channel__
+								177 bouton Vérifier à nouveau
+						178 container Notifications alt+T
+		179 container
+	180 Bouton de fermeture
+	181 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	182 bouton de minimisation
+183 menu bar
+	184 ResponsivelyApp
+	185 Edit
+	186 View
+	187 Window
+	188 Help
+
+Selected text: ```
+http://127.0.0.1:5101/dashboard/platform-foundation
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

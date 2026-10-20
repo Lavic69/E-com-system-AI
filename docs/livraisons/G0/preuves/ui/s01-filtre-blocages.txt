@@ -1,0 +1,276 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 text Vue d'ensemble Belgique · FR · EUR
+					45 container
+						46 texte MARDI 20 OCTOBRE 2026
+						47 en-tête À traiter aujourd'hui, Value: 1
+							48 texte À traiter aujourd'hui
+						49 texte Deux blocages, une commande à préparer, une proposition à examiner.
+						50 texte 2 blocages
+						51 container Votre file de travail 2
+							52 en-tête Votre file de travail 2, Value: 2
+								53 texte Votre file de travail
+							54 container Filtrer les actions
+								55 bouton d'activation/de désactivation Tout · 4, Value: 0
+								56 bouton d'activation/de désactivation Blocages · 2, Value: 1
+								57 bouton d'activation/de désactivation Propositions · 1, Value: 0
+							58 Liste du contenu
+								59 container
+									60 text Paiement à confirmer La réponse du prestataire est attendue depuis 09 h 42. Commande D-1042 86,00 € · Belgique
+									61 link Description: Examiner la commande D-1042, Value: 127.0.0.1:5102/#order
+								62 container
+									63 text Stock indisponible Une commande attend cette variante. SAC-SABLE Disponibilité à vérifier Hors maquette
+							64 texte Les blocages sont présentés en premier parce qu'ils empêchent le traitement d'une commande.
+						65 container Activité des agents
+							66 en-tête Activité des agents, Value: 2
+								67 texte Activité des agents
+							68 texte 3 suivis
+							69 Liste du contenu
+								70 container
+									71 text Audit de la collection terminé SEO-018 · Proposition à examiner 09:30
+								72 container
+									73 text Création en cours de génération Campagne de démonstration · Coût à confirmer 09:48
+								74 container
+									75 text Synchronisation en attente Catalogue de démonstration · Dernier relevé 09:00 09:52
+						76 container Encaissements
+							77 en-tête Encaissements, Value: 2
+								78 texte Encaissements
+							79 texte 13 → 19 oct.
+							80 liste de définitions
+								81 texte Commandes encaissées
+								82 texte 12
+								83 texte Montant encaissé
+								84 container
+									85 text 1 248 ,00 €
+							86 container
+								87 texte Source : paiements de démonstration.
+								88 texte Relevé le 20 octobre à 09 h 55. Aucun effet attribué aux agents.
+						89 texte L'assistant travaille dans le contexte de cet écran.
+						90 bouton Ouvrir l'assistant
+					91 container
+						92 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+					93 texte 2 actions affichées.
+				94 text iPad 768 x 1024
+				95 bouton Refresh This View
+				96 bouton Quick Screenshot
+				97 bouton Full Page Screenshot
+				98 bouton Design Overlay
+				99 bouton Disable Event Mirroring
+				100 bouton Open Devtools
+				101 bouton (disabled) Rotation not available for non-mobile devices
+				102 bouton Scroll to Top
+				103 bouton Show rulers
+				104 bouton de menu local
+				105 bouton Enable Individual Layout
+				106 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					107 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					108 texte S01
+					109 texte Maquette interactive
+					110 texte Données de démonstration
+					111 bouton Examiner un état
+					112 container
+						113 bouton Ouvrir la navigation
+						114 text Vue d'ensemble Belgique · FR · EUR
+					115 container
+						116 texte MARDI 20 OCTOBRE 2026
+						117 en-tête À traiter aujourd'hui, Value: 1
+							118 texte À traiter aujourd'hui
+						119 texte Deux blocages, une commande à préparer, une proposition à examiner.
+						120 texte 2 blocages
+						121 container Votre file de travail 2
+							122 en-tête Votre file de travail 2, Value: 2
+								123 texte Votre file de travail
+							124 container Filtrer les actions
+								125 bouton d'activation/de désactivation Tout · 4, Value: 0
+								126 bouton d'activation/de désactivation Blocages · 2, Value: 1
+								127 bouton d'activation/de désactivation Propositions · 1, Value: 0
+							128 Liste du contenu
+								129 container
+									130 text Paiement à confirmer La réponse du prestataire est attendue depuis 09 h 42. Commande D-1042 86,00 € · Belgique
+									131 link Description: Examiner la commande D-1042, Value: 127.0.0.1:5102/#order
+								132 container
+									133 text Stock indisponible Une commande attend cette variante. SAC-SABLE Disponibilité à vérifier Hors maquette
+							134 texte Les blocages sont présentés en premier parce qu'ils empêchent le traitement d'une commande.
+						135 container Activité des agents
+							136 en-tête Activité des agents, Value: 2
+								137 texte Activité des agents
+							138 texte 3 suivis
+							139 Liste du contenu
+								140 container
+									141 text Audit de la collection terminé SEO-018 · Proposition à examiner 09:30
+								142 container
+									143 text Création en cours de génération Campagne de démonstration · Coût à confirmer 09:48
+								144 container
+									145 text Synchronisation en attente Catalogue de démonstration · Dernier relevé 09:00 09:52
+						146 container Encaissements
+							147 en-tête Encaissements, Value: 2
+								148 texte Encaissements
+							149 texte 13 → 19 oct.
+							150 liste de définitions
+								151 texte Commandes encaissées
+								152 texte 12
+								153 texte Montant encaissé
+								154 container
+									155 text 1 248 ,00 €
+							156 container
+								157 texte Source : paiements de démonstration.
+								158 texte Relevé le 20 octobre à 09 h 55. Aucun effet attribué aux agents.
+						159 texte L'assistant travaille dans le contexte de cet écran.
+						160 bouton Ouvrir l'assistant
+					161 container
+						162 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+					163 texte 2 actions affichées.
+				164 text MacBook Pro 1440 x 900
+				165 bouton Refresh This View
+				166 bouton Quick Screenshot
+				167 bouton Full Page Screenshot
+				168 bouton Design Overlay
+				169 bouton Disable Event Mirroring
+				170 bouton Open Devtools
+				171 bouton (disabled) Rotation not available for non-mobile devices
+				172 bouton Scroll to Top
+				173 bouton Show rulers
+				174 bouton de menu local
+				175 bouton Enable Individual Layout
+				176 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					177 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					178 texte S01
+					179 texte Maquette interactive
+					180 texte Données de démonstration
+					181 bouton Examiner un état
+					182 container Navigation principale
+						183 texte Atelier Démo
+						184 texte Votre boutique de démonstration
+						185 container Activités
+							186 Liste du contenu
+								187 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								188 texte COMMERCE
+								189 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								190 container
+									191 text Catalogue aperçu
+								192 container
+									193 text Stocks aperçu
+								194 texte BOUTIQUE
+								195 container
+									196 text Pages & contenus aperçu
+								197 texte CROISSANCE
+								198 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								199 container
+									200 text Campagnes aperçu
+								201 container
+									202 text Expériences aperçu
+								203 texte PILOTAGE
+								204 container
+									205 text Analyses aperçu
+								206 container
+									207 text Réglages aperçu
+							208 texte Les entrées « aperçu » sont hors maquette.
+						209 texte Environnement de démonstration
+						210 texte Membre démo
+						211 texte Administration
+					212 container
+						213 text Vue d'ensemble Belgique · FR · EUR
+					214 container
+						215 texte MARDI 20 OCTOBRE 2026
+						216 en-tête À traiter aujourd'hui, Value: 1
+							217 texte À traiter aujourd'hui
+						218 texte Deux blocages, une commande à préparer, une proposition à examiner.
+						219 texte 2 blocages
+						220 container Votre file de travail 2
+							221 en-tête Votre file de travail 2, Value: 2
+								222 texte Votre file de travail
+							223 container Filtrer les actions
+								224 bouton d'activation/de désactivation Tout · 4, Value: 0
+								225 bouton d'activation/de désactivation Blocages · 2, Value: 1
+								226 bouton d'activation/de désactivation Propositions · 1, Value: 0
+							227 Liste du contenu
+								228 container
+									229 text Paiement à confirmer La réponse du prestataire est attendue depuis 09 h 42. Commande D-1042 86,00 € · Belgique
+									230 link Description: Examiner la commande D-1042, Value: 127.0.0.1:5102/#order
+								231 container
+									232 text Stock indisponible Une commande attend cette variante. SAC-SABLE Disponibilité à vérifier Hors maquette
+							233 texte Les blocages sont présentés en premier parce qu'ils empêchent le traitement d'une commande.
+						234 container Activité des agents
+							235 en-tête Activité des agents, Value: 2
+								236 texte Activité des agents
+							237 texte 3 suivis
+							238 Liste du contenu
+								239 container
+									240 text Audit de la collection terminé SEO-018 · Proposition à examiner 09:30
+								241 container
+									242 text Création en cours de génération Campagne de démonstration · Coût à confirmer 09:48
+								243 container
+									244 text Synchronisation en attente Catalogue de démonstration · Dernier relevé 09:00 09:52
+						245 container Encaissements
+							246 en-tête Encaissements, Value: 2
+								247 texte Encaissements
+							248 texte 13 → 19 oct.
+							249 liste de définitions
+								250 texte Commandes encaissées
+								251 texte 12
+								252 texte Montant encaissé
+								253 container
+									254 text 1 248 ,00 €
+							255 container
+								256 texte Source : paiements de démonstration.
+								257 texte Relevé le 20 octobre à 09 h 55. Aucun effet attribué aux agents.
+						258 texte L'assistant travaille dans le contexte de cet écran.
+						259 bouton Ouvrir l'assistant
+					260 container
+						261 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+					262 texte 2 actions affichées.
+		263 container
+	264 Bouton de fermeture
+	265 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	266 bouton de minimisation
+267 menu bar
+	268 ResponsivelyApp
+	269 Edit
+	270 View
+	271 Window
+	272 Help
+
+The focused UI element is 56 bouton d'activation/de désactivation Blocages · 2, Value: 1

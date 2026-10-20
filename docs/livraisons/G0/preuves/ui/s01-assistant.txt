@@ -1,0 +1,146 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/?g0=final#seo
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					38 container Assistant
+						39 en-tête Assistant, Value: 2
+							40 texte Assistant
+						41 bouton Fermer la fenêtre
+						42 texte Le contexte reste lié à l'objet que vous consultez.
+						43 texte Dossier SEO-018
+						44 container
+							45 texte Boutique Atelier Démo
+							46 texte Belgique · Français · EUR
+						47 texte Mode : recommandation
+						48 texte L'assistant peut expliquer les informations disponibles et préparer une proposition à examiner.
+						49 texte Il ne dispose pas ici d'une autorisation d'encaissement, de modification de page ou de publication.
+						50 texte Panneau de conception. Aucun modèle n'est connecté. Les données de démonstration ne sont envoyées à aucun service.
+						51 bouton Fermer l'assistant
+				52 text MacBook Pro 1440 x 900
+				53 bouton Refresh This View
+				54 bouton Quick Screenshot
+				55 bouton Full Page Screenshot
+				56 bouton Design Overlay
+				57 bouton Disable Event Mirroring
+				58 bouton Open Devtools
+				59 bouton (disabled) Rotation not available for non-mobile devices
+				60 bouton Scroll to Top
+				61 bouton Show rulers
+				62 bouton de menu local
+				63 bouton Enable Individual Layout
+				64 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					65 container Assistant
+						66 en-tête Assistant, Value: 2
+							67 texte Assistant
+						68 bouton Fermer la fenêtre
+						69 texte Le contexte reste lié à l'objet que vous consultez.
+						70 texte Dossier SEO-018
+						71 container
+							72 texte Boutique Atelier Démo
+							73 texte Belgique · Français · EUR
+						74 texte Mode : recommandation
+						75 texte L'assistant peut expliquer les informations disponibles et préparer une proposition à examiner.
+						76 texte Il ne dispose pas ici d'une autorisation d'encaissement, de modification de page ou de publication.
+						77 texte Panneau de conception. Aucun modèle n'est connecté. Les données de démonstration ne sont envoyées à aucun service.
+						78 bouton Fermer l'assistant
+				79 text Galaxy S21 360 x 800
+				80 bouton Refresh This View
+				81 bouton Quick Screenshot
+				82 bouton Full Page Screenshot
+				83 bouton Design Overlay
+				84 bouton Disable Event Mirroring
+				85 bouton Open Devtools
+				86 bouton (disabled) Rotation not available for non-mobile devices
+				87 bouton Scroll to Top
+				88 bouton Show rulers
+				89 bouton de menu local
+				90 bouton Enable Individual Layout
+				91 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					92 container Assistant
+						93 en-tête Assistant, Value: 2
+							94 texte Assistant
+						95 bouton Fermer la fenêtre
+						96 texte Le contexte reste lié à l'objet que vous consultez.
+						97 texte Dossier SEO-018
+						98 container
+							99 texte Boutique Atelier Démo
+							100 texte Belgique · Français · EUR
+						101 texte Mode : recommandation
+						102 texte L'assistant peut expliquer les informations disponibles et préparer une proposition à examiner.
+						103 texte Il ne dispose pas ici d'une autorisation d'encaissement, de modification de page ou de publication.
+						104 texte Panneau de conception. Aucun modèle n'est connecté. Les données de démonstration ne sont envoyées à aucun service.
+						105 bouton Fermer l'assistant
+				106 text G0 Tablette paysage 1024 x 768
+				107 bouton Refresh This View
+				108 bouton Quick Screenshot
+				109 bouton Full Page Screenshot
+				110 bouton Design Overlay
+				111 bouton Disable Event Mirroring
+				112 bouton Open Devtools
+				113 bouton (disabled) Rotation not available for non-mobile devices
+				114 bouton Scroll to Top
+				115 bouton Show rulers
+				116 bouton de menu local
+				117 bouton Enable Individual Layout
+				118 Contenu HTML Dossier SEO-018 · Maquette S01, URL: 127.0.0.1:5102/?g0=final#seo
+					119 container Assistant
+						120 en-tête Assistant, Value: 2
+							121 texte Assistant
+						122 bouton Fermer la fenêtre
+						123 texte Le contexte reste lié à l'objet que vous consultez.
+						124 texte Dossier SEO-018
+						125 container
+							126 texte Boutique Atelier Démo
+							127 texte Belgique · Français · EUR
+						128 texte Mode : recommandation
+						129 texte L'assistant peut expliquer les informations disponibles et préparer une proposition à examiner.
+						130 texte Il ne dispose pas ici d'une autorisation d'encaissement, de modification de page ou de publication.
+						131 texte Panneau de conception. Aucun modèle n'est connecté. Les données de démonstration ne sont envoyées à aucun service.
+						132 bouton Fermer l'assistant
+		133 container
+	134 Bouton de fermeture
+	135 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	136 bouton de minimisation
+137 menu bar
+	138 ResponsivelyApp
+	139 Edit
+	140 View
+	141 Window
+	142 Help
+
+The focused UI element is 39 en-tête Assistant, Value: 2

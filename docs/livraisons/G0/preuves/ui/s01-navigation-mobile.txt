@@ -1,0 +1,202 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					38 container Atelier Démo
+						39 en-tête Atelier Démo, Value: 2
+							40 texte Atelier Démo
+						41 bouton Fermer la navigation
+						42 container Activités
+							43 Liste du contenu
+								44 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								45 texte COMMERCE
+								46 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								47 container
+									48 text Catalogue aperçu
+								49 container
+									50 text Stocks aperçu
+								51 texte BOUTIQUE
+								52 container
+									53 text Pages & contenus aperçu
+								54 texte CROISSANCE
+								55 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								56 container
+									57 text Campagnes aperçu
+								58 container
+									59 text Expériences aperçu
+								60 texte PILOTAGE
+								61 container
+									62 text Analyses aperçu
+								63 container
+									64 text Réglages aperçu
+							65 texte Les entrées « aperçu » sont hors maquette.
+				66 text MacBook Pro 1440 x 900
+				67 bouton Refresh This View
+				68 bouton Quick Screenshot
+				69 bouton Full Page Screenshot
+				70 bouton Design Overlay
+				71 bouton Disable Event Mirroring
+				72 bouton Open Devtools
+				73 bouton (disabled) Rotation not available for non-mobile devices
+				74 bouton Scroll to Top
+				75 bouton Show rulers
+				76 bouton de menu local
+				77 bouton Enable Individual Layout
+				78 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					79 container Atelier Démo
+						80 en-tête Atelier Démo, Value: 2
+							81 texte Atelier Démo
+						82 bouton Fermer la navigation
+						83 container Activités
+							84 Liste du contenu
+								85 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								86 texte COMMERCE
+								87 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								88 container
+									89 text Catalogue aperçu
+								90 container
+									91 text Stocks aperçu
+								92 texte BOUTIQUE
+								93 container
+									94 text Pages & contenus aperçu
+								95 texte CROISSANCE
+								96 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								97 container
+									98 text Campagnes aperçu
+								99 container
+									100 text Expériences aperçu
+								101 texte PILOTAGE
+								102 container
+									103 text Analyses aperçu
+								104 container
+									105 text Réglages aperçu
+							106 texte Les entrées « aperçu » sont hors maquette.
+				107 text Galaxy S21 360 x 800
+				108 bouton Refresh This View
+				109 bouton Quick Screenshot
+				110 bouton Full Page Screenshot
+				111 bouton Design Overlay
+				112 bouton Disable Event Mirroring
+				113 bouton Open Devtools
+				114 bouton (disabled) Rotation not available for non-mobile devices
+				115 bouton Scroll to Top
+				116 bouton Show rulers
+				117 bouton de menu local
+				118 bouton Enable Individual Layout
+				119 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					120 container Atelier Démo
+						121 en-tête Atelier Démo, Value: 2
+							122 texte Atelier Démo
+						123 bouton Fermer la navigation
+						124 container Activités
+							125 Liste du contenu
+								126 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								127 texte COMMERCE
+								128 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								129 container
+									130 text Catalogue aperçu
+								131 container
+									132 text Stocks aperçu
+								133 texte BOUTIQUE
+								134 container
+									135 text Pages & contenus aperçu
+								136 texte CROISSANCE
+								137 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								138 container
+									139 text Campagnes aperçu
+								140 container
+									141 text Expériences aperçu
+								142 texte PILOTAGE
+								143 container
+									144 text Analyses aperçu
+								145 container
+									146 text Réglages aperçu
+							147 texte Les entrées « aperçu » sont hors maquette.
+				148 text G0 Tablette paysage 1024 x 768
+				149 bouton Refresh This View
+				150 bouton Quick Screenshot
+				151 bouton Full Page Screenshot
+				152 bouton Design Overlay
+				153 bouton Disable Event Mirroring
+				154 bouton Open Devtools
+				155 bouton (disabled) Rotation not available for non-mobile devices
+				156 bouton Scroll to Top
+				157 bouton Show rulers
+				158 bouton de menu local
+				159 bouton Enable Individual Layout
+				160 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					161 container Atelier Démo
+						162 en-tête Atelier Démo, Value: 2
+							163 texte Atelier Démo
+						164 bouton Fermer la navigation
+						165 container Activités
+							166 Liste du contenu
+								167 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								168 texte COMMERCE
+								169 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								170 container
+									171 text Catalogue aperçu
+								172 container
+									173 text Stocks aperçu
+								174 texte BOUTIQUE
+								175 container
+									176 text Pages & contenus aperçu
+								177 texte CROISSANCE
+								178 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								179 container
+									180 text Campagnes aperçu
+								181 container
+									182 text Expériences aperçu
+								183 texte PILOTAGE
+								184 container
+									185 text Analyses aperçu
+								186 container
+									187 text Réglages aperçu
+							188 texte Les entrées « aperçu » sont hors maquette.
+		189 container
+	190 Bouton de fermeture
+	191 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	192 bouton de minimisation
+193 menu bar
+	194 ResponsivelyApp
+	195 Edit
+	196 View
+	197 Window
+	198 Help
+
+The focused UI element is 41 bouton Fermer la navigation

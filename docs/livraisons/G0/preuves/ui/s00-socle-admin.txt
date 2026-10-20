@@ -1,0 +1,328 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 container
+								45 en-tête Insights, Value: 1
+									46 texte Insights
+								47 bouton Edit layout
+							48 container
+								49 container
+									50 texte Metrics
+									51 texte Order metrics
+									52 groupe d’onglet
+										53 tabulation (settable, integer) Order Count, Value: 0
+										54 tabulation (selected) Order Total, Value: 1
+										55 tabulation (settable, integer) Average Order Value, Value: 0
+									56 container
+										57 text Oct 1 Oct 4 Oct 7 Oct 10 Oct 13 Oct 16 Oct 19 $0 $0 $0 $0 $0
+								58 container
+									59 texte Latest Orders
+									60 texte Your latest orders
+									61 bouton de menu local
+									62 tableau
+										63 row
+											64 en-tête de colonne
+												65 case à cocher Description: Select all rows, Value: 0
+											66 en-tête de colonne
+												67 bouton Sort by Placed At
+											68 en-tête de colonne
+												69 bouton Sort by Code
+											70 en-tête de colonne
+												71 bouton Sort by Total
+										72 row
+											73 cellule 0-3
+												74 texte No results
+												75 texte There are no items to display yet.
+									76 text 0 of 0 Rows per page
+									77 combo box (settable) Description: Rows per page, Value: 10
+										78 texte 10
+									79 container Pagination
+										80 bouton (disabled) Go to previous page
+										81 bouton (disabled) Go to next page
+								82 container
+									83 texte Orders Summary
+									84 texte Your orders summary
+									85 texte Total Orders
+									86 texte 0
+									87 container
+										88 text 0 %
+									89 texte Total Revenue
+									90 texte $0.00
+									91 container
+										92 text 0 %
+								93 container
+									94 texte Top Products
+									95 texte Best sellers from the most recent 100 orders in USD for the selected period
+									96 groupe d’onglet
+										97 tabulation (selected) Quantity, Value: 1
+										98 tabulation (settable, integer) Revenue, Value: 0
+									99 text No sales for this period Try selecting a different date range.
+								100 container
+									101 texte Low Stock
+									102 texte Saleable stock at or below 10, from a sample of 100 variants
+									103 groupe d’onglet
+										104 tabulation (settable, integer) ≤ 5, Value: 0
+										105 tabulation (selected) ≤ 10, Value: 1
+										106 tabulation (settable, integer) ≤ 20, Value: 0
+										107 tabulation (settable, integer) ≤ 50, Value: 0
+									108 text No low stock in this sample None of the 100 sampled variants are at or below 10. Others may still be low.
+								109 container
+									110 texte Latest Customers
+									111 texte New registrations in the selected period
+									112 text No new customers for this period Try selecting a different date range.
+						113 container Notifications alt+T
+				114 text MacBook Pro 1440 x 900
+				115 bouton Refresh This View
+				116 bouton Quick Screenshot
+				117 bouton Full Page Screenshot
+				118 bouton Design Overlay
+				119 bouton Disable Event Mirroring
+				120 bouton Open Devtools
+				121 bouton (disabled) Rotation not available for non-mobile devices
+				122 bouton Scroll to Top
+				123 bouton Show rulers
+				124 bouton de menu local
+				125 bouton Enable Individual Layout
+				126 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					127 container
+						128 container
+							129 Liste du contenu
+								130 bouton de menu local Default channel Language: English
+							131 Liste du contenu
+								132 container
+									133 bouton Environnement local
+									134 Liste du contenu
+										135 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								136 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								137 bouton Catalog
+								138 bouton Sales
+								139 bouton Customers
+								140 bouton Marketing
+							141 container
+								142 texte Administration
+								143 Liste du contenu
+									144 bouton Settings
+									145 bouton System
+							146 Liste du contenu
+								147 bouton de menu local Super Admin admin-a@local.test
+									148 texte Super
+									149 texte Admin
+									150 texte admin-a@local.test
+							151 bouton Toggle Sidebar
+						152 container
+							153 container
+								154 bouton Toggle Sidebar
+								155 container breadcrumb
+									156 Liste du contenu
+										157 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							158 bouton de menu local
+							159 en-tête Vérification du socle, Value: 1
+								160 texte Vérification du socle
+							161 container
+								162 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								163 liste de définitions
+									164 texte Session locale
+									165 texte v0-s00-a
+									166 texte Canal actif
+									167 texte __default_channel__
+								168 bouton Vérifier à nouveau
+						169 container Notifications alt+T
+				170 text Galaxy S21 360 x 800
+				171 bouton Refresh This View
+				172 bouton Quick Screenshot
+				173 bouton Full Page Screenshot
+				174 bouton Design Overlay
+				175 bouton Disable Event Mirroring
+				176 bouton Open Devtools
+				177 bouton (disabled) Rotation not available for non-mobile devices
+				178 bouton Scroll to Top
+				179 bouton Show rulers
+				180 bouton de menu local
+				181 bouton Enable Individual Layout
+				182 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/
+					183 container
+						184 container
+							185 container
+								186 bouton Toggle Sidebar
+								187 container breadcrumb
+							188 bouton de menu local
+							189 container
+								190 en-tête Insights, Value: 1
+									191 texte Insights
+								192 bouton Edit layout
+							193 container
+								194 container
+									195 texte Metrics
+									196 texte Order metrics
+									197 groupe d’onglet
+										198 tabulation (settable, integer) Order Count, Value: 0
+										199 tabulation (selected) Order Total, Value: 1
+										200 tabulation (settable, integer) Average Order Value, Value: 0
+									201 container
+										202 text Oct 1 Oct 4 Oct 7 Oct 10 Oct 13 Oct 16 Oct 19 $0 $0 $0 $0 $0
+								203 container
+									204 texte Latest Orders
+									205 texte Your latest orders
+									206 bouton de menu local
+									207 tableau
+										208 row
+											209 en-tête de colonne
+												210 case à cocher Description: Select all rows, Value: 0
+											211 en-tête de colonne
+												212 bouton Sort by Placed At
+											213 en-tête de colonne
+												214 bouton Sort by Code
+											215 en-tête de colonne
+												216 bouton Sort by Total
+										217 row
+											218 cellule 0-3
+												219 texte No results
+												220 texte There are no items to display yet.
+									221 text 0 of 0 Rows per page
+									222 combo box (settable) Description: Rows per page, Value: 10
+										223 texte 10
+									224 container Pagination
+										225 bouton (disabled) Go to previous page
+										226 bouton (disabled) Go to next page
+								227 container
+									228 texte Orders Summary
+									229 texte Your orders summary
+									230 texte Total Orders
+									231 texte 0
+									232 container
+										233 text 0 %
+									234 texte Total Revenue
+									235 texte $0.00
+									236 container
+										237 text 0 %
+								238 container
+									239 texte Top Products
+									240 texte Best sellers from the most recent 100 orders in USD for the selected period
+									241 groupe d’onglet
+										242 tabulation (selected) Quantity, Value: 1
+										243 tabulation (settable, integer) Revenue, Value: 0
+									244 text No sales for this period Try selecting a different date range.
+								245 container
+									246 texte Low Stock
+									247 texte Saleable stock at or below 10, from a sample of 100 variants
+									248 groupe d’onglet
+										249 tabulation (settable, integer) ≤ 5, Value: 0
+										250 tabulation (selected) ≤ 10, Value: 1
+										251 tabulation (settable, integer) ≤ 20, Value: 0
+										252 tabulation (settable, integer) ≤ 50, Value: 0
+									253 text No low stock in this sample None of the 100 sampled variants are at or below 10. Others may still be low.
+								254 container
+									255 texte Latest Customers
+									256 texte New registrations in the selected period
+									257 text No new customers for this period Try selecting a different date range.
+						258 container Notifications alt+T
+				259 text G0 Tablette paysage 1024 x 768
+				260 bouton Refresh This View
+				261 bouton Quick Screenshot
+				262 bouton Full Page Screenshot
+				263 bouton Design Overlay
+				264 bouton Disable Event Mirroring
+				265 bouton Open Devtools
+				266 bouton (disabled) Rotation not available for non-mobile devices
+				267 bouton Scroll to Top
+				268 bouton Show rulers
+				269 bouton de menu local
+				270 bouton Enable Individual Layout
+				271 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/platform-foundation
+					272 container
+						273 container
+							274 Liste du contenu
+								275 bouton de menu local Default channel Language: English
+							276 Liste du contenu
+								277 container
+									278 bouton Environnement local
+									279 Liste du contenu
+										280 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation
+								281 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								282 bouton Catalog
+								283 bouton Sales
+								284 bouton Customers
+								285 bouton Marketing
+							286 container
+								287 texte Administration
+								288 Liste du contenu
+									289 bouton Settings
+									290 bouton System
+							291 Liste du contenu
+								292 bouton de menu local Super Admin admin-a@local.test
+									293 texte Super
+									294 texte Admin
+									295 texte admin-a@local.test
+							296 bouton Toggle Sidebar
+						297 container
+							298 container
+								299 bouton Toggle Sidebar
+								300 container breadcrumb
+									301 Liste du contenu
+										302 link Description: Environnement local, Value: 127.0.0.1:5101/dashboard/platform-foundation
+							303 bouton de menu local
+							304 en-tête Vérification du socle, Value: 1
+								305 texte Vérification du socle
+							306 container
+								307 text Environnement local de démonstration. Cette page vérifie le raccordement d’une extension à l’administration. Connexion autorisée au socle
+								308 liste de définitions
+									309 texte Session locale
+									310 texte v0-s00-a
+									311 texte Canal actif
+									312 texte __default_channel__
+								313 bouton Vérifier à nouveau
+						314 container Notifications alt+T
+		315 container
+	316 Bouton de fermeture
+	317 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	318 bouton de minimisation
+319 menu bar
+	320 ResponsivelyApp
+	321 Edit
+	322 View
+	323 Window
+	324 Help
+
+The focused UI element is 135 link Description: Vérification du socle, Value: 127.0.0.1:5101/dashboard/platform-foundation

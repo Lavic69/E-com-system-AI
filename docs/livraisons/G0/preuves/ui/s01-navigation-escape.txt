@@ -1,0 +1,234 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5102/
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					38 link Description: Aller au contenu, Value: 127.0.0.1:5102/#main
+					39 texte S01
+					40 texte Données de démonstration
+					41 bouton Examiner un état
+					42 container
+						43 bouton Ouvrir la navigation
+						44 text Vue d'ensemble Belgique · FR · EUR
+					45 container
+						46 texte MARDI 20 OCTOBRE 2026
+						47 en-tête À traiter aujourd'hui, Value: 1
+							48 texte À traiter aujourd'hui
+						49 texte Deux blocages, une commande à préparer, une proposition à examiner.
+						50 texte 2 blocages
+						51 container Votre file de travail 4
+							52 en-tête Votre file de travail 4, Value: 2
+								53 text Votre file de travail 4
+							54 container Filtrer les actions
+								55 bouton d'activation/de désactivation Tout · 4, Value: 1
+								56 bouton d'activation/de désactivation Blocages · 2, Value: 0
+								57 bouton d'activation/de désactivation Propositions · 1, Value: 0
+							58 Liste du contenu
+								59 container
+									60 text Paiement à confirmer La réponse du prestataire est attendue depuis 09 h 42. Commande D-1042 86,00 € · Belgique
+									61 link Description: Examiner la commande D-1042, Value: 127.0.0.1:5102/#order
+								62 container
+									63 text Stock indisponible Une commande attend cette variante. SAC-SABLE Disponibilité à vérifier Hors maquette
+								64 container
+									65 text Une commande prête à préparer Encaissement confirmé, articles disponibles. Commande D-1041 Préparation non commencée Hors maquette
+								66 container
+									67 text Un titre de collection à préciser Une proposition SEO est prête à être examinée. Dossier SEO-018 Version v12 → v13
+									68 link Description: Comparer la proposition SEO-018, Value: 127.0.0.1:5102/#seo
+							69 texte Les blocages sont présentés en premier parce qu'ils empêchent le traitement d'une commande.
+						70 container Activité des agents
+							71 en-tête Activité des agents, Value: 2
+								72 texte Activité des agents
+							73 texte 3 suivis
+							74 Liste du contenu
+								75 container
+									76 text Audit de la collection terminé SEO-018 · Proposition à examiner 09:30
+								77 container
+									78 text Création en cours de génération Campagne de démonstration · Coût à confirmer 09:48
+								79 container
+									80 text Synchronisation en attente Catalogue de démonstration · Dernier relevé 09:00 09:52
+						81 container Encaissements
+							82 en-tête Encaissements, Value: 2
+								83 texte Encaissements
+							84 texte 13 → 19 oct.
+							85 liste de définitions
+								86 texte Commandes encaissées
+								87 texte 12
+								88 texte Montant encaissé
+								89 container
+									90 text 1 248 ,00 €
+							91 container
+								92 texte Source : paiements de démonstration.
+								93 texte Relevé le 20 octobre à 09 h 55. Aucun effet attribué aux agents.
+						94 texte L'assistant travaille dans le contexte de cet écran.
+						95 bouton Ouvrir l'assistant
+					96 container
+						97 text Instantané du 20 octobre 2026 · 10 h 00 · Bruxelles Consultation locale · Aucune opération réelle
+				98 text MacBook Pro 1440 x 900
+				99 bouton Refresh This View
+				100 bouton Quick Screenshot
+				101 bouton Full Page Screenshot
+				102 bouton Design Overlay
+				103 bouton Disable Event Mirroring
+				104 bouton Open Devtools
+				105 bouton (disabled) Rotation not available for non-mobile devices
+				106 bouton Scroll to Top
+				107 bouton Show rulers
+				108 bouton de menu local
+				109 bouton Enable Individual Layout
+				110 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					111 container Atelier Démo
+						112 en-tête Atelier Démo, Value: 2
+							113 texte Atelier Démo
+						114 bouton Fermer la navigation
+						115 container Activités
+							116 Liste du contenu
+								117 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								118 texte COMMERCE
+								119 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								120 container
+									121 text Catalogue aperçu
+								122 container
+									123 text Stocks aperçu
+								124 texte BOUTIQUE
+								125 container
+									126 text Pages & contenus aperçu
+								127 texte CROISSANCE
+								128 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								129 container
+									130 text Campagnes aperçu
+								131 container
+									132 text Expériences aperçu
+								133 texte PILOTAGE
+								134 container
+									135 text Analyses aperçu
+								136 container
+									137 text Réglages aperçu
+							138 texte Les entrées « aperçu » sont hors maquette.
+				139 text Galaxy S21 360 x 800
+				140 bouton Refresh This View
+				141 bouton Quick Screenshot
+				142 bouton Full Page Screenshot
+				143 bouton Design Overlay
+				144 bouton Disable Event Mirroring
+				145 bouton Open Devtools
+				146 bouton (disabled) Rotation not available for non-mobile devices
+				147 bouton Scroll to Top
+				148 bouton Show rulers
+				149 bouton de menu local
+				150 bouton Enable Individual Layout
+				151 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					152 container Atelier Démo
+						153 en-tête Atelier Démo, Value: 2
+							154 texte Atelier Démo
+						155 bouton Fermer la navigation
+						156 container Activités
+							157 Liste du contenu
+								158 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								159 texte COMMERCE
+								160 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								161 container
+									162 text Catalogue aperçu
+								163 container
+									164 text Stocks aperçu
+								165 texte BOUTIQUE
+								166 container
+									167 text Pages & contenus aperçu
+								168 texte CROISSANCE
+								169 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								170 container
+									171 text Campagnes aperçu
+								172 container
+									173 text Expériences aperçu
+								174 texte PILOTAGE
+								175 container
+									176 text Analyses aperçu
+								177 container
+									178 text Réglages aperçu
+							179 texte Les entrées « aperçu » sont hors maquette.
+				180 text G0 Tablette paysage 1024 x 768
+				181 bouton Refresh This View
+				182 bouton Quick Screenshot
+				183 bouton Full Page Screenshot
+				184 bouton Design Overlay
+				185 bouton Disable Event Mirroring
+				186 bouton Open Devtools
+				187 bouton (disabled) Rotation not available for non-mobile devices
+				188 bouton Scroll to Top
+				189 bouton Show rulers
+				190 bouton de menu local
+				191 bouton Enable Individual Layout
+				192 Contenu HTML Vue d'ensemble · Maquette S01, URL: 127.0.0.1:5102/
+					193 container Atelier Démo
+						194 en-tête Atelier Démo, Value: 2
+							195 texte Atelier Démo
+						196 bouton Fermer la navigation
+						197 container Activités
+							198 Liste du contenu
+								199 link Description: Vue d'ensemble, Value: 127.0.0.1:5102/#overview
+								200 texte COMMERCE
+								201 link Description: Commandes, Value: 127.0.0.1:5102/#order
+								202 container
+									203 text Catalogue aperçu
+								204 container
+									205 text Stocks aperçu
+								206 texte BOUTIQUE
+								207 container
+									208 text Pages & contenus aperçu
+								209 texte CROISSANCE
+								210 link Description: SEO, Value: 127.0.0.1:5102/#seo
+								211 container
+									212 text Campagnes aperçu
+								213 container
+									214 text Expériences aperçu
+								215 texte PILOTAGE
+								216 container
+									217 text Analyses aperçu
+								218 container
+									219 text Réglages aperçu
+							220 texte Les entrées « aperçu » sont hors maquette.
+		221 container
+	222 Bouton de fermeture
+	223 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	224 bouton de minimisation
+225 menu bar
+	226 ResponsivelyApp
+	227 Edit
+	228 View
+	229 Window
+	230 Help
+
+The focused UI element is 43 bouton Ouvrir la navigation

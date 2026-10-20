@@ -1,0 +1,25 @@
+{
+  "name": "commerce-platform-core-validation",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Validation locale du moteur Vendure pour le projet e-commerce",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/core.test.cjs --guard-stock",
+    "test:postgres": "node test/core.test.cjs --postgres --guard-stock",
+    "test:postgres:baseline": "node test/core.test.cjs --postgres"
+  },
+  "dependencies": {
+    "@nestjs/graphql": "14.0.3",
+    "@vendure/core": "3.8.0",
+    "@vendure/testing": "3.8.0",
+    "graphql-tag": "2.12.6",
+    "reflect-metadata": "0.2.2"
+  },
+  "devDependencies": {
+    "embedded-postgres": "18.4.0-beta.17",
+    "pg": "8.23.1"
+  }
+}

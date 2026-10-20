@@ -1,0 +1,231 @@
+{
+  "startedAt": "2026-10-20T15:24:40.784Z",
+  "status": "passed",
+  "environment": {
+    "node": "v24.14.0",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "vendure": "3.8.0",
+    "database": "PostgreSQL isolé, lancé pour cet essai et arrêté ensuite",
+    "payment": "dummyPaymentHandler : aucun prestataire ni encaissement réel",
+    "server": "bootstrap Vendure standard, écoute sur 127.0.0.1",
+    "data": "Catalogue et comptes synthétiques exclusivement",
+    "stockGuardEnabled": true,
+    "postgresVersion": "PostgreSQL 18.4 on x86_64-apple-darwin24.6.0, compiled by Apple clang version 17.0.0 (clang-1700.6.3.2), 64-bit",
+    "vendureDatabaseVersion": "PostgreSQL 18.4 on x86_64-apple-darwin24.6.0, compiled by Apple clang version 17.0.0 (clang-1700.6.3.2), 64-bit"
+  },
+  "cases": [
+    {
+      "name": "API administration sans authentification",
+      "status": "passed",
+      "durationMs": 7
+    },
+    {
+      "name": "Catalogue créé et relu par les API",
+      "status": "passed",
+      "durationMs": 45
+    },
+    {
+      "name": "Lecture autorisée et écriture interdite",
+      "status": "passed",
+      "durationMs": 636
+    },
+    {
+      "name": "Permission propre à une extension",
+      "status": "passed",
+      "durationMs": 628
+    },
+    {
+      "name": "Achat avec total calculé indépendamment",
+      "status": "passed",
+      "durationMs": 151
+    },
+    {
+      "name": "Paiement refusé sans commande payée",
+      "status": "passed",
+      "durationMs": 86
+    },
+    {
+      "name": "Nouvelle tentative après refus",
+      "status": "passed",
+      "durationMs": 27
+    },
+    {
+      "name": "Demande de paiement répétée",
+      "status": "passed",
+      "durationMs": 6
+    },
+    {
+      "name": "Prévention de vente au-delà du stock",
+      "status": "passed",
+      "durationMs": 21
+    },
+    {
+      "name": "Remboursement partiel et confirmation",
+      "status": "passed",
+      "durationMs": 17
+    },
+    {
+      "name": "Rejet du remboursement excessif",
+      "status": "passed",
+      "durationMs": 6
+    },
+    {
+      "name": "Événements rapprochés des commandes",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "Persistance après redémarrage",
+      "status": "passed",
+      "durationMs": 543
+    },
+    {
+      "name": "Deux achats simultanés sur la dernière unité",
+      "status": "passed",
+      "durationMs": 674
+    },
+    {
+      "name": "Deux achats simultanés avec stock suffisant",
+      "status": "passed",
+      "durationMs": 843
+    }
+  ],
+  "notTested": [
+    "Webhooks et encaissements d’un véritable prestataire de paiement",
+    "Reprise de file de tâches et crash en cours de transaction",
+    "Isolation entre deux installations et stockages distincts",
+    "Extensions graphiques, responsive et Responsively App",
+    "SEO, tests A/B, génération de médias et diffusion externe"
+  ],
+  "evidence": {
+    "firstPurchase": {
+      "totalMinorUnits": 5500,
+      "currency": "EUR",
+      "quantity": 2
+    },
+    "stockAfterPurchases": [
+      {
+        "stockOnHand": 3,
+        "stockAllocated": 3
+      }
+    ],
+    "refund": {
+      "capturedMinorUnits": 5500,
+      "refundedMinorUnits": 2500,
+      "remainingMinorUnits": 3000
+    },
+    "events": {
+      "ordersPlaced": [
+        {
+          "code": "KESFGCYH8J46NV9W",
+          "state": "PaymentSettled"
+        },
+        {
+          "code": "3EMS6Z7K84UMJXYD",
+          "state": "PaymentSettled"
+        }
+      ],
+      "payments": [
+        {
+          "code": "KESFGCYH8J46NV9W",
+          "state": "Settled"
+        },
+        {
+          "code": "3EMS6Z7K84UMJXYD",
+          "state": "Declined"
+        },
+        {
+          "code": "3EMS6Z7K84UMJXYD",
+          "state": "Settled"
+        }
+      ]
+    },
+    "persistence": {
+      "ordersAndRefunds": true,
+      "stockAllocation": true
+    },
+    "concurrentPurchases": [
+      {
+        "requests": 2,
+        "initialStock": 1,
+        "simulatedGatewayDelayMs": 150,
+        "responses": [
+          {
+            "type": "Order",
+            "state": "PaymentSettled"
+          },
+          {
+            "type": "IneligiblePaymentMethodError",
+            "errorCode": "INELIGIBLE_PAYMENT_METHOD_ERROR"
+          }
+        ],
+        "orders": [
+          {
+            "code": "WLPXW2HD83VUAM1H",
+            "state": "PaymentSettled",
+            "settledPayments": 1
+          },
+          {
+            "code": "URXYPMEHTK71ENHS",
+            "state": "ArrangingPayment",
+            "settledPayments": 0
+          }
+        ],
+        "stockLevels": [
+          {
+            "stockOnHand": 1,
+            "stockAllocated": 1
+          }
+        ],
+        "gatewayCalls": 1
+      },
+      {
+        "requests": 2,
+        "initialStock": 2,
+        "simulatedGatewayDelayMs": 150,
+        "responses": [
+          {
+            "type": "Order",
+            "state": "PaymentSettled"
+          },
+          {
+            "type": "Order",
+            "state": "PaymentSettled"
+          }
+        ],
+        "orders": [
+          {
+            "code": "78NUG6A5TL8XUSTE",
+            "state": "PaymentSettled",
+            "settledPayments": 1
+          },
+          {
+            "code": "H3W5GUWQYXVHU9G1",
+            "state": "PaymentSettled",
+            "settledPayments": 1
+          }
+        ],
+        "stockLevels": [
+          {
+            "stockOnHand": 2,
+            "stockAllocated": 2
+          }
+        ],
+        "gatewayCalls": 2
+      }
+    ],
+    "cleanup": {
+      "httpServer": "stopped",
+      "postgres": "stopped"
+    }
+  },
+  "completedAt": "2026-10-20T15:24:46.873Z",
+  "sourceHashes": {
+    "package.json": "3bbf8d6950ad6126d0c857916b6cec42ef258573c2787c0cee99597cae212ffa",
+    "package-lock.json": "2afb0b7b7de8934800f52dd9277f9a338db837e9b45d8f177ce6091e291c96b3",
+    "test/core.test.cjs": "647c33275f57921dff2905afe34762a3c2f079b5f6abaa4babcc311f13527287",
+    "test/probe-plugin.cjs": "2551a1f94f9908dfbdb4b495c7b686567f6a404b6621c807d483c0d8b27c957f",
+    "src/stock-eligibility.cjs": "4898271cafccdd6d864014ebd4aa3e1a46c5a45df45bd450455ef7cf30470e64"
+  }
+}
