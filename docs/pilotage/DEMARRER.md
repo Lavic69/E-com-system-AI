@@ -1,5 +1,7 @@
 # Lancer les sessions Codex
 
+G1 est désormais intégré et vérifié localement sur `integration/g1`. Consulter [son résultat](../livraisons/G1/RESULTAT.md). S10 à S12 ne doivent pas être relancées. Les fiches S20 à S22 sont préparées ; attendre le SHA G1 commité et intégré avant de créer leurs worktrees.
+
 Le [plan](PLAN_EXECUTION.md) couvre le produit complet. S00, S01 et S02 sont livrées et G0 vérifié. **Ne pas relancer leurs messages ci-dessous : ils décrivent la première vague historique.** Le premier commit de `main` porte la base G0 locale ; son [résultat](../livraisons/G0/RESULTAT.md) donne les preuves et limites.
 
 ## 1. Dossier à ouvrir
@@ -10,7 +12,7 @@ Ouvrir ce checkout local dans Codex :
 /Users/lavic/Desktop/Amboras REA/E-com-system-AI
 ```
 
-Le dépôt distant est [Lavic69/E-com-system-AI](https://github.com/Lavic69/E-com-system-AI). Il était vide lors de cette préparation. Les fichiers présents ont été préparés localement ; ils ne sont pas encore accessibles depuis un clone effectué sur une autre machine.
+Le dépôt distant est [Lavic69/E-com-system-AI](https://github.com/Lavic69/E-com-system-AI). Le `main` distant a été relu le 10 novembre 2026 : il porte le SHA G0 `2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086`. Les changements G1 restent locaux et ne sont pas encore accessibles depuis un autre clone.
 
 ## 2. Première vague historique, avec trois sessions
 
@@ -73,7 +75,7 @@ Les autorisations déjà données dans la conversation d'intégration restent va
 
 Après G0, le plan contient un SHA de base réel et les fiches suivantes marquées `Prêt`.
 
-Les fiches [S10](missions/S10-catalogue.md), [S11](missions/S11-pages.md) et [S12](missions/S12-operations.md) sont prêtes, mais non lancées. Les branches prévues sont `feat/s10-catalogue`, `feat/s11-pages` et `feat/s12-operations`. Toutes partent du même SHA G0, identifié dans le plan ; le cycle vers `integration/g1` puis `main` est défini dans [COORDINATION.md](COORDINATION.md#branches-commits-push-et-intégration).
+Historique V1 : les fiches [S10](missions/S10-catalogue.md), [S11](missions/S11-pages.md) et [S12](missions/S12-operations.md) ont été réalisées, puis intégrées localement en G1. Les branches prévues sont `feat/s10-catalogue`, `feat/s11-pages` et `feat/s12-operations`. Toutes partent du même SHA G0, identifié dans le plan ; le cycle vers `integration/g1` puis `main` est défini dans [COORDINATION.md](COORDINATION.md#branches-commits-push-et-intégration).
 
 Dans Codex, ouvrir chaque mission de code en mode **Worktree**, depuis la branche qui contient cette base. Vérifier que les trois sessions partent du même état intégré. [Documentation des worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees)
 

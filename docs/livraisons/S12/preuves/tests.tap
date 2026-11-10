@@ -1,0 +1,114 @@
+TAP version 13
+# Subtest: Formats communs générés et canonisation versionnée
+ok 1 - Formats communs générés et canonisation versionnée
+  ---
+  duration_ms: 17.75625
+  type: 'test'
+  ...
+# S12 test ports API=52589, PG=52590, receiver=52592
+# Subtest: S12 : API réelle, PostgreSQL, concurrence et redémarrages
+    # Subtest: Refus API anonyme, rôle de lecture et contexte forgé
+    ok 1 - Refus API anonyme, rôle de lecture et contexte forgé
+      ---
+      duration_ms: 673.21175
+      type: 'test'
+      ...
+    # Subtest: Liaison sensible, unicité de proposition et approbation persistante
+    ok 2 - Liaison sensible, unicité de proposition et approbation persistante
+      ---
+      duration_ms: 40.689375
+      type: 'test'
+      ...
+    # Subtest: SC04 : cible changée et rollback des écritures de préparation
+    ok 3 - SC04 : cible changée et rollback des écritures de préparation
+      ---
+      duration_ms: 125.083583
+      type: 'test'
+      ...
+    # Subtest: Révocation des droits et de la délégation après approbation
+    ok 4 - Révocation des droits et de la délégation après approbation
+      ---
+      duration_ms: 715.479208
+      type: 'test'
+      ...
+    # Subtest: Politique, expiration, compte modifié et quota inconnu bloquent avant effet
+    ok 5 - Politique, expiration, compte modifié et quota inconnu bloquent avant effet
+      ---
+      duration_ms: 88.27975
+      type: 'test'
+      ...
+    # Subtest: Objet et lecture hors canal refusés par API directe
+    ok 6 - Objet et lecture hors canal refusés par API directe
+      ---
+      duration_ms: 1914.308459
+      type: 'test'
+      ...
+    # Subtest: Mutation locale et événement dans la même transaction
+    ok 7 - Mutation locale et événement dans la même transaction
+      ---
+      duration_ms: 70.598708
+      type: 'test'
+      ...
+    # Subtest: SC07 : coût incertain, réserve conservée et reçu imputé une fois
+    ok 8 - SC07 : coût incertain, réserve conservée et reçu imputé une fois
+      ---
+      duration_ms: 87.595666
+      type: 'test'
+      ...
+    # Subtest: Deux réservations concurrentes ne dépassent pas le solde
+    ok 9 - Deux réservations concurrentes ne dépassent pas le solde
+      ---
+      duration_ms: 37.472584
+      type: 'test'
+      ...
+    # Subtest: Changement de période et dépassement réel sans troncature
+    ok 10 - Changement de période et dépassement réel sans troncature
+      ---
+      duration_ms: 81.84675
+      type: 'test'
+      ...
+    # Subtest: SC08 : fournisseur limité, aucune retransmission automatique
+    ok 11 - SC08 : fournisseur limité, aucune retransmission automatique
+      ---
+      duration_ms: 33.146792
+      type: 'test'
+      ...
+    # Subtest: Crash réel après réception, redémarrage du worker et du récepteur
+    ok 12 - Crash réel après réception, redémarrage du worker et du récepteur
+      ---
+      duration_ms: 1693.258
+      type: 'test'
+      ...
+    # Subtest: Deux processus worker gardent un seul message et une réservation
+    ok 13 - Deux processus worker gardent un seul message et une réservation
+      ---
+      duration_ms: 891.296125
+      type: 'test'
+      ...
+    # Subtest: Journal après crash entre commit et émission, puis avant accusé
+    ok 14 - Journal après crash entre commit et émission, puis avant accusé
+      ---
+      duration_ms: 2289.30625
+      type: 'test'
+      ...
+    # Subtest: SC03 : doublon, désordre, trou, autre compte, conflit et rollback
+    ok 15 - SC03 : doublon, désordre, trou, autre compte, conflit et rollback
+      ---
+      duration_ms: 14.006708
+      type: 'test'
+      ...
+    1..15
+ok 2 - S12 : API réelle, PostgreSQL, concurrence et redémarrages
+  ---
+  duration_ms: 12499.452417
+  type: 'test'
+  ...
+1..2
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12713.533208

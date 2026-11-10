@@ -1,6 +1,6 @@
 # S10 Catalogue, membres et clients
 
-État : prête, non lancée. Session A, branche prévue `feat/s10-catalogue`. Vérifier le commit G0 et son SHA selon le plan avant de créer le worktree. La mission commence uniquement sur instruction de Victor, depuis cette base commune.
+État : réalisée, puis intégrée et vérifiée localement en G1 le 10 novembre 2026. Voir [la livraison G1](../../livraisons/G1/RESULTAT.md). Le transfert reste non commité sur `integration/g1` ; le worktree S10 est conservé.
 
 ## Résultat attendu
 

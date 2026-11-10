@@ -1,6 +1,6 @@
 # Plan d'exécution par lots et sessions
 
-Version de travail du 20 octobre 2026. Périmètre : [cahier produit](../produit/CAHIER_PRODUIT.md).
+Mise à jour G1 du 10 novembre 2026. Périmètre : [cahier produit](../produit/CAHIER_PRODUIT.md).
 
 Le projet se construit par lots démontrables. Une vague rassemble jusqu'à trois lots pouvant avancer indépendamment depuis une base commune. Une intégration courte entre les vagues vérifie qu'ils fonctionnent ensemble.
 
@@ -13,13 +13,13 @@ Un lot peut demander plusieurs tours de la même session Codex. Aucun délai ou 
 | Dépôt | `Lavic69/E-com-system-AI`, public et initialement vide |
 | Checkout local préparé | Dossier `E-com-system-AI` à l'intérieur de `Amboras REA` |
 | Commits, base de worktrees | Base G0 portée par le premier commit de `main` ; relever son SHA avec la commande ci-dessous |
-| Application | Socle local Vendure 3.8.0, API, worker et extension Dashboard réalisés par S00 |
+| Application | Vendure 3.8.0 avec catalogue, pages/versionnement, opérations et worker intégrés en G1 |
 | Moteur | Vendure 3.8.0 testé avec données et paiements fictifs |
 | Stock concurrent | Contre-exemple reproduit et protection synchrone testée ; paiement asynchrone encore à traiter |
 | Interface | Direction S01 confirmée ; maquettes livrées ; recette S00/S01 réalisée dans Responsively stable aux quatre dimensions |
 | Contrats | Source commune dans `packages/contracts`, invariants S02 et décisions G0 |
-| Intégration | G0 vérifié : lanceur, contrats, ressources, recette UI et workflow Git ; base locale, non poussée |
-| Missions de code suivantes | S10, S11 et S12 prêtes ; lancement uniquement sur instruction de Victor depuis le même SHA G0 |
+| Intégration | G1 vérifié localement sur `integration/g1` ; commit, publication de branche et fusion restent à autoriser |
+| Missions de code suivantes | Fiches S20, S21, S22 préparées ; lancement après base G1 commitée/intégrée et instruction de Victor |
 
 Les rapports du [banc de validation](../../experiments/core-validation/README.md) sont les preuves du moteur. Ils ne valent pas validation du checkout de production, de l'administration ou des intégrations.
 
@@ -111,6 +111,8 @@ En V9, S90 prépare d'abord un candidat figé. S91 et S92 l'examinent en parall�
 S12 fournit la persistance minimale des événements avant le checkout. S22 développera leur collecte et leur lecture analytique. S11 fournit le verrouillage des versions avant les agents SEO et les expériences.
 
 ### V2 — Vendre, modifier le site et mesurer
+
+Fiches préparées en G1 : [S20](missions/S20-checkout.md), [S21](missions/S21-editeur-publication.md), [S22](missions/S22-mesure.md). Elles ne sont pas lancées ; leur base attend le versionnement et l’intégration Git de G1.
 
 | Lot | Dépendances utiles | Critères de sortie |
 |---|---|---|
@@ -212,6 +214,12 @@ Un point G1 à G8 reprend toujours :
 
 La session A intègre après l'arrêt des modifications des autres sessions. L'intégration réutilise les autorisations déjà données ; les commits, fusions et publications suivent leur autorisation propre. Aucun worktree inachevé d'une autre session n'est supprimé.
 
+### G1 réalisé localement
+
+Le [résultat G1](../livraisons/G1/RESULTAT.md) et les [décisions](../livraisons/G1/DECISIONS.md) constituent la référence de la vague V1. Les 15 scénarios combinés prouvent les migrations, le produit S10 dans une page S11, une action S12 atomique, les refus, la reprise du worker et la restauration. Les recettes des trois modules et du socle sont rejouées. La validation Responsively est consignée dans la livraison.
+
+`integration/g1` porte encore des changements non commités. Le SHA G0 ne devient pas une base G1 par renommage. Avant la vague suivante, autoriser et vérifier les actions Git prévues dans la coordination, puis inscrire le SHA intégré réel.
+
 ## 8. État des missions
 
 | Missions | État | Condition de passage |
@@ -220,8 +228,10 @@ La session A intègre après l'arrêt des modifications des autres sessions. L'i
 | S01 | Livré et recette du prototype vérifiée | Parcours et quatre dimensions vérifiés ; approbation finale des maquettes distincte, écrans métier futurs |
 | S02 | Intégré et vérifié pour ses formats | Source commune et exemples vérifiés ; garanties métier à implémenter dans leurs lots |
 | G0 | Intégré et vérifié | Base locale portée par le premier commit de `main` ; push distinct |
-| S10, S11, S12 | Prêtes, non lancées | Même SHA G0 vérifié, worktrees distincts et instruction de lancement |
-| S20 à S82 | À détailler | Vague précédente intégrée, accès et critères propres au lot |
+| S10, S11, S12 | Intégrées et vérifiées localement en G1 | Parcours commun exécuté ; worktrees sources conservés |
+| G1 | Technique vérifiée ; versionnement en attente | [Résultat et preuves](../livraisons/G1/RESULTAT.md), commit/PR/fusion à autoriser ; aucun nouveau SHA prétendu |
+| S20, S21, S22 | Fiches préparées, non lancées | Même base G1 commitée et intégrée à vérifier avant lancement |
+| S30 à S82 | À détailler | Vague précédente intégrée, accès et critères propres au lot |
 | S90 à S92 | À détailler | Périmètre complet intégré et candidat figé |
 
 Le coordinateur actualise ce tableau aux points d'intégration. Il n'y a pas de pourcentage d'avancement calculé à partir du nombre de fichiers ou de lignes de code.

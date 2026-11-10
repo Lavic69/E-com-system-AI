@@ -1,0 +1,11 @@
+
+> e-com-system-ai@0.0.0 typecheck
+> npm run typecheck --workspace @ecom/commerce && npm run typecheck --workspace @ecom/dashboard
+
+
+> @ecom/commerce@0.0.0 typecheck
+> tsc -p tsconfig.json --noEmit
+
+
+> @ecom/dashboard@0.0.0 typecheck
+> tsc --noEmit

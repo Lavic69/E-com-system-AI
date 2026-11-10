@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-11-10T12:20:36.840714+00:00",
+  "base_sha": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "branch": "feat/s11-pages",
+  "commits": [],
+  "push": "non effectué",
+  "shared_files_modified": false,
+  "checks": {
+    "typecheck": "passed",
+    "recipe_typecheck": "passed",
+    "commerce_build": "passed",
+    "composed_dashboard_build": "passed",
+    "s11_api": {
+      "passed": 19,
+      "total": 19
+    },
+    "browser": {
+      "passed": 7,
+      "total": 7,
+      "tool": "Playwright 1.58.2 / Chromium"
+    },
+    "socle_launcher": {
+      "passed": 9,
+      "total": 9
+    },
+    "socle_integration": {
+      "passed": 16,
+      "total": 16
+    },
+    "contracts": {
+      "passed": 81,
+      "total": 81
+    },
+    "known_local_secrets_scan": "passed",
+    "scope_and_links": "passed"
+  },
+  "responsively": {
+    "status": "passed_scoped_recipe",
+    "completedAt": "2026-11-10T12:20:36.840714+00:00",
+    "app": "/Applications/ResponsivelyApp.app",
+    "report": "docs/livraisons/S11/RECETTE_RESPONSIVELY.md",
+    "dimensions": [
+      [
+        1440,
+        900
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "limits": [
+      "Pas de Safari ou appareil physique",
+      "Pas de recette intégrée G1",
+      "Pas d’audit exhaustif d’accessibilité"
+    ]
+  },
+  "services": {
+    "status": "stopped",
+    "ports_verified_free": [
+      4102,
+      5112,
+      5542
+    ],
+    "foreign_services_stopped": false
+  },
+  "sources": {
+    "apps/commerce/src/plugins/content/content.entity.ts": "ea122e58d47ff2c50e069dc50a991544c3156731171ca348623824bc0e21861c",
+    "apps/commerce/src/plugins/content/content.plugin.ts": "de649f4c1d164b1394a0882460ad3cf61278c07daecf2217608a8ed88f9cbdac",
+    "apps/commerce/src/plugins/content/content.service.ts": "cc215a262b7dc9f34ff91fe34e792ad2d05ea427d24f2c5a54c69dab20d52934",
+    "apps/commerce/src/plugins/content/document.ts": "b9be2237907c11710fed999f7e2c876c1bcc09f530ec5a97b85f3c6211da093b",
+    "apps/commerce/src/plugins/content/migrations/1794355200000-ContentPages.ts": "4f7dc3a9b34c3ab9a30a8715ff70827372c7f057e64538a19c7c443760a3c51b",
+    "apps/commerce/src/plugins/content/permissions.ts": "b37fbea074a6555cbb7af1aee06cf4ae74c75945992f30b612331de974e55270",
+    "apps/commerce/src/plugins/content/protection.ts": "f642c1be845dd4947b3f91212e6eaf9cc345159e476e440c1ba075dcc37d0919",
+    "apps/dashboard/src/extensions/content/editor.tsx": "da5322f314cf46a84e52ea4570918d7b6298d12fae015aa2607548a307830201",
+    "apps/dashboard/src/extensions/content/index.tsx": "26f486549d676fee67e1c08a2d52d299c2ea29cee122f01a6db25ebba724409b",
+    "apps/dashboard/src/extensions/content/style.css": "c7b2433c9cb20f7e4992b2e568d1b5ba771dc2818bf904d4daa8c82c1b1e67c6",
+    "apps/dashboard/src/extensions/content/types.ts": "afd3c2cd88a3b03f9c7d48524331da574c4f1c082a2778a92ef1eeb55c3671e3",
+    "infra/tests/s11/README.md": "926d02fcac5a171dd39da546ba6c056742694f7988161f953bdc637a775f3bdf",
+    "infra/tests/s11/browser.mjs": "6d7f8714cfe7b842b1dddc8c761b835ec3e66338dda37e1a667de2c683d9c450",
+    "infra/tests/s11/harness.mjs": "0b69346bfa18af6934a87b7b3ae15d0c9b2e955f0ce0da480405c3db67ca6016",
+    "infra/tests/s11/serve.mjs": "3073344b022fe423a256ad0cb7d25dcce92b51e9cfc6bae57462a813a6e23f2b",
+    "infra/tests/s11/server.cjs": "4e4c56b0bf80032b5afb41bbe2ec12fb254119c3294a7e3f666cb3432e653157",
+    "infra/tests/s11/tsconfig.json": "08bd3eb980e71a7c625c8d1e1232da883215b23f2d9d9a2b19a0c56448dac9ee",
+    "infra/tests/s11/vendure-config.ts": "e656a4ed2a8f53b86df5d475865abf5ef99aa34208a65f1be005eb1f79b38f7e",
+    "infra/tests/s11/verify.mjs": "f329e62fc3c74ba03c97833df88c2de5e247c5f7ba53e05196fa9bda02d9638e",
+    "infra/tests/s11/vite.config.mts": "ba28c6d623301f1b7770cf37b8b6e7bb5d91d4bdf8f51d2ebc239749dee9e1dd"
+  },
+  "artifacts": {
+    "docs/livraisons/S11/PLAN.md": "8f4cab950a26bb36c75911199e22d1e7cc6dc27e1fecf9857e4427349663cb61",
+    "docs/livraisons/S11/RACCORDEMENTS.md": "c62e81711e04a3d89b39c8f043e6258947e88175da574f6a8bff70d0b4d1b7f4",
+    "docs/livraisons/S11/RECETTE_RESPONSIVELY.md": "2af3299b42e73f953c57625db87143ac714b5a17141d0a272ce9a234fe68f439",
+    "docs/livraisons/S11/RESULTAT.md": "5ef3bb34c6cd035db5d1b41a307ff0bb74a19d367b58348ba792e36523cc562d",
+    "docs/livraisons/S11/preuves/contracts.json": "c4963a15809c48a0ac4991f974cf174edad1d98a8b5222bc012feafb00859dd0",
+    "docs/livraisons/S11/preuves/integration.json": "1688aa6293444c3600dca61528d9adddf16464a7337d2c6cac49b2b871b68348",
+    "docs/livraisons/S11/preuves/responsively/comparaison-apercu.png": "ac095b965057c74c07e4503c6babdb86eda69ed993748b39fb43b01c7462de88",
+    "docs/livraisons/S11/preuves/responsively/creation-mobile-corrigee.png": "8fb21d97da55e21e37cb05bfdd0b1fe0f096453cf02b042acb9ffaf82385bd0a",
+    "docs/livraisons/S11/preuves/responsively/creation-mobile-corrigee.txt": "0780ad453440ff8bbf32133bfebe13e292b4cf2f3699d9ed702ba4cd9b1d90db",
+    "docs/livraisons/S11/preuves/responsively/dossier-quatre-formats.png": "2549dcb6c4d7196b894d9d21d1185ef5014cdd784212b09bb26106ec1adc1da4",
+    "docs/livraisons/S11/preuves/responsively/etat-final.png": "69892708fd640841c21995f2a9a57f4330dc0555391f91564f2fefca10cedf00",
+    "docs/livraisons/S11/preuves/responsively/etat-final.txt": "8d78cc173718961d7c54f834bfd39c6814966ce94b6f21b9b4339f74824f0128",
+    "docs/livraisons/S11/preuves/responsively/historique-v1.txt": "93e9a3accbe1012f87159081e0a6c0183750b366d1fa700d3e5a59a652e311b0",
+    "docs/livraisons/S11/preuves/responsively/iphone-historique.png": "8221ea769a1acef2d93d4ffca7073a0c46edfe7205c193a9ea7b0f49085e2741",
+    "docs/livraisons/S11/preuves/responsively/lecture-seule.png": "f1c363a682f3e2b5144fd592799836c8e15c1d8521de2551473e340b4db830a6",
+    "docs/livraisons/S11/preuves/responsively/lecture-seule.txt": "ddccd82c033a0b3c1482bcff4c511e74f9147cbdf91bb510c84298d7fe5575b5",
+    "docs/livraisons/S11/preuves/responsively/mobile-etroit.png": "832e8bd712fb629a272635dfb65744cc473eaccf7bad3064dad1620240c6d4e7",
+    "docs/livraisons/S11/preuves/responsively/page-absente.png": "55a4656d687372221c9a249b3c60f6692762ad58b3acd1cfa7e27953d1e8a981",
+    "docs/livraisons/S11/preuves/responsively/page-absente.txt": "4fade52f77645aefc695828244543cc16f54d93acc3212a8c90508649b4feff0",
+    "docs/livraisons/S11/preuves/responsively/persistence.json": "21a82d042c858d516bf5046ab4006d685a6fb7f7d1e3f4423cb06ddaab60ed3a",
+    "docs/livraisons/S11/preuves/responsively/quatre-formats.txt": "b53010d6827ca809d3979321624cf2f0a7f822a8558b11863d95c143b33305b5",
+    "docs/livraisons/S11/preuves/responsively/reservation-refusee.png": "bf27c02d618e3d5a0b17790180784bceb2f085b229e911d2568294912bcb422a",
+    "docs/livraisons/S11/preuves/responsively/reservation-refusee.txt": "1ab1789b7c697a1e14012ba342d13de9e3f36f8300bdea0ad9bbe42ab6a2f12d",
+    "docs/livraisons/S11/preuves/responsively/tablette-lecture-seule.png": "9eecb9c6e9e6fb0e7cc91890b2659603982d1022fb8a76663d2f2ccab31970cb",
+    "docs/livraisons/S11/preuves/socle/integration.json": "cfce77cd7c1838773eb69c641c1396220f2c8009dda410a0f91fc327af979f92",
+    "docs/livraisons/S11/preuves/ui/browser.json": "d1ec8fe880cda4a0444d25271714ee38e2c4af99de1424dc1102e464ffc44a94",
+    "docs/livraisons/S11/preuves/ui/chromium-1024x768.png": "8971a200155763617a6018091736c7af440db359c9319a088c07492acdaee0d5",
+    "docs/livraisons/S11/preuves/ui/chromium-1440x900.png": "903d874bec5fc2d9c05b4a8aafd0965d239474032e9257557bde816ee15bcc3a",
+    "docs/livraisons/S11/preuves/ui/chromium-360x800.png": "5b60ca0ce2d3d255f3051d448e0c04e1df0f3084593fa56cd983f867f96aac85",
+    "docs/livraisons/S11/preuves/ui/chromium-390x844.png": "8f6558b7d79a79c1d4215c8ac13aa1b59655a81828fe65c5c195e12c011561af",
+    "docs/livraisons/S11/preuves/ui/conflit-saisie-conservee.png": "feed5a8286ce2a7d20409a480802595a363dacf86ef313d956dad554ad5b7fce",
+    "docs/livraisons/S11/preuves/ui/lecture-seule-mobile.png": "86fdfb139ee5a5c54c479b7e2328b401e00e47998cedcddcbb54fd985bae9ac4",
+    "docs/livraisons/S11/preuves/ui/reservation-refusee.png": "57cc187d8277b29095737d78de6423915a1d5f48b87d7b72c9db8296e060d7fe"
+  },
+  "followup": {
+    "reason": "Navigation après création bloquée dans Responsively avant retrait du beforeunload",
+    "changed_file": "apps/dashboard/src/extensions/content/index.tsx",
+    "previous_sha256": "170de0b30d4463c10a6f0fa242818f66837eb07c8749046ab1620cdac9bd8e6d",
+    "typecheck": "passed",
+    "dashboard_build": "passed",
+    "browser_rerun": "2026-11-10T12:16:26.187Z",
+    "api_backend_hashes_unchanged": true
+  }
+}

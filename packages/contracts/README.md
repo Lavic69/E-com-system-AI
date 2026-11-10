@@ -8,7 +8,7 @@ Source des formats retenus en G0, version de travail `s02-draft-1`. Les schémas
 - [Scénarios d'acceptation](../../docs/livraisons/S02/SCENARIOS.md).
 - [Décisions d'intégration](../../docs/livraisons/G0/DECISIONS.md).
 
-Les workspaces peuvent référencer `@ecom/contracts/schema`. Il n'existe pas encore de validateur applicatif ni de types TypeScript générés. S12 raccordera la validation serveur ; S10 et S11 ne recopient pas un deuxième schéma.
+Les workspaces peuvent référencer `@ecom/contracts/schema`. S12 fournit des validateurs serveur autonomes et des types générés dans `apps/commerce/src/plugins/operations/generated/`, depuis ce schéma unique. G1 les utilise dans l'application intégrée. Le contrôle du condensat du schéma fait partie de `npm run test:s12`. La génération et ses dépendances locales sont décrites dans [les raccordements S12](../../docs/livraisons/S12/RACCORDEMENTS.md#contrats-et-génération). S10 et S11 ne recopient pas un deuxième schéma.
 
 Depuis la racine :
 

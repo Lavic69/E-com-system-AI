@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-10T12:08:23.000Z",
+  "status": "passed",
+  "cases": [
+    {
+      "name": "SIGTERM répété : sortie zéro et nettoyage",
+      "status": "passed"
+    },
+    {
+      "name": "Perte réelle de l’API : échec et nettoyage",
+      "status": "passed"
+    }
+  ],
+  "sourceSha256": {
+    "infra/tests/s10/dev.mjs": "671016b2c4b2eac64f70ce364a2014b008c64cca101d18fab4de361cc72b18e6",
+    "infra/tests/s10/runtime.mjs": "f9d02c50e36af14ac936062c4ed710e4bc3f266e63a8bcfed7101be1250f01d4",
+    "infra/tests/s10/server.cjs": "2764a65fd26a58953200ba37835a0c6b2c525809a3cd153b0bb5e17316f88ec1",
+    "infra/tests/s10/verify-launcher.mjs": "27fb361a490e9bbeb301870011ba821c391a4f5013aea4efbaca5b52b3c11a69"
+  }
+}

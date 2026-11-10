@@ -1,0 +1,106 @@
+{
+  "base_sha": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "startedAt": "2026-11-10T13:32:30.910Z",
+  "cases": [
+    {
+      "name": "Migration depuis G0 peuplé, produit conservé, sans synchronisation automatique",
+      "status": "passed"
+    },
+    {
+      "name": "Création et relecture d’une page brouillon",
+      "status": "passed"
+    },
+    {
+      "name": "Validation serveur stricte : champs inconnus, prix, blocs répétés, langue et adresse",
+      "status": "passed"
+    },
+    {
+      "name": "Acquisitions concurrentes par deux membres : un seul détenteur",
+      "status": "passed"
+    },
+    {
+      "name": "Réservation requise et non transférable à un autre membre",
+      "status": "passed"
+    },
+    {
+      "name": "Deux sauvegardes simultanées : une version créée, un conflit de révision",
+      "status": "passed"
+    },
+    {
+      "name": "Immutabilité imposée en base pour une version validée et son parent",
+      "status": "passed"
+    },
+    {
+      "name": "Renouvellement : jeton croissant et ancien jeton refusé",
+      "status": "passed"
+    },
+    {
+      "name": "Sélection pour publication : version validée, révision atomique et droits propres",
+      "status": "passed"
+    },
+    {
+      "name": "Expiration, reprise par un autre membre et refus de l’ancien détenteur",
+      "status": "passed"
+    },
+    {
+      "name": "Références catalogue réelles, produit absent et données commerciales interdites",
+      "status": "passed"
+    },
+    {
+      "name": "Lecture seule et anonyme : toutes les mutations refusées, mutation native également",
+      "status": "passed"
+    },
+    {
+      "name": "Image importée via Vendure, référence persistée et aperçu servi",
+      "status": "passed"
+    },
+    {
+      "name": "Canaux distincts : lecture, écriture et références hors canal refusées",
+      "status": "passed"
+    },
+    {
+      "name": "Protection d’expérience de recette : lecture permise, écriture et sélection bloquées après expiration",
+      "status": "passed"
+    },
+    {
+      "name": "Produit supprimé : aperçu explicite et sélection refusée sans changer l’historique",
+      "status": "passed"
+    },
+    {
+      "name": "Registre de protection indisponible : transaction refusée sans version supplémentaire",
+      "status": "passed"
+    },
+    {
+      "name": "Journal durable des acquisitions, renouvellement et libérations",
+      "status": "passed"
+    },
+    {
+      "name": "Redémarrage API et PostgreSQL : versions, sélection et jetons conservés, migration idempotente",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-11-10T13:32:37.606Z",
+  "sources": {
+    "apps/commerce/src/plugins/content/content.entity.ts": "ea122e58d47ff2c50e069dc50a991544c3156731171ca348623824bc0e21861c",
+    "apps/commerce/src/plugins/content/content.plugin.ts": "de649f4c1d164b1394a0882460ad3cf61278c07daecf2217608a8ed88f9cbdac",
+    "apps/commerce/src/plugins/content/content.service.ts": "aa24475da762ed697166c6bcafea4fb950beebd1a6bbb81bc238a30b6eee407d",
+    "apps/commerce/src/plugins/content/document.ts": "b9be2237907c11710fed999f7e2c876c1bcc09f530ec5a97b85f3c6211da093b",
+    "apps/commerce/src/plugins/content/permissions.ts": "b37fbea074a6555cbb7af1aee06cf4ae74c75945992f30b612331de974e55270",
+    "apps/commerce/src/plugins/content/protection.ts": "f642c1be845dd4947b3f91212e6eaf9cc345159e476e440c1ba075dcc37d0919",
+    "apps/commerce/src/plugins/content/migrations/1794355200000-ContentPages.ts": "4f7dc3a9b34c3ab9a30a8715ff70827372c7f057e64538a19c7c443760a3c51b",
+    "apps/dashboard/src/extensions/content/editor.tsx": "da5322f314cf46a84e52ea4570918d7b6298d12fae015aa2607548a307830201",
+    "apps/dashboard/src/extensions/content/index.tsx": "26f486549d676fee67e1c08a2d52d299c2ea29cee122f01a6db25ebba724409b",
+    "apps/dashboard/src/extensions/content/style.css": "c7b2433c9cb20f7e4992b2e568d1b5ba771dc2818bf904d4daa8c82c1b1e67c6",
+    "apps/dashboard/src/extensions/content/types.ts": "afd3c2cd88a3b03f9c7d48524331da574c4f1c082a2778a92ef1eeb55c3671e3",
+    "infra/tests/s11/README.md": "926d02fcac5a171dd39da546ba6c056742694f7988161f953bdc637a775f3bdf",
+    "infra/tests/s11/browser.mjs": "6d7f8714cfe7b842b1dddc8c761b835ec3e66338dda37e1a667de2c683d9c450",
+    "infra/tests/s11/harness.mjs": "0b69346bfa18af6934a87b7b3ae15d0c9b2e955f0ce0da480405c3db67ca6016",
+    "infra/tests/s11/serve.mjs": "3073344b022fe423a256ad0cb7d25dcce92b51e9cfc6bae57462a813a6e23f2b",
+    "infra/tests/s11/server.cjs": "3a807ed2cea49d267015387650b4ec6f1d720080aa292644ef1285c72e792cdd",
+    "infra/tests/s11/tsconfig.json": "08bd3eb980e71a7c625c8d1e1232da883215b23f2d9d9a2b19a0c56448dac9ee",
+    "infra/tests/s11/vendure-config.ts": "608cb1830d4425280d3cb823020b9f9817bfecb8019efd8977a572969e80250a",
+    "infra/tests/s11/verify.mjs": "f329e62fc3c74ba03c97833df88c2de5e247c5f7ba53e05196fa9bda02d9638e",
+    "infra/tests/s11/vite.config.mts": "ba28c6d623301f1b7770cf37b8b6e7bb5d91d4bdf8f51d2ebc239749dee9e1dd"
+  }
+}

@@ -130,3 +130,7 @@ Le [paquet de contrats](../../packages/contracts/README.md) décrit le prérequi
 L'alignement de React Query évite deux contextes de requête entre Vendure et l'extension. `react-hook-form` est fixé à 7.71.0, version compatible avec les types de Vendure 3.8.0 vérifiés ici. Le contrôle TypeScript reste strict.
 
 La configuration suit le [guide officiel Dashboard de Vendure 3.8.0](https://github.com/vendurehq/vendure/blob/v3.8.0/docs/docs/guides/extending-the-dashboard/getting-started/index.mdx) et les exports du paquet installé. Aucun composant interne n'est recopié.
+
+## G1
+
+`npm run test:all` vérifie le socle et les trois modules, puis le parcours commun G1. `npm run demo:g1` ouvre la base de démonstration issue du dernier `test:g1`. Pour une base vide, `npm run dev -- --mission=G1 --session=A`. Les identifiants et la base restent dans `.data/`. Le `shopId` est conservé par sauvegarde/restauration même si le nom de la base change.

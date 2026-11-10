@@ -1,0 +1,155 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5103/dashboard/operations
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (settable, integer) iPhone 12 Pro, Value: 0
+				26 tabulation (selected) MacBook Pro, Value: 1
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (settable, integer) Galaxy S21, Value: 0
+			29 container
+				30 text MacBook Pro 1440 x 900
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					43 container
+						44 container
+							45 Liste du contenu
+								46 bouton de menu local Default channel Language: English
+							47 Liste du contenu
+								48 container
+									49 bouton Activité
+									50 Liste du contenu
+										51 link Description: Actions, Value: 127.0.0.1:5103/dashboard/operations
+								52 bouton Environnement local
+								53 link Description: Insights, Value: 127.0.0.1:5103/dashboard/
+								54 bouton Catalog
+								55 bouton Sales
+								56 bouton Customers
+								57 bouton Marketing
+							58 container
+								59 texte Administration
+								60 Liste du contenu
+									61 bouton Settings
+									62 bouton System
+							63 Liste du contenu
+								64 bouton de menu local Super Admin admin-c@local.test
+									65 texte Super
+									66 texte Admin
+									67 texte admin-c@local.test
+							68 bouton Toggle Sidebar
+						69 container
+							70 container
+								71 bouton Toggle Sidebar
+								72 container breadcrumb
+									73 Liste du contenu
+										74 link Description: Activité, Value: 127.0.0.1:5103/dashboard/operations
+							75 bouton de menu local
+							76 en-tête Actions, Value: 1
+								77 texte Actions
+							78 container
+								79 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								80 bouton Actualiser
+								81 container Dossiers d’action
+									82 container
+										83 text Dossiers récents ·  3
+									84 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										85 texte Message de vérification
+										86 texte À rapprocher
+										87 container
+											88 text Proposition  v8  · cible v 7
+									89 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										90 texte Présentation du produit
+										91 texte Réussie
+										92 container
+											93 text Proposition  v8  · cible v 7
+									94 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										95 texte Accueil · titre de page
+										96 texte À valider
+										97 container
+											98 text Proposition  v8  · cible v 7
+								99 container Dossier Présentation du produit
+									100 container
+										101 texte Dossier d’action
+										102 en-tête Présentation du produit, Value: 2
+											103 texte Présentation du produit
+										104 texte Réussie
+									105 texte Démonstration locale sur une cible de test.
+									106 container Objet et proposition
+										107 en-tête Objet et proposition, Value: 3
+											108 texte Objet et proposition
+										109 liste de définitions
+											110 texte Version visée
+											111 texte 7
+											112 texte Proposition
+											113 texte v8
+											114 texte Marché · langue
+											115 container
+												116 text market-s12-1  ·  en
+											117 texte Préparée le
+											118 texte 10 nov. 2026, 12:52
+										119 container
+											120 text Référence de la modification :  fixture:local-message
+									121 container Décision et coût
+										122 en-tête Décision et coût, Value: 3
+											123 texte Décision et coût
+										124 liste de définitions
+											125 texte Plafond approuvé
+											126 texte 3,00 $US
+											127 texte Montant réservé
+											128 texte 0,00 $US
+											129 texte Coût connu
+											130 texte 2,40 $US
+										131 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+									132 container Résultat et preuves
+										133 en-tête Résultat et preuves, Value: 3
+											134 texte Résultat et preuves
+										135 Liste du contenu
+											136 container
+												137 text Preuve conservée local-mail:fc94acc4-6b93-47af-94fb-8e9d473440d4
+										138 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										139 triangle d'expansion Consulter la trace du dossier
+											140 texte Consulter la trace du dossier
+						141 container Notifications alt+T
+		142 container
+	143 Bouton de fermeture
+	144 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	145 bouton de minimisation
+146 menu bar
+	147 ResponsivelyApp
+	148 Edit
+	149 View
+	150 Window
+	151 Help
+
+The focused UI element is 42 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations

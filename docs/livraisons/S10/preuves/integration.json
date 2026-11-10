@@ -1,0 +1,121 @@
+{
+  "startedAt": "2026-11-10T13:32:20.319Z",
+  "base": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "vendure": "3.8.0",
+  "cases": [
+    {
+      "name": "Migration S00 puis candidate S10 sur PostgreSQL vide",
+      "status": "passed"
+    },
+    {
+      "name": "Deux marchés, trois emplacements et membres natifs avec rôles distincts",
+      "status": "passed"
+    },
+    {
+      "name": "Aperçu sans écriture, prix entier et erreurs par ligne",
+      "status": "passed"
+    },
+    {
+      "name": "Import partiel : une ligne valide créée, ligne invalide ignorée",
+      "status": "passed"
+    },
+    {
+      "name": "Lecture visiteur : produit, variante et prix du marché Belgique",
+      "status": "passed"
+    },
+    {
+      "name": "Relance du même fichier et conflit si une clé change de contenu",
+      "status": "passed"
+    },
+    {
+      "name": "Aperçu invalidé par changement de fichier, marché ou emplacement",
+      "status": "passed"
+    },
+    {
+      "name": "Concurrence : deux requêtes avec la même clé ne créent qu’un produit",
+      "status": "passed"
+    },
+    {
+      "name": "SKU concurrent avec deux clés différentes : un seul produit",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt brutal en milieu d’import : reprise des seules lignes non validées",
+      "status": "passed"
+    },
+    {
+      "name": "Rollback après création du produit si la variante échoue, puis reprise",
+      "status": "passed"
+    },
+    {
+      "name": "Bornes et CSV malformé refusés, clés/SKU répétés signalés",
+      "status": "passed"
+    },
+    {
+      "name": "API directe refusée aux anonymes et au rôle lecture seule",
+      "status": "passed"
+    },
+    {
+      "name": "Permission native CreateProduct seule autorise l’import",
+      "status": "passed"
+    },
+    {
+      "name": "Aucune lecture ni mutation du catalogue Belgique depuis États-Unis",
+      "status": "passed"
+    },
+    {
+      "name": "Même produit affecté à deux marchés : EUR 1290 et USD 1590",
+      "status": "passed"
+    },
+    {
+      "name": "Modification native du produit et stocks sur deux emplacements",
+      "status": "passed"
+    },
+    {
+      "name": "Options et variantes natives, combinaison invalide refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Média natif chargé puis relié au produit et visible en Shop API",
+      "status": "passed"
+    },
+    {
+      "name": "Attributs/facettes, collection et sélection native de ses variantes",
+      "status": "passed"
+    },
+    {
+      "name": "Modification native en masse : deux produits désactivés puis réactivés",
+      "status": "passed"
+    },
+    {
+      "name": "Client et compte natifs, groupe et préférences sans consentement implicite",
+      "status": "passed"
+    },
+    {
+      "name": "Redémarrage réel : migrations rejouables, produit, préférences et reçus persistants",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-11-10T13:32:30.739Z",
+  "servicesStopped": true,
+  "sourceSha256": {
+    "apps/commerce/src/plugins/catalogue/catalogue-import.entity.ts": "3f10c54e8fd15956684fd682a39fa551fac285500edc95125b52336caf373448",
+    "apps/commerce/src/plugins/catalogue/catalogue-import.service.ts": "b7e828f6c8adb509f22c8f687e2255236132fd7eba2ee22c0a1ca924d9a94230",
+    "apps/commerce/src/plugins/catalogue/catalogue.plugin.ts": "c6c12125bc6fa32aae10560bf4b28f1d5471fc88f7cbf0240851f40b62d418ca",
+    "apps/commerce/src/plugins/catalogue/csv.ts": "28570875d63aa27a06ee529e7ec39f322e0738b1ee34d70801922e9b3623dd15",
+    "apps/commerce/src/plugins/catalogue/migrations/1794309752560-CatalogueS10.ts": "1ab145672a4d686a59fb488a87660adc61edf279a27644fe385c91201a1267d9",
+    "apps/dashboard/src/extensions/catalogue/index.tsx": "fa7668d40a9220e9310bdd19cf9d4f8f8e4477b580ac0490d0f0d2805eb3028b",
+    "infra/tests/s10/dev.mjs": "671016b2c4b2eac64f70ce364a2014b008c64cca101d18fab4de361cc72b18e6",
+    "infra/tests/s10/fixtures.mjs": "448c6ec01cce2bda168dc95aa3b1c490b424689f3846083b949de51353dcf604",
+    "infra/tests/s10/generate-migration.mjs": "33a2d953348cc4c182b2d50beedefb793852ea40bb9b55323514f520cdb8cf9f",
+    "infra/tests/s10/runtime.mjs": "f9d02c50e36af14ac936062c4ed710e4bc3f266e63a8bcfed7101be1250f01d4",
+    "infra/tests/s10/server.cjs": "70485737d629a70f4c91d6c41ce6f864df651baef026a1b1be12c80ebb107b2b",
+    "infra/tests/s10/vendure-config.ts": "53f737b158e0db5500d9e60b9a9c116189eff8c85baa4813631c5aa1a65567e3",
+    "infra/tests/s10/verify-launcher.mjs": "27fb361a490e9bbeb301870011ba821c391a4f5013aea4efbaca5b52b3c11a69",
+    "infra/tests/s10/verify-upgrade.mjs": "fe84b454adcab6f2a40f3a0042cafea9ced52cb37cf5756b9d8eb8ab2fc586b5",
+    "infra/tests/s10/verify.mjs": "98b15a45915c1a53caa6df165c97273b09b37cfde30164d29a5e9191fdbb1a5b",
+    "infra/tests/s10/vite.config.mts": "b319aad743ecad352022353abcd77cf69dcb92544a981074c9c82b4bbfba57e6",
+    "infra/tests/s10/fixtures/recette-fichier.csv": "8c81131785c8c0f5dace4496cba4d980b1e79931b942598b85c72a2955b8d391"
+  }
+}

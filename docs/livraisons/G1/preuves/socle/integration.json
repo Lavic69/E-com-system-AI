@@ -1,0 +1,141 @@
+{
+  "startedAt": "2026-11-10T13:31:48.525Z",
+  "node": "v24.14.0",
+  "vendure": "3.8.0",
+  "cases": [
+    {
+      "name": "Migration sur PostgreSQL vide et second passage sans modification",
+      "status": "passed"
+    },
+    {
+      "name": "API authentifiée et worker démarrent sur la configuration applicative",
+      "status": "passed"
+    },
+    {
+      "name": "Lecture du socle refusée sans authentification",
+      "status": "passed"
+    },
+    {
+      "name": "Requête sans précontrôle CSRF refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Compte catalogue refusé sur la permission propre au socle",
+      "status": "passed"
+    },
+    {
+      "name": "Permission du socle accordée sans ouvrir le catalogue",
+      "status": "passed"
+    },
+    {
+      "name": "Donnée de démonstration créée puis relue par API",
+      "status": "passed"
+    },
+    {
+      "name": "Deux sessions actives ont des bases, comptes et médias indépendants",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde refusée lorsque PostgreSQL est encore actif",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt propre de nos API, worker et instances PostgreSQL",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde physique à froid et restauration dans une destination vide",
+      "status": "passed"
+    },
+    {
+      "name": "Relecture API après restauration : données, migration et permissions conservées",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt demandé par SIGTERM répété : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt demandé par SIGINT répété : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt inattendu de l’API réelle : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    },
+    {
+      "name": "Arrêt inattendu du processus PostgreSQL réel : code attendu, ports libérés et verrou retiré",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-11-10T13:32:19.849Z",
+  "lockfileSha256": "54a9c71e1489a507e0cb51f39d0f8af327f743e468d0ab5c4f82b76146dafe30",
+  "sourceSha256": {
+    "apps/commerce/src/foundation-config.ts": "44dc71be937d9eb7fd6ecdc4e351a929f77f5ffb2123bb5966bc692addec855c",
+    "apps/commerce/src/migrate.ts": "e6d1d8aa75f8ae6739d30c78deb60e718fda3dc867cbdc3a7c91a5494085d9af",
+    "apps/commerce/src/runtime.ts": "fdb9e06df226b083fbc4aba76284f84b6d7f2d46657f6fd38fd52fb7d392e260",
+    "apps/commerce/src/server.ts": "8cede3ab335a48fff520be3541842e40fe64f984cf643769761ad796e79537fc",
+    "apps/commerce/src/vendure-config.ts": "fb9c52e77d091aecd30c996afb1c21474bfd0adb9a96f78faaeecffaaa234f58",
+    "apps/commerce/src/worker.ts": "c165c806e21f4bf1a56f437c2c5040e8e0fe56d7d6f37880ce13c631be75aee7",
+    "apps/commerce/src/plugins/index.ts": "ad2ee25dec8d38d0c5befe90b1b45585d216518907d2a3989e0ee7b75e59c86c",
+    "apps/commerce/src/plugins/platform/content-action.ts": "d125b58f28b636f432b447a33fab7599e0d9675fad391da2f75df77c93b3e7d6",
+    "apps/commerce/src/plugins/platform/platform.plugin.ts": "05560d43066c9179d7561c34148329cd7753eac85d2cb27ef32ef875f69914fd",
+    "apps/commerce/src/plugins/operations/authority.ts": "3977ee3ed887f758df6bf723d5c918ba9aef2a3882a97ed15895d6835497eca0",
+    "apps/commerce/src/plugins/operations/budget.ts": "0e37d20f9b5db002e0467b59a381149b17d8a1a19e378d3a54122b536c5d2491",
+    "apps/commerce/src/plugins/operations/canonical.ts": "36abd134a71f60551e93076e4931be1831ef4a05fe7167667b9c85bafc8755e2",
+    "apps/commerce/src/plugins/operations/contracts.ts": "329db48197e8f1a003253890bdb8a1945ddf63041546cf07d0b17eca7a134a1f",
+    "apps/commerce/src/plugins/operations/journal.ts": "e277c6ed7023347f293c5d956b04f52310c21f95625aa1d85fcbd246d00112a2",
+    "apps/commerce/src/plugins/operations/local-mail.ts": "62aca6abaa1d8a0130e8ff0a9d66b7ee38ae27e25d4d9cac0eb2b29782fba29d",
+    "apps/commerce/src/plugins/operations/operations.plugin.ts": "99315c477eb4ffa56084109fb2852b279e0a1e9521ce19c0840c2d9b8694273d",
+    "apps/commerce/src/plugins/operations/operations.service.ts": "1a9ebeb8c13d0ddab28265c14c20493b95c23f56706de1d64d08046db69f78c7",
+    "apps/commerce/src/plugins/operations/types.ts": "6cffc4a7e242a377d2ea118fadf680e82fb014c01dcb7e924d7432d969640741",
+    "apps/commerce/src/plugins/operations/migrations/1792513200000-Operations.ts": "2a39929102b21f6b3e3212eb4acd34264eed5d6e0c193be7331f0a907c65a3b5",
+    "apps/commerce/src/plugins/operations/generated/LICENSES.txt": "97d5f59c88837b3595cf3a32ac0e6d653fef21b64f60bcdc653f9a6b7d2b6088",
+    "apps/commerce/src/plugins/operations/generated/contracts.ts": "1b658d6f20e1674a1dd649f4c17a253ae543934073bed4e283f3ffe33f1cba95",
+    "apps/commerce/src/plugins/operations/generated/schema-hash.ts": "a3009dcbf3a4969e8796dfe11333dbab4ed120f463d5ff137a283adae508509e",
+    "apps/commerce/src/plugins/operations/generated/validators.ts": "f4364e43c1199d8b001bc16f722df86580a08837111b545ed1f39a4bc71619b0",
+    "apps/commerce/src/plugins/foundation/foundation.plugin.ts": "67c91a4b1e010c84c16e9caf1f461227beab941148804c73381bfe615d2cd148",
+    "apps/commerce/src/plugins/content/content.entity.ts": "ea122e58d47ff2c50e069dc50a991544c3156731171ca348623824bc0e21861c",
+    "apps/commerce/src/plugins/content/content.plugin.ts": "de649f4c1d164b1394a0882460ad3cf61278c07daecf2217608a8ed88f9cbdac",
+    "apps/commerce/src/plugins/content/content.service.ts": "aa24475da762ed697166c6bcafea4fb950beebd1a6bbb81bc238a30b6eee407d",
+    "apps/commerce/src/plugins/content/document.ts": "b9be2237907c11710fed999f7e2c876c1bcc09f530ec5a97b85f3c6211da093b",
+    "apps/commerce/src/plugins/content/permissions.ts": "b37fbea074a6555cbb7af1aee06cf4ae74c75945992f30b612331de974e55270",
+    "apps/commerce/src/plugins/content/protection.ts": "f642c1be845dd4947b3f91212e6eaf9cc345159e476e440c1ba075dcc37d0919",
+    "apps/commerce/src/plugins/content/migrations/1794355200000-ContentPages.ts": "4f7dc3a9b34c3ab9a30a8715ff70827372c7f057e64538a19c7c443760a3c51b",
+    "apps/commerce/src/plugins/catalogue/catalogue-import.entity.ts": "3f10c54e8fd15956684fd682a39fa551fac285500edc95125b52336caf373448",
+    "apps/commerce/src/plugins/catalogue/catalogue-import.service.ts": "b7e828f6c8adb509f22c8f687e2255236132fd7eba2ee22c0a1ca924d9a94230",
+    "apps/commerce/src/plugins/catalogue/catalogue.plugin.ts": "c6c12125bc6fa32aae10560bf4b28f1d5471fc88f7cbf0240851f40b62d418ca",
+    "apps/commerce/src/plugins/catalogue/csv.ts": "28570875d63aa27a06ee529e7ec39f322e0738b1ee34d70801922e9b3623dd15",
+    "apps/commerce/src/plugins/catalogue/migrations/1794309752560-CatalogueS10.ts": "1ab145672a4d686a59fb488a87660adc61edf279a27644fe385c91201a1267d9",
+    "apps/commerce/src/migrations/1792513149156-InitialSchema.ts": "561502078a72690a40171281a9a65f839d947f38eabdc3c19e100d54e806a4ac",
+    "apps/commerce/src/migrations/1794390000000-PlatformActionProjection.ts": "f34b6c43a77887fe5ba02a5164e091b9fa093a853a34757816547308ee8b298e",
+    "apps/dashboard/src/extensions/foundation.tsx": "d4fe92993b4664412b370796fca5668ce8d4278473851c8ded03440bf1c8d2a0",
+    "apps/dashboard/src/extensions/operations/dossier.tsx": "dce6ed0c6d237517858c9a842ad1b43d325e7056d69f8100071f24864d194d1c",
+    "apps/dashboard/src/extensions/operations/index.tsx": "225720f6566c06362216cd1d904422b63e1e201d612dbde284c77093ea567e8b",
+    "apps/dashboard/src/extensions/operations/operations.css": "9ca9437e5290bfa84f82c9c4c5b70491822d0c65f8ff9eef7c84fb9daa8fa29d",
+    "apps/dashboard/src/extensions/content/editor.tsx": "da5322f314cf46a84e52ea4570918d7b6298d12fae015aa2607548a307830201",
+    "apps/dashboard/src/extensions/content/index.tsx": "26f486549d676fee67e1c08a2d52d299c2ea29cee122f01a6db25ebba724409b",
+    "apps/dashboard/src/extensions/content/style.css": "c7b2433c9cb20f7e4992b2e568d1b5ba771dc2818bf904d4daa8c82c1b1e67c6",
+    "apps/dashboard/src/extensions/content/types.ts": "afd3c2cd88a3b03f9c7d48524331da574c4f1c082a2778a92ef1eeb55c3671e3",
+    "apps/dashboard/src/extensions/catalogue/index.tsx": "fa7668d40a9220e9310bdd19cf9d4f8f8e4477b580ac0490d0f0d2805eb3028b",
+    "infra/dev/README.md": "4e9402697bdcae7fadd6de6282d6f7f7c2dc765839f271c2cca67e3c9a8bf565",
+    "infra/dev/backup.mjs": "28489ce9b13d88d05d2498d2d8802bc32f397e8dce8d20da3ac766f02eb1c542",
+    "infra/dev/check-running.mjs": "8dd5922a495c2874591c6f4cdf5855531b9ffb74e7a104f8667a2425001a8d61",
+    "infra/dev/graphql.mjs": "3ccf7fbd7f3eb7ba91e6e604e4fb61b8094337ffa99620113ef2a0ddd199f81e",
+    "infra/dev/postgres-service.mjs": "d4f62e2026f72fadd5706cf01cbe37fcc031f0e7b7032fd21dbcaf4f88a9ba6d",
+    "infra/dev/postgres.mjs": "ce123251ebc296dd7eeaf1b636a943237f69be991337ae6444208ddab403d1ce",
+    "infra/dev/prepare.mjs": "2bd4db8aac0c9fd5c1ab444f3b0fd2222a35431776cb7e2172b5c6d2e357a194",
+    "infra/dev/processes.mjs": "dc808e5bff2a70d7dc57a6870de2b426e245a795821cff59520e906631ffca00",
+    "infra/dev/run.mjs": "1e135c9ca8b4eb2181c999bd15a2450f175970550e17ed9eaced6fe09f352c59",
+    "infra/dev/run.test.mjs": "114747e0eebb04dc15aeafbb965a3fa4c154d9a336a0ac31bb524e306798d7ca",
+    "infra/dev/session.mjs": "68cc1d6ee5775d141dd995d474cd6b1ca05a3d98625333cdef0e046c0d94d8ab",
+    "infra/dev/session.test.mjs": "350737fe6f4cbbc6fda30bf660cbf30142cd26c9130127636a426cd6d0c83684",
+    "infra/dev/verify.mjs": "a1e79a598772fb38cb8f90ba30d9746a12bf2280a4d50c825a7e52c6b40ce102",
+    "package.json": "b43d60e0b853b7d92ba84ae8974d2cc7eb9fdefb24690b7c1969f4bf2e45d42a",
+    "package-lock.json": "54a9c71e1489a507e0cb51f39d0f8af327f743e468d0ab5c4f82b76146dafe30",
+    "apps/commerce/tsconfig.json": "b7ac73f642812fb3b053ff3dcec79b7ba654b584ecc782ee189a24a1cb94af06",
+    "apps/dashboard/tsconfig.json": "aa836d5fcb062f98ae7d005a0acc45bc3e2ebfe10cefe289092595cf003ee1c0",
+    "apps/dashboard/vite.config.mts": "dc13c1e2eccb4086d368aa9d6c8cad8cc15c34b459fd7a1e37ba14e8525cca9d"
+  }
+}

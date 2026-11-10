@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T12:26:28.249Z",
+  "status": "passed",
+  "method": "Modifications par UI Responsively puis relecture seule Admin API et Shop API",
+  "admin": {
+    "id": "4",
+    "price": 1890,
+    "currencyCode": "EUR",
+    "product": {
+      "id": "4",
+      "name": "Tasse importée depuis un fichier"
+    },
+    "stockLevels": [
+      {
+        "stockLocation": {
+          "id": "2",
+          "name": "Entrepôt Belgique"
+        },
+        "stockOnHand": 9
+      },
+      {
+        "stockLocation": {
+          "id": "3",
+          "name": "Magasin Belgique"
+        },
+        "stockOnHand": 4
+      }
+    ]
+  },
+  "shop": {
+    "id": "4",
+    "name": "Tasse importée depuis un fichier",
+    "variants": [
+      {
+        "id": "4",
+        "price": 1890,
+        "currencyCode": "EUR"
+      }
+    ]
+  }
+}

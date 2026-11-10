@@ -1,0 +1,472 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5112/dashboard/content/6
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/6
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 en-tête Dossier de page, Value: 1
+								45 texte Dossier de page
+							46 container
+								47 text Contenu · Canal  __default_channel__
+							48 link Description: ← Toutes les pages, Value: 127.0.0.1:5112/dashboard/content
+							49 en-tête Notre atelier — recette S11, Value: 2
+								50 texte Notre atelier — recette S11
+							51 container
+								52 text / atelier-responsively-s11  ·  EN  · Révision  4
+							53 texte v2 sélectionnée
+							54 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							55 container Réservation d’édition
+								56 en-tête Consultation en lecture seule, Value: 3
+									57 texte Consultation en lecture seule
+								58 texte L’historique et les aperçus restent consultables sans réservation.
+							59 container
+								60 en-tête Préparer la version suivante, Value: 2
+									61 texte Préparer la version suivante
+								62 text Base v 3
+								63 container
+									64 texte Titre de la page
+									65 champ de texte (disabled) Titre de la page, Value: Notre atelier — recette S11
+								66 container 1. Texte
+									67 container
+										68 text 1 .  Texte
+									69 container
+										70 text Texte du bloc  1
+										71 zone de saisie de texte (disabled) Texte du bloc 1, Value: Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+									72 bouton (disabled) Monter le bloc 1
+									73 bouton (disabled) Descendre le bloc 1
+									74 bouton (disabled) Retirer le bloc 1
+								75 bouton (disabled) Ajouter un texte
+								76 bouton (disabled) Ajouter un média
+								77 bouton (disabled) Ajouter un produit
+								78 bouton (disabled) Enregistrer un brouillon
+								79 bouton (disabled) Enregistrer et valider
+								80 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							81 container
+								82 en-tête Historique, Value: 2
+									83 texte Historique
+								84 Liste du contenu
+									85 bouton d'activation/de désactivation v3 · Brouillon 10/11/2026 13:08:20 Issue de v2, Value: 1
+										86 container
+											87 text v 3  ·  Brouillon
+										88 texte 10/11/2026 13:08:20
+										89 texte Issue de v2
+									90 bouton d'activation/de désactivation v2 · Validée 10/11/2026 13:07:40 Issue de v1 · Sélectionnée, Value: 0
+										91 container
+											92 text v 2  ·  Validée
+										93 texte 10/11/2026 13:07:40
+										94 texte Issue de v1
+										95 texte  · Sélectionnée
+									96 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 0
+										97 container
+											98 text v 1  ·  Brouillon
+										99 texte 10/11/2026 13:05:33
+										100 texte Première version
+							101 container
+								102 en-tête Comparer la version v3, Value: 2
+									103 text Comparer la version v 3
+								104 texte Brouillon
+								105 en-tête Avant · v2, Value: 3
+									106 texte Avant · v2
+								107 en-tête Notre atelier — recette S11, Value: 3
+									108 texte Notre atelier — recette S11
+								109 texte Chaque collection commence dans notre atelier. Nous choisissons les matières et vérifions les finitions avant de proposer nos objets en boutique.
+								110 en-tête Après · v3, Value: 3
+									111 texte Après · v
+								112 en-tête Notre atelier — recette S11, Value: 3
+									113 texte Notre atelier — recette S11
+								114 text Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions. Empreinte :  sha256:cd57dbb13f685f4c67fb4fed8c437275a40f01eed1b3042b923365e009cc218b
+								115 bouton (disabled) Sélectionner v3 pour publication
+									116 text Sélectionner v 3  pour publication
+								117 texte Votre rôle ne permet pas de sélectionner une version.
+								118 en-tête Aperçu local · v3, Value: 3
+									119 texte Aperçu local · v
+								120 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								121 en-tête Notre atelier — recette S11, Value: 2
+									122 texte Notre atelier — recette S11
+								123 texte Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+						124 container Notifications alt+T
+				125 text MacBook Pro 1440 x 900
+				126 bouton Refresh This View
+				127 bouton Quick Screenshot
+				128 bouton Full Page Screenshot
+				129 bouton Design Overlay
+				130 bouton Disable Event Mirroring
+				131 bouton Open Devtools
+				132 bouton (disabled) Rotation not available for non-mobile devices
+				133 bouton Scroll to Top
+				134 bouton Show rulers
+				135 bouton de menu local
+				136 bouton Enable Individual Layout
+				137 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/6
+					138 container
+						139 container
+							140 Liste du contenu
+								141 bouton de menu local Default channel Language: English
+							142 Liste du contenu
+								143 container
+									144 bouton Boutique et contenu
+									145 Liste du contenu
+										146 link Description: Pages, Value: 127.0.0.1:5112/dashboard/content
+								147 link Description: Insights, Value: 127.0.0.1:5112/dashboard/
+							148 Liste du contenu
+								149 bouton de menu local Démonstration s11-ui-reader-1794310782675 s11-ui-reader-1794310782675@local.test
+									150 texte Démonstration
+									151 texte s11-ui-reader-1794310782675
+									152 texte s11-ui-reader-1794310782675@local.test
+							153 bouton Toggle Sidebar
+						154 container
+							155 container
+								156 bouton Toggle Sidebar
+								157 container breadcrumb
+									158 Liste du contenu
+										159 link Description: Boutique et contenu, Value: 127.0.0.1:5112/dashboard/content
+							160 bouton de menu local
+							161 en-tête Dossier de page, Value: 1
+								162 texte Dossier de page
+							163 container
+								164 text Contenu · Canal  __default_channel__
+							165 link Description: ← Toutes les pages, Value: 127.0.0.1:5112/dashboard/content
+							166 en-tête Notre atelier — recette S11, Value: 2
+								167 texte Notre atelier — recette S11
+							168 container
+								169 text / atelier-responsively-s11  ·  EN  · Révision  4
+							170 texte v2 sélectionnée
+							171 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							172 container Réservation d’édition
+								173 en-tête Consultation en lecture seule, Value: 3
+									174 texte Consultation en lecture seule
+								175 texte L’historique et les aperçus restent consultables sans réservation.
+							176 container
+								177 en-tête Préparer la version suivante, Value: 2
+									178 texte Préparer la version suivante
+								179 text Base v 3
+								180 container
+									181 texte Titre de la page
+									182 champ de texte (disabled) Titre de la page, Value: Notre atelier — recette S11
+								183 container 1. Texte
+									184 container
+										185 text 1 .  Texte
+									186 container
+										187 text Texte du bloc  1
+										188 zone de saisie de texte (disabled) Texte du bloc 1, Value: Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+									189 bouton (disabled) Monter le bloc 1
+									190 bouton (disabled) Descendre le bloc 1
+									191 bouton (disabled) Retirer le bloc 1
+								192 bouton (disabled) Ajouter un texte
+								193 bouton (disabled) Ajouter un média
+								194 bouton (disabled) Ajouter un produit
+								195 bouton (disabled) Enregistrer un brouillon
+								196 bouton (disabled) Enregistrer et valider
+								197 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							198 container
+								199 en-tête Historique, Value: 2
+									200 texte Historique
+								201 Liste du contenu
+									202 bouton d'activation/de désactivation v3 · Brouillon 10/11/2026 13:08:20 Issue de v2, Value: 1
+										203 container
+											204 text v 3  ·  Brouillon
+										205 texte 10/11/2026 13:08:20
+										206 texte Issue de v2
+									207 bouton d'activation/de désactivation v2 · Validée 10/11/2026 13:07:40 Issue de v1 · Sélectionnée, Value: 0
+										208 container
+											209 text v 2  ·  Validée
+										210 texte 10/11/2026 13:07:40
+										211 texte Issue de v1
+										212 texte  · Sélectionnée
+									213 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 0
+										214 container
+											215 text v 1  ·  Brouillon
+										216 texte 10/11/2026 13:05:33
+										217 texte Première version
+							218 container
+								219 en-tête Comparer la version v3, Value: 2
+									220 text Comparer la version v 3
+								221 texte Brouillon
+								222 en-tête Avant · v2, Value: 3
+									223 texte Avant · v2
+								224 en-tête Notre atelier — recette S11, Value: 3
+									225 texte Notre atelier — recette S11
+								226 texte Chaque collection commence dans notre atelier. Nous choisissons les matières et vérifions les finitions avant de proposer nos objets en boutique.
+								227 en-tête Après · v3, Value: 3
+									228 texte Après · v
+								229 en-tête Notre atelier — recette S11, Value: 3
+									230 texte Notre atelier — recette S11
+								231 text Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions. Empreinte :  sha256:cd57dbb13f685f4c67fb4fed8c437275a40f01eed1b3042b923365e009cc218b
+								232 bouton (disabled) Sélectionner v3 pour publication
+									233 text Sélectionner v 3  pour publication
+								234 texte Votre rôle ne permet pas de sélectionner une version.
+								235 en-tête Aperçu local · v3, Value: 3
+									236 texte Aperçu local · v
+								237 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								238 en-tête Notre atelier — recette S11, Value: 2
+									239 texte Notre atelier — recette S11
+								240 texte Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+						241 container Notifications alt+T
+				242 text G0 Tablette paysage 1024 x 768
+				243 bouton Refresh This View
+				244 bouton Quick Screenshot
+				245 bouton Full Page Screenshot
+				246 bouton Design Overlay
+				247 bouton Disable Event Mirroring
+				248 bouton Open Devtools
+				249 bouton (disabled) Rotation not available for non-mobile devices
+				250 bouton Scroll to Top
+				251 bouton Show rulers
+				252 bouton de menu local
+				253 bouton Enable Individual Layout
+				254 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/6
+					255 container
+						256 container
+							257 Liste du contenu
+								258 bouton de menu local Default channel Language: English
+							259 Liste du contenu
+								260 container
+									261 bouton Boutique et contenu
+									262 Liste du contenu
+										263 link Description: Pages, Value: 127.0.0.1:5112/dashboard/content
+								264 link Description: Insights, Value: 127.0.0.1:5112/dashboard/
+							265 Liste du contenu
+								266 bouton de menu local Démonstration s11-ui-reader-1794310782675 s11-ui-reader-1794310782675@local.test
+									267 texte Démonstration
+									268 texte s11-ui-reader-1794310782675
+									269 texte s11-ui-reader-1794310782675@local.test
+							270 bouton Toggle Sidebar
+						271 container
+							272 container
+								273 bouton Toggle Sidebar
+								274 container breadcrumb
+									275 Liste du contenu
+										276 link Description: Boutique et contenu, Value: 127.0.0.1:5112/dashboard/content
+							277 bouton de menu local
+							278 en-tête Dossier de page, Value: 1
+								279 texte Dossier de page
+							280 container
+								281 text Contenu · Canal  __default_channel__
+							282 link Description: ← Toutes les pages, Value: 127.0.0.1:5112/dashboard/content
+							283 en-tête Notre atelier — recette S11, Value: 2
+								284 texte Notre atelier — recette S11
+							285 container
+								286 text / atelier-responsively-s11  ·  EN  · Révision  4
+							287 texte v2 sélectionnée
+							288 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							289 container Réservation d’édition
+								290 en-tête Consultation en lecture seule, Value: 3
+									291 texte Consultation en lecture seule
+								292 texte L’historique et les aperçus restent consultables sans réservation.
+							293 container
+								294 en-tête Préparer la version suivante, Value: 2
+									295 texte Préparer la version suivante
+								296 text Base v 3
+								297 container
+									298 texte Titre de la page
+									299 champ de texte (disabled) Titre de la page, Value: Notre atelier — recette S11
+								300 container 1. Texte
+									301 container
+										302 text 1 .  Texte
+									303 container
+										304 text Texte du bloc  1
+										305 zone de saisie de texte (disabled) Texte du bloc 1, Value: Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+									306 bouton (disabled) Monter le bloc 1
+									307 bouton (disabled) Descendre le bloc 1
+									308 bouton (disabled) Retirer le bloc 1
+								309 bouton (disabled) Ajouter un texte
+								310 bouton (disabled) Ajouter un média
+								311 bouton (disabled) Ajouter un produit
+								312 bouton (disabled) Enregistrer un brouillon
+								313 bouton (disabled) Enregistrer et valider
+								314 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							315 container
+								316 en-tête Historique, Value: 2
+									317 texte Historique
+								318 Liste du contenu
+									319 bouton d'activation/de désactivation v3 · Brouillon 10/11/2026 13:08:20 Issue de v2, Value: 1
+										320 container
+											321 text v 3  ·  Brouillon
+										322 texte 10/11/2026 13:08:20
+										323 texte Issue de v2
+									324 bouton d'activation/de désactivation v2 · Validée 10/11/2026 13:07:40 Issue de v1 · Sélectionnée, Value: 0
+										325 container
+											326 text v 2  ·  Validée
+										327 texte 10/11/2026 13:07:40
+										328 texte Issue de v1
+										329 texte  · Sélectionnée
+									330 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 0
+										331 container
+											332 text v 1  ·  Brouillon
+										333 texte 10/11/2026 13:05:33
+										334 texte Première version
+							335 container
+								336 en-tête Comparer la version v3, Value: 2
+									337 text Comparer la version v 3
+								338 texte Brouillon
+								339 en-tête Avant · v2, Value: 3
+									340 texte Avant · v2
+								341 en-tête Notre atelier — recette S11, Value: 3
+									342 texte Notre atelier — recette S11
+								343 texte Chaque collection commence dans notre atelier. Nous choisissons les matières et vérifions les finitions avant de proposer nos objets en boutique.
+								344 en-tête Après · v3, Value: 3
+									345 texte Après · v
+								346 en-tête Notre atelier — recette S11, Value: 3
+									347 texte Notre atelier — recette S11
+								348 text Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions. Empreinte :  sha256:cd57dbb13f685f4c67fb4fed8c437275a40f01eed1b3042b923365e009cc218b
+								349 bouton (disabled) Sélectionner v3 pour publication
+									350 text Sélectionner v 3  pour publication
+								351 texte Votre rôle ne permet pas de sélectionner une version.
+								352 en-tête Aperçu local · v3, Value: 3
+									353 texte Aperçu local · v
+								354 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								355 en-tête Notre atelier — recette S11, Value: 2
+									356 texte Notre atelier — recette S11
+								357 texte Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+						358 container Notifications alt+T
+				359 text Galaxy S21 360 x 800
+				360 bouton Refresh This View
+				361 bouton Quick Screenshot
+				362 bouton Full Page Screenshot
+				363 bouton Design Overlay
+				364 bouton Disable Event Mirroring
+				365 bouton Open Devtools
+				366 bouton (disabled) Rotation not available for non-mobile devices
+				367 bouton Scroll to Top
+				368 bouton Show rulers
+				369 bouton de menu local
+				370 bouton Enable Individual Layout
+				371 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/6
+					372 container
+						373 container
+							374 container
+								375 bouton Toggle Sidebar
+								376 container breadcrumb
+							377 bouton de menu local
+							378 en-tête Dossier de page, Value: 1
+								379 texte Dossier de page
+							380 container
+								381 text Contenu · Canal  __default_channel__
+							382 link Description: ← Toutes les pages, Value: 127.0.0.1:5112/dashboard/content
+							383 en-tête Notre atelier — recette S11, Value: 2
+								384 texte Notre atelier — recette S11
+							385 container
+								386 text / atelier-responsively-s11  ·  EN  · Révision  4
+							387 texte v2 sélectionnée
+							388 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							389 container Réservation d’édition
+								390 en-tête Consultation en lecture seule, Value: 3
+									391 texte Consultation en lecture seule
+								392 texte L’historique et les aperçus restent consultables sans réservation.
+							393 container
+								394 en-tête Préparer la version suivante, Value: 2
+									395 texte Préparer la version suivante
+								396 text Base v 3
+								397 container
+									398 texte Titre de la page
+									399 champ de texte (disabled) Titre de la page, Value: Notre atelier — recette S11
+								400 container 1. Texte
+									401 container
+										402 text 1 .  Texte
+									403 container
+										404 text Texte du bloc  1
+										405 zone de saisie de texte (disabled) Texte du bloc 1, Value: Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+									406 bouton (disabled) Monter le bloc 1
+									407 bouton (disabled) Descendre le bloc 1
+									408 bouton (disabled) Retirer le bloc 1
+								409 bouton (disabled) Ajouter un texte
+								410 bouton (disabled) Ajouter un média
+								411 bouton (disabled) Ajouter un produit
+								412 bouton (disabled) Enregistrer un brouillon
+								413 bouton (disabled) Enregistrer et valider
+								414 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							415 container
+								416 en-tête Historique, Value: 2
+									417 texte Historique
+								418 Liste du contenu
+									419 bouton d'activation/de désactivation v3 · Brouillon 10/11/2026 13:08:20 Issue de v2, Value: 1
+										420 container
+											421 text v 3  ·  Brouillon
+										422 texte 10/11/2026 13:08:20
+										423 texte Issue de v2
+									424 bouton d'activation/de désactivation v2 · Validée 10/11/2026 13:07:40 Issue de v1 · Sélectionnée, Value: 0
+										425 container
+											426 text v 2  ·  Validée
+										427 texte 10/11/2026 13:07:40
+										428 texte Issue de v1
+										429 texte  · Sélectionnée
+									430 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 0
+										431 container
+											432 text v 1  ·  Brouillon
+										433 texte 10/11/2026 13:05:33
+										434 texte Première version
+							435 container
+								436 en-tête Comparer la version v3, Value: 2
+									437 text Comparer la version v 3
+								438 texte Brouillon
+								439 en-tête Avant · v2, Value: 3
+									440 texte Avant · v2
+								441 en-tête Notre atelier — recette S11, Value: 3
+									442 texte Notre atelier — recette S11
+								443 texte Chaque collection commence dans notre atelier. Nous choisissons les matières et vérifions les finitions avant de proposer nos objets en boutique.
+								444 en-tête Après · v3, Value: 3
+									445 texte Après · v
+								446 en-tête Notre atelier — recette S11, Value: 3
+									447 texte Notre atelier — recette S11
+								448 text Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions. Empreinte :  sha256:cd57dbb13f685f4c67fb4fed8c437275a40f01eed1b3042b923365e009cc218b
+								449 bouton (disabled) Sélectionner v3 pour publication
+									450 text Sélectionner v 3  pour publication
+								451 texte Votre rôle ne permet pas de sélectionner une version.
+								452 en-tête Aperçu local · v3, Value: 3
+									453 texte Aperçu local · v
+								454 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								455 en-tête Notre atelier — recette S11, Value: 2
+									456 texte Notre atelier — recette S11
+								457 texte Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+						458 container Notifications alt+T
+		459 container
+	460 Bouton de fermeture
+	461 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	462 bouton de minimisation
+463 menu bar
+	464 ResponsivelyApp
+	465 Edit
+	466 View
+	467 Window
+	468 Help
+
+The focused UI element is 364 bouton Disable Event Mirroring

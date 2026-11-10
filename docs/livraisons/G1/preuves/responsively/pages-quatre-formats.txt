@@ -1,0 +1,239 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 410, 412, 414, 416
+~				409 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content
++					416 container
++						417 container
++							418 container
++								419 bouton Toggle Sidebar
++								420 container breadcrumb
++							421 bouton de menu local
++							422 en-tête Pages, Value: 1
++								423 texte Pages
++							424 container
++								425 text Contenu · Canal  Belgique
++							426 en-tête Préparer les pages de la boutique, Value: 2
++								427 texte Préparer les pages de la boutique
++							428 texte Rédigez, comparez les versions et choisissez celle à publier ensuite.
++							429 bouton Créer une page
++							430 Liste du contenu
++								431 container
++									432 link Description: Page appliquée 9 /g1-worker · FR, Value: 127.0.0.1:60438/dashboard/content/9
++									433 text Dernière version v 2 Aucune version sélectionnée
++								434 container
++									435 link Description: g1-permissions /g1-permissions · FR, Value: 127.0.0.1:60438/dashboard/content/8
++									436 text Dernière version v 1 Aucune version sélectionnée
++								437 container
++									438 link Description: Page appliquée 6 /g1-rollback · FR, Value: 127.0.0.1:60438/dashboard/content/6
++									439 text Dernière version v 2 Aucune version sélectionnée
++								440 container
++									441 link Description: g1-reference /g1-reference · FR, Value: 127.0.0.1:60438/dashboard/content/5
++									442 text Dernière version v 1 Aucune version sélectionnée
++								443 container
++									444 link Description: g1-bail-expire /g1-bail-expire · FR, Value: 127.0.0.1:60438/dashboard/content/4
++									445 text Dernière version v 1 Aucune version sélectionnée
++								446 container
++									447 link Description: g1-bail-renew /g1-bail-renew · FR, Value: 127.0.0.1:60438/dashboard/content/3
++									448 text Dernière version v 1 Aucune version sélectionnée
++								449 container
++									450 link Description: Modification native /g1-conflit · FR, Value: 127.0.0.1:60438/dashboard/content/2
++									451 text Dernière version v 2 Aucune version sélectionnée
++								452 container
++									453 link Description: Page appliquée 1 /g1-integree · FR, Value: 127.0.0.1:60438/dashboard/content/1
++									454 text Dernière version v 2 Aucune version sélectionnée
++							455 text 8  page(s)
++							456 bouton (disabled) Précédentes
++							457 bouton (disabled) Suivantes
++						458 container Notifications alt+T
+~				411 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content
++					459 container
++						460 container
++							461 Liste du contenu
++								462 bouton de menu local Belgique Langue : français
++							463 Liste du contenu
++								464 container
++									465 bouton Boutique et contenu
++									466 Liste du contenu
++										467 link Description: Pages, Value: 127.0.0.1:60438/dashboard/content
++								468 bouton Activité
++								469 bouton Environnement local
++								470 link Description: Aperçus, Value: 127.0.0.1:60438/dashboard/
++								471 bouton Catalogue
++								472 bouton Ventes
++								473 bouton Clients
++								474 bouton Marketing
++							475 container
++								476 texte Administration
++								477 Liste du contenu
++									478 bouton Paramètres
++									479 bouton Système
++							480 Liste du contenu
++								481 bouton de menu local Super Admin admin-a@local.test
++									482 texte Super
++									483 texte Admin
++									484 texte admin-a@local.test
++							485 bouton Toggle Sidebar
++						486 container
++							487 container
++								488 bouton Toggle Sidebar
++								489 container breadcrumb
++									490 Liste du contenu
++										491 link Description: Boutique et contenu, Value: 127.0.0.1:60438/dashboard/content
++							492 bouton de menu local
++							493 en-tête Pages, Value: 1
++								494 texte Pages
++							495 container
++								496 text Contenu · Canal  Belgique
++							497 en-tête Préparer les pages de la boutique, Value: 2
++								498 texte Préparer les pages de la boutique
++							499 texte Rédigez, comparez les versions et choisissez celle à publier ensuite.
++							500 bouton Créer une page
++							501 Liste du contenu
++								502 container
++									503 link Description: Page appliquée 9 /g1-worker · FR, Value: 127.0.0.1:60438/dashboard/content/9
++									504 text Dernière version v 2 Aucune version sélectionnée
++								505 container
++									506 link Description: g1-permissions /g1-permissions · FR, Value: 127.0.0.1:60438/dashboard/content/8
++									507 text Dernière version v 1 Aucune version sélectionnée
++								508 container
++									509 link Description: Page appliquée 6 /g1-rollback · FR, Value: 127.0.0.1:60438/dashboard/content/6
++									510 text Dernière version v 2 Aucune version sélectionnée
++								511 container
++									512 link Description: g1-reference /g1-reference · FR, Value: 127.0.0.1:60438/dashboard/content/5
++									513 text Dernière version v 1 Aucune version sélectionnée
++								514 container
++									515 link Description: g1-bail-expire /g1-bail-expire · FR, Value: 127.0.0.1:60438/dashboard/content/4
++									516 text Dernière version v 1 Aucune version sélectionnée
++								517 container
++									518 link Description: g1-bail-renew /g1-bail-renew · FR, Value: 127.0.0.1:60438/dashboard/content/3
++									519 text Dernière version v 1 Aucune version sélectionnée
++								520 container
++									521 link Description: Modification native /g1-conflit · FR, Value: 127.0.0.1:60438/dashboard/content/2
++									522 text Dernière version v 2 Aucune version sélectionnée
++								523 container
++									524 link Description: Page appliquée 1 /g1-integree · FR, Value: 127.0.0.1:60438/dashboard/content/1
++									525 text Dernière version v 2 Aucune version sélectionnée
++							526 text 8  page(s)
++							527 bouton (disabled) Précédentes
++							528 bouton (disabled) Suivantes
++						529 container Notifications alt+T
+~				413 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content
++					530 container
++						531 container
++							532 Liste du contenu
++								533 bouton de menu local Belgique Langue : français
++							534 Liste du contenu
++								535 container
++									536 bouton Boutique et contenu
++									537 Liste du contenu
++										538 link Description: Pages, Value: 127.0.0.1:60438/dashboard/content
++								539 bouton Activité
++								540 bouton Environnement local
++								541 link Description: Aperçus, Value: 127.0.0.1:60438/dashboard/
++								542 bouton Catalogue
++								543 bouton Ventes
++								544 bouton Clients
++								545 bouton Marketing
++							546 container
++								547 texte Administration
++								548 Liste du contenu
++									549 bouton Paramètres
++									550 bouton Système
++							551 Liste du contenu
++								552 bouton de menu local Super Admin admin-a@local.test
++									553 texte Super
++									554 texte Admin
++									555 texte admin-a@local.test
++							556 bouton Toggle Sidebar
++						557 container
++							558 container
++								559 bouton Toggle Sidebar
++								560 container breadcrumb
++									561 Liste du contenu
++										562 link Description: Boutique et contenu, Value: 127.0.0.1:60438/dashboard/content
++							563 bouton de menu local
++							564 en-tête Pages, Value: 1
++								565 texte Pages
++							566 container
++								567 text Contenu · Canal  Belgique
++							568 en-tête Préparer les pages de la boutique, Value: 2
++								569 texte Préparer les pages de la boutique
++							570 texte Rédigez, comparez les versions et choisissez celle à publier ensuite.
++							571 bouton Créer une page
++							572 Liste du contenu
++								573 container
++									574 link Description: Page appliquée 9 /g1-worker · FR, Value: 127.0.0.1:60438/dashboard/content/9
++									575 text Dernière version v 2 Aucune version sélectionnée
++								576 container
++									577 link Description: g1-permissions /g1-permissions · FR, Value: 127.0.0.1:60438/dashboard/content/8
++									578 text Dernière version v 1 Aucune version sélectionnée
++								579 container
++									580 link Description: Page appliquée 6 /g1-rollback · FR, Value: 127.0.0.1:60438/dashboard/content/6
++									581 text Dernière version v 2 Aucune version sélectionnée
++								582 container
++									583 link Description: g1-reference /g1-reference · FR, Value: 127.0.0.1:60438/dashboard/content/5
++									584 text Dernière version v 1 Aucune version sélectionnée
++								585 container
++									586 link Description: g1-bail-expire /g1-bail-expire · FR, Value: 127.0.0.1:60438/dashboard/content/4
++									587 text Dernière version v 1 Aucune version sélectionnée
++								588 container
++									589 link Description: g1-bail-renew /g1-bail-renew · FR, Value: 127.0.0.1:60438/dashboard/content/3
++									590 text Dernière version v 1 Aucune version sélectionnée
++								591 container
++									592 link Description: Modification native /g1-conflit · FR, Value: 127.0.0.1:60438/dashboard/content/2
++									593 text Dernière version v 2 Aucune version sélectionnée
++								594 container
++									595 link Description: Page appliquée 1 /g1-integree · FR, Value: 127.0.0.1:60438/dashboard/content/1
++									596 text Dernière version v 2 Aucune version sélectionnée
++							597 text 8  page(s)
++							598 bouton (disabled) Précédentes
++							599 bouton (disabled) Suivantes
++						600 container Notifications alt+T
+~				415 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content
++					601 container
++						602 container
++							603 container
++								604 bouton Toggle Sidebar
++								605 container breadcrumb
++							606 bouton de menu local
++							607 en-tête Pages, Value: 1
++								608 texte Pages
++							609 container
++								610 text Contenu · Canal  Belgique
++							611 en-tête Préparer les pages de la boutique, Value: 2
++								612 texte Préparer les pages de la boutique
++							613 texte Rédigez, comparez les versions et choisissez celle à publier ensuite.
++							614 bouton Créer une page
++							615 Liste du contenu
++								616 container
++									617 link Description: Page appliquée 9 /g1-worker · FR, Value: 127.0.0.1:60438/dashboard/content/9
++									618 text Dernière version v 2 Aucune version sélectionnée
++								619 container
++									620 link Description: g1-permissions /g1-permissions · FR, Value: 127.0.0.1:60438/dashboard/content/8
++									621 text Dernière version v 1 Aucune version sélectionnée
++								622 container
++									623 link Description: Page appliquée 6 /g1-rollback · FR, Value: 127.0.0.1:60438/dashboard/content/6
++									624 text Dernière version v 2 Aucune version sélectionnée
++								625 container
++									626 link Description: g1-reference /g1-reference · FR, Value: 127.0.0.1:60438/dashboard/content/5
++									627 text Dernière version v 1 Aucune version sélectionnée
++								628 container
++									629 link Description: g1-bail-expire /g1-bail-expire · FR, Value: 127.0.0.1:60438/dashboard/content/4
++									630 text Dernière version v 1 Aucune version sélectionnée
++								631 container
++									632 link Description: g1-bail-renew /g1-bail-renew · FR, Value: 127.0.0.1:60438/dashboard/content/3
++									633 text Dernière version v 1 Aucune version sélectionnée
++								634 container
++									635 link Description: Modification native /g1-conflit · FR, Value: 127.0.0.1:60438/dashboard/content/2
++									636 text Dernière version v 2 Aucune version sélectionnée
++								637 container
++									638 link Description: Page appliquée 1 /g1-integree · FR, Value: 127.0.0.1:60438/dashboard/content/1
++									639 text Dernière version v 2 Aucune version sélectionnée
++							640 text 8  page(s)
++							641 bouton (disabled) Précédentes
++							642 bouton (disabled) Suivantes
++						643 container Notifications alt+T
+Selected text: ```
+http://127.0.0.1:60438/dashboard/content
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

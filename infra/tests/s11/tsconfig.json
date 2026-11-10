@@ -1,0 +1,5 @@
+{
+  "extends": "../../../apps/commerce/tsconfig.json",
+  "compilerOptions": { "rootDir": "../../..", "noEmit": true },
+  "include": ["vendure-config.ts"]
+}

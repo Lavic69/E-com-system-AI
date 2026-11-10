@@ -1,0 +1,18 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 427-429, 432
+~									422 bouton d'activation/de désactivation v2 · Validée 10/11/2026 13:07:40 Issue de v1 · Sélectionnée, Value: 0
+~									183 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 1
+~								189 en-tête Comparer la version v1, Value: 2
+~									190 text Comparer la version v 1
+~								191 texte Brouillon
+~								192 en-tête Avant · aucune version, Value: 3
+~									193 texte Avant · aucune version
++								435 texte Cette version est la première de la page.
+~								195 en-tête Après · v1, Value: 3
+~									196 text Après · v 1
++								436 text Empreinte :  sha256:7602aa67fb00794d20f676077c3e04743371d4c086403cc22cdb294dbb7829d9
+~								200 bouton (disabled) Sélectionner v1 pour publication
+~									201 text Sélectionner v 1  pour publication
+~								202 en-tête Aperçu local · v1, Value: 3
+~									203 text Aperçu local · v 1
+The focused UI element is 183 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:05:33 Première version, Value: 1

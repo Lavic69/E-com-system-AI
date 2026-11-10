@@ -1,0 +1,121 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5112/dashboard/content/8
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (settable, integer) iPhone 12 Pro, Value: 0
+				26 tabulation (settable, integer) MacBook Pro, Value: 0
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (selected) Galaxy S21, Value: 1
+			29 container
+				30 text Galaxy S21 360 x 800
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/8
+					43 container
+						44 container
+							45 container
+								46 bouton Toggle Sidebar
+								47 container breadcrumb
+							48 bouton de menu local
+							49 en-tête Dossier de page, Value: 1
+								50 texte Dossier de page
+							51 container
+								52 text Contenu · Canal  __default_channel__
+							53 link Description: ← Toutes les pages, Value: 127.0.0.1:5112/dashboard/content
+							54 en-tête Création mobile vérifiée, Value: 2
+								55 texte Création mobile vérifiée
+							56 container
+								57 text / creation-mobile-verifiee  ·  EN  · Révision  1
+							58 texte Aucune version sélectionnée
+							59 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							60 container Réservation d’édition
+								61 en-tête Réserver cette page pour la modifier, Value: 3
+									62 texte Réserver cette page pour la modifier
+								63 texte L’historique et les aperçus restent consultables sans réservation.
+								64 bouton Réserver l’édition
+							65 container
+								66 en-tête Préparer la version suivante, Value: 2
+									67 texte Préparer la version suivante
+								68 text Base v 1
+								69 container
+									70 texte Titre de la page
+									71 champ de texte (disabled) Titre de la page, Value: Création mobile vérifiée
+								72 texte Ajoutez un premier bloc à votre page.
+								73 bouton (disabled) Ajouter un texte
+								74 bouton (disabled) Ajouter un média
+								75 bouton (disabled) Ajouter un produit
+								76 bouton (disabled) Enregistrer un brouillon
+								77 bouton (disabled) Enregistrer et valider
+								78 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							79 container
+								80 en-tête Historique, Value: 2
+									81 texte Historique
+								82 Liste du contenu
+									83 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 13:15:24 Première version, Value: 1
+										84 container
+											85 text v 1  ·  Brouillon
+										86 texte 10/11/2026 13:15:24
+										87 texte Première version
+							88 container
+								89 en-tête Comparer la version v1, Value: 2
+									90 text Comparer la version v 1
+								91 texte Brouillon
+								92 en-tête Avant · aucune version, Value: 3
+									93 texte Avant · aucune version
+								94 texte Cette version est la première de la page.
+								95 en-tête Après · v1, Value: 3
+									96 text Après · v 1
+								97 en-tête Création mobile vérifiée, Value: 3
+									98 texte Création mobile vérifiée
+								99 text Empreinte :  sha256:0fcf4328bad63918abc3ec0b1d279233c2204602eac1def037f7f4a1719dfe3e
+								100 bouton (disabled) Sélectionner v1 pour publication
+									101 text Sélectionner v 1  pour publication
+								102 en-tête Aperçu local · v1, Value: 3
+									103 text Aperçu local · v 1
+								104 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								105 en-tête Création mobile vérifiée, Value: 2
+									106 texte Création mobile vérifiée
+						107 container Notifications alt+T
+		108 container
+	109 Bouton de fermeture
+	110 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	111 bouton de minimisation
+112 menu bar
+	113 ResponsivelyApp
+	114 Edit
+	115 View
+	116 Window
+	117 Help
+
+The focused UI element is 54 en-tête Création mobile vérifiée, Value: 2

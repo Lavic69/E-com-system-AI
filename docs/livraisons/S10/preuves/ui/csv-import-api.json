@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-10T12:25:12.248Z",
+  "status": "passed",
+  "valid": {
+    "totalItems": 1,
+    "items": [
+      {
+        "id": "4",
+        "sku": "UI-FICHIER-20261110",
+        "price": 1790,
+        "currencyCode": "EUR",
+        "product": {
+          "id": "4",
+          "name": "Tasse importée depuis un fichier"
+        },
+        "stockLevels": [
+          {
+            "stockLocation": {
+              "id": "2",
+              "name": "Entrepôt Belgique"
+            },
+            "stockOnHand": 6
+          },
+          {
+            "stockLocation": {
+              "id": "3",
+              "name": "Magasin Belgique"
+            },
+            "stockOnHand": 0
+          }
+        ]
+      }
+    ]
+  },
+  "invalidCount": 0
+}

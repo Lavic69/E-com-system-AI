@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "portsReleased": [
+    60437,
+    60438,
+    60439
+  ],
+  "runningLockRemoved": true,
+  "postgresStopped": true,
+  "graphics": "libre",
+  "checkedAt": "2026-11-10T13:35:16.963Z"
+}
