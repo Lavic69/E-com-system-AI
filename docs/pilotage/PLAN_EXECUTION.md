@@ -1,6 +1,6 @@
 # Plan d'exécution par lots et sessions
 
-Version de travail du 20 octobre 2026. Périmètre : [cahier produit](../produit/CAHIER_PRODUIT.md).
+Mise à jour G1 du 10 novembre 2026. Périmètre : [cahier produit](../produit/CAHIER_PRODUIT.md).
 
 Le projet se construit par lots démontrables. Une vague rassemble jusqu'à trois lots pouvant avancer indépendamment depuis une base commune. Une intégration courte entre les vagues vérifie qu'ils fonctionnent ensemble.
 
@@ -13,13 +13,13 @@ Un lot peut demander plusieurs tours de la même session Codex. Aucun délai ou 
 | Dépôt | `Lavic69/E-com-system-AI`, public et initialement vide |
 | Checkout local préparé | Dossier `E-com-system-AI` à l'intérieur de `Amboras REA` |
 | Commits, base de worktrees | Base G0 portée par le premier commit de `main` ; relever son SHA avec la commande ci-dessous |
-| Application | Socle local Vendure 3.8.0, API, worker et extension Dashboard réalisés par S00 |
+| Application | Vendure 3.8.0 avec catalogue, pages/versionnement, opérations et worker intégrés en G1 |
 | Moteur | Vendure 3.8.0 testé avec données et paiements fictifs |
 | Stock concurrent | Contre-exemple reproduit et protection synchrone testée ; paiement asynchrone encore à traiter |
 | Interface | Direction S01 confirmée ; maquettes livrées ; recette S00/S01 réalisée dans Responsively stable aux quatre dimensions |
 | Contrats | Source commune dans `packages/contracts`, invariants S02 et décisions G0 |
-| Intégration | G0 vérifié : lanceur, contrats, ressources, recette UI et workflow Git ; base locale, non poussée |
-| Missions de code suivantes | S10, S11 et S12 prêtes ; lancement uniquement sur instruction de Victor depuis le même SHA G0 |
+| Intégration | G1 vérifié et publié via la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) ; base V2 donnée par son commit de fusion |
+| Missions de code suivantes | S20, S21, S22 préparées ; même SHA de fusion G1, puis instruction de lancement de Victor |
 
 Les rapports du [banc de validation](../../experiments/core-validation/README.md) sont les preuves du moteur. Ils ne valent pas validation du checkout de production, de l'administration ou des intégrations.
 
@@ -111,6 +111,8 @@ En V9, S90 prépare d'abord un candidat figé. S91 et S92 l'examinent en parall�
 S12 fournit la persistance minimale des événements avant le checkout. S22 développera leur collecte et leur lecture analytique. S11 fournit le verrouillage des versions avant les agents SEO et les expériences.
 
 ### V2 — Vendre, modifier le site et mesurer
+
+Fiches préparées en G1 : [S20](missions/S20-checkout.md), [S21](missions/S21-editeur-publication.md), [S22](missions/S22-mesure.md). Elles ne sont pas lancées ; leur base commune est le commit de fusion de la PR #1, à vérifier avant création des worktrees.
 
 | Lot | Dépendances utiles | Critères de sortie |
 |---|---|---|
@@ -212,6 +214,12 @@ Un point G1 à G8 reprend toujours :
 
 La session A intègre après l'arrêt des modifications des autres sessions. L'intégration réutilise les autorisations déjà données ; les commits, fusions et publications suivent leur autorisation propre. Aucun worktree inachevé d'une autre session n'est supprimé.
 
+### G1 réalisé et versionné
+
+Le [résultat G1](../livraisons/G1/RESULTAT.md) et les [décisions](../livraisons/G1/DECISIONS.md) constituent la référence de la vague V1. Les 15 scénarios combinés prouvent les migrations, le produit S10 dans une page S11, une action S12 atomique, les refus, la reprise du worker et la restauration. Les recettes des trois modules et du socle sont rejouées. La validation Responsively est consignée dans la livraison.
+
+Le code G1 est porté par `96edeab0904141a6441b2c0f4e7099b11a977a1d`. La [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) conserve les contrôles et son SHA de fusion. Pour V2, relever ce SHA après l’état `MERGED` et vérifier sa présence sur `origin/main`. Les worktrees sources restent conservés.
+
 ## 8. État des missions
 
 | Missions | État | Condition de passage |
@@ -219,9 +227,11 @@ La session A intègre après l'arrêt des modifications des autres sessions. L'i
 | S00 | Intégré et vérifié | Correction du lanceur et recette réelle du Dashboard réalisées en G0 |
 | S01 | Livré et recette du prototype vérifiée | Parcours et quatre dimensions vérifiés ; approbation finale des maquettes distincte, écrans métier futurs |
 | S02 | Intégré et vérifié pour ses formats | Source commune et exemples vérifiés ; garanties métier à implémenter dans leurs lots |
-| G0 | Intégré et vérifié | Base locale portée par le premier commit de `main` ; push distinct |
-| S10, S11, S12 | Prêtes, non lancées | Même SHA G0 vérifié, worktrees distincts et instruction de lancement |
-| S20 à S82 | À détailler | Vague précédente intégrée, accès et critères propres au lot |
+| G0 | Intégré et vérifié | Premier commit de `main`, publié avant G1 |
+| S10, S11, S12 | Intégrées et vérifiées en G1 | Parcours commun exécuté ; worktrees sources conservés |
+| G1 | Intégré et vérifié | [Résultat et preuves](../livraisons/G1/RESULTAT.md), [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) et SHA de fusion comme base suivante |
+| S20, S21, S22 | Fiches préparées, non lancées | Même SHA de fusion de la PR #1 à vérifier avant lancement |
+| S30 à S82 | À détailler | Vague précédente intégrée, accès et critères propres au lot |
 | S90 à S92 | À détailler | Périmètre complet intégré et candidat figé |
 
 Le coordinateur actualise ce tableau aux points d'intégration. Il n'y a pas de pourcentage d'avancement calculé à partir du nombre de fichiers ou de lignes de code.

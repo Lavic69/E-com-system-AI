@@ -1,0 +1,8 @@
+{
+  "sessionId": "v1-g1-b",
+  "apiPort": 60437,
+  "dashboardPort": 60438,
+  "postgresPort": 60439,
+  "launcherPid": 70110,
+  "stopRequestedAt": "2026-11-10T13:31:07.240Z"
+}

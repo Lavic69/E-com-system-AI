@@ -1,0 +1,522 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:60438/dashboard/content/1
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content/1
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 en-tête Dossier de page, Value: 1
+								45 texte Dossier de page
+							46 container
+								47 text Contenu · Canal  Belgique
+							48 link Description: ← Toutes les pages, Value: 127.0.0.1:60438/dashboard/content
+							49 en-tête Page appliquée 1, Value: 2
+								50 texte Page appliquée 1
+							51 container
+								52 text / g1-integree  ·  FR  · Révision  2
+							53 texte Aucune version sélectionnée
+							54 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							55 container Réservation d’édition
+								56 en-tête Réserver cette page pour la modifier, Value: 3
+									57 texte Réserver cette page pour la modifier
+								58 texte L’historique et les aperçus restent consultables sans réservation.
+								59 bouton Réserver l’édition
+							60 container
+								61 en-tête Préparer la version suivante, Value: 2
+									62 texte Préparer la version suivante
+								63 text Base v 2
+								64 container
+									65 texte Titre de la page
+									66 champ de texte (disabled) Titre de la page, Value: Page appliquée 1
+								67 container 1. Texte
+									68 container
+										69 text 1 .  Texte
+									70 container
+										71 text Texte du bloc  1
+										72 zone de saisie de texte (disabled) Texte du bloc 1, Value: Contenu intégré G1
+									73 bouton (disabled) Monter le bloc 1
+									74 bouton (disabled) Descendre le bloc 1
+									75 bouton (disabled) Retirer le bloc 1
+								76 container 2. Référence produit
+									77 container
+										78 text 2 .  Référence produit
+									79 container
+										80 texte Identifiant du produit
+										81 champ de texte (disabled) Identifiant du produit, Value: 2
+									82 texte Le produit reste lié au catalogue. Ses prix et stocks ne sont pas copiés dans la page.
+									83 bouton (disabled) Monter le bloc 2
+									84 bouton (disabled) Descendre le bloc 2
+									85 bouton (disabled) Retirer le bloc 2
+								86 bouton (disabled) Ajouter un texte
+								87 bouton (disabled) Ajouter un média
+								88 bouton (disabled) Ajouter un produit
+								89 bouton (disabled) Enregistrer un brouillon
+								90 bouton (disabled) Enregistrer et valider
+								91 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							92 container
+								93 en-tête Historique, Value: 2
+									94 texte Historique
+								95 Liste du contenu
+									96 bouton d'activation/de désactivation v2 · Validée 10/11/2026 14:10:39 Issue de v1, Value: 1
+										97 container
+											98 text v 2  ·  Validée
+										99 texte 10/11/2026 14:10:39
+										100 texte Issue de v1
+									101 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 14:10:39 Première version, Value: 0
+										102 container
+											103 text v 1  ·  Brouillon
+										104 texte 10/11/2026 14:10:39
+										105 texte Première version
+							106 container
+								107 en-tête Comparer la version v2, Value: 2
+									108 texte Comparer la version v
+								109 texte Validée
+								110 en-tête Avant · v1, Value: 3
+									111 texte Avant · v1
+								112 en-tête g1-integree, Value: 3
+									113 texte g1-integree
+								114 text Contenu intégré G1 Produit # 2
+								115 en-tête Après · v2, Value: 3
+									116 text Après · v 2
+								117 en-tête Page appliquée 1, Value: 3
+									118 texte Page appliquée 1
+								119 text Contenu intégré G1 Produit # 2 Empreinte :  sha256:c1af64d79de2c96473dd17ba4da8322a4b40850dcf95dfdb4486eac3481b8b7d
+								120 bouton (disabled) Sélectionner v2 pour publication
+									121 text Sélectionner v 2  pour publication
+								122 en-tête Aperçu local · v2, Value: 3
+									123 text Aperçu local · v 2
+								124 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								125 en-tête Page appliquée 1, Value: 2
+									126 texte Page appliquée 1
+								127 texte Contenu intégré G1
+								128 text Produit lié · # 2
+								129 texte Produit G1
+						130 container Notifications alt+T
+				131 text MacBook Pro 1440 x 900
+				132 bouton Refresh This View
+				133 bouton Quick Screenshot
+				134 bouton Full Page Screenshot
+				135 bouton Design Overlay
+				136 bouton Disable Event Mirroring
+				137 bouton Open Devtools
+				138 bouton (disabled) Rotation not available for non-mobile devices
+				139 bouton Scroll to Top
+				140 bouton Show rulers
+				141 bouton de menu local
+				142 bouton Enable Individual Layout
+				143 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content/1
+					144 container
+						145 container
+							146 Liste du contenu
+								147 bouton de menu local Belgique Langue : français
+							148 Liste du contenu
+								149 container
+									150 bouton Boutique et contenu
+									151 Liste du contenu
+										152 link Description: Pages, Value: 127.0.0.1:60438/dashboard/content
+								153 bouton Activité
+								154 bouton Environnement local
+								155 link Description: Aperçus, Value: 127.0.0.1:60438/dashboard/
+								156 bouton Catalogue
+								157 bouton Ventes
+								158 bouton Clients
+								159 bouton Marketing
+							160 container
+								161 texte Administration
+								162 Liste du contenu
+									163 bouton Paramètres
+									164 bouton Système
+							165 Liste du contenu
+								166 bouton de menu local Super Admin admin-a@local.test
+									167 texte Super
+									168 texte Admin
+									169 texte admin-a@local.test
+							170 bouton Toggle Sidebar
+						171 container
+							172 container
+								173 bouton Toggle Sidebar
+								174 container breadcrumb
+									175 Liste du contenu
+										176 link Description: Boutique et contenu, Value: 127.0.0.1:60438/dashboard/content
+							177 bouton de menu local
+							178 en-tête Dossier de page, Value: 1
+								179 texte Dossier de page
+							180 container
+								181 text Contenu · Canal  Belgique
+							182 link Description: ← Toutes les pages, Value: 127.0.0.1:60438/dashboard/content
+							183 en-tête Page appliquée 1, Value: 2
+								184 texte Page appliquée 1
+							185 container
+								186 text / g1-integree  ·  FR  · Révision  2
+							187 texte Aucune version sélectionnée
+							188 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							189 container Réservation d’édition
+								190 en-tête Réserver cette page pour la modifier, Value: 3
+									191 texte Réserver cette page pour la modifier
+								192 texte L’historique et les aperçus restent consultables sans réservation.
+								193 bouton Réserver l’édition
+							194 container
+								195 en-tête Préparer la version suivante, Value: 2
+									196 texte Préparer la version suivante
+								197 text Base v 2
+								198 container
+									199 texte Titre de la page
+									200 champ de texte (disabled) Titre de la page, Value: Page appliquée 1
+								201 container 1. Texte
+									202 container
+										203 text 1 .  Texte
+									204 container
+										205 text Texte du bloc  1
+										206 zone de saisie de texte (disabled) Texte du bloc 1, Value: Contenu intégré G1
+									207 bouton (disabled) Monter le bloc 1
+									208 bouton (disabled) Descendre le bloc 1
+									209 bouton (disabled) Retirer le bloc 1
+								210 container 2. Référence produit
+									211 container
+										212 text 2 .  Référence produit
+									213 container
+										214 texte Identifiant du produit
+										215 champ de texte (disabled) Identifiant du produit, Value: 2
+									216 texte Le produit reste lié au catalogue. Ses prix et stocks ne sont pas copiés dans la page.
+									217 bouton (disabled) Monter le bloc 2
+									218 bouton (disabled) Descendre le bloc 2
+									219 bouton (disabled) Retirer le bloc 2
+								220 bouton (disabled) Ajouter un texte
+								221 bouton (disabled) Ajouter un média
+								222 bouton (disabled) Ajouter un produit
+								223 bouton (disabled) Enregistrer un brouillon
+								224 bouton (disabled) Enregistrer et valider
+								225 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							226 container
+								227 en-tête Historique, Value: 2
+									228 texte Historique
+								229 Liste du contenu
+									230 bouton d'activation/de désactivation v2 · Validée 10/11/2026 14:10:39 Issue de v1, Value: 1
+										231 container
+											232 text v 2  ·  Validée
+										233 texte 10/11/2026 14:10:39
+										234 texte Issue de v1
+									235 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 14:10:39 Première version, Value: 0
+										236 container
+											237 text v 1  ·  Brouillon
+										238 texte 10/11/2026 14:10:39
+										239 texte Première version
+							240 container
+								241 en-tête Comparer la version v2, Value: 2
+									242 texte Comparer la version v
+								243 texte Validée
+								244 en-tête Avant · v1, Value: 3
+									245 texte Avant · v1
+								246 en-tête g1-integree, Value: 3
+									247 texte g1-integree
+								248 text Contenu intégré G1 Produit # 2
+								249 en-tête Après · v2, Value: 3
+									250 text Après · v 2
+								251 en-tête Page appliquée 1, Value: 3
+									252 texte Page appliquée 1
+								253 text Contenu intégré G1 Produit # 2 Empreinte :  sha256:c1af64d79de2c96473dd17ba4da8322a4b40850dcf95dfdb4486eac3481b8b7d
+								254 bouton (disabled) Sélectionner v2 pour publication
+									255 text Sélectionner v 2  pour publication
+								256 en-tête Aperçu local · v2, Value: 3
+									257 text Aperçu local · v 2
+								258 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								259 en-tête Page appliquée 1, Value: 2
+									260 texte Page appliquée 1
+								261 texte Contenu intégré G1
+								262 text Produit lié · # 2
+								263 texte Produit G1
+						264 container Notifications alt+T
+				265 text G0 Tablette paysage 1024 x 768
+				266 bouton Refresh This View
+				267 bouton Quick Screenshot
+				268 bouton Full Page Screenshot
+				269 bouton Design Overlay
+				270 bouton Disable Event Mirroring
+				271 bouton Open Devtools
+				272 bouton (disabled) Rotation not available for non-mobile devices
+				273 bouton Scroll to Top
+				274 bouton Show rulers
+				275 bouton de menu local
+				276 bouton Enable Individual Layout
+				277 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content/1
+					278 container
+						279 container
+							280 Liste du contenu
+								281 bouton de menu local Belgique Langue : français
+							282 Liste du contenu
+								283 container
+									284 bouton Boutique et contenu
+									285 Liste du contenu
+										286 link Description: Pages, Value: 127.0.0.1:60438/dashboard/content
+								287 bouton Activité
+								288 bouton Environnement local
+								289 link Description: Aperçus, Value: 127.0.0.1:60438/dashboard/
+								290 bouton Catalogue
+								291 bouton Ventes
+								292 bouton Clients
+								293 bouton Marketing
+							294 container
+								295 texte Administration
+								296 Liste du contenu
+									297 bouton Paramètres
+									298 bouton Système
+							299 Liste du contenu
+								300 bouton de menu local Super Admin admin-a@local.test
+									301 texte Super
+									302 texte Admin
+									303 texte admin-a@local.test
+							304 bouton Toggle Sidebar
+						305 container
+							306 container
+								307 bouton Toggle Sidebar
+								308 container breadcrumb
+									309 Liste du contenu
+										310 link Description: Boutique et contenu, Value: 127.0.0.1:60438/dashboard/content
+							311 bouton de menu local
+							312 en-tête Dossier de page, Value: 1
+								313 texte Dossier de page
+							314 container
+								315 text Contenu · Canal  Belgique
+							316 link Description: ← Toutes les pages, Value: 127.0.0.1:60438/dashboard/content
+							317 en-tête Page appliquée 1, Value: 2
+								318 texte Page appliquée 1
+							319 container
+								320 text / g1-integree  ·  FR  · Révision  2
+							321 texte Aucune version sélectionnée
+							322 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							323 container Réservation d’édition
+								324 en-tête Réserver cette page pour la modifier, Value: 3
+									325 texte Réserver cette page pour la modifier
+								326 texte L’historique et les aperçus restent consultables sans réservation.
+								327 bouton Réserver l’édition
+							328 container
+								329 en-tête Préparer la version suivante, Value: 2
+									330 texte Préparer la version suivante
+								331 text Base v 2
+								332 container
+									333 texte Titre de la page
+									334 champ de texte (disabled) Titre de la page, Value: Page appliquée 1
+								335 container 1. Texte
+									336 container
+										337 text 1 .  Texte
+									338 container
+										339 text Texte du bloc  1
+										340 zone de saisie de texte (disabled) Texte du bloc 1, Value: Contenu intégré G1
+									341 bouton (disabled) Monter le bloc 1
+									342 bouton (disabled) Descendre le bloc 1
+									343 bouton (disabled) Retirer le bloc 1
+								344 container 2. Référence produit
+									345 container
+										346 text 2 .  Référence produit
+									347 container
+										348 texte Identifiant du produit
+										349 champ de texte (disabled) Identifiant du produit, Value: 2
+									350 texte Le produit reste lié au catalogue. Ses prix et stocks ne sont pas copiés dans la page.
+									351 bouton (disabled) Monter le bloc 2
+									352 bouton (disabled) Descendre le bloc 2
+									353 bouton (disabled) Retirer le bloc 2
+								354 bouton (disabled) Ajouter un texte
+								355 bouton (disabled) Ajouter un média
+								356 bouton (disabled) Ajouter un produit
+								357 bouton (disabled) Enregistrer un brouillon
+								358 bouton (disabled) Enregistrer et valider
+								359 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							360 container
+								361 en-tête Historique, Value: 2
+									362 texte Historique
+								363 Liste du contenu
+									364 bouton d'activation/de désactivation v2 · Validée 10/11/2026 14:10:39 Issue de v1, Value: 1
+										365 container
+											366 text v 2  ·  Validée
+										367 texte 10/11/2026 14:10:39
+										368 texte Issue de v1
+									369 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 14:10:39 Première version, Value: 0
+										370 container
+											371 text v 1  ·  Brouillon
+										372 texte 10/11/2026 14:10:39
+										373 texte Première version
+							374 container
+								375 en-tête Comparer la version v2, Value: 2
+									376 texte Comparer la version v
+								377 texte Validée
+								378 en-tête Avant · v1, Value: 3
+									379 texte Avant · v1
+								380 en-tête g1-integree, Value: 3
+									381 texte g1-integree
+								382 text Contenu intégré G1 Produit # 2
+								383 en-tête Après · v2, Value: 3
+									384 text Après · v 2
+								385 en-tête Page appliquée 1, Value: 3
+									386 texte Page appliquée 1
+								387 text Contenu intégré G1 Produit # 2 Empreinte :  sha256:c1af64d79de2c96473dd17ba4da8322a4b40850dcf95dfdb4486eac3481b8b7d
+								388 bouton (disabled) Sélectionner v2 pour publication
+									389 text Sélectionner v 2  pour publication
+								390 en-tête Aperçu local · v2, Value: 3
+									391 text Aperçu local · v 2
+								392 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								393 en-tête Page appliquée 1, Value: 2
+									394 texte Page appliquée 1
+								395 texte Contenu intégré G1
+								396 text Produit lié · # 2
+								397 texte Produit G1
+						398 container Notifications alt+T
+				399 text Galaxy S21 360 x 800
+				400 bouton Refresh This View
+				401 bouton Quick Screenshot
+				402 bouton Full Page Screenshot
+				403 bouton Design Overlay
+				404 bouton Disable Event Mirroring
+				405 bouton Open Devtools
+				406 bouton (disabled) Rotation not available for non-mobile devices
+				407 bouton Scroll to Top
+				408 bouton Show rulers
+				409 bouton de menu local
+				410 bouton Enable Individual Layout
+				411 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/content/1
+					412 container
+						413 container
+							414 container
+								415 bouton Toggle Sidebar
+								416 container breadcrumb
+							417 bouton de menu local
+							418 en-tête Dossier de page, Value: 1
+								419 texte Dossier de page
+							420 container
+								421 text Contenu · Canal  Belgique
+							422 link Description: ← Toutes les pages, Value: 127.0.0.1:60438/dashboard/content
+							423 en-tête Page appliquée 1, Value: 2
+								424 texte Page appliquée 1
+							425 container
+								426 text / g1-integree  ·  FR  · Révision  2
+							427 texte Aucune version sélectionnée
+							428 texte Les versions enregistrées restent dans l’historique. La sélection prépare une future publication.
+							429 container Réservation d’édition
+								430 en-tête Réserver cette page pour la modifier, Value: 3
+									431 texte Réserver cette page pour la modifier
+								432 texte L’historique et les aperçus restent consultables sans réservation.
+								433 bouton Réserver l’édition
+							434 container
+								435 en-tête Préparer la version suivante, Value: 2
+									436 texte Préparer la version suivante
+								437 text Base v 2
+								438 container
+									439 texte Titre de la page
+									440 champ de texte (disabled) Titre de la page, Value: Page appliquée 1
+								441 container 1. Texte
+									442 container
+										443 text 1 .  Texte
+									444 container
+										445 text Texte du bloc  1
+										446 zone de saisie de texte (disabled) Texte du bloc 1, Value: Contenu intégré G1
+									447 bouton (disabled) Monter le bloc 1
+									448 bouton (disabled) Descendre le bloc 1
+									449 bouton (disabled) Retirer le bloc 1
+								450 container 2. Référence produit
+									451 container
+										452 text 2 .  Référence produit
+									453 container
+										454 texte Identifiant du produit
+										455 champ de texte (disabled) Identifiant du produit, Value: 2
+									456 texte Le produit reste lié au catalogue. Ses prix et stocks ne sont pas copiés dans la page.
+									457 bouton (disabled) Monter le bloc 2
+									458 bouton (disabled) Descendre le bloc 2
+									459 bouton (disabled) Retirer le bloc 2
+								460 bouton (disabled) Ajouter un texte
+								461 bouton (disabled) Ajouter un média
+								462 bouton (disabled) Ajouter un produit
+								463 bouton (disabled) Enregistrer un brouillon
+								464 bouton (disabled) Enregistrer et valider
+								465 texte Valider vérifie les blocs et leurs références. Cela ne vaut ni approbation d’une action ni publication.
+							466 container
+								467 en-tête Historique, Value: 2
+									468 texte Historique
+								469 Liste du contenu
+									470 bouton d'activation/de désactivation v2 · Validée 10/11/2026 14:10:39 Issue de v1, Value: 1
+										471 container
+											472 text v 2  ·  Validée
+										473 texte 10/11/2026 14:10:39
+										474 texte Issue de v1
+									475 bouton d'activation/de désactivation v1 · Brouillon 10/11/2026 14:10:39 Première version, Value: 0
+										476 container
+											477 text v 1  ·  Brouillon
+										478 texte 10/11/2026 14:10:39
+										479 texte Première version
+							480 container
+								481 en-tête Comparer la version v2, Value: 2
+									482 texte Comparer la version v
+								483 texte Validée
+								484 en-tête Avant · v1, Value: 3
+									485 texte Avant · v1
+								486 en-tête g1-integree, Value: 3
+									487 texte g1-integree
+								488 text Contenu intégré G1 Produit # 2
+								489 en-tête Après · v2, Value: 3
+									490 text Après · v 2
+								491 en-tête Page appliquée 1, Value: 3
+									492 texte Page appliquée 1
+								493 text Contenu intégré G1 Produit # 2 Empreinte :  sha256:c1af64d79de2c96473dd17ba4da8322a4b40850dcf95dfdb4486eac3481b8b7d
+								494 bouton (disabled) Sélectionner v2 pour publication
+									495 text Sélectionner v 2  pour publication
+								496 en-tête Aperçu local · v2, Value: 3
+									497 text Aperçu local · v 2
+								498 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
+								499 en-tête Page appliquée 1, Value: 2
+									500 texte Page appliquée 1
+								501 texte Contenu intégré G1
+								502 text Produit lié · # 2
+								503 texte Produit G1
+						504 container Notifications alt+T
+		505 container
+	506 Bouton de fermeture
+	507 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	508 bouton de minimisation
+509 menu bar
+	510 ResponsivelyApp
+	511 Edit
+	512 View
+	513 Window
+	514 Help
+
+Selected text: ```
+http://127.0.0.1:60438/dashboard/content/1
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

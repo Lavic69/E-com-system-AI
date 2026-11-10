@@ -1,44 +1,42 @@
-import 'reflect-metadata';
-import { DefaultLogger, LogLevel, VendureConfig } from '@vendure/core';
+import { VendureConfig } from '@vendure/core';
 import path from 'node:path';
-import { platformPlugins } from './plugins';
+import { config as foundation } from './foundation-config';
+import { CataloguePlugin } from './plugins/catalogue/catalogue.plugin';
+import { ContentPlugin } from './plugins/content/content.plugin';
+import { OperationsPlugin } from './plugins/operations/operations.plugin';
+import { ContentActionAdapter } from './plugins/platform/content-action';
+import { PlatformPlugin } from './plugins/platform/platform.plugin';
 import { readSession } from './runtime';
 
 const session = readSession();
-process.env.VENDURE_DISABLE_TELEMETRY = 'true';
-
 export const config: VendureConfig = {
-  apiOptions: {
-    hostname: '127.0.0.1',
-    port: session.apiPort,
-    adminApiPath: 'admin-api',
-    shopApiPath: 'shop-api',
-    csrfPrevention: true,
-    cors: {
-      origin: [`http://127.0.0.1:${session.dashboardPort}`, `http://127.0.0.1:${session.apiPort}`],
-      credentials: true,
-    },
-  },
-  authOptions: {
-    tokenMethod: ['bearer', 'cookie'],
-    superadminCredentials: {
-      identifier: session.adminUsername,
-      password: session.adminPassword,
-    },
-    cookieOptions: { secret: session.cookieSecret, name: `session-${session.id}` },
-  },
+  ...foundation,
   dbConnectionOptions: {
-    type: 'postgres',
-    host: '127.0.0.1',
-    port: session.postgresPort,
-    username: session.databaseUser,
-    password: session.databasePassword,
-    database: session.database,
-    synchronize: false,
-    migrations: [path.join(__dirname, 'migrations/*.{js,ts}')],
-    logging: false,
+    ...foundation.dbConnectionOptions,
+    migrations: [
+      path.join(__dirname, 'migrations/*.{js,ts}'),
+      path.join(__dirname, 'plugins/operations/migrations/*.{js,ts}'),
+      path.join(__dirname, 'plugins/catalogue/migrations/*.{js,ts}'),
+      path.join(__dirname, 'plugins/content/migrations/*.{js,ts}'),
+    ],
   },
-  logger: new DefaultLogger({ level: LogLevel.Warn }),
-  paymentOptions: { paymentMethodHandlers: [] },
-  plugins: platformPlugins(session),
+  plugins: [
+    ...foundation.plugins!,
+    CataloguePlugin,
+    ContentPlugin,
+    OperationsPlugin.init({
+      shopId: session.shopId ?? `local:${session.database}`,
+      policyVersion: 'g1-member-content-v1',
+      markets: {},
+      marketForChannel: channel => {
+        const currencies = channel.availableCurrencyCodes.map(String).filter((code): code is 'EUR' | 'USD' => code === 'EUR' || code === 'USD');
+        return currencies.length ? {
+          marketId: `vendure-channel:${channel.id}`, languages: channel.availableLanguageCodes, currencies,
+        } : undefined;
+      },
+      adapters: [new ContentActionAdapter()],
+      transports: {},
+    }),
+    PlatformPlugin,
+  ],
 };

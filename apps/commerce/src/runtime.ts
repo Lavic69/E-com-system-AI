@@ -5,6 +5,7 @@ export const projectRoot = process.env.ECOM_PROJECT_ROOT ?? path.resolve(__dirna
 
 export interface LocalSession {
   id: string;
+  shopId?: string;
   file: string;
   dataDir: string;
   mediaDir: string;

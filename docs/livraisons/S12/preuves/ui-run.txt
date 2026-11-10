@@ -1,0 +1,57 @@
+{
+  "browser": "Chromium isolé, distinct de Responsively",
+  "screens": [
+    {
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "document": 1440,
+      "screen": 802.5,
+      "overflow": false,
+      "selection": true,
+      "keyboardDetails": true,
+      "knownAndUnknownCost": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "viewport": 1024,
+      "document": 1024,
+      "screen": 676,
+      "overflow": false,
+      "selection": true,
+      "keyboardDetails": true,
+      "knownAndUnknownCost": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "screen": 308,
+      "overflow": false,
+      "selection": true,
+      "keyboardDetails": true,
+      "knownAndUnknownCost": true
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "viewport": 360,
+      "document": 360,
+      "screen": 278,
+      "overflow": false,
+      "selection": true,
+      "keyboardDetails": true,
+      "knownAndUnknownCost": true
+    }
+  ],
+  "states": [
+    "erreur réseau simulée",
+    "liste vide simulée",
+    "chargement avec réponse retardée",
+    "refus avec compte réel sans ReadOperations"
+  ],
+  "errors": [],
+  "status": "passed"
+}

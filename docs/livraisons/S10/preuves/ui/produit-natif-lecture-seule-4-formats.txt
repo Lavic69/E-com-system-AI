@@ -1,0 +1,496 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/products/1
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 container
+								45 en-tête Tasse de recette vérifiée, Value: 1
+									46 texte Tasse de recette vérifiée
+								47 bouton de menu local
+								48 container
+									49 texte Product name
+									50 champ de texte (settable) Product name, Value: Tasse de recette vérifiée
+									51 texte Slug
+									52 container
+										53 champ de texte (disabled) Slug, Value: import-recette-ui, Placeholder: Slug is set
+										54 bouton Regenerate slug from source field
+										55 bouton Edit slug manually
+									56 texte Description
+									57 container
+										58 combo box (settable) Description: Text style, Value: Normal
+											59 texte Normal
+										60 bouton d'activation/de désactivation Description: Bold, Value: 0
+										61 bouton d'activation/de désactivation Description: Italic, Value: 0
+										62 bouton d'activation/de désactivation Description: Underline, Value: 0
+										63 bouton de menu local More formatting options
+										64 zone de saisie de texte (settable)
+
+								65 container
+									66 container
+										67 texte Product variants
+										68 bouton Manage variants
+										69 bouton de menu local
+										70 bouton de menu local Filter
+									71 tableau
+										72 row
+											73 en-tête de colonne
+												74 case à cocher Description: Select all rows, Value: 0
+											75 en-tête de colonne
+												76 texte Featured asset
+											77 en-tête de colonne
+												78 bouton Sort by Variant name
+											79 en-tête de colonne
+												80 texte Enabled
+											81 en-tête de colonne
+												82 bouton Sort by Price
+											83 en-tête de colonne
+												84 bouton Sort by Price with tax
+											85 en-tête de colonne
+												86 texte Stock levels
+											87 en-tête de colonne
+												88 texte Actions
+										89 row
+											90 cellule
+												91 case à cocher Description: Select row, Value: 0
+											92 cellule
+												93 bouton Tasse de recette
+											94 cellule
+												95 texte Enabled
+											96 cellule
+												97 texte €12.90
+											98 cellule
+												99 texte €12.90
+											100 cellule
+												101 container Stock on hand: 12, Stock allocated: 0
+													102 text 12 /  0
+											103 cellule
+												104 bouton de menu local
+									105 text 1–1 of 1 Rows per page
+									106 combo box (settable) Description: Rows per page, Value: 10
+										107 texte 10
+									108 container Pagination
+										109 bouton (disabled) Go to previous page
+										110 bouton (disabled) Go to next page
+								111 container
+									112 texte Facet Values
+									113 bouton de menu local Add facet values
+								114 container
+									115 texte Assets
+									116 bouton Add asset
+						117 container Notifications alt+T
+				118 text MacBook Pro 1440 x 900
+				119 bouton Refresh This View
+				120 bouton Quick Screenshot
+				121 bouton Full Page Screenshot
+				122 bouton Design Overlay
+				123 bouton Disable Event Mirroring
+				124 bouton Open Devtools
+				125 bouton (disabled) Rotation not available for non-mobile devices
+				126 bouton Scroll to Top
+				127 bouton Show rulers
+				128 bouton de menu local
+				129 bouton Enable Individual Layout
+				130 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1
+					131 container
+						132 container
+							133 Liste du contenu
+								134 bouton de menu local Belgique Language: French
+							135 Liste du contenu
+								136 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								137 container
+									138 bouton Catalog
+									139 Liste du contenu
+										140 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										141 link Description: Product Variants, Value: 127.0.0.1:5101/dashboard/product-variants
+										142 link Description: Option Groups, Value: 127.0.0.1:5101/dashboard/option-groups
+										143 link Description: Facets, Value: 127.0.0.1:5101/dashboard/facets
+										144 link Description: Collections, Value: 127.0.0.1:5101/dashboard/collections
+										145 link Description: Assets, Value: 127.0.0.1:5101/dashboard/assets
+								146 bouton Customers
+							147 container
+								148 texte Administration
+								149 Liste du contenu
+									150 bouton Settings
+							151 Liste du contenu
+								152 bouton de menu local Démo s10-reader s10-reader@local.test
+									153 texte Démo
+									154 texte s10-reader
+									155 texte s10-reader@local.test
+							156 bouton Toggle Sidebar
+						157 container
+							158 container
+								159 bouton Toggle Sidebar
+								160 container breadcrumb
+									161 Liste du contenu
+										162 link Description: Catalog, Value: 127.0.0.1:5101/dashboard/products
+										163 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										164 link Description: Tasse de recette vérifiée, Value: 127.0.0.1:5101/dashboard/products/1
+							165 bouton de menu local
+							166 container
+								167 en-tête Tasse de recette vérifiée, Value: 1
+									168 texte Tasse de recette vérifiée
+								169 bouton de menu local
+								170 container
+									171 texte Product name
+									172 champ de texte (settable) Product name, Value: Tasse de recette vérifiée
+									173 texte Slug
+									174 container
+										175 champ de texte (disabled) Slug, Value: import-recette-ui, Placeholder: Slug is set
+										176 bouton Regenerate slug from source field
+										177 bouton Edit slug manually
+									178 texte Description
+									179 container
+										180 combo box (settable) Description: Text style, Value: Normal
+											181 texte Normal
+										182 bouton d'activation/de désactivation Description: Bold, Value: 0
+										183 bouton d'activation/de désactivation Description: Italic, Value: 0
+										184 bouton d'activation/de désactivation Description: Underline, Value: 0
+										185 bouton d'activation/de désactivation Description: Strikethrough, Value: 0
+										186 bouton d'activation/de désactivation Description: Inline code, Value: 0
+										187 bouton d'activation/de désactivation Description: Bullet list, Value: 0
+										188 bouton d'activation/de désactivation Description: Ordered list, Value: 0
+										189 bouton d'activation/de désactivation Description: Blockquote, Value: 0
+										190 bouton d'activation/de désactivation Description: Code block, Value: 0
+										191 bouton d'activation/de désactivation (disabled) Description: Link, Value: 0
+										192 bouton d'activation/de désactivation Description: Image, Value: 0
+										193 bouton de menu local Insert table
+										194 bouton Horizontal rule
+										195 bouton Clear formatting
+										196 bouton Undo
+										197 bouton (disabled) Redo
+										198 zone de saisie de texte (settable)
+
+								199 container
+									200 container
+										201 texte Product variants
+										202 bouton Manage variants
+										203 bouton de menu local
+										204 bouton de menu local Filter
+									205 tableau
+										206 row
+											207 en-tête de colonne
+												208 case à cocher Description: Select all rows, Value: 0
+											209 en-tête de colonne
+												210 texte Featured asset
+											211 en-tête de colonne
+												212 bouton Sort by Variant name
+											213 en-tête de colonne
+												214 texte Enabled
+											215 en-tête de colonne
+												216 bouton Sort by Price
+											217 en-tête de colonne
+												218 bouton Sort by Price with tax
+											219 en-tête de colonne
+												220 texte Stock levels
+											221 en-tête de colonne
+												222 texte Actions
+										223 row
+											224 cellule
+												225 case à cocher Description: Select row, Value: 0
+											226 cellule
+												227 bouton Tasse de recette
+											228 cellule
+												229 texte Enabled
+											230 cellule
+												231 texte €12.90
+											232 cellule
+												233 texte €12.90
+											234 cellule
+												235 container Stock on hand: 12, Stock allocated: 0
+													236 text 12 /  0
+											237 cellule
+												238 bouton de menu local
+									239 text 1–1 of 1 Rows per page
+									240 combo box (settable) Description: Rows per page, Value: 10
+										241 texte 10
+									242 container Pagination
+										243 bouton (disabled) Go to previous page
+										244 bouton (disabled) Go to next page
+								245 container
+									246 texte Facet Values
+									247 bouton de menu local Add facet values
+								248 container
+									249 texte Assets
+									250 bouton Add asset
+						251 container Notifications alt+T
+				252 text G0 Tablette paysage 1024 x 768
+				253 bouton Refresh This View
+				254 bouton Quick Screenshot
+				255 bouton Full Page Screenshot
+				256 bouton Design Overlay
+				257 bouton Disable Event Mirroring
+				258 bouton Open Devtools
+				259 bouton (disabled) Rotation not available for non-mobile devices
+				260 bouton Scroll to Top
+				261 bouton Show rulers
+				262 bouton de menu local
+				263 bouton Enable Individual Layout
+				264 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1
+					265 container
+						266 container
+							267 Liste du contenu
+								268 bouton de menu local Belgique Language: French
+							269 Liste du contenu
+								270 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								271 container
+									272 bouton Catalog
+									273 Liste du contenu
+										274 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										275 link Description: Product Variants, Value: 127.0.0.1:5101/dashboard/product-variants
+										276 link Description: Option Groups, Value: 127.0.0.1:5101/dashboard/option-groups
+										277 link Description: Facets, Value: 127.0.0.1:5101/dashboard/facets
+										278 link Description: Collections, Value: 127.0.0.1:5101/dashboard/collections
+										279 link Description: Assets, Value: 127.0.0.1:5101/dashboard/assets
+								280 bouton Customers
+							281 container
+								282 texte Administration
+								283 Liste du contenu
+									284 bouton Settings
+							285 Liste du contenu
+								286 bouton de menu local Démo s10-reader s10-reader@local.test
+									287 texte Démo
+									288 texte s10-reader
+									289 texte s10-reader@local.test
+							290 bouton Toggle Sidebar
+						291 container
+							292 container
+								293 bouton Toggle Sidebar
+								294 container breadcrumb
+									295 Liste du contenu
+										296 link Description: Catalog, Value: 127.0.0.1:5101/dashboard/products
+										297 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										298 link Description: Tasse de recette vérifiée, Value: 127.0.0.1:5101/dashboard/products/1
+							299 bouton de menu local
+							300 container
+								301 en-tête Tasse de recette vérifiée, Value: 1
+									302 texte Tasse de recette vérifiée
+								303 bouton de menu local
+								304 container
+									305 texte Product name
+									306 champ de texte (settable) Product name, Value: Tasse de recette vérifiée
+									307 texte Slug
+									308 container
+										309 champ de texte (disabled) Slug, Value: import-recette-ui, Placeholder: Slug is set
+										310 bouton Regenerate slug from source field
+										311 bouton Edit slug manually
+									312 texte Description
+									313 container
+										314 combo box (settable) Description: Text style, Value: Normal
+											315 texte Normal
+										316 bouton d'activation/de désactivation Description: Bold, Value: 0
+										317 bouton d'activation/de désactivation Description: Italic, Value: 0
+										318 bouton d'activation/de désactivation Description: Underline, Value: 0
+										319 bouton d'activation/de désactivation Description: Strikethrough, Value: 0
+										320 bouton d'activation/de désactivation Description: Inline code, Value: 0
+										321 bouton d'activation/de désactivation Description: Bullet list, Value: 0
+										322 bouton d'activation/de désactivation Description: Ordered list, Value: 0
+										323 bouton d'activation/de désactivation Description: Blockquote, Value: 0
+										324 bouton d'activation/de désactivation Description: Code block, Value: 0
+										325 bouton d'activation/de désactivation (disabled) Description: Link, Value: 0
+										326 bouton d'activation/de désactivation Description: Image, Value: 0
+										327 bouton de menu local Insert table
+										328 bouton de menu local More formatting options
+										329 zone de saisie de texte (settable)
+
+								330 container
+									331 container
+										332 texte Product variants
+										333 bouton Manage variants
+										334 bouton de menu local
+										335 bouton de menu local Filter
+									336 tableau
+										337 row
+											338 en-tête de colonne
+												339 case à cocher Description: Select all rows, Value: 0
+											340 en-tête de colonne
+												341 texte Featured asset
+											342 en-tête de colonne
+												343 bouton Sort by Variant name
+											344 en-tête de colonne
+												345 texte Enabled
+											346 en-tête de colonne
+												347 bouton Sort by Price
+											348 en-tête de colonne
+												349 bouton Sort by Price with tax
+											350 en-tête de colonne
+												351 texte Stock levels
+											352 en-tête de colonne
+												353 texte Actions
+										354 row
+											355 cellule
+												356 case à cocher Description: Select row, Value: 0
+											357 cellule
+												358 bouton Tasse de recette
+											359 cellule
+												360 texte Enabled
+											361 cellule
+												362 texte €12.90
+											363 cellule
+												364 texte €12.90
+											365 cellule
+												366 container Stock on hand: 12, Stock allocated: 0
+													367 text 12 /  0
+											368 cellule
+												369 bouton de menu local
+									370 text 1–1 of 1 Rows per page
+									371 combo box (settable) Description: Rows per page, Value: 10
+										372 texte 10
+									373 container Pagination
+										374 bouton (disabled) Go to previous page
+										375 bouton (disabled) Go to next page
+								376 container
+									377 texte Facet Values
+									378 bouton de menu local Add facet values
+								379 container
+									380 texte Assets
+									381 bouton Add asset
+						382 container Notifications alt+T
+				383 text Galaxy S21 360 x 800
+				384 bouton Refresh This View
+				385 bouton Quick Screenshot
+				386 bouton Full Page Screenshot
+				387 bouton Design Overlay
+				388 bouton Disable Event Mirroring
+				389 bouton Open Devtools
+				390 bouton (disabled) Rotation not available for non-mobile devices
+				391 bouton Scroll to Top
+				392 bouton Show rulers
+				393 bouton de menu local
+				394 bouton Enable Individual Layout
+				395 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1
+					396 container
+						397 container
+							398 container
+								399 bouton Toggle Sidebar
+								400 container breadcrumb
+							401 bouton de menu local
+							402 container
+								403 en-tête Tasse de recette vérifiée, Value: 1
+									404 texte Tasse de recette vérifiée
+								405 bouton de menu local
+								406 container
+									407 texte Product name
+									408 champ de texte (settable) Product name, Value: Tasse de recette vérifiée
+									409 texte Slug
+									410 container
+										411 champ de texte (disabled) Slug, Value: import-recette-ui, Placeholder: Slug is set
+										412 bouton Regenerate slug from source field
+										413 bouton Edit slug manually
+									414 texte Description
+									415 container
+										416 combo box (settable) Description: Text style, Value: Normal
+											417 texte Normal
+										418 bouton d'activation/de désactivation Description: Bold, Value: 0
+										419 bouton d'activation/de désactivation Description: Italic, Value: 0
+										420 bouton de menu local More formatting options
+										421 zone de saisie de texte (settable)
+
+								422 container
+									423 container
+										424 texte Product variants
+										425 bouton Manage variants
+										426 bouton de menu local
+										427 bouton de menu local Filter
+									428 tableau
+										429 row
+											430 en-tête de colonne
+												431 case à cocher Description: Select all rows, Value: 0
+											432 en-tête de colonne
+												433 texte Featured asset
+											434 en-tête de colonne
+												435 bouton Sort by Variant name
+											436 en-tête de colonne
+												437 texte Enabled
+											438 en-tête de colonne
+												439 bouton Sort by Price
+											440 en-tête de colonne
+												441 bouton Sort by Price with tax
+											442 en-tête de colonne
+												443 texte Stock levels
+											444 en-tête de colonne
+												445 texte Actions
+										446 row
+											447 cellule
+												448 case à cocher Description: Select row, Value: 0
+											449 cellule
+												450 bouton Tasse de recette
+											451 cellule
+												452 texte Enabled
+											453 cellule
+												454 texte €12.90
+											455 cellule
+												456 texte €12.90
+											457 cellule
+												458 container Stock on hand: 12, Stock allocated: 0
+													459 text 12 /  0
+											460 cellule
+												461 bouton de menu local
+									462 text 1–1 of 1 Rows per page
+									463 combo box (settable) Description: Rows per page, Value: 10
+										464 texte 10
+									465 container Pagination
+										466 bouton (disabled) Go to previous page
+										467 bouton (disabled) Go to next page
+								468 container
+									469 texte Facet Values
+									470 bouton de menu local Add facet values
+								471 container
+									472 texte Assets
+									473 bouton Add asset
+						474 container Notifications alt+T
+		475 container
+	476 Bouton de fermeture
+	477 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	478 bouton de minimisation
+479 menu bar
+	480 ResponsivelyApp
+	481 Edit
+	482 View
+	483 Window
+	484 Help
+
+Selected text: ```
+http://127.0.0.1:5101/dashboard/products/1
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

@@ -1,0 +1,296 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/catalogue-import
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/catalogue-import
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 en-tête Importer des produits, Value: 1
+								45 texte Importer des produits
+							46 container
+								47 texte Un produit et une variante par ligne, jusqu’à 100 lignes. L’aperçu ne modifie pas le catalogue. Les produits importés seront activés. Les clés déjà importées sont conservées pour permettre une reprise.
+								48 liste de définitions
+									49 texte Marché actif
+									50 texte Belgique
+									51 texte Prix du marché
+									52 container
+										53 text EUR  ·  Hors taxes
+									54 texte Langue des produits
+									55 texte fr
+								56 texte Emplacement du stock
+								57 combo box (settable) Emplacement du stock, Value: Entrepôt Belgique
+									58 texte Entrepôt Belgique
+								59 texte Fichier CSV
+								60 bouton Fichier CSV: Aucun fichier choisi
+								61 texte Contenu à vérifier
+								62 zone de saisie de texte (settable) Contenu à vérifier, Placeholder: key,name,sku,price,stock, Value: key,name,sku,price,stock
+ui-final,Recette finale,UI-FINAL,1290,12
+								63 texte Colonnes : key, name, sku, price, stock. Séparateur : virgule. Prix entier en centimes, par exemple 1290 pour 12,90 EUR ou 12,90 USD. Stock entier positif ou nul. Clé stable et unique par marché. Les lignes invalides seront ignorées.
+								64 bouton Charger un exemple
+								65 bouton Vérifier le fichier
+								66 bouton Importer 1 ligne valide
+								67 container Résultats de l’import
+									68 en-tête 1 ligne vérifiée, Value: 2
+										69 text 1  ligne  vérifiée
+									70 texte 1 ligne(s) prête(s). Vérifier les montants et le stock avant de confirmer.
+									71 Liste du contenu
+										72 container
+											73 text Ligne  2  ·  Recette finale Prêt Clé  ui-final  · SKU  UI-FINAL Prix du fichier :  12,90 €  · Stock du fichier :  12 Un produit et une variante seront créés.
+						74 container Notifications alt+T
+				75 text MacBook Pro 1440 x 900
+				76 bouton Refresh This View
+				77 bouton Quick Screenshot
+				78 bouton Full Page Screenshot
+				79 bouton Design Overlay
+				80 bouton Disable Event Mirroring
+				81 bouton Open Devtools
+				82 bouton (disabled) Rotation not available for non-mobile devices
+				83 bouton Scroll to Top
+				84 bouton Show rulers
+				85 bouton de menu local
+				86 bouton Enable Individual Layout
+				87 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/catalogue-import
+					88 container
+						89 container
+							90 Liste du contenu
+								91 bouton de menu local Belgique Language: French
+							92 Liste du contenu
+								93 bouton Environnement local
+								94 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								95 bouton Catalog
+								96 bouton Sales
+								97 container
+									98 bouton Customers
+									99 Liste du contenu
+										100 link Description: Customers, Value: 127.0.0.1:5101/dashboard/customers
+										101 link Description: Customer Groups, Value: 127.0.0.1:5101/dashboard/customer-groups
+								102 bouton Marketing
+							103 container
+								104 texte Administration
+								105 Liste du contenu
+									106 bouton Settings
+									107 bouton System
+							108 Liste du contenu
+								109 bouton de menu local Super Admin admin-a@local.test
+									110 texte Super
+									111 texte Admin
+									112 texte admin-a@local.test
+							113 bouton Toggle Sidebar
+						114 container
+							115 container
+								116 bouton Toggle Sidebar
+								117 container breadcrumb
+									118 Liste du contenu
+										119 link Description: Catalog, Value: 127.0.0.1:5101/dashboard/catalogue-import
+							120 bouton de menu local
+							121 en-tête Importer des produits, Value: 1
+								122 texte Importer des produits
+							123 container
+								124 texte Un produit et une variante par ligne, jusqu’à 100 lignes. L’aperçu ne modifie pas le catalogue. Les produits importés seront activés. Les clés déjà importées sont conservées pour permettre une reprise.
+								125 liste de définitions
+									126 texte Marché actif
+									127 texte Belgique
+									128 texte Prix du marché
+									129 container
+										130 text EUR  ·  Hors taxes
+									131 texte Langue des produits
+									132 texte fr
+								133 texte Emplacement du stock
+								134 combo box (settable) Emplacement du stock, Value: Entrepôt Belgique
+									135 texte Entrepôt Belgique
+								136 texte Fichier CSV
+								137 bouton Fichier CSV: Aucun fichier choisi
+								138 texte Contenu à vérifier
+								139 zone de saisie de texte (settable) Contenu à vérifier, Placeholder: key,name,sku,price,stock, Value: key,name,sku,price,stock
+ui-final,Recette finale,UI-FINAL,1290,12
+								140 texte Colonnes : key, name, sku, price, stock. Séparateur : virgule. Prix entier en centimes, par exemple 1290 pour 12,90 EUR ou 12,90 USD. Stock entier positif ou nul. Clé stable et unique par marché. Les lignes invalides seront ignorées.
+								141 bouton Charger un exemple
+								142 bouton Vérifier le fichier
+								143 bouton Importer 1 ligne valide
+								144 container Résultats de l’import
+									145 en-tête 1 ligne vérifiée, Value: 2
+										146 text 1  ligne  vérifiée
+									147 texte 1 ligne(s) prête(s). Vérifier les montants et le stock avant de confirmer.
+									148 Liste du contenu
+										149 container
+											150 text Ligne  2  ·  Recette finale Prêt Clé  ui-final  · SKU  UI-FINAL Prix du fichier :  12,90 €  · Stock du fichier :  12 Un produit et une variante seront créés.
+						151 container Notifications alt+T
+				152 text G0 Tablette paysage 1024 x 768
+				153 bouton Refresh This View
+				154 bouton Quick Screenshot
+				155 bouton Full Page Screenshot
+				156 bouton Design Overlay
+				157 bouton Disable Event Mirroring
+				158 bouton Open Devtools
+				159 bouton (disabled) Rotation not available for non-mobile devices
+				160 bouton Scroll to Top
+				161 bouton Show rulers
+				162 bouton de menu local
+				163 bouton Enable Individual Layout
+				164 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/catalogue-import
+					165 container
+						166 container
+							167 Liste du contenu
+								168 bouton de menu local Belgique Language: French
+							169 Liste du contenu
+								170 bouton Environnement local
+								171 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								172 bouton Catalog
+								173 bouton Sales
+								174 container
+									175 bouton Customers
+									176 Liste du contenu
+										177 link Description: Customers, Value: 127.0.0.1:5101/dashboard/customers
+										178 link Description: Customer Groups, Value: 127.0.0.1:5101/dashboard/customer-groups
+								179 bouton Marketing
+							180 container
+								181 texte Administration
+								182 Liste du contenu
+									183 bouton Settings
+									184 bouton System
+							185 Liste du contenu
+								186 bouton de menu local Super Admin admin-a@local.test
+									187 texte Super
+									188 texte Admin
+									189 texte admin-a@local.test
+							190 bouton Toggle Sidebar
+						191 container
+							192 container
+								193 bouton Toggle Sidebar
+								194 container breadcrumb
+									195 Liste du contenu
+										196 link Description: Catalog, Value: 127.0.0.1:5101/dashboard/catalogue-import
+							197 bouton de menu local
+							198 en-tête Importer des produits, Value: 1
+								199 texte Importer des produits
+							200 container
+								201 texte Un produit et une variante par ligne, jusqu’à 100 lignes. L’aperçu ne modifie pas le catalogue. Les produits importés seront activés. Les clés déjà importées sont conservées pour permettre une reprise.
+								202 liste de définitions
+									203 texte Marché actif
+									204 texte Belgique
+									205 texte Prix du marché
+									206 container
+										207 text EUR  ·  Hors taxes
+									208 texte Langue des produits
+									209 texte fr
+								210 texte Emplacement du stock
+								211 combo box (settable) Emplacement du stock, Value: Entrepôt Belgique
+									212 texte Entrepôt Belgique
+								213 texte Fichier CSV
+								214 bouton Fichier CSV: Aucun fichier choisi
+								215 texte Contenu à vérifier
+								216 zone de saisie de texte (settable) Contenu à vérifier, Placeholder: key,name,sku,price,stock, Value: key,name,sku,price,stock
+ui-final,Recette finale,UI-FINAL,1290,12
+								217 texte Colonnes : key, name, sku, price, stock. Séparateur : virgule. Prix entier en centimes, par exemple 1290 pour 12,90 EUR ou 12,90 USD. Stock entier positif ou nul. Clé stable et unique par marché. Les lignes invalides seront ignorées.
+								218 bouton Charger un exemple
+								219 bouton Vérifier le fichier
+								220 bouton Importer 1 ligne valide
+								221 container Résultats de l’import
+									222 en-tête 1 ligne vérifiée, Value: 2
+										223 text 1  ligne  vérifiée
+									224 texte 1 ligne(s) prête(s). Vérifier les montants et le stock avant de confirmer.
+									225 Liste du contenu
+										226 container
+											227 text Ligne  2  ·  Recette finale Prêt Clé  ui-final  · SKU  UI-FINAL Prix du fichier :  12,90 €  · Stock du fichier :  12 Un produit et une variante seront créés.
+						228 container Notifications alt+T
+				229 text Galaxy S21 360 x 800
+				230 bouton Refresh This View
+				231 bouton Quick Screenshot
+				232 bouton Full Page Screenshot
+				233 bouton Design Overlay
+				234 bouton Disable Event Mirroring
+				235 bouton Open Devtools
+				236 bouton (disabled) Rotation not available for non-mobile devices
+				237 bouton Scroll to Top
+				238 bouton Show rulers
+				239 bouton de menu local
+				240 bouton Enable Individual Layout
+				241 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/catalogue-import
+					242 container
+						243 container
+							244 container
+								245 bouton Toggle Sidebar
+								246 container breadcrumb
+							247 bouton de menu local
+							248 en-tête Importer des produits, Value: 1
+								249 texte Importer des produits
+							250 container
+								251 texte Un produit et une variante par ligne, jusqu’à 100 lignes. L’aperçu ne modifie pas le catalogue. Les produits importés seront activés. Les clés déjà importées sont conservées pour permettre une reprise.
+								252 liste de définitions
+									253 texte Marché actif
+									254 texte Belgique
+									255 texte Prix du marché
+									256 container
+										257 text EUR  ·  Hors taxes
+									258 texte Langue des produits
+									259 texte fr
+								260 texte Emplacement du stock
+								261 combo box (settable) Emplacement du stock, Value: Entrepôt Belgique
+									262 texte Entrepôt Belgique
+								263 texte Fichier CSV
+								264 bouton Fichier CSV: Aucun fichier choisi
+								265 texte Contenu à vérifier
+								266 zone de saisie de texte (settable) Contenu à vérifier, Placeholder: key,name,sku,price,stock, Value: key,name,sku,price,stock
+ui-final,Recette finale,UI-FINAL,1290,12
+								267 texte Colonnes : key, name, sku, price, stock. Séparateur : virgule. Prix entier en centimes, par exemple 1290 pour 12,90 EUR ou 12,90 USD. Stock entier positif ou nul. Clé stable et unique par marché. Les lignes invalides seront ignorées.
+								268 bouton Charger un exemple
+								269 bouton Vérifier le fichier
+								270 bouton Importer 1 ligne valide
+								271 container Résultats de l’import
+									272 en-tête 1 ligne vérifiée, Value: 2
+										273 text 1  ligne  vérifiée
+									274 texte 1 ligne(s) prête(s). Vérifier les montants et le stock avant de confirmer.
+									275 Liste du contenu
+										276 container
+											277 text Ligne  2  ·  Recette finale Prêt Clé  ui-final  · SKU  UI-FINAL Prix du fichier :  12,90 €  · Stock du fichier :  12 Un produit et une variante seront créés.
+						278 container Notifications alt+T
+		279 container
+	280 Bouton de fermeture
+	281 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	282 bouton de minimisation
+283 menu bar
+	284 ResponsivelyApp
+	285 Edit
+	286 View
+	287 Window
+	288 Help
+
+The focused UI element is 164 Contenu HTML Vendure, URL: 127.0.0.1:5101/dashboard/catalogue-import

@@ -1,0 +1,416 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5103/dashboard/operations
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 container
+				25 text iPhone 12 Pro 390 x 844
+				26 bouton Refresh This View
+				27 bouton Quick Screenshot
+				28 bouton Full Page Screenshot
+				29 bouton Design Overlay
+				30 bouton Disable Event Mirroring
+				31 bouton Open Devtools
+				32 bouton (disabled) Rotation not available for non-mobile devices
+				33 bouton Scroll to Top
+				34 bouton Show rulers
+				35 bouton de menu local
+				36 bouton Enable Individual Layout
+				37 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					38 container
+						39 container
+							40 container
+								41 bouton Toggle Sidebar
+								42 container breadcrumb
+							43 bouton de menu local
+							44 en-tête Actions, Value: 1
+								45 texte Actions
+							46 container
+								47 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								48 bouton Actualiser
+								49 container Dossiers d’action
+									50 container
+										51 text Dossiers récents ·  3
+									52 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										53 texte Message de vérification
+										54 texte À rapprocher
+										55 container
+											56 text Proposition  v8  · cible v 7
+									57 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										58 texte Présentation du produit
+										59 texte Réussie
+										60 container
+											61 text Proposition  v8  · cible v 7
+									62 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										63 texte Accueil · titre de page
+										64 texte À valider
+										65 container
+											66 text Proposition  v8  · cible v 7
+								67 container Dossier Message de vérification
+									68 container
+										69 texte Dossier d’action
+										70 en-tête Message de vérification, Value: 2
+											71 texte Message de vérification
+										72 texte À rapprocher
+									73 texte Démonstration locale sur une cible de test.
+									74 container Objet et proposition
+										75 en-tête Objet et proposition, Value: 3
+											76 texte Objet et proposition
+										77 liste de définitions
+											78 texte Version visée
+											79 texte 7
+											80 texte Proposition
+											81 texte v8
+											82 texte Marché · langue
+											83 container
+												84 text market-s12-1  ·  en
+											85 texte Préparée le
+											86 texte 10 nov. 2026, 12:52
+										87 container
+											88 text Référence de la modification :  fixture:local-message
+									89 container Décision et coût
+										90 en-tête Décision et coût, Value: 3
+											91 texte Décision et coût
+										92 liste de définitions
+											93 texte Plafond approuvé
+											94 texte 3,00 $US
+											95 texte Montant réservé
+											96 texte 3,00 $US
+											97 texte Coût connu
+											98 texte Inconnu
+										99 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+										100 texte Le montant réservé reste engagé tant que le coût n’est pas rapproché, y compris après la fin de période.
+									101 container Résultat et preuves
+										102 en-tête Résultat et preuves, Value: 3
+											103 texte Résultat et preuves
+										104 texte Le fournisseur n’a pas confirmé le résultat. La réservation est conservée pendant le rapprochement.
+										105 texte Aucune preuve de réussite enregistrée.
+										106 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										107 triangle d'expansion Consulter la trace du dossier
+											108 texte Consulter la trace du dossier
+						109 container Notifications alt+T
+				110 text MacBook Pro 1440 x 900
+				111 bouton Refresh This View
+				112 bouton Quick Screenshot
+				113 bouton Full Page Screenshot
+				114 bouton Design Overlay
+				115 bouton Disable Event Mirroring
+				116 bouton Open Devtools
+				117 bouton (disabled) Rotation not available for non-mobile devices
+				118 bouton Scroll to Top
+				119 bouton Show rulers
+				120 bouton de menu local
+				121 bouton Enable Individual Layout
+				122 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					123 container
+						124 container
+							125 Liste du contenu
+								126 bouton de menu local Default channel Language: English
+							127 Liste du contenu
+								128 container
+									129 bouton Activité
+									130 Liste du contenu
+										131 link Description: Actions, Value: 127.0.0.1:5103/dashboard/operations
+								132 link Description: Insights, Value: 127.0.0.1:5103/dashboard/
+							133 Liste du contenu
+								134 bouton de menu local Démonstration s12-responsively-reader-1794315064238 s12-responsively-reader-1794315064238@local.test
+									135 texte Démonstration
+									136 texte s12-responsively-reader-1794315064238
+									137 texte s12-responsively-reader-1794315064238@local.test
+							138 bouton Toggle Sidebar
+						139 container
+							140 container
+								141 bouton Toggle Sidebar
+								142 container breadcrumb
+									143 Liste du contenu
+										144 link Description: Activité, Value: 127.0.0.1:5103/dashboard/operations
+							145 bouton de menu local
+							146 en-tête Actions, Value: 1
+								147 texte Actions
+							148 container
+								149 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								150 bouton Actualiser
+								151 container Dossiers d’action
+									152 container
+										153 text Dossiers récents ·  3
+									154 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										155 texte Message de vérification
+										156 texte À rapprocher
+										157 container
+											158 text Proposition  v8  · cible v 7
+									159 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										160 texte Présentation du produit
+										161 texte Réussie
+										162 container
+											163 text Proposition  v8  · cible v 7
+									164 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										165 texte Accueil · titre de page
+										166 texte À valider
+										167 container
+											168 text Proposition  v8  · cible v 7
+								169 container Dossier Message de vérification
+									170 container
+										171 texte Dossier d’action
+										172 en-tête Message de vérification, Value: 2
+											173 texte Message de vérification
+										174 texte À rapprocher
+									175 texte Démonstration locale sur une cible de test.
+									176 container Objet et proposition
+										177 en-tête Objet et proposition, Value: 3
+											178 texte Objet et proposition
+										179 liste de définitions
+											180 texte Version visée
+											181 texte 7
+											182 texte Proposition
+											183 texte v8
+											184 texte Marché · langue
+											185 container
+												186 text market-s12-1  ·  en
+											187 texte Préparée le
+											188 texte 10 nov. 2026, 12:52
+										189 container
+											190 text Référence de la modification :  fixture:local-message
+									191 container Décision et coût
+										192 en-tête Décision et coût, Value: 3
+											193 texte Décision et coût
+										194 liste de définitions
+											195 texte Plafond approuvé
+											196 texte 3,00 $US
+											197 texte Montant réservé
+											198 texte 3,00 $US
+											199 texte Coût connu
+											200 texte Inconnu
+										201 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+										202 texte Le montant réservé reste engagé tant que le coût n’est pas rapproché, y compris après la fin de période.
+									203 container Résultat et preuves
+										204 en-tête Résultat et preuves, Value: 3
+											205 texte Résultat et preuves
+										206 texte Le fournisseur n’a pas confirmé le résultat. La réservation est conservée pendant le rapprochement.
+										207 texte Aucune preuve de réussite enregistrée.
+										208 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										209 triangle d'expansion Consulter la trace du dossier
+											210 texte Consulter la trace du dossier
+						211 container Notifications alt+T
+				212 text G0 Tablette paysage 1024 x 768
+				213 bouton Refresh This View
+				214 bouton Quick Screenshot
+				215 bouton Full Page Screenshot
+				216 bouton Design Overlay
+				217 bouton Disable Event Mirroring
+				218 bouton Open Devtools
+				219 bouton (disabled) Rotation not available for non-mobile devices
+				220 bouton Scroll to Top
+				221 bouton Show rulers
+				222 bouton de menu local
+				223 bouton Enable Individual Layout
+				224 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					225 container
+						226 container
+							227 Liste du contenu
+								228 bouton de menu local Default channel Language: English
+							229 Liste du contenu
+								230 container
+									231 bouton Activité
+									232 Liste du contenu
+										233 link Description: Actions, Value: 127.0.0.1:5103/dashboard/operations
+								234 link Description: Insights, Value: 127.0.0.1:5103/dashboard/
+							235 Liste du contenu
+								236 bouton de menu local Démonstration s12-responsively-reader-1794315064238 s12-responsively-reader-1794315064238@local.test
+									237 texte Démonstration
+									238 texte s12-responsively-reader-1794315064238
+									239 texte s12-responsively-reader-1794315064238@local.test
+							240 bouton Toggle Sidebar
+						241 container
+							242 container
+								243 bouton Toggle Sidebar
+								244 container breadcrumb
+									245 Liste du contenu
+										246 link Description: Activité, Value: 127.0.0.1:5103/dashboard/operations
+							247 bouton de menu local
+							248 en-tête Actions, Value: 1
+								249 texte Actions
+							250 container
+								251 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								252 bouton Actualiser
+								253 container Dossiers d’action
+									254 container
+										255 text Dossiers récents ·  3
+									256 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										257 texte Message de vérification
+										258 texte À rapprocher
+										259 container
+											260 text Proposition  v8  · cible v 7
+									261 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										262 texte Présentation du produit
+										263 texte Réussie
+										264 container
+											265 text Proposition  v8  · cible v 7
+									266 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										267 texte Accueil · titre de page
+										268 texte À valider
+										269 container
+											270 text Proposition  v8  · cible v 7
+								271 container Dossier Message de vérification
+									272 container
+										273 texte Dossier d’action
+										274 en-tête Message de vérification, Value: 2
+											275 texte Message de vérification
+										276 texte À rapprocher
+									277 texte Démonstration locale sur une cible de test.
+									278 container Objet et proposition
+										279 en-tête Objet et proposition, Value: 3
+											280 texte Objet et proposition
+										281 liste de définitions
+											282 texte Version visée
+											283 texte 7
+											284 texte Proposition
+											285 texte v8
+											286 texte Marché · langue
+											287 container
+												288 text market-s12-1  ·  en
+											289 texte Préparée le
+											290 texte 10 nov. 2026, 12:52
+										291 container
+											292 text Référence de la modification :  fixture:local-message
+									293 container Décision et coût
+										294 en-tête Décision et coût, Value: 3
+											295 texte Décision et coût
+										296 liste de définitions
+											297 texte Plafond approuvé
+											298 texte 3,00 $US
+											299 texte Montant réservé
+											300 texte 3,00 $US
+											301 texte Coût connu
+											302 texte Inconnu
+										303 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+										304 texte Le montant réservé reste engagé tant que le coût n’est pas rapproché, y compris après la fin de période.
+									305 container Résultat et preuves
+										306 en-tête Résultat et preuves, Value: 3
+											307 texte Résultat et preuves
+										308 texte Le fournisseur n’a pas confirmé le résultat. La réservation est conservée pendant le rapprochement.
+										309 texte Aucune preuve de réussite enregistrée.
+										310 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										311 triangle d'expansion Consulter la trace du dossier
+											312 texte Consulter la trace du dossier
+						313 container Notifications alt+T
+				314 text Galaxy S21 360 x 800
+				315 bouton Refresh This View
+				316 bouton Quick Screenshot
+				317 bouton Full Page Screenshot
+				318 bouton Design Overlay
+				319 bouton Disable Event Mirroring
+				320 bouton Open Devtools
+				321 bouton (disabled) Rotation not available for non-mobile devices
+				322 bouton Scroll to Top
+				323 bouton Show rulers
+				324 bouton de menu local
+				325 bouton Enable Individual Layout
+				326 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					327 container
+						328 container
+							329 container
+								330 bouton Toggle Sidebar
+								331 container breadcrumb
+							332 bouton de menu local
+							333 en-tête Actions, Value: 1
+								334 texte Actions
+							335 container
+								336 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								337 bouton Actualiser
+								338 container Dossiers d’action
+									339 container
+										340 text Dossiers récents ·  3
+									341 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										342 texte Message de vérification
+										343 texte À rapprocher
+										344 container
+											345 text Proposition  v8  · cible v 7
+									346 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										347 texte Présentation du produit
+										348 texte Réussie
+										349 container
+											350 text Proposition  v8  · cible v 7
+									351 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										352 texte Accueil · titre de page
+										353 texte À valider
+										354 container
+											355 text Proposition  v8  · cible v 7
+								356 container Dossier Message de vérification
+									357 container
+										358 texte Dossier d’action
+										359 en-tête Message de vérification, Value: 2
+											360 texte Message de vérification
+										361 texte À rapprocher
+									362 texte Démonstration locale sur une cible de test.
+									363 container Objet et proposition
+										364 en-tête Objet et proposition, Value: 3
+											365 texte Objet et proposition
+										366 liste de définitions
+											367 texte Version visée
+											368 texte 7
+											369 texte Proposition
+											370 texte v8
+											371 texte Marché · langue
+											372 container
+												373 text market-s12-1  ·  en
+											374 texte Préparée le
+											375 texte 10 nov. 2026, 12:52
+										376 container
+											377 text Référence de la modification :  fixture:local-message
+									378 container Décision et coût
+										379 en-tête Décision et coût, Value: 3
+											380 texte Décision et coût
+										381 liste de définitions
+											382 texte Plafond approuvé
+											383 texte 3,00 $US
+											384 texte Montant réservé
+											385 texte 3,00 $US
+											386 texte Coût connu
+											387 texte Inconnu
+										388 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+										389 texte Le montant réservé reste engagé tant que le coût n’est pas rapproché, y compris après la fin de période.
+									390 container Résultat et preuves
+										391 en-tête Résultat et preuves, Value: 3
+											392 texte Résultat et preuves
+										393 texte Le fournisseur n’a pas confirmé le résultat. La réservation est conservée pendant le rapprochement.
+										394 texte Aucune preuve de réussite enregistrée.
+										395 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										396 triangle d'expansion Consulter la trace du dossier
+											397 texte Consulter la trace du dossier
+						398 container Notifications alt+T
+		399 container
+	400 Bouton de fermeture
+	401 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	402 bouton de minimisation
+403 menu bar
+	404 ResponsivelyApp
+	405 Edit
+	406 View
+	407 Window
+	408 Help
+
+Selected text: ```
+http://127.0.0.1:5103/dashboard/operations
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

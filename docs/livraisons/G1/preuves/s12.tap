@@ -1,0 +1,27 @@
+✔ Formats communs générés et canonisation versionnée (17.984875ms)
+S12 test ports API=60535, PG=60536, receiver=60538
+▶ S12 : API réelle, PostgreSQL, concurrence et redémarrages
+  ✔ Refus API anonyme, rôle de lecture et contexte forgé (664.313542ms)
+  ✔ Liaison sensible, unicité de proposition et approbation persistante (39.001708ms)
+  ✔ SC04 : cible changée et rollback des écritures de préparation (118.390375ms)
+  ✔ Révocation des droits et de la délégation après approbation (703.770417ms)
+  ✔ Politique, expiration, compte modifié et quota inconnu bloquent avant effet (94.489167ms)
+  ✔ Objet et lecture hors canal refusés par API directe (1886.559583ms)
+  ✔ Mutation locale et événement dans la même transaction (72.529083ms)
+  ✔ SC07 : coût incertain, réserve conservée et reçu imputé une fois (85.574458ms)
+  ✔ Deux réservations concurrentes ne dépassent pas le solde (36.728ms)
+  ✔ Changement de période et dépassement réel sans troncature (79.957167ms)
+  ✔ SC08 : fournisseur limité, aucune retransmission automatique (31.659416ms)
+  ✔ Crash réel après réception, redémarrage du worker et du récepteur (1708.457958ms)
+  ✔ Deux processus worker gardent un seul message et une réservation (844.636291ms)
+  ✔ Journal après crash entre commit et émission, puis avant accusé (2279.490708ms)
+  ✔ SC03 : doublon, désordre, trou, autre compte, conflit et rollback (15.403875ms)
+✔ S12 : API réelle, PostgreSQL, concurrence et redémarrages (12408.631375ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12615.902625

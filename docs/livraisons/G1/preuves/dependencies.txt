@@ -1,0 +1,17 @@
+e-com-system-ai@0.0.0 /Users/lavic/Desktop/Amboras REA/E-com-system-AI
+├─┬ @ecom/commerce@0.0.0 -> ./apps/commerce
+│ ├── @nestjs/core@12.2.0
+│ ├─┬ @nestjs/graphql@14.0.3
+│ │ ├── @nestjs/core@12.2.0 deduped
+│ │ └── graphql@16.14.2 deduped
+│ ├─┬ @vendure/core@3.8.0
+│ │ ├── @nestjs/core@12.2.0 deduped
+│ │ ├── @vendure/common@3.8.0 deduped
+│ │ └── graphql@16.14.2 deduped
+│ ├─┬ @vendure/dashboard@3.8.0
+│ │ └── graphql@16.14.2 deduped
+│ ├─┬ graphql-tag@2.12.6
+│ │ └── graphql@16.14.2 deduped
+│ └── graphql@16.14.2
+└─┬ @ecom/dashboard@0.0.0 -> ./apps/dashboard
+  └── @vendure/common@3.8.0

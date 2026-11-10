@@ -9,7 +9,7 @@ test('A et B ont des ressources et secrets distincts, stables au redémarrage', 
   const directory = await mkdtemp(path.join(tmpdir(), 'ecom-session-test-'));
   const a = await prepareSession('A', directory);
   const b = await prepareSession('B', directory);
-  for (const property of ['database', 'postgresDir', 'mediaDir', 'apiPort', 'dashboardPort', 'postgresPort', 'databasePassword', 'adminPassword', 'cookieSecret']) {
+  for (const property of ['shopId', 'database', 'postgresDir', 'mediaDir', 'apiPort', 'dashboardPort', 'postgresPort', 'databasePassword', 'adminPassword', 'cookieSecret']) {
     assert.notEqual(a[property], b[property], property);
   }
   assert.deepEqual(await prepareSession('A', directory), a);

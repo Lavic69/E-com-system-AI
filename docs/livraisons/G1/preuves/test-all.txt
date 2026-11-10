@@ -1,0 +1,770 @@
+
+> e-com-system-ai@0.0.0 test:all
+> npm run typecheck && npm test && npm run test:contracts && npm run test:s10 && npm run test:s11 && npm run test:s12 && npm run test:g1
+
+
+> e-com-system-ai@0.0.0 typecheck
+> npm run typecheck --workspace @ecom/commerce && npm run typecheck --workspace @ecom/dashboard
+
+
+> @ecom/commerce@0.0.0 typecheck
+> tsc -p tsconfig.json --noEmit
+
+
+> @ecom/dashboard@0.0.0 typecheck
+> tsc --noEmit
+
+
+> e-com-system-ai@0.0.0 test
+> npm run build --workspace @ecom/commerce && node --experimental-vm-modules --test infra/dev/session.test.mjs infra/dev/run.test.mjs && node infra/dev/verify.mjs
+
+
+> @ecom/commerce@0.0.0 build
+> tsc -p tsconfig.json
+
+(node:72708) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ API arrêtée pendant le démarrage du worker : échec du lanceur et nettoyage sans intervention (3.127709ms)
+✔ service déjà arrêté au retour de sa disponibilité : échec du lanceur et nettoyage sans intervention (0.741083ms)
+✔ PostgreSQL arrêté après le démarrage : échec du lanceur et nettoyage sans intervention (1.06025ms)
+✔ sortie inattendue même avec un code zéro : échec du lanceur et nettoyage sans intervention (0.64525ms)
+✔ arrêt demandé deux fois : succès et nettoyage unique, PostgreSQL en dernier (0.580917ms)
+✔ A et B ont des ressources et secrets distincts, stables au redémarrage (4.878375ms)
+✔ un nom de session invalide est refusé (0.215208ms)
+✔ une mission V1 prépare ses propres données sans reprendre les secrets de S00 (2.138ms)
+✔ seules les missions préparées sont acceptées (0.117ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 172.812041
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+Successfully ran migration: Operations1792513200000
+Successfully ran migration: CatalogueS101794309752560
+Successfully ran migration: ContentPages1794355200000
+Successfully ran migration: PlatformActionProjection1794390000000
+Migrations appliquées. [
+  'InitialSchema1792513149156',
+  'Operations1792513200000',
+  'CatalogueS101794309752560',
+  'ContentPages1794355200000',
+  'PlatformActionProjection1794390000000'
+]
+Migrations appliquées. []
+✓ Migration sur PostgreSQL vide et second passage sans modification
+warn 11/10/26, 2:31 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:31 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62552.
+warn 11/10/26, 2:31 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:31 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+✓ API authentifiée et worker démarrent sur la configuration applicative
+✓ Lecture du socle refusée sans authentification
+✓ Requête sans précontrôle CSRF refusée
+✓ Compte catalogue refusé sur la permission propre au socle
+✓ Permission du socle accordée sans ouvrir le catalogue
+(node:72742) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Donnée de démonstration créée puis relue par API
+(node:72744) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+Successfully ran migration: Operations1792513200000
+Successfully ran migration: CatalogueS101794309752560
+Successfully ran migration: ContentPages1794355200000
+Successfully ran migration: PlatformActionProjection1794390000000
+Migrations appliquées. [
+  'InitialSchema1792513149156',
+  'Operations1792513200000',
+  'CatalogueS101794309752560',
+  'ContentPages1794355200000',
+  'PlatformActionProjection1794390000000'
+]
+warn 11/10/26, 2:31 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:31 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62555.
+✓ Deux sessions actives ont des bases, comptes et médias indépendants
+✓ Sauvegarde refusée lorsque PostgreSQL est encore actif
+✓ Arrêt propre de nos API, worker et instances PostgreSQL
+✓ Sauvegarde physique à froid et restauration dans une destination vide
+Migrations appliquées. []
+warn 11/10/26, 2:31 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:31 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62558.
+✓ Relecture API après restauration : données, migration et permissions conservées
+Migrations appliquées. []
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62552.
+warn 11/10/26, 2:32 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:62553/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+2:32:02 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+2:32:02 PM [vite] (client) info: TypeScript compilation completed in 344ms
+  Plugin: vendure:config-loader
+2:32:02 PM [vite] (client) info: Found 72 potential plugin files in 50ms (scanned 2828 files)
+  Plugin: vendure:config-loader
+2:32:02 PM [vite] (client) info: Analyzed plugins and found 4 dashboard extensions in 226ms
+  Plugin: vendure:config-loader
+2:32:03 PM [vite] (client) info: Found 4 plugins (4 active in runtime config): CataloguePlugin (local), ContentPlugin (local), FoundationPlugin (local), OperationsPlugin (local)
+  Plugin: vendure:config-loader
+2:32:03 PM [vite] (client) info: Vendure config loaded (using export "config") in 911ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+2:32:03 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI/.cache/gql/s00-test-verification-qkk3t7-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1534 ms
+
+  ➜  Local:   http://127.0.0.1:62553/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI/.data/verification-qkK3t7/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+✓ Arrêt demandé par SIGTERM répété : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62552.
+warn 11/10/26, 2:32 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:62553/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+2:32:07 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+2:32:07 PM [vite] (client) info: TypeScript compilation completed in 339ms
+  Plugin: vendure:config-loader
+2:32:07 PM [vite] (client) info: Found 72 potential plugin files in 52ms (scanned 2828 files)
+  Plugin: vendure:config-loader
+2:32:07 PM [vite] (client) info: Analyzed plugins and found 4 dashboard extensions in 227ms
+  Plugin: vendure:config-loader
+2:32:07 PM [vite] (client) info: Found 4 plugins (4 active in runtime config): CataloguePlugin (local), ContentPlugin (local), FoundationPlugin (local), OperationsPlugin (local)
+  Plugin: vendure:config-loader
+2:32:07 PM [vite] (client) info: Vendure config loaded (using export "config") in 905ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+2:32:08 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI/.cache/gql/s00-test-verification-qkk3t7-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1517 ms
+
+  ➜  Local:   http://127.0.0.1:62553/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI/.data/verification-qkK3t7/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+✓ Arrêt demandé par SIGINT répété : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62552.
+warn 11/10/26, 2:32 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:62553/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+2:32:11 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+2:32:12 PM [vite] (client) info: TypeScript compilation completed in 339ms
+  Plugin: vendure:config-loader
+2:32:12 PM [vite] (client) info: Found 72 potential plugin files in 46ms (scanned 2828 files)
+  Plugin: vendure:config-loader
+2:32:12 PM [vite] (client) info: Analyzed plugins and found 4 dashboard extensions in 223ms
+  Plugin: vendure:config-loader
+2:32:12 PM [vite] (client) info: Found 4 plugins (4 active in runtime config): CataloguePlugin (local), FoundationPlugin (local), ContentPlugin (local), OperationsPlugin (local)
+  Plugin: vendure:config-loader
+2:32:12 PM [vite] (client) info: Vendure config loaded (using export "config") in 888ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+2:32:12 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI/.cache/gql/s00-test-verification-qkk3t7-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1492 ms
+
+  ➜  Local:   http://127.0.0.1:62553/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI/.data/verification-qkK3t7/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Le service server s'est arrêté de façon inattendue (SIGTERM).
+✓ Arrêt inattendu de l’API réelle : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:62552.
+warn 11/10/26, 2:32 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:62553/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+2:32:17 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+2:32:17 PM [vite] (client) info: TypeScript compilation completed in 339ms
+  Plugin: vendure:config-loader
+2:32:17 PM [vite] (client) info: Found 72 potential plugin files in 51ms (scanned 2828 files)
+  Plugin: vendure:config-loader
+2:32:17 PM [vite] (client) info: Analyzed plugins and found 4 dashboard extensions in 226ms
+  Plugin: vendure:config-loader
+2:32:17 PM [vite] (client) info: Found 4 plugins (4 active in runtime config): CataloguePlugin (local), FoundationPlugin (local), OperationsPlugin (local), ContentPlugin (local)
+  Plugin: vendure:config-loader
+2:32:17 PM [vite] (client) info: Vendure config loaded (using export "config") in 901ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+2:32:18 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI/.cache/gql/s00-test-verification-qkk3t7-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1513 ms
+
+  ➜  Local:   http://127.0.0.1:62553/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI/.data/verification-qkK3t7/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Le service postgres s'est arrêté de façon inattendue (143).
+error 11/10/26, 2:32 PM - [Vendure Worker] Job queue "clean-sessions" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:62554"
+error 11/10/26, 2:32 PM - [Vendure Worker] Job queue "apply-collection-filters" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:62554"
+error 11/10/26, 2:32 PM - [Vendure Worker] Job queue "update-search-index" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:62554"
+error 11/10/26, 2:32 PM - [G1] Traitement local interrompu ; reprise au prochain passage.
+[BABEL] Note: The code generator has deoptimised the styling of /Users/lavic/Desktop/Amboras REA/E-com-system-AI/.cache/vite/s00-test-verification-qkk3t7-a/deps/react-dom_client.js?v=d1a90487 as it exceeds the max of 500KB.
+✓ Arrêt inattendu du processus PostgreSQL réel : code attendu, ports libérés et verrou retiré
+Rapport : docs/livraisons/G1/preuves/socle/integration.json (passed).
+
+> e-com-system-ai@0.0.0 test:contracts
+> python3 docs/livraisons/S02/verify.py
+
+81/81 contrôles documentaires réussis ; 29 exemples et 38 contre-exemples.
+
+> e-com-system-ai@0.0.0 test:s10
+> node infra/tests/s10/verify.mjs
+
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+Successfully ran migration: CatalogueS101794309752560
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+warn 11/10/26, 2:32 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Migration S00 puis candidate S10 sur PostgreSQL vide
+✓ Deux marchés, trois emplacements et membres natifs avec rôles distincts
+✓ Aperçu sans écriture, prix entier et erreurs par ligne
+(node:72986) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Import partiel : une ligne valide créée, ligne invalide ignorée
+✓ Lecture visiteur : produit, variante et prix du marché Belgique
+✓ Relance du même fichier et conflit si une clé change de contenu
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Le fichier ou le marché a changé. Refaire l’aperçu.
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Le fichier ou le marché a changé. Refaire l’aperçu.
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Le fichier ou le marché a changé. Refaire l’aperçu.
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Emplacement indisponible dans ce marché.
+(node:72989) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Le fichier ou le marché a changé. Refaire l’aperçu.
+✓ Aperçu invalidé par changement de fichier, marché ou emplacement
+✓ Concurrence : deux requêtes avec la même clé ne créent qu’un produit
+✓ SKU concurrent avec deux clés différentes : un seul produit
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+(node:73003) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Arrêt brutal en milieu d’import : reprise des seules lignes non validées
+✓ Rollback après création du produit si la variante échoue, puis reprise
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: CSV invalide : guillemet non fermé.
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Fichier limité à 64 Ko.
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: Import limité à 100 lignes.
+✓ Bornes et CSV malformé refusés, clés/SKU répétés signalés
+✓ API directe refusée aux anonymes et au rôle lecture seule
+✓ Permission native CreateProduct seule autorise l’import
+warn 11/10/26, 2:32 PM - [Vendure Server] ENTITY_NOT_FOUND: error.entity-with-id-not-found
+✓ Aucune lecture ni mutation du catalogue Belgique depuis États-Unis
+✓ Même produit affecté à deux marchés : EUR 1290 et USD 1590
+✓ Modification native du produit et stocks sur deux emplacements
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: error.product-variant-option-ids-not-compatible
+✓ Options et variantes natives, combinaison invalide refusée
+✓ Média natif chargé puis relié au produit et visible en Shop API
+✓ Attributs/facettes, collection et sélection native de ses variantes
+✓ Modification native en masse : deux produits désactivés puis réactivés
+warn 11/10/26, 2:32 PM - [Vendure Server] USER_INPUT_ERROR: error.field-invalid-string-option
+✓ Client et compte natifs, groupe et préférences sans consentement implicite
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Redémarrage réel : migrations rejouables, produit, préférences et reçus persistants
+Rapport S10 : passed, 23/23 contrôles.
+
+> e-com-system-ai@0.0.0 test:s11
+> node infra/tests/s11/verify.mjs
+
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+(node:73076) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/src/driver/postgres/PostgresQueryRunner.ts:325
+            throw new QueryFailedError(query, parameters, err)
+                  ^
+QueryFailedError: Connection terminated
+    at PostgresQueryRunner.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/src/driver/postgres/PostgresQueryRunner.ts:325:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async InsertQueryBuilder.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/query-builder/InsertQueryBuilder.ts:164:33)
+    at async SubjectExecutor.executeInsertOperations (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/SubjectExecutor.ts:435:42)
+    at async SubjectExecutor.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/SubjectExecutor.ts:137:9)
+    at async EntityPersistExecutor.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/EntityPersistExecutor.ts:182:21)
+    at async SqlJobQueueStrategy.add (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/@vendure/core/src/plugin/default-job-queue-plugin/sql-job-queue-strategy.ts:48:24)
+    at async JobQueue.add (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/@vendure/core/src/job-queue/job-queue.ts:99:30) {
+  query: 'INSERT INTO "job_record"("createdAt", "updatedAt", "queueName", "data", "state", "progress", "result", "error", "startedAt", "settledAt", "isSettled", "retries", "attempts") VALUES (DEFAULT, DEFAULT, $1, $2, $3, $4, DEFAULT, DEFAULT, DEFAULT, DEFAULT, $5, $6, $7) RETURNING "createdAt", "updatedAt", "id"',
+  parameters: [
+    'update-search-index',
+    '{"type":"update-product","ctx":{"_apiType":"admin","_channel":{"token":"fsjtqm65qdylrakqvpmh","createdAt":"2026-11-10T13:32:32.429Z","updatedAt":"2026-11-10T13:32:32.429Z","code":"__default_channel__","description":"","defaultLanguageCode":"en","availableLanguageCodes":["en"],"defaultCurrencyCode":"USD","availableCurrencyCodes":["USD"],"trackInventory":true,"outOfStockThreshold":0,"pricesIncludeTax":false,"id":1,"sellerId":1,"defaultShippingZone":null,"defaultTaxZone":null},"_languageCode":"en","_acceptedLanguageCodes":[],"_isAuthorized":true,"_authorizedAsOwnerOnly":false,"_session":{"id":1,"expires":"2027-11-10T19:32:32.974Z","activeOrderId":null,"authenticationStrategy":"native","activeChannelId":null,"cacheExpiry":1794317852.975,"user":{"id":1,"identifier":"admin-b@local.test","verified":true,"channelPermissions":[{"id":1,"token":"fsjtqm65qdylrakqvpmh","code":"__default_channel__","permissions":["Authenticated","SuperAdmin","UpdateGlobalSettings","ReadSecret","CreateCatalog","ReadCatalog","UpdateCatalog","DeleteCatalog","CreateSettings","ReadSettings","UpdateSettings","DeleteSettings","CreateAdministrator","ReadAdministrator","UpdateAdministrator","DeleteAdministrator","CreateApiKey","ReadApiKey","UpdateApiKey","DeleteApiKey","CreateAsset","ReadAsset","UpdateAsset","DeleteAsset","CreateChannel","ReadChannel","UpdateChannel","DeleteChannel","CreateCollection","ReadCollection","UpdateCollection","DeleteCollection","CreateCountry","ReadCountry","UpdateCountry","DeleteCountry","CreateCustomer","ReadCustomer","UpdateCustomer","DeleteCustomer","CreateCustomerGroup","ReadCustomerGroup","UpdateCustomerGroup","DeleteCustomerGroup","CreateFacet","ReadFacet","UpdateFacet","DeleteFacet","CreateOrder","ReadOrder","UpdateOrder","DeleteOrder","CreatePaymentMethod","ReadPaymentMethod","UpdatePaymentMethod","DeletePaymentMethod","CreateProduct","ReadProduct","UpdateProduct","DeleteProduct","CreatePromotion","ReadPromotion","UpdatePromotion","DeletePromotion","CreateShippingMethod","ReadShippingMethod","UpdateShippingMethod","DeleteShippingMethod","CreateTag","ReadTag","UpdateTag","DeleteTag","CreateTaxCategory","ReadTaxCategory","UpdateTaxCategory","DeleteTaxCategory","CreateTaxRate","ReadTaxRate","UpdateTaxRate","DeleteTaxRate","CreateSeller","ReadSeller","UpdateSeller","DeleteSeller","CreateStockLocation","ReadStockLocation","UpdateStockLocation","DeleteStockLocation","CreateSystem","ReadSystem","UpdateSystem","DeleteSystem","CreateZone","ReadZone","UpdateZone","DeleteZone","ReadDashboardGlobalViews","WriteDashboardGlobalViews","ReadPlatformFoundation"]}]}}},"productId":1}',
+    'PENDING',
+    0,
+    0,
+    0,
+    0
+  ],
+  driverError: Error: Connection terminated
+      at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/pg/lib/client.js:694:17
+      at processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async PostgresQueryRunner.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/src/driver/postgres/PostgresQueryRunner.ts:254:25)
+      at async InsertQueryBuilder.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/query-builder/InsertQueryBuilder.ts:164:33)
+      at async SubjectExecutor.executeInsertOperations (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/SubjectExecutor.ts:435:42)
+      at async SubjectExecutor.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/SubjectExecutor.ts:137:9)
+      at async EntityPersistExecutor.execute (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/persistence/EntityPersistExecutor.ts:182:21)
+      at async SqlJobQueueStrategy.add (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/@vendure/core/src/plugin/default-job-queue-plugin/sql-job-queue-strategy.ts:48:24)
+      at async JobQueue.add (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/@vendure/core/src/job-queue/job-queue.ts:99:30)
+}
+Successfully ran migration: ContentPages1794355200000
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Migration depuis G0 peuplé, produit conservé, sans synchronisation automatique
+✓ Création et relecture d’une page brouillon
+error 11/10/26, 2:32 PM - [Vendure Server] Champs de contenu inconnus ou manquants.
+GraphQLError: Champs de contenu inconnus ou manquants.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at keys (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:19:5)
+    at validateDocument (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:35:3)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:106:38)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Champs de contenu inconnus ou manquants.
+GraphQLError: Champs de contenu inconnus ou manquants.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at keys (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:19:5)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:52:9
+    at Array.map (<anonymous>)
+    at validateDocument (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:39:31)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:106:38)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Identifiant de bloc invalide ou répété.
+GraphQLError: Identifiant de bloc invalide ou répété.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:42:54
+    at Array.map (<anonymous>)
+    at validateDocument (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:39:31)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:106:38)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Texte vide ou trop long.
+GraphQLError: Texte vide ou trop long.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at text (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:23:73)
+    at validateDocument (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:36:17)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:106:38)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Type de bloc inconnu.
+GraphQLError: Type de bloc inconnu.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:54:23
+    at Array.map (<anonymous>)
+    at validateDocument (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:39:31)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:106:38)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Adresse ou langue de page invalide.
+GraphQLError: Adresse ou langue de page invalide.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:105:90)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Adresse ou langue de page invalide.
+GraphQLError: Adresse ou langue de page invalide.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:105:90)
+    at ContentResolver.createContentPage (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.plugin.ts:19:152)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Cette adresse existe déjà dans cette langue.
+GraphQLError: Cette adresse existe déjà dans cette langue.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.create (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:119:62)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Validation serveur stricte : champs inconnus, prix, blocs répétés, langue et adresse
+error 11/10/26, 2:32 PM - [Vendure Server] Cette page est déjà réservée par un éditeur.
+GraphQLError: Cette page est déjà réservée par un éditeur.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:149:75
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Acquisitions concurrentes par deux membres : un seul détenteur
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:202:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:202:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Réservation requise et non transférable à un autre membre
+error 11/10/26, 2:32 PM - [Vendure Server] La page a changé. Rechargez sa version avant de reprendre.
+GraphQLError: La page a changé. Rechargez sa version avant de reprendre.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkRevision (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:132:41)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:201:12
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:128:14
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Deux sauvegardes simultanées : une version créée, un conflit de révision
+✓ Immutabilité imposée en base pour une version validée et son parent
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:202:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:164:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:178:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Renouvellement : jeton croissant et ancien jeton refusé
+error 11/10/26, 2:32 PM - [Vendure Server] Sélectionnez une version validée.
+GraphQLError: Sélectionnez une version validée.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:221:58
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] La page a changé. Rechargez sa version avant de reprendre.
+GraphQLError: La page a changé. Rechargez sa version avant de reprendre.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkRevision (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:132:41)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:218:12
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:128:14
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:219:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Sélection pour publication : version validée, révision atomique et droits propres
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:202:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:164:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:32 PM - [Vendure Server] Réservation expirée ou remplacée. Réservez à nouveau cette page.
+GraphQLError: Réservation expirée ou remplacée. Réservez à nouveau cette page.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.checkLease (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:136:53)
+    at /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:202:12
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Expiration, reprise par un autre membre et refus de l’ancien détenteur
+(node:73080) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+error 11/10/26, 2:32 PM - [Vendure Server] Produit ou média absent de ce canal.
+GraphQLError: Produit ou média absent de ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.references (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:55:23)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:203:7
+error 11/10/26, 2:32 PM - [Vendure Server] Produit ou média absent de ce canal.
+GraphQLError: Produit ou média absent de ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.references (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:55:23)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:203:7
+✓ Références catalogue réelles, produit absent et données commerciales interdites
+✓ Lecture seule et anonyme : toutes les mutations refusées, mutation native également
+✓ Image importée via Vendure, référence persistée et aperçu servi
+error 11/10/26, 2:32 PM - [Vendure Server] Page introuvable dans ce canal.
+GraphQLError: Page introuvable dans ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.page (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:35:20)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ContentService.detail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:41:18)
+error 11/10/26, 2:32 PM - [Vendure Server] Page introuvable dans ce canal.
+GraphQLError: Page introuvable dans ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.page (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:35:20)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:126:20
+error 11/10/26, 2:32 PM - [Vendure Server] Produit ou média absent de ce canal.
+GraphQLError: Produit ou média absent de ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.references (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:55:23)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:109:9
+✓ Canaux distincts : lecture, écriture et références hors canal refusées
+error 11/10/26, 2:32 PM - [Vendure Server] Cette page est protégée par une expérience de recette.
+GraphQLError: Cette page est protégée par une expérience de recette.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at Object.assertEditable (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/infra/tests/s11/vendure-config.ts:23:68)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:127:7
+error 11/10/26, 2:32 PM - [Vendure Server] Cette page est protégée par une expérience de recette.
+GraphQLError: Cette page est protégée par une expérience de recette.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at Object.assertEditable (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/infra/tests/s11/vendure-config.ts:23:68)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:127:7
+error 11/10/26, 2:32 PM - [Vendure Server] Cette page est protégée par une expérience de recette.
+GraphQLError: Cette page est protégée par une expérience de recette.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at Object.assertEditable (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/infra/tests/s11/vendure-config.ts:23:68)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:127:7
+error 11/10/26, 2:32 PM - [Vendure Server] Cette page est protégée par une expérience de recette.
+GraphQLError: Cette page est protégée par une expérience de recette.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at Object.assertEditable (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/infra/tests/s11/vendure-config.ts:23:68)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:127:7
+✓ Protection d’expérience de recette : lecture permise, écriture et sélection bloquées après expiration
+error 11/10/26, 2:32 PM - [Vendure Server] Produit ou média absent de ce canal.
+GraphQLError: Produit ou média absent de ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/document.ts:11:9)
+    at ContentService.references (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:55:23)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:222:7
+✓ Produit supprimé : aperçu explicite et sélection refusée sans changer l’historique
+error 11/10/26, 2:32 PM - [Vendure Server] relation "s11_fixture_protection" does not exist
+QueryFailedError: relation "s11_fixture_protection" does not exist
+    at PostgresQueryRunner.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/src/driver/postgres/PostgresQueryRunner.ts:325:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async DataSource.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/src/data-source/DataSource.ts:541:20)
+    at async Object.assertEditable (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/infra/tests/s11/vendure-config.ts:20:20)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/src/plugins/content/content.service.ts:127:7
+✓ Registre de protection indisponible : transaction refusée sans version supplémentaire
+✓ Journal durable des acquisitions, renouvellement et libérations
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Redémarrage API et PostgreSQL : versions, sélection et jetons conservés, migration idempotente
+
+> e-com-system-ai@0.0.0 test:s12
+> node --test infra/tests/s12/operations.test.mjs
+
+✔ Formats communs générés et canonisation versionnée (14.876791ms)
+S12 test ports API=62787, PG=62788, receiver=62790
+▶ S12 : API réelle, PostgreSQL, concurrence et redémarrages
+  ✔ Refus API anonyme, rôle de lecture et contexte forgé (458.3095ms)
+  ✔ Liaison sensible, unicité de proposition et approbation persistante (35.103333ms)
+  ✔ SC04 : cible changée et rollback des écritures de préparation (111.462833ms)
+  ✔ Révocation des droits et de la délégation après approbation (485.641583ms)
+  ✔ Politique, expiration, compte modifié et quota inconnu bloquent avant effet (74.42225ms)
+  ✔ Objet et lecture hors canal refusés par API directe (1372.636209ms)
+  ✔ Mutation locale et événement dans la même transaction (58.974375ms)
+  ✔ SC07 : coût incertain, réserve conservée et reçu imputé une fois (66.782333ms)
+  ✔ Deux réservations concurrentes ne dépassent pas le solde (28.069042ms)
+  ✔ Changement de période et dépassement réel sans troncature (63.325792ms)
+  ✔ SC08 : fournisseur limité, aucune retransmission automatique (24.611375ms)
+  ✔ Crash réel après réception, redémarrage du worker et du récepteur (1306.182667ms)
+  ✔ Deux processus worker gardent un seul message et une réservation (666.809084ms)
+  ✔ Journal après crash entre commit et émission, puis avant accusé (1639.16625ms)
+  ✔ SC03 : doublon, désordre, trou, autre compte, conflit et rollback (15.015666ms)
+✔ S12 : API réelle, PostgreSQL, concurrence et redémarrages (9071.901167ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9231.9605
+
+> e-com-system-ai@0.0.0 test:g1
+> node infra/tests/g1/verify.mjs
+
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+(node:73262) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ G0 rempli avec marchés, prix, stocks, rôle et média avant sauvegarde
+Successfully ran migration: Operations1792513200000
+Successfully ran migration: CatalogueS101794309752560
+Successfully ran migration: ContentPages1794355200000
+Successfully ran migration: PlatformActionProjection1794390000000
+warn 11/10/26, 2:32 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:32 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Copie froide G0 puis cinq migrations ordonnées et conservation des données
+(node:73313) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Import S10 réel, reprise sans doublon et lecture Shop API
+✓ Page S11 avec produit S10, action S12 appliquée dans la même transaction
+✓ Réexécution concurrente : une seule version et un seul événement de réussite
+✓ SC04 : modification native après approbation, refus sans nouvelle version
+✓ Bail renouvelé ou expiré : ancien jeton refusé par le vrai service S11
+✓ Référence produit absente : refus conservé et aucune version créée
+error 11/10/26, 2:32 PM - [Vendure Server] G1_FORCED_ROLLBACK
+QueryFailedError: G1_FORCED_ROLLBACK
+    at PostgresQueryRunner.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/driver/postgres/PostgresQueryRunner.js:216:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async DataSource.query (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/node_modules/typeorm/data-source/DataSource.js:353:20)
+    at async appendEvent (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/journal.js:21:5)
+    at async OperationsService.event (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.service.js:305:9)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.service.js:340:25
+✓ Rollback après écriture S11 : version, action et sortie durable annulées ensemble
+warn 11/10/26, 2:33 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:33 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Arrêt brutal API avant commit : aucune version partielle, reprise unique après redémarrage
+(node:73376) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+error 11/10/26, 2:33 PM - [Vendure Server] Page introuvable dans ce canal.
+GraphQLError: Page introuvable dans ce canal.
+    at fail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/content/document.js:9:11)
+    at ContentService.page (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/content/content.service.js:53:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ContentService.detail (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/content/content.service.js:58:22)
+✓ Deux marchés : prix distincts, page US et absence de fuite de page ou action
+error 11/10/26, 2:33 PM - [Vendure Server] COMMERCIAL_ADAPTER_NOT_VERIFIED
+Error: COMMERCIAL_ADAPTER_NOT_VERIFIED
+    at refuse (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/contracts.js:62:11)
+    at OperationsService.adapter (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.service.js:47:36)
+    at OperationsService.propose (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.service.js:136:30)
+    at OperationsResolver.proposeOperation (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.plugin.js:49:32)
+    at file:///Users/lavic/Desktop/Amboras%20REA/E-com-system-AI/node_modules/@nestjs/core/helpers/external-context-creator.js:80:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+error 11/10/26, 2:33 PM - [Vendure Server] FORBIDDEN
+Error: FORBIDDEN
+    at refuse (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/contracts.js:62:11)
+    at identity (/Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/authority.js:29:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Users/lavic/Desktop/Amboras REA/E-com-system-AI/apps/commerce/dist/plugins/operations/operations.service.js:566:17
+✓ Droits relus avant effet, lecteur refusé, agents et cibles commerciales non activés
+warn 11/10/26, 2:33 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:33 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+warn 11/10/26, 2:33 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:33 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+(node:73407) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+warn 11/10/26, 2:33 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:33 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+(node:73416) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Worker arrêté : action approuvée et événement commités survivent au redémarrage complet
+✓ Aucune table de simulation S11/S12 dans la configuration intégrée
+warn 11/10/26, 2:33 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 2:33 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+✓ Restauration G1 dans une base renommée : identité boutique, dossiers et événements conservés
+G1 : passed, 15/15

@@ -1,0 +1,292 @@
+.ops-screen {
+  --paper: #f6f5f1;
+  --sheet: #fcfbf8;
+  --ink: #242925;
+  --secondary: #505750;
+  --metadata: #646b64;
+  --line: #dcded6;
+  --action: #2856ba;
+  --control: #efeee8;
+  --attention: #8a4d13;
+  --confirmed: #266344;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 8px;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  min-width: 0;
+}
+.ops-screen * {
+  box-sizing: border-box;
+}
+.ops-screen h2,
+.ops-screen h3,
+.ops-screen p {
+  margin: 0;
+}
+.ops-screen h2 {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+.ops-screen h3 {
+  font-size: 16px;
+  font-weight: 650;
+  margin-bottom: 16px;
+}
+.ops-screen button,
+.ops-screen summary {
+  min-height: 44px;
+  cursor: pointer;
+}
+.ops-screen button:focus-visible,
+.ops-screen summary:focus-visible {
+  outline: 3px solid var(--action);
+  outline-offset: 3px;
+}
+.ops-screen button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+.ops-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  color: var(--secondary);
+}
+.ops-refresh {
+  color: var(--action);
+  border: 1px solid #858e84;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background: var(--sheet);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.ops-refresh:hover {
+  background: var(--control);
+}
+.ops-refresh:active {
+  background: var(--line);
+}
+.ops-layout {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.ops-eyebrow {
+  color: var(--metadata);
+  font-size: 12px;
+  margin-bottom: 8px !important;
+}
+.ops-list {
+  min-width: 0;
+  max-height: 70vh;
+  overflow: auto;
+  padding: 4px;
+}
+.ops-list button {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 4px;
+  padding: 16px 12px;
+  border-radius: 6px;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.ops-list button:hover {
+  background: var(--control);
+}
+.ops-list button[aria-current='true'] {
+  background: var(--sheet);
+  box-shadow: inset 3px 0 var(--action);
+}
+.ops-list button span {
+  color: var(--attention);
+  font-size: 13px;
+}
+.ops-list small {
+  color: var(--metadata);
+  font-size: 12px;
+}
+.ops-dossier {
+  background: var(--sheet);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  min-width: 0;
+}
+.ops-detail-header {
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.ops-state {
+  color: var(--attention);
+  background: #f3eadc;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.ops-state-succeeded {
+  color: var(--confirmed);
+  background: #e7eee7;
+}
+.ops-dossier section {
+  padding: 24px;
+  border-top: 1px solid var(--line);
+}
+.ops-fields,
+.ops-costs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0 0 16px;
+}
+.ops-fields dt,
+.ops-costs dt {
+  color: var(--metadata);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.ops-fields dd,
+.ops-costs dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.ops-costs {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.ops-costs dd {
+  font-variant-numeric: tabular-nums;
+  font-size: 20px;
+  font-weight: 650;
+}
+.ops-reference,
+.ops-metadata {
+  color: var(--metadata);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.ops-dossier p + p {
+  margin-top: 8px;
+}
+.ops-notice {
+  color: var(--attention);
+  background: #f3eadc;
+  padding: 16px;
+  margin: 0 24px 20px !important;
+  border-radius: 6px;
+}
+.ops-dossier section .ops-notice {
+  margin: 0 0 16px !important;
+}
+.ops-evidence {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 16px;
+}
+.ops-evidence li {
+  display: grid;
+  gap: 4px;
+  color: var(--confirmed);
+}
+.ops-evidence code,
+.ops-digest,
+.ops-trace dd {
+  font:
+    12px/1.6 ui-monospace,
+    monospace;
+  overflow-wrap: anywhere;
+}
+.ops-digest {
+  display: block;
+  margin: 8px 0;
+}
+.ops-dossier details {
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+}
+.ops-dossier summary {
+  padding: 12px 0;
+  color: var(--action);
+  font-weight: 600;
+}
+.ops-empty {
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--sheet);
+}
+.ops-empty p {
+  margin-top: 8px;
+  color: var(--secondary);
+}
+@media (max-width: 1050px) {
+  .ops-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ops-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-height: 260px;
+  }
+  .ops-list .ops-eyebrow {
+    width: 100%;
+  }
+  .ops-list button {
+    flex: 1 1 180px;
+    border: 1px solid var(--line);
+  }
+}
+@media (max-width: 600px) {
+  .ops-screen {
+    padding: 16px;
+  }
+  .ops-intro {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .ops-detail-header {
+    padding: 16px;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ops-dossier section {
+    padding: 20px 16px;
+  }
+  .ops-costs {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .ops-costs > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+  }
+  .ops-costs dd {
+    font-size: 18px;
+  }
+  .ops-notice {
+    margin: 0 16px 16px !important;
+  }
+  .ops-empty {
+    padding: 24px 16px;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "scoped_recipe_passed",
+  "checkedAt": "2026-11-10T12:56:47.937693+00:00",
+  "app": "/Applications/ResponsivelyApp.app",
+  "version": "1.18.0",
+  "url": "http://127.0.0.1:5103/dashboard/operations",
+  "dimensions": [
+    [
+      1440,
+      900
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      360,
+      800
+    ]
+  ],
+  "checks": {
+    "dossier_selection": true,
+    "known_unknown_costs": true,
+    "keyboard_trace": true,
+    "loading_observed": true,
+    "api_failure": true,
+    "api_recovery": true,
+    "real_role_denial": true,
+    "read_only_role": true,
+    "four_views_restored": true
+  },
+  "limits": [
+    "Synthetic targets and local mail receiver",
+    "Empty state was tested in Chromium only",
+    "No physical device test",
+    "S10/S11/G1 integration remains separate"
+  ],
+  "source_manifest": "../source-manifest.json",
+  "files": {
+    "1024-proposal.png": "2ce54313ee40f5b214a4429de4dfdc9a9dbc6a2d5a9e47b1988c41e7f6b3ebe6",
+    "1024-proposal.txt": "a22134dd70aeb6202304071b5d942b75226f1278c1f28db61490fd90653a5987",
+    "1440-success.png": "2c6882a4292c93aa77d4f7d032623f901a9e12c3cd8f1586f70c9a82244662b7",
+    "1440-success.txt": "db63356b74d27de91222ba73585abeb05dde0e8d114d04f8e2def7b757dd597d",
+    "360-costs.png": "29b004106097e911781691d88bfff6e56b61401fd802b4977a446cc0dbc570ca",
+    "360-start.png": "797d973520d26467b50a8a450d42a89a317c81e5a16e49d4cc0f7ef011d1fcb6",
+    "360-trace.png": "528a1c833dfcf7850fdbff10a9a478c18635e0d619a69d16847194a2a0da9de6",
+    "360-trace.txt": "8348135c6ce6e8b087002a084001d8bc3b0509841085a5e366a715d2ac789a39",
+    "390-success.png": "0c4f245e5549f3756fcaeea2f5a853215d8d7ed9b6962864683e76dd79089ac7",
+    "390-success.txt": "8e62182a7bb7741566c9078b27e895cbcbd0b68512e1673b11d349197f3ee114",
+    "api-restored.txt": "c388d5a19432e6902f5f135f0f957d4dc1e42c76835c17064f60615c454dbb83",
+    "api-unavailable.png": "8675eb75fcca79e24cc86e91184ee7ed04a2234107d796ac27fddb6560563b2d",
+    "api-unavailable.txt": "61a5e858539a7a2b76e193bda4fff2d96dcf3fb58ad45b82bfa43ddf4d988932",
+    "four-devices.png": "1aa66a66e35df3997773ff610c565a8227346712eddf25422b2d5c24596ba961",
+    "four-devices.txt": "a30a5f70751a70d1ddd04c129dfe6ff9c140b7b57db53e06a10a537d2d658752",
+    "permission-denied.png": "dad6a52351b480ceedc8ba4a56c5cea215ac8e5e5c4663c5116c90f099613b5c",
+    "permission-denied.txt": "ee1e7b47abb3f7b9c9a4d0d9c9fc793da9b0546754d9efd4e2b1e7a8501301b4",
+    "read-only-authorized.txt": "76436ce3da1bf3bb73bf71d31c160a577ab4e73ab18628b9cdbc67286a7ced9c"
+  }
+}

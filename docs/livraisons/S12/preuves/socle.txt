@@ -1,0 +1,239 @@
+
+> e-com-system-ai@0.0.0 test
+> npm run build --workspace @ecom/commerce && node --experimental-vm-modules --test infra/dev/session.test.mjs infra/dev/run.test.mjs && node infra/dev/verify.mjs
+
+
+> @ecom/commerce@0.0.0 build
+> tsc -p tsconfig.json
+
+(node:59182) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ API arrêtée pendant le démarrage du worker : échec du lanceur et nettoyage sans intervention (4.659ms)
+✔ service déjà arrêté au retour de sa disponibilité : échec du lanceur et nettoyage sans intervention (1.009666ms)
+✔ PostgreSQL arrêté après le démarrage : échec du lanceur et nettoyage sans intervention (1.781708ms)
+✔ sortie inattendue même avec un code zéro : échec du lanceur et nettoyage sans intervention (0.918833ms)
+✔ arrêt demandé deux fois : succès et nettoyage unique, PostgreSQL en dernier (0.833375ms)
+✔ A et B ont des ressources et secrets distincts, stables au redémarrage (7.431833ms)
+✔ un nom de session invalide est refusé (0.311958ms)
+✔ une mission V1 prépare ses propres données sans reprendre les secrets de S00 (3.264959ms)
+✔ seules les missions préparées sont acceptées (0.14875ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 210.885875
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+Migrations appliquées. [ 'InitialSchema1792513149156' ]
+Migrations appliquées. []
+✓ Migration sur PostgreSQL vide et second passage sans modification
+warn 11/10/26, 12:38 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:38 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49941.
+warn 11/10/26, 12:38 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:38 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+✓ API authentifiée et worker démarrent sur la configuration applicative
+✓ Lecture du socle refusée sans authentification
+✓ Requête sans précontrôle CSRF refusée
+✓ Compte catalogue refusé sur la permission propre au socle
+✓ Permission du socle accordée sans ouvrir le catalogue
+(node:59220) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Donnée de démonstration créée puis relue par API
+(node:59223) DeprecationWarning: Calling client.query() when the client is already executing a query is deprecated and will be removed in pg@9.0. Use async/await or an external async flow control mechanism instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+The collection_translation table does not exist. Skipping de-duplication.
+The facet_translation table does not exist. Skipping de-duplication.
+The facet_value_translation table does not exist. Skipping de-duplication.
+The product_option_translation table does not exist. Skipping de-duplication.
+The product_option_group_translation table does not exist. Skipping de-duplication.
+The product_translation table does not exist. Skipping de-duplication.
+The asset_translation table does not exist. Skipping de-duplication.
+The promotion_translation table does not exist. Skipping de-duplication.
+The shipping_method_translation table does not exist. Skipping de-duplication.
+The product_variant_translation table does not exist. Skipping de-duplication.
+The region_translation table does not exist. Skipping de-duplication.
+The api_key_translation table does not exist. Skipping de-duplication.
+The payment_method_translation table does not exist. Skipping de-duplication.
+The seller_translation table does not exist. Skipping de-duplication.
+Successfully ran migration: InitialSchema1792513149156
+Migrations appliquées. [ 'InitialSchema1792513149156' ]
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49944.
+✓ Deux sessions actives ont des bases, comptes et médias indépendants
+✓ Sauvegarde refusée lorsque PostgreSQL est encore actif
+✓ Arrêt propre de nos API, worker et instances PostgreSQL
+✓ Sauvegarde physique à froid et restauration dans une destination vide
+Migrations appliquées. []
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49947.
+✓ Relecture API après restauration : données, migration et permissions conservées
+Migrations appliquées. []
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49941.
+warn 11/10/26, 12:39 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:49942/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+12:39:12 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+12:39:12 PM [vite] (client) info: TypeScript compilation completed in 59ms
+  Plugin: vendure:config-loader
+12:39:12 PM [vite] (client) info: Found 60 potential plugin files in 37ms (scanned 1231 files)
+  Plugin: vendure:config-loader
+12:39:12 PM [vite] (client) info: Analyzed plugins and found 1 dashboard extensions in 92ms
+  Plugin: vendure:config-loader
+12:39:12 PM [vite] (client) info: Found 1 plugins (1 active in runtime config): FoundationPlugin (local)
+  Plugin: vendure:config-loader
+12:39:12 PM [vite] (client) info: Vendure config loaded (using export "config") in 631ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+12:39:13 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.cache/gql/s00-test-verification-u6hsmg-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1496 ms
+
+  ➜  Local:   http://127.0.0.1:49942/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.data/verification-U6HsmG/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+✓ Arrêt demandé par SIGTERM répété : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49941.
+warn 11/10/26, 12:39 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:49942/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+12:39:17 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+12:39:18 PM [vite] (client) info: TypeScript compilation completed in 58ms
+  Plugin: vendure:config-loader
+12:39:18 PM [vite] (client) info: Found 60 potential plugin files in 38ms (scanned 1231 files)
+  Plugin: vendure:config-loader
+12:39:18 PM [vite] (client) info: Analyzed plugins and found 1 dashboard extensions in 94ms
+  Plugin: vendure:config-loader
+12:39:18 PM [vite] (client) info: Found 1 plugins (1 active in runtime config): FoundationPlugin (local)
+  Plugin: vendure:config-loader
+12:39:18 PM [vite] (client) info: Vendure config loaded (using export "config") in 604ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+12:39:18 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.cache/gql/s00-test-verification-u6hsmg-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1452 ms
+
+  ➜  Local:   http://127.0.0.1:49942/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.data/verification-U6HsmG/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+✓ Arrêt demandé par SIGINT répété : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49941.
+warn 11/10/26, 12:39 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:49942/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+12:39:23 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+12:39:23 PM [vite] (client) info: TypeScript compilation completed in 60ms
+  Plugin: vendure:config-loader
+12:39:23 PM [vite] (client) info: Found 60 potential plugin files in 37ms (scanned 1231 files)
+  Plugin: vendure:config-loader
+12:39:23 PM [vite] (client) info: Analyzed plugins and found 1 dashboard extensions in 92ms
+  Plugin: vendure:config-loader
+12:39:24 PM [vite] (client) info: Found 1 plugins (1 active in runtime config): FoundationPlugin (local)
+  Plugin: vendure:config-loader
+12:39:24 PM [vite] (client) info: Vendure config loaded (using export "config") in 639ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+12:39:24 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.cache/gql/s00-test-verification-u6hsmg-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1510 ms
+
+  ➜  Local:   http://127.0.0.1:49942/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.data/verification-U6HsmG/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Le service server s'est arrêté de façon inattendue (SIGTERM).
+✓ Arrêt inattendu de l’API réelle : code attendu, ports libérés et verrou retiré
+Migrations appliquées. []
+warn 11/10/26, 12:39 PM - [Vendure Server] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Server] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+API locale prête sur 127.0.0.1:49941.
+warn 11/10/26, 12:39 PM - [Vendure Worker] No scheduler strategy is configured! Scheduled tasks will not be executed.
+warn 11/10/26, 12:39 PM - [Vendure Worker] Please use the `DefaultSchedulerPlugin` (or alternative) to enable scheduled tasks.
+Worker local prêt.
+Administration : http://127.0.0.1:49942/dashboard/
+Ctrl+C arrête les processus de cette session et conserve ses données.
+12:39:29 PM [vite] (client) info: Loading Vendure config. This can take a short while depending on the size of your project...
+  Plugin: vendure:config-loader
+12:39:29 PM [vite] (client) info: TypeScript compilation completed in 58ms
+  Plugin: vendure:config-loader
+12:39:29 PM [vite] (client) info: Found 60 potential plugin files in 36ms (scanned 1231 files)
+  Plugin: vendure:config-loader
+12:39:29 PM [vite] (client) info: Analyzed plugins and found 1 dashboard extensions in 90ms
+  Plugin: vendure:config-loader
+12:39:30 PM [vite] (client) info: Found 1 plugins (1 active in runtime config): FoundationPlugin (local)
+  Plugin: vendure:config-loader
+12:39:30 PM [vite] (client) info: Vendure config loaded (using export "config") in 607ms
+  Plugin: vendure:config-loader
+✓ Introspection output was generated successfully
+
+12:39:30 PM [vite] (client) info: graphql introspection files output to /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.cache/gql/s00-test-verification-u6hsmg-a
+  Plugin: vendure:gql-tada
+
+  VITE v7.3.1  ready in 1467 ms
+
+  ➜  Local:   http://127.0.0.1:49942/dashboard/
+The request id "/Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12/.data/verification-U6HsmG/.data/v0-s00-a/session.json" is outside of Vite serving allow list.
+
+- /Users/lavic/Desktop/Amboras REA/E-com-system-AI-s12
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Le service postgres s'est arrêté de façon inattendue (143).
+error 11/10/26, 12:39 PM - [Vendure Worker] Job queue "apply-collection-filters" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:49943"
+error 11/10/26, 12:39 PM - [Vendure Worker] Job queue "clean-sessions" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:49943"
+error 11/10/26, 12:39 PM - [Vendure Worker] Job queue "update-search-index" encountered an error (set log level to Debug for trace): "connect ECONNREFUSED 127.0.0.1:49943"
+✓ Arrêt inattendu du processus PostgreSQL réel : code attendu, ports libérés et verrou retiré
+Rapport : docs/livraisons/S12/preuves/socle/integration.json (passed).

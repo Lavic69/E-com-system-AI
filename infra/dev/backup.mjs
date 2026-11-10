@@ -56,6 +56,7 @@ export async function restoreSession(archive, target) {
     if (!await absent(path.join(archive, 'postgres/postmaster.pid'))) throw new Error('Sauvegarde non arrêtée proprement.');
     const restored = {
       ...target,
+      shopId: source.shopId ?? `local:${source.database}`,
       databaseUser: source.databaseUser,
       databasePassword: source.databasePassword,
       adminUsername: source.adminUsername,

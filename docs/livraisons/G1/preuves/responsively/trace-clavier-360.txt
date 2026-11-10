@@ -1,0 +1,19 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 141-142
+~									108 link Description: Ouvrir la page et son historique, Value: 127.0.0.1:60438/dashboard/content/1
++										156 container
++											157 triangle d'expansion Consulter la trace du dossier
++												158 texte Consulter la trace du dossier
++											159 liste de définitions
++												160 texte Dossier
++												161 texte 133c73cd-d311-4a65-8375-9cc6dfc35b45
++												162 texte Opération
++												163 texte 50161ffd-195f-4936-96bb-868ce5501646
++												164 texte Transmissions
++												165 texte 1
++												166 texte Révision du dossier
++												167 texte 3
++												168 texte Motif conservé
++												169 texte Aucun
++											170 text Liaison d’approbation sha256:4d5ac79be34026e8821a28c59303e3e52db94825602b5c37a25ab891a02677fa 1  approbation  conservée dans l’historique.
+The focused UI element is 157 triangle d'expansion Consulter la trace du dossier

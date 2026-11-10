@@ -1,0 +1,143 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/products/1
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (settable, integer) iPhone 12 Pro, Value: 0
+				26 tabulation (settable, integer) MacBook Pro, Value: 0
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (selected) Galaxy S21, Value: 1
+			29 container
+				30 text Galaxy S21 360 x 800
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1
+					43 container
+						44 container
+							45 container
+								46 bouton Toggle Sidebar
+								47 container breadcrumb
+							48 bouton de menu local
+							49 container
+								50 en-tête Tasse de recette vérifiée, Value: 1
+									51 texte Tasse de recette vérifiée
+								52 container When enabled, a product is available in the shop
+									53 interrupteur Enabled, Value: on
+								54 bouton (disabled) Update
+								55 bouton de menu local
+								56 container
+									57 texte Product name
+									58 champ de texte (settable) Product name, Value: Tasse de recette vérifiée
+									59 texte Slug
+									60 container
+										61 champ de texte (disabled) Slug, Value: import-recette-ui, Placeholder: Slug is set
+										62 bouton Regenerate slug from source field
+										63 bouton Edit slug manually
+									64 texte Description
+									65 container
+										66 combo box (settable) Description: Text style, Value: Normal
+											67 texte Normal
+										68 bouton d'activation/de désactivation Description: Bold, Value: 0
+										69 bouton d'activation/de désactivation Description: Italic, Value: 0
+										70 bouton de menu local More formatting options
+										71 zone de saisie de texte (settable)
+
+								72 container
+									73 container
+										74 texte Product variants
+										75 bouton Manage variants
+										76 bouton de menu local
+										77 bouton de menu local Filter
+									78 tableau
+										79 row
+											80 en-tête de colonne
+												81 case à cocher Description: Select all rows, Value: 0
+											82 en-tête de colonne
+												83 texte Featured asset
+											84 en-tête de colonne
+												85 bouton Sort by Variant name
+											86 en-tête de colonne
+												87 texte Enabled
+											88 en-tête de colonne
+												89 bouton Sort by Price
+											90 en-tête de colonne
+												91 bouton Sort by Price with tax
+											92 en-tête de colonne
+												93 texte Stock levels
+											94 en-tête de colonne
+												95 texte Actions
+										96 row
+											97 cellule
+												98 case à cocher Description: Select row, Value: 0
+											99 cellule
+												100 bouton Tasse de recette
+											101 cellule
+												102 texte Enabled
+											103 cellule
+												104 texte €12.90
+											105 cellule
+												106 texte €12.90
+											107 cellule
+												108 container Stock on hand: 12, Stock allocated: 0
+													109 text 12 /  0
+											110 cellule
+												111 bouton de menu local
+									112 text 1–1 of 1 Rows per page
+									113 combo box (settable) Description: Rows per page, Value: 10
+										114 texte 10
+									115 container Pagination
+										116 bouton (disabled) Go to previous page
+										117 bouton (disabled) Go to next page
+								118 container
+									119 texte Facet Values
+									120 bouton de menu local Add facet values
+								121 container
+									122 texte Channels
+									123 texte Belgique
+									124 bouton Assign to channel
+								125 container
+									126 texte Assets
+									127 bouton Add asset
+						128 container Notifications alt+T
+		129 container
+	130 Bouton de fermeture
+	131 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	132 bouton de minimisation
+133 menu bar
+	134 ResponsivelyApp
+	135 Edit
+	136 View
+	137 Window
+	138 Help
+
+The focused UI element is 42 Contenu HTML Tasse de recette vérifiée • Vendure, URL: 127.0.0.1:5101/dashboard/products/1

@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-11-10T12:16:14.682Z",
+  "cases": [
+    "Création d’un brouillon depuis le Dashboard",
+    "Réservation au clavier et création d’une version validée",
+    "Sélection distincte de la publication et historique consultable",
+    "Quatre dimensions : contenu sans débordement horizontal et captures",
+    "Un second onglet ne prend pas la réservation active",
+    "Conflit après reprise : saisie conservée, ancienne base bloquée, reprise explicite",
+    "Lecture seule rendue avec historique et sans bouton de réservation"
+  ],
+  "browser": "Chromium isolated",
+  "status": "passed",
+  "finishedAt": "2026-11-10T12:16:26.187Z"
+}

@@ -1,0 +1,35 @@
+{
+  "startedAt": "2026-11-10T12:06:07.132Z",
+  "base_sha": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "status": "passed",
+  "cases": [
+    {
+      "name": "Socle G0 seul, avec une seule migration et sans colonnes S10",
+      "status": "passed"
+    },
+    {
+      "name": "G0 rempli par API : produit, prix, stock, média, client, groupe et rôle",
+      "status": "passed"
+    },
+    {
+      "name": "Sauvegarde à froid du G0 rempli et restauration dans un autre répertoire",
+      "status": "passed"
+    },
+    {
+      "name": "Migration S10 sur la copie, données et média conservés",
+      "status": "passed"
+    },
+    {
+      "name": "Deuxième démarrage sans migration supplémentaire ni perte de préférences",
+      "status": "passed"
+    }
+  ],
+  "finishedAt": "2026-11-10T12:06:19.112Z",
+  "servicesStopped": true,
+  "sourceSha256": {
+    "infra/tests/s10/server.cjs": "2764a65fd26a58953200ba37835a0c6b2c525809a3cd153b0bb5e17316f88ec1",
+    "infra/tests/s10/verify-upgrade.mjs": "fe84b454adcab6f2a40f3a0042cafea9ced52cb37cf5756b9d8eb8ab2fc586b5",
+    "apps/commerce/src/plugins/catalogue/catalogue.plugin.ts": "c6c12125bc6fa32aae10560bf4b28f1d5471fc88f7cbf0240851f40b62d418ca",
+    "apps/commerce/src/plugins/catalogue/migrations/1794309752560-CatalogueS10.ts": "1ab145672a4d686a59fb488a87660adc61edf279a27644fe385c91201a1267d9"
+  }
+}

@@ -1,0 +1,128 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5103/dashboard/operations
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (selected) iPhone 12 Pro, Value: 1
+				26 tabulation (settable, integer) MacBook Pro, Value: 0
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (settable, integer) Galaxy S21, Value: 0
+			29 container
+				30 text iPhone 12 Pro 390 x 844
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Vendure, URL: 127.0.0.1:5103/dashboard/operations
+					43 container
+						44 container
+							45 container
+								46 bouton Toggle Sidebar
+								47 container breadcrumb
+							48 bouton de menu local
+							49 en-tête Actions, Value: 1
+								50 texte Actions
+							51 container
+								52 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								53 bouton Actualiser
+								54 container Dossiers d’action
+									55 container
+										56 text Dossiers récents ·  3
+									57 bouton Message de vérification À rapprocher Proposition v8 · cible v7
+										58 texte Message de vérification
+										59 texte À rapprocher
+										60 container
+											61 text Proposition  v8  · cible v 7
+									62 bouton Présentation du produit Réussie Proposition v8 · cible v7
+										63 texte Présentation du produit
+										64 texte Réussie
+										65 container
+											66 text Proposition  v8  · cible v 7
+									67 bouton Accueil · titre de page À valider Proposition v8 · cible v7
+										68 texte Accueil · titre de page
+										69 texte À valider
+										70 container
+											71 text Proposition  v8  · cible v 7
+								72 container Dossier Présentation du produit
+									73 container
+										74 texte Dossier d’action
+										75 en-tête Présentation du produit, Value: 2
+											76 texte Présentation du produit
+										77 texte Réussie
+									78 texte Démonstration locale sur une cible de test.
+									79 container Objet et proposition
+										80 en-tête Objet et proposition, Value: 3
+											81 texte Objet et proposition
+										82 liste de définitions
+											83 texte Version visée
+											84 texte 7
+											85 texte Proposition
+											86 texte v8
+											87 texte Marché · langue
+											88 container
+												89 text market-s12-1  ·  en
+											90 texte Préparée le
+											91 texte 10 nov. 2026, 12:52
+										92 container
+											93 text Référence de la modification :  fixture:local-message
+									94 container Décision et coût
+										95 en-tête Décision et coût, Value: 3
+											96 texte Décision et coût
+										97 liste de définitions
+											98 texte Plafond approuvé
+											99 texte 3,00 $US
+											100 texte Montant réservé
+											101 texte 0,00 $US
+											102 texte Coût connu
+											103 texte 2,40 $US
+										104 texte Approbation enregistrée le 10 nov. 2026, 12:52. Valable jusqu’au 10 nov. 2026, 13:52.
+									105 container Résultat et preuves
+										106 en-tête Résultat et preuves, Value: 3
+											107 texte Résultat et preuves
+										108 Liste du contenu
+											109 container
+												110 text Preuve conservée local-mail:fc94acc4-6b93-47af-94fb-8e9d473440d4
+										111 texte Transport local de test. Aucun envoi dans une boîte réelle n’est démontré.
+										112 triangle d'expansion Consulter la trace du dossier
+											113 texte Consulter la trace du dossier
+						114 container Notifications alt+T
+		115 container
+	116 Bouton de fermeture
+	117 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	118 bouton de minimisation
+119 menu bar
+	120 ResponsivelyApp
+	121 Edit
+	122 View
+	123 Window
+	124 Help
+
+The focused UI element is 125 container

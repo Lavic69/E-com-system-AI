@@ -1,0 +1,79 @@
+{
+  "recordedAt": "2026-11-10T12:17:42.460Z",
+  "editedPage": {
+    "id": "6",
+    "slug": "atelier-responsively-s11",
+    "title": "Notre atelier — recette S11",
+    "revision": 4,
+    "headVersion": 3,
+    "selectedVersion": 2,
+    "fencingToken": 3,
+    "expiresAt": "2026-11-10T12:17:48.100Z",
+    "versions": [
+      {
+        "version": 3,
+        "parentVersion": 2,
+        "state": "draft",
+        "contentDigest": "sha256:cd57dbb13f685f4c67fb4fed8c437275a40f01eed1b3042b923365e009cc218b",
+        "document": {
+          "title": "Notre atelier — recette S11",
+          "blocks": [
+            {
+              "id": "70f9e93f-d6a2-4daf-80b1-010810f4c7ef",
+              "text": "Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      {
+        "version": 2,
+        "parentVersion": 1,
+        "state": "validated",
+        "contentDigest": "sha256:c365247c70459c13e7f67b201a3a7f96658dfe04a2501b3b980ed421200ded28",
+        "document": {
+          "title": "Notre atelier — recette S11",
+          "blocks": [
+            {
+              "id": "70f9e93f-d6a2-4daf-80b1-010810f4c7ef",
+              "text": "Chaque collection commence dans notre atelier. Nous choisissons les matières et vérifions les finitions avant de proposer nos objets en boutique.",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      {
+        "version": 1,
+        "parentVersion": null,
+        "state": "draft",
+        "contentDigest": "sha256:7602aa67fb00794d20f676077c3e04743371d4c086403cc22cdb294dbb7829d9",
+        "document": {
+          "title": "Notre atelier — recette S11",
+          "blocks": []
+        }
+      }
+    ]
+  },
+  "creationAfterFix": {
+    "id": "8",
+    "slug": "creation-mobile-verifiee",
+    "title": "Création mobile vérifiée",
+    "revision": 1,
+    "headVersion": 1,
+    "selectedVersion": null,
+    "fencingToken": 0,
+    "expiresAt": null,
+    "versions": [
+      {
+        "version": 1,
+        "parentVersion": null,
+        "state": "draft",
+        "contentDigest": "sha256:0fcf4328bad63918abc3ec0b1d279233c2204602eac1def037f7f4a1719dfe3e",
+        "document": {
+          "title": "Création mobile vérifiée",
+          "blocks": []
+        }
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ import { LocalSession, projectRoot } from '../runtime';
 import { FoundationPlugin } from './foundation/foundation.plugin';
 
 // Point de raccordement commun, géré par l'intégrateur.
-export function platformPlugins(session: LocalSession) {
+export function foundationPlugins(session: LocalSession) {
   return [
     DefaultJobQueuePlugin.init({ useDatabaseForBuffer: true }),
     DefaultSearchPlugin.init({ bufferUpdates: false, indexStockStatus: true }),

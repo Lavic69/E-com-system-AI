@@ -1,0 +1,40 @@
+{
+  "base_sha": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "branch": "feat/s12-operations",
+  "state": "uncommitted",
+  "hash_algorithm": "sha256",
+  "files": {
+    "apps/commerce/src/plugins/operations/authority.ts": "310eac08ce2020d5cae7451129298e6038602ae448914f864a492109398f313d",
+    "apps/commerce/src/plugins/operations/budget.ts": "0e37d20f9b5db002e0467b59a381149b17d8a1a19e378d3a54122b536c5d2491",
+    "apps/commerce/src/plugins/operations/canonical.ts": "2aa9538eea753a660332fe0f9f1a0cf1f33a8d53c54ac169aebcb6e8408707e4",
+    "apps/commerce/src/plugins/operations/contracts.ts": "329db48197e8f1a003253890bdb8a1945ddf63041546cf07d0b17eca7a134a1f",
+    "apps/commerce/src/plugins/operations/generated/LICENSES.txt": "97d5f59c88837b3595cf3a32ac0e6d653fef21b64f60bcdc653f9a6b7d2b6088",
+    "apps/commerce/src/plugins/operations/generated/contracts.ts": "1b658d6f20e1674a1dd649f4c17a253ae543934073bed4e283f3ffe33f1cba95",
+    "apps/commerce/src/plugins/operations/generated/schema-hash.ts": "a3009dcbf3a4969e8796dfe11333dbab4ed120f463d5ff137a283adae508509e",
+    "apps/commerce/src/plugins/operations/generated/validators.ts": "f4364e43c1199d8b001bc16f722df86580a08837111b545ed1f39a4bc71619b0",
+    "apps/commerce/src/plugins/operations/journal.ts": "e277c6ed7023347f293c5d956b04f52310c21f95625aa1d85fcbd246d00112a2",
+    "apps/commerce/src/plugins/operations/local-mail.ts": "62aca6abaa1d8a0130e8ff0a9d66b7ee38ae27e25d4d9cac0eb2b29782fba29d",
+    "apps/commerce/src/plugins/operations/migrations/1792513200000-Operations.ts": "2a39929102b21f6b3e3212eb4acd34264eed5d6e0c193be7331f0a907c65a3b5",
+    "apps/commerce/src/plugins/operations/operations.plugin.ts": "99315c477eb4ffa56084109fb2852b279e0a1e9521ce19c0840c2d9b8694273d",
+    "apps/commerce/src/plugins/operations/operations.service.ts": "1385dc3bda06b4a5080fae03470854b627f4c7b72b6360f02f331735172940ad",
+    "apps/commerce/src/plugins/operations/types.ts": "7d2501a00c13e0c36fee0af02567f506b0e607361bb2c35a62342b4f871b1b22",
+    "apps/dashboard/src/extensions/operations/dossier.tsx": "c27b1c2eda621227e5cb1341dc2b1802191c808298d1f932f20088c5ce0eb298",
+    "apps/dashboard/src/extensions/operations/index.tsx": "225720f6566c06362216cd1d904422b63e1e201d612dbde284c77093ea567e8b",
+    "apps/dashboard/src/extensions/operations/operations.css": "9ca9437e5290bfa84f82c9c4c5b70491822d0c65f8ff9eef7c84fb9daa8fa29d",
+    "infra/tests/s12/config-ui.ts": "bd9e8e235ceffd0dc83f3474cca44bc6f0e62bc02cc817f9ca48ca12d26fb621",
+    "infra/tests/s12/config.cjs": "24cf8ebe00b4fa16ef5c2e1dec166f9ae359977abf2a27c258b9f47d1c18362b",
+    "infra/tests/s12/dev.mjs": "9b852ebb8058bb06202f11c7cee2c3d2502d3c2ae659afd2681690d44ce447d7",
+    "infra/tests/s12/generate-contracts.mjs": "7d108b64a99bab1a2eaa4b2626f0e5ba80d31a9e73c891e420fabb749addf2aa",
+    "infra/tests/s12/launcher.test.mjs": "2d93591e50e76eb5dd7c9cbd58d091f93673d15e008ae93fffabf607053852c1",
+    "infra/tests/s12/operations.test.mjs": "09b7adf77ebc01222304b8046672a2f69e55e6145acfb5c89af7e91449b4e753",
+    "infra/tests/s12/receiver.mjs": "a7a11996bb172417a5c16ef48132ece1369a63e175cc92dd4c186286ddf6aec7",
+    "infra/tests/s12/server.cjs": "d3bda43f4532f31683ea8ef359bd581907c216ab04f86ecd61e2f338447bf7bc",
+    "infra/tests/s12/verify-ui.mjs": "8ec7ff360197b4ee7f94531ed7c50bec0fc4c2463ae023215788f4e957ee59a2",
+    "infra/tests/s12/vite.config.mts": "67fee003d510ba897b2df6197238812ff45f58955a02e6595feac0c53f8dadfe"
+  },
+  "scope_check": "passed",
+  "secret_scan": {
+    "status": "passed",
+    "files_scanned": 278
+  }
+}

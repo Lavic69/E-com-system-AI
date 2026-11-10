@@ -1,0 +1,189 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:60438/dashboard/operations
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (settable, integer) iPhone 12 Pro, Value: 0
+				26 tabulation (selected) MacBook Pro, Value: 1
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (settable, integer) Galaxy S21, Value: 0
+			29 container
+				30 text MacBook Pro 1440 x 900
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Vendure, URL: 127.0.0.1:60438/dashboard/operations
+					43 container
+						44 container
+							45 Liste du contenu
+								46 bouton de menu local Belgique Langue : français
+							47 Liste du contenu
+								48 bouton Boutique et contenu
+								49 container
+									50 bouton Activité
+									51 Liste du contenu
+										52 link Description: Actions, Value: 127.0.0.1:60438/dashboard/operations
+								53 bouton Environnement local
+								54 link Description: Aperçus, Value: 127.0.0.1:60438/dashboard/
+								55 bouton Catalogue
+								56 bouton Ventes
+								57 bouton Clients
+								58 bouton Marketing
+							59 container
+								60 texte Administration
+								61 Liste du contenu
+									62 bouton Paramètres
+									63 bouton Système
+							64 Liste du contenu
+								65 bouton de menu local Super Admin admin-a@local.test
+									66 texte Super
+									67 texte Admin
+									68 texte admin-a@local.test
+							69 bouton Toggle Sidebar
+						70 container
+							71 container
+								72 bouton Toggle Sidebar
+								73 container breadcrumb
+									74 Liste du contenu
+										75 link Description: Activité, Value: 127.0.0.1:60438/dashboard/operations
+							76 bouton de menu local
+							77 en-tête Actions, Value: 1
+								78 texte Actions
+							79 container
+								80 texte Retrouvez la décision, le budget engagé et la preuve de chaque action.
+								81 bouton Actualiser
+								82 container Dossiers d’action
+									83 container
+										84 text Dossiers récents ·  9
+									85 bouton Page 9 Réussie Proposition 1 · cible v1
+										86 texte Page 9
+										87 texte Réussie
+										88 container
+											89 text Proposition  1  · cible v 1
+									90 bouton Page 8 À valider Proposition 1 · cible v1
+										91 texte Page 8
+										92 texte À valider
+										93 container
+											94 text Proposition  1  · cible v 1
+									95 bouton Page 7 À valider Proposition 1 · cible v1
+										96 texte Page 7
+										97 texte À valider
+										98 container
+											99 text Proposition  1  · cible v 1
+									100 bouton Page 6 Réussie Proposition 1 · cible v1
+										101 texte Page 6
+										102 texte Réussie
+										103 container
+											104 text Proposition  1  · cible v 1
+									105 bouton Page 5 À valider Proposition 1 · cible v1
+										106 texte Page 5
+										107 texte À valider
+										108 container
+											109 text Proposition  1  · cible v 1
+									110 bouton Page 4 À valider Proposition 1 · cible v1
+										111 texte Page 4
+										112 texte À valider
+										113 container
+											114 text Proposition  1  · cible v 1
+									115 bouton Page 3 À valider Proposition 1 · cible v1
+										116 texte Page 3
+										117 texte À valider
+										118 container
+											119 text Proposition  1  · cible v 1
+									120 bouton Page 2 À valider Proposition 1 · cible v1
+										121 texte Page 2
+										122 texte À valider
+										123 container
+											124 text Proposition  1  · cible v 1
+									125 bouton Page 1 Réussie Proposition 1 · cible v1
+										126 texte Page 1
+										127 texte Réussie
+										128 container
+											129 text Proposition  1  · cible v 1
+								130 container Dossier 9
+									131 container
+										132 texte Dossier d’action
+										133 en-tête Page 9, Value: 2
+											134 texte Page 9
+										135 texte Réussie
+									136 link Description: Ouvrir la page et son historique, Value: 127.0.0.1:60438/dashboard/content/9
+									137 container Objet et proposition
+										138 en-tête Objet et proposition, Value: 3
+											139 texte Objet et proposition
+										140 liste de définitions
+											141 texte Version visée
+											142 texte 1
+											143 texte Proposition
+											144 texte 1
+											145 texte Marché · langue
+											146 container
+												147 text vendure-channel:2  ·  fr
+											148 texte Préparée le
+											149 texte 10 nov. 2026, 14:10
+										150 container
+											151 text Référence de la modification :  g1-change:9
+									152 container Décision et coût
+										153 en-tête Décision et coût, Value: 3
+											154 texte Décision et coût
+										155 liste de définitions
+											156 texte Plafond approuvé
+											157 texte 0,00 €
+											158 texte Montant réservé
+											159 texte 0,00 €
+											160 texte Coût connu
+											161 texte 0,00 €
+										162 texte Approbation enregistrée le 10 nov. 2026, 14:10. Valable jusqu’au 10 nov. 2026, 14:11.
+									163 container Résultat et preuves
+										164 en-tête Résultat et preuves, Value: 3
+											165 texte Résultat et preuves
+										166 Liste du contenu
+											167 container
+												168 text Preuve conservée content-version:9:2
+										169 triangle d'expansion Consulter la trace du dossier
+											170 texte Consulter la trace du dossier
+						171 container Notifications alt+T
+		172 container
+	173 Bouton de fermeture
+	174 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	175 bouton de minimisation
+176 menu bar
+	177 ResponsivelyApp
+	178 Edit
+	179 View
+	180 Window
+	181 Help
+
+Selected text: ```
+http://127.0.0.1:60438/dashboard/operations
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

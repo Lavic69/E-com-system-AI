@@ -1,0 +1,144 @@
+Window: "Responsively App", App: ResponsivelyApp.
+0 fenêtre standard Responsively App, Secondary Actions: Raise
+	1 Contenu HTML Responsively App, URL: file:///Applications/ResponsivelyApp.app/Contents/Resources/app.asar/dist/renderer/index.html?urlToOpen=undefined
+		2 container
+			3 bouton Back
+			4 bouton Forward
+			5 bouton Refresh
+			6 bouton Site permissions
+			7 champ de texte (settable) http://127.0.0.1:5101/dashboard/product-variants/4
+			8 texte Drop URL Here
+			9 container
+				10 bouton Delete Storage
+				11 bouton Delete Cookies
+				12 bouton Clear Cache
+				13 bouton Homepage
+				14 bouton Add bookmark
+			15 bouton Rotate Devices
+			16 bouton Inspect Elements
+			17 bouton Screenshot All WebViews
+			18 bouton Device theme color toggle
+			19 bouton View Shortcuts
+			20 bouton de menu local
+			21 bouton de menu local
+			22 bouton
+			23 bouton
+			24 groupe d’onglet
+				25 tabulation (settable, integer) iPhone 12 Pro, Value: 0
+				26 tabulation (selected) MacBook Pro, Value: 1
+				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
+				28 tabulation (settable, integer) Galaxy S21, Value: 0
+			29 container
+				30 text MacBook Pro 1440 x 900
+				31 bouton Refresh This View
+				32 bouton Quick Screenshot
+				33 bouton Full Page Screenshot
+				34 bouton Design Overlay
+				35 bouton Disable Event Mirroring
+				36 bouton Open Devtools
+				37 bouton (disabled) Rotation not available for non-mobile devices
+				38 bouton Scroll to Top
+				39 bouton Show rulers
+				40 bouton de menu local
+				41 bouton Disable Individual Layout
+				42 Contenu HTML Tasse importée depuis un fichier • Vendure, URL: 127.0.0.1:5101/dashboard/product-variants/4
+					43 container
+						44 container
+							45 Liste du contenu
+								46 bouton de menu local Belgique Language: French
+							47 Liste du contenu
+								48 link Description: Insights, Value: 127.0.0.1:5101/dashboard/
+								49 container
+									50 bouton Catalog
+									51 Liste du contenu
+										52 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										53 link Description: Product Variants, Value: 127.0.0.1:5101/dashboard/product-variants
+										54 link Description: Option Groups, Value: 127.0.0.1:5101/dashboard/option-groups
+										55 link Description: Facets, Value: 127.0.0.1:5101/dashboard/facets
+										56 link Description: Collections, Value: 127.0.0.1:5101/dashboard/collections
+										57 link Description: Assets, Value: 127.0.0.1:5101/dashboard/assets
+										58 link Description: Importer des produits, Value: 127.0.0.1:5101/dashboard/catalogue-import
+								59 bouton Customers
+							60 container
+								61 texte Administration
+								62 Liste du contenu
+									63 bouton Settings
+							64 Liste du contenu
+								65 bouton de menu local Démo s10-editor s10-editor@local.test
+									66 texte Démo
+									67 texte s10-editor
+									68 texte s10-editor@local.test
+							69 bouton Toggle Sidebar
+						70 container
+							71 container
+								72 bouton Toggle Sidebar
+								73 container breadcrumb
+									74 Liste du contenu
+										75 link Description: Catalog, Value: 127.0.0.1:5101/dashboard/product-variants
+										76 link Description: Products, Value: 127.0.0.1:5101/dashboard/products
+										77 link Description: Tasse importée depuis un fichier, Value: 127.0.0.1:5101/dashboard/products/4
+										78 link Description: Tasse importée depuis un fichier, Value: 127.0.0.1:5101/dashboard/product-variants/4
+							79 bouton de menu local
+							80 container
+								81 en-tête Tasse importée depuis un fichier, Value: 1
+									82 texte Tasse importée depuis un fichier
+								83 container When enabled, this variant is available in the shop
+									84 interrupteur Enabled, Value: on
+								85 bouton (disabled) Update
+								86 bouton de menu local
+								87 container
+									88 texte Variant name
+									89 champ de texte (settable) Variant name, Value: Tasse importée depuis un fichier
+									90 texte SKU
+									91 champ de texte (settable) SKU, Value: UI-FICHIER-20261110
+								92 container
+									93 texte Price and tax
+									94 texte Tax category
+									95 combo box (settable) S10 - catégorie de test
+										96 texte S10 - catégorie de test
+									97 texte Price
+									98 container
+										99 texte €
+										100 champ de texte (settable) Price, Value: 18.90
+									101 container
+										102 text Gross price (incl. 0% tax)
+									103 texte €18.90
+								104 container
+									105 texte Stock
+									106 texte Stock levels
+									107 combo box (settable) Track
+										108 texte Track
+									109 interrupteur Use global out-of-stock threshold, Value: on
+									110 texte When enabled, this variant uses the global out-of-stock threshold configured in Settings instead of its own value.
+									111 texte Out-of-stock threshold
+									112 curseur (disabled) Out-of-stock threshold, Value: 0, Secondary Actions: Increment, Decrement
+									113 texte Sets the stock level at which this variant is considered to be out of stock. Using a negative value enables backorder support.
+									114 container
+										115 text Stock level Entrepôt Belgique
+									116 curseur (settable, float) Stock level Entrepôt Belgique, Value: 9
+									117 texte Allocated
+									118 texte 0
+									119 container
+										120 text Stock level Magasin Belgique
+									121 curseur (settable, float) Stock level Magasin Belgique, Value: 4
+									122 texte Allocated
+									123 texte 0
+								124 container
+									125 texte Facet Values
+									126 bouton de menu local Add facet values
+								127 container
+									128 texte Assets
+									129 bouton Add asset
+						130 container Notifications alt+T
+		131 container
+	132 Bouton de fermeture
+	133 bouton plein écran Help: ce bouton peut également agrandir ou réduire la fenêtre, Secondary Actions: réduire/agrandir la fenêtre
+	134 bouton de minimisation
+135 menu bar
+	136 ResponsivelyApp
+	137 Edit
+	138 View
+	139 Window
+	140 Help
+
+The focused UI element is 31 bouton Refresh This View

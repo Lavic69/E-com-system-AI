@@ -1,0 +1,24 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 30-163
+~				25 tabulation (selected) iPhone 12 Pro, Value: 1
+~				27 tabulation (settable, integer) G0 Tablette paysage, Value: 0
++				174 text iPhone 12 Pro 390 x 844
++				175 bouton Refresh This View
++				176 bouton Quick Screenshot
++				177 bouton Full Page Screenshot
++				178 bouton Design Overlay
++				179 bouton Disable Event Mirroring
++				180 bouton Open Devtools
++				181 bouton (disabled) Rotation not available for non-mobile devices
++				182 bouton Scroll to Top
++				183 bouton Show rulers
++				184 bouton de menu local
++				185 bouton Disable Individual Layout
++				186 Contenu HTML 127.0.0.1:60438/dashboard/content/1
++					187 container
++						188 container Notifications alt+T
+Selected text: ```
+http://127.0.0.1:60438/dashboard/content/1
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

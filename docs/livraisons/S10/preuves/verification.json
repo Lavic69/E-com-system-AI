@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-10T12:29:50.733851+00:00",
+  "status": "passed_scoped_s10",
+  "base_sha": "2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086",
+  "branch": "feat/s10-catalogue",
+  "committed": false,
+  "pushed": false,
+  "typecheck": "passed",
+  "serverBuild": "passed",
+  "dashboardBuild": "passed",
+  "apiCases": 23,
+  "launcherCases": 2,
+  "testSourcesMatch": true,
+  "knownSecretScan": "no_matches_in_candidates_or_dashboard_bundle",
+  "sharedTrackedFilesChanged": false,
+  "portsFree": [
+    4101,
+    5101,
+    5541
+  ],
+  "ui": {
+    "application": "/Applications/ResponsivelyApp.app",
+    "dimensions": [
+      [
+        1440,
+        900
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "scope": "Import collé et fichier CSV choisi dans le dialogue système, clavier, erreur API, chargement, reprise, refus, fiche produit native, saisie et persistance des prix et stocks",
+    "evidenceSha256": {
+      "stocks-prix-enregistres.txt": "78bb9dc6786ce842a1110b3c1f8421bd26e43b4980b46bb2dfcc51357137aa55",
+      "stocks-prix-ordinateur.png": "ca257e7eb81dcb9c2b7342cfac175ecc93339ed3fa06e1236432b6e7cace1723",
+      "produit-natif-lecture-seule-4-formats.txt": "b6b72ed91b85d2af074c5a1a4f21f9359e56fff862aaed0548215edb15739798",
+      "refus-lecture-seule-4-formats.png": "6e9763d7472ad084dc4a24f577467282295447a1398a3f8842294517ddb131a1",
+      "chargement-api-suspendue.txt": "3aa0fda5384ac189ac3324309c893cef265b53701326ab1a77f380b18120e5f9",
+      "mobile-360-resultat.txt": "b74690e402fe82367a9580ade192ed07de24644dcd11cb02b27e9d97b0900dc4",
+      "produit-modifie-mobile.txt": "dd42ff65f5e971e3cdc298e8a4da57a95d88f013100b598db50b55e00a82ab11",
+      "api-indisponible.txt": "fc66618fd121c96cdd220cb6c3ca5d2b6075e2cc5cebccd5f4ad0fcff92c1d58",
+      "reprise-autres-formats.txt": "fd00051ec7f53964c23c038138bda3ea305d9333a4eb7dc2ffe37ad6c16c58d7",
+      "refus-lecture-seule-4-formats.txt": "f8a9ce63828995d28e2fbdd7566f513ce50a92012acd9c20fd59ab733a162bae",
+      "mobile-360-resultat.png": "761154b35468e369eeb722ad0daf74d653f9561cd85549c46254269ef3370699",
+      "clavier-focus.txt": "52d71b33afc6ddda98670ef7b5d1f0c02118f8f66997d3a6aef04b28f9ec557d",
+      "produit-natif-4-formats.png": "3312089d0ec2ce2f93b4a740715c70bfd7a6008f265c00ee3ac7a81206c5b611",
+      "import-cree.txt": "d364e05a04e3324f14ecf14d4215169d11a7c281daf463caaaaa4846dd202155",
+      "reprise-api.txt": "d0a5bebaa909e6159aa0128f0048aecd3148598a81c5a278e5845d06e16f5939",
+      "stocks-prix-api.json": "517ca5f7069901be4a6376830603b0d68c756dd8ebf496751f3258d64fb5dce3",
+      "csv-import-api.json": "a3f3f0bbfc6bfacf822d418e65b06b364f3fd445dbb7c47e668724547eb77757",
+      "stocks-prix-apres-rechargement.txt": "82aba1789a2ead148c0a3dfbb8665ce4ebf8a4d62c32fa423f870b9e93f7963a",
+      "resultats-4-formats.png": "37a2a9985c9b8ae5ed1d9609aff95cad42e36b838df6e41f133e95f79805f33c",
+      "stocks-prix-mobile-360.txt": "9f1b8b2a473d75533cba7d4fb0c201e803e57ee0b8d0ce265ccec8cbb12d358e",
+      "csv-import-confirme.png": "e6c83cc1b4f84f217c5df559fb2daef914e1ee9f3c03a127b9f8fb4cce5b5033",
+      "import-vide-4-formats.png": "b4bcd4ea6d35c88313e557787eb1a8d113939ca401d2d51adabfd3e1215ec177",
+      "csv-import-confirme.txt": "3f2241f78a441585f4f9651fb80b660466269e69763078bf3b9f357faaf575f5",
+      "import-vide-4-formats.txt": "69a778ab34e4f47ace3c0acf768d50028414e100ae05216b02563e022c679541",
+      "clavier-import-confirme.txt": "6385a339d970df2cbd1bf4752af87a7fdf4f98f143943562210e8c035a1f5e8f",
+      "resultats-4-formats.txt": "6a74c0832989651c27880ae04b53303b3fde22f387d714a838abf57326f019d0",
+      "stocks-prix-mobile-360.png": "f5ab6a6f83163bb82dc38d769ad1ada173ab3ac260eb62f6b5def4b443b77156"
+    },
+    "completionAt": "2026-11-10T12:29:50.733851+00:00",
+    "filePicker": "passed",
+    "nativePriceAndStocks": "passed",
+    "nativePriceAndStocksExpected": {
+      "priceMinor": 1890,
+      "currency": "EUR",
+      "Entrepôt Belgique": 9,
+      "Magasin Belgique": 4
+    }
+  },
+  "notTested": [
+    "G1 avec S11 et S12",
+    "Safari, appareils physiques et audit exhaustif accessibilité",
+    "Checkout et fournisseurs externes"
+  ],
+  "upgradeCases": 5,
+  "additionalUiPending": [],
+  "resourcesStopped": true
+}

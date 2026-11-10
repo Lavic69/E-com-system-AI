@@ -1,0 +1,17 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~										125 container
+~											126 triangle d'expansion Consulter la trace du dossier
++												127 texte Consulter la trace du dossier
++											128 liste de définitions
++												129 texte Dossier
++												130 texte 61cb7e87-3bc3-4992-936f-2d54ba528324
++												131 texte Opération
++												132 texte a1bf1acd-82fb-4354-908a-8646f87d094c
++												133 texte Transmissions
++												134 texte 1
++												135 texte Révision du dossier
++												136 texte 4
++												137 texte Motif conservé
++												138 texte PROVIDER_RESULT_UNKNOWN
++											139 text Liaison d’approbation sha256:affd0ba0b3c4719d3a32d49e5ab854cac0aafbb33f0d87a38eb2010f297d2157 1  approbation  conservée dans l’historique.
+The focused UI element is 126 triangle d'expansion Consulter la trace du dossier

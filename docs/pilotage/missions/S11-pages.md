@@ -1,6 +1,6 @@
 # S11 Pages, versions et réservation d'édition
 
-État : prête, non lancée. Session B, branche prévue `feat/s11-pages`. Vérifier le commit G0 et son SHA selon le plan. La mission commence uniquement sur instruction de Victor, depuis le même SHA G0 que S10 et S12.
+État : réalisée, puis intégrée et vérifiée localement en G1 le 10 novembre 2026. Voir [la livraison G1](../../livraisons/G1/RESULTAT.md). Le transfert est commité dans `96edeab0904141a6441b2c0f4e7099b11a977a1d` et publié par la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) ; le worktree S11 est conservé.
 
 ## Résultat attendu
 

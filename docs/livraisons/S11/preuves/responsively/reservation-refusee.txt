@@ -1,0 +1,9 @@
+The following is a diff from the previous accessibility tree for Window: "Responsively App" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++							164 container
++								165 texte Cette page est réservée par un autre éditeur ou protégée par une expérience. Vous pouvez consulter ses versions.
++								166 bouton Recharger l’historique
+~								152 texte Cet aperçu n’est pas un site publié. Les prix, stocks et achats restent hors de cette vue.
++								167 en-tête Notre atelier — recette S11, Value: 2
++									168 texte Notre atelier — recette S11
++								169 texte Chaque collection commence dans notre atelier. La prochaine version précise notre choix de matières et le contrôle des finitions.
+The focused UI element is 42 Contenu HTML Vendure, URL: 127.0.0.1:5112/dashboard/content/6

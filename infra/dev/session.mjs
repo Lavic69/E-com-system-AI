@@ -1,4 +1,4 @@
-import { randomBytes } from 'node:crypto';
+import { randomBytes, randomUUID } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import net from 'node:net';
 import path from 'node:path';
@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const slots = { A: 1, B: 2, C: 3 };
-const missions = { S00: 'v0', S10: 'v1', S11: 'v1', S12: 'v1' };
+const missions = { S00: 'v0', S10: 'v1', S11: 'v1', S12: 'v1', G1: 'v1' };
 
 export function sessionSlot(args = process.argv.slice(2)) {
   const slot = args.find(value => value.startsWith('--session='))?.split('=')[1] ?? 'A';
@@ -16,7 +16,7 @@ export function sessionSlot(args = process.argv.slice(2)) {
 
 export function sessionMission(args = process.argv.slice(2)) {
   const mission = args.find(value => value.startsWith('--mission='))?.slice(10) ?? 'S00';
-  if (!Object.hasOwn(missions, mission)) throw new Error('Mission attendue : S00, S10, S11 ou S12.');
+  if (!Object.hasOwn(missions, mission)) throw new Error('Mission attendue : S00, S10, S11, S12 ou G1.');
   return mission;
 }
 
@@ -54,6 +54,7 @@ export async function prepareSession(slot, base = root, mission = 'S00') {
   }
   const session = {
     ...config,
+    shopId: `local:${randomUUID()}`,
     databaseUser: 'ecom_dev',
     databasePassword: randomBytes(32).toString('hex'),
     adminUsername: `admin-${slot.toLowerCase()}@local.test`,

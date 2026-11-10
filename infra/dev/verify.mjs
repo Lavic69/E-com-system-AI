@@ -95,7 +95,10 @@ try {
     dbA = await dbStart(a);
     await migrate(a);
     const first = await sql(a, 'SELECT name FROM migrations');
-    assert.equal(first.rows.length, 1);
+    assert.deepEqual(first.rows.map(row => row.name).sort(), [
+      'InitialSchema1792513149156', 'Operations1792513200000', 'CatalogueS101794309752560',
+      'ContentPages1794355200000', 'PlatformActionProjection1794390000000',
+    ].sort());
     await migrate(a);
     assert.deepEqual((await sql(a, 'SELECT name FROM migrations')).rows, first.rows);
     const tables = await sql(a, "SELECT count(*) FROM information_schema.tables WHERE table_schema='public'");
@@ -186,7 +189,7 @@ try {
     const limited = clientFor(restored);
     await limited.login('catalogue-reader@local.test', password);
     await forbidden(() => limited.query(statusQuery));
-    assert.equal((await sql(restored, 'SELECT name FROM migrations')).rows.length, 1);
+    assert.equal((await sql(restored, 'SELECT name FROM migrations')).rows.length, 5);
     await serviceStop(api);
     await dbStop(db);
   });
