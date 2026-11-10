@@ -12,8 +12,8 @@ Base commune : `2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086`. Branche : `integratio
 
 Les agents commerciaux restent refusés. Les actions G1 sur le contenu utilisent les droits et la réservation d'un membre ; aucune permission native supplémentaire n'est donnée aux comptes agents. Les effets externes, la publication du site et les paiements restent dans leurs lots.
 
-Les commits, pushes, PR et fusion dans `main` restent distincts de cette préparation locale. Aucun worktree source ne sera supprimé.
+Victor a autorisé les commits, pushes, création de PR et fusion dans `main` le 10 novembre 2026. La [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) porte la livraison. Aucun worktree source ne sera supprimé.
 
 ## Clôture technique
 
-Les étapes 1 à 5 sont réalisées. `npm run test:all` passe sur l’état final ; recette Responsively et preuves de restauration/crash disponibles. Les fiches S20/S21/S22 sont préparées, non lancées. Le versionnement de la base suivante reste soumis à son autorisation propre.
+Les étapes 1 à 5 sont réalisées. `npm run test:all` passe sur l’état final ; recette Responsively et preuves de restauration/crash disponibles. Les fiches S20/S21/S22 sont préparées, non lancées. La base de la vague suivante est le commit de fusion de la PR #1, après vérification du SHA distant.

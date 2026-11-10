@@ -4,13 +4,13 @@
 
 | Traçabilité | Valeur |
 |---|---|
-| Branche | `integration/g1` dans le checkout principal |
+| Branche de livraison | `integration/g1`, vers `main` par la PR #1 |
 | Base commune | `2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086` |
-| Sources | `feat/s10-catalogue`, `feat/s11-pages`, `feat/s12-operations`, toutes non commitées |
+| Sources initiales | `feat/s10-catalogue`, `feat/s11-pages`, `feat/s12-operations`, livrées sans commits propres |
 | Transfert | 179 fichiers, empreintes dans `preuves/transfert.json` ; worktrees sources conservés |
-| Commits G1 | Aucun ; état local à versionner |
-| Push, PR, fusion | Non effectués |
-| Destination finale | `main`, après autorisation propre et vérification du commit exact |
+| Commit de réalisation G1 | `96edeab0904141a6441b2c0f4e7099b11a977a1d` ; les commits suivants de la PR actualisent la traçabilité |
+| Publication Git | Branche poussée ; [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1), qui fournit le statut et le SHA de fusion |
+| Destination finale | `main` ; commit, push, PR et fusion autorisés par Victor le 10 novembre 2026 |
 
 ## Résultat
 
@@ -59,6 +59,18 @@ La recette couvre le moteur Chromium de Responsively. Safari, appareils physique
 
 Aucun site publié, checkout, paiement, compte fournisseur, envoi externe ou agent commercial n'est activé. Les transports de simulation S12 restent testés séparément ; G1 active seulement l'effet local sur page. La protection d'expérience attend S51. Les montants nuls des actions locales ne prouvent aucun tarif fournisseur.
 
-Les fiches S20, S21 et S22 sont préparées, sans lancement. Leur base ne peut pas être G0 : il reste à autoriser le commit G1, sa publication/PR et sa fusion suivant la coordination, puis relever le SHA de `main` réellement intégré. Aucun worktree ni branche source n'est supprimé.
+Les fiches S20, S21 et S22 sont préparées, sans lancement. Leur base est le commit de fusion de la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) sur `main`, à relever lorsque son état est `MERGED`. Le SHA G0 et les branches des trois lots ne constituent pas cette base. Aucun worktree ni branche source n’est supprimé.
 
-La liste explicite des fichiers candidats est conservée dans `FICHIERS_A_VERSIONNER.txt`. Le brouillon de PR reste local dans `PR_PREPAREE.md`. Les 179 fichiers sources ont été comparés à leurs empreintes initiales sans différence ; la recherche des secrets locaux connus dans les fichiers candidats ne trouve aucune correspondance.
+La liste explicite des fichiers candidats est conservée dans `FICHIERS_A_VERSIONNER.txt`. Le texte de présentation est conservé dans `PR_PREPAREE.md` et repris dans la PR #1. Les 179 fichiers sources ont été comparés à leurs empreintes initiales sans différence ; la recherche des secrets locaux connus dans les fichiers candidats ne trouve aucune correspondance.
+
+## Rattachement Git des preuves
+
+Le commit de réalisation `96edeab0904141a6441b2c0f4e7099b11a977a1d` reproduit les 94 empreintes sources de `preuves/verification.json`. Aucun code n’a été modifié pour sa publication. Six journaux de preuve ont seulement perdu leurs espaces de fin de ligne ; les originaux sont conservés localement. Les contrôles du commit final comparent les fichiers exécutables au commit de réalisation et relisent les contrôles distants. Aucune CI ni revue externe n’est présentée comme exécutée en l’absence de résultat GitHub.
+
+Pour relever la base commune immuable de V2 :
+
+```sh
+gh pr view 1 --repo Lavic69/E-com-system-AI --json state,mergeCommit
+```
+
+Exiger `MERGED`, récupérer ce SHA et vérifier que `origin/main` le contient avant de créer les worktrees S20/S21/S22. Le coordinateur conserve également la référence locale dans `.local-coordination/v2-base.json`.

@@ -1,6 +1,6 @@
 # S21 Éditeur, aperçu et publication locale
 
-État : fiche préparée en G1, non lancée. Session B, branche prévue `feat/s21-publication`. Attendre la base G1 commitée et intégrée. La réalisation reste soumise à une instruction de Victor.
+État : fiche préparée en G1, non lancée. Session B, branche prévue `feat/s21-publication`. Base commune : commit de fusion de la [PR G1 #1](https://github.com/Lavic69/E-com-system-AI/pull/1), à vérifier avant lancement. La réalisation reste soumise à une instruction de Victor.
 
 ## Résultat attendu
 

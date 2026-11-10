@@ -8,4 +8,4 @@ Validation : `npm run test:all` réussi, dont 15 scénarios G1, 23 S10, 19 S11, 
 
 Limites : actions locales de membre uniquement ; pas de storefront publié, paiement, envoi externe ou agent commercial. Les transports de simulation S12 restent dans leur recette isolée. Le scheduler général et les appareils physiques ne sont pas vérifiés.
 
-Base des trois lots : `2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086`. Les sources non commitées sont identifiées par `preuves/transfert.json`. Le SHA du commit G1 et les contrôles qui lui correspondent sont à compléter après autorisation de versionnement. Ce document est un brouillon local, aucune PR n'a été ouverte.
+Base des trois lots : `2b4c84e7f1e7187c2e1d18905cf6a3d723e5c086`. Les sources initiales sont identifiées par `preuves/transfert.json`. Le commit de réalisation est `96edeab0904141a6441b2c0f4e7099b11a977a1d`, avec 94 empreintes identiques à l’état testé. Ce texte est repris dans la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1). Les contrôles sont locaux ; aucun résultat de CI distante n’est présumé.

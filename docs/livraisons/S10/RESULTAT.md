@@ -95,4 +95,4 @@ Le créneau graphique S10 est libéré pour S12 après confirmation de sa dispon
 
 ## Intégration G1
 
-10 novembre 2026. Cette livraison est reprise dans `integration/g1` et vérifiée avec les deux autres modules. Voir [le résultat G1](../G1/RESULTAT.md), ses décisions et ses preuves. Les mentions de raccordements à faire ci-dessus décrivent la livraison isolée initiale. Le worktree source est conservé ; aucun commit de lot ni push n’a été créé.
+10 novembre 2026. Cette livraison est reprise dans `integration/g1` et vérifiée avec les deux autres modules. Voir [le résultat G1](../G1/RESULTAT.md), ses décisions et ses preuves. Les mentions de raccordements à faire ci-dessus décrivent la livraison isolée initiale. Le worktree source est conservé. Le commit commun G1 `96edeab0904141a6441b2c0f4e7099b11a977a1d` et la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) publient le transfert ; aucun commit séparé n’est inventé sur les branches des lots.

@@ -2,7 +2,7 @@
 
 Projet de plateforme e-commerce open source : gestion commerciale, édition de boutique, agents SEO, expérimentation et studio marketing.
 
-Le dépôt contient Vendure 3.8.0 et son administration React, avec le catalogue, les pages versionnées et les actions durables intégrés localement en G1. Le parcours commun et les migrations sont vérifiés. Le checkout, la publication du storefront et les mesures forment la vague suivante. Le banc expérimental reste distinct de l’application.
+Le dépôt contient Vendure 3.8.0 et son administration React, avec le catalogue, les pages versionnées et les actions durables intégrés en G1. Le parcours commun et les migrations sont vérifiés. Le checkout, la publication du storefront et les mesures forment la vague suivante. Le banc expérimental reste distinct de l’application.
 
 - [Intégration G1 et preuves](docs/livraisons/G1/RESULTAT.md)
 - [Intégration G0](docs/livraisons/G0/RESULTAT.md)
@@ -19,6 +19,6 @@ Le dépôt contient Vendure 3.8.0 et son administration React, avec le catalogue
 
 Les documents sous `docs/produit` sont les références maintenues du produit. Les preuves de reverse engineering d'Amboras restent hors de ce dépôt.
 
-La gestion des branches, commits, pushes et PR est définie dans les [règles de coordination](docs/pilotage/COORDINATION.md). Le `main` distant porte G0. G1 est préparé sur `integration/g1`, sans commit ni publication de cette branche.
+La gestion des branches, commits, pushes et PR est définie dans les [règles de coordination](docs/pilotage/COORDINATION.md). La [PR G1](https://github.com/Lavic69/E-com-system-AI/pull/1) relie le code, ses contrôles et le commit de fusion qui sert de base à V2. Les worktrees S10–S12 sont conservés.
 
 Pour vérifier l’ensemble : `npm run test:all`. Après succès, `npm run demo:g1` ouvre la démonstration locale issue de la recette.

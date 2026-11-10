@@ -1,6 +1,6 @@
 # S20 Checkout et paiement de test
 
-État : fiche préparée en G1, non lancée. Session A, branche prévue `feat/s20-checkout`. Attendre un SHA G1 commité, intégré et vérifié selon `COORDINATION.md`. Ne pas repartir du SHA G0.
+État : fiche préparée en G1, non lancée. Session A, branche prévue `feat/s20-checkout`. Base commune : commit de fusion de la [PR G1 #1](https://github.com/Lavic69/E-com-system-AI/pull/1), à vérifier selon `COORDINATION.md`. Ne pas repartir du SHA G0.
 
 ## Résultat attendu
 

@@ -18,8 +18,8 @@ Un lot peut demander plusieurs tours de la même session Codex. Aucun délai ou 
 | Stock concurrent | Contre-exemple reproduit et protection synchrone testée ; paiement asynchrone encore à traiter |
 | Interface | Direction S01 confirmée ; maquettes livrées ; recette S00/S01 réalisée dans Responsively stable aux quatre dimensions |
 | Contrats | Source commune dans `packages/contracts`, invariants S02 et décisions G0 |
-| Intégration | G1 vérifié localement sur `integration/g1` ; commit, publication de branche et fusion restent à autoriser |
-| Missions de code suivantes | Fiches S20, S21, S22 préparées ; lancement après base G1 commitée/intégrée et instruction de Victor |
+| Intégration | G1 vérifié et publié via la [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) ; base V2 donnée par son commit de fusion |
+| Missions de code suivantes | S20, S21, S22 préparées ; même SHA de fusion G1, puis instruction de lancement de Victor |
 
 Les rapports du [banc de validation](../../experiments/core-validation/README.md) sont les preuves du moteur. Ils ne valent pas validation du checkout de production, de l'administration ou des intégrations.
 
@@ -112,7 +112,7 @@ S12 fournit la persistance minimale des événements avant le checkout. S22 dév
 
 ### V2 — Vendre, modifier le site et mesurer
 
-Fiches préparées en G1 : [S20](missions/S20-checkout.md), [S21](missions/S21-editeur-publication.md), [S22](missions/S22-mesure.md). Elles ne sont pas lancées ; leur base attend le versionnement et l’intégration Git de G1.
+Fiches préparées en G1 : [S20](missions/S20-checkout.md), [S21](missions/S21-editeur-publication.md), [S22](missions/S22-mesure.md). Elles ne sont pas lancées ; leur base commune est le commit de fusion de la PR #1, à vérifier avant création des worktrees.
 
 | Lot | Dépendances utiles | Critères de sortie |
 |---|---|---|
@@ -214,11 +214,11 @@ Un point G1 à G8 reprend toujours :
 
 La session A intègre après l'arrêt des modifications des autres sessions. L'intégration réutilise les autorisations déjà données ; les commits, fusions et publications suivent leur autorisation propre. Aucun worktree inachevé d'une autre session n'est supprimé.
 
-### G1 réalisé localement
+### G1 réalisé et versionné
 
 Le [résultat G1](../livraisons/G1/RESULTAT.md) et les [décisions](../livraisons/G1/DECISIONS.md) constituent la référence de la vague V1. Les 15 scénarios combinés prouvent les migrations, le produit S10 dans une page S11, une action S12 atomique, les refus, la reprise du worker et la restauration. Les recettes des trois modules et du socle sont rejouées. La validation Responsively est consignée dans la livraison.
 
-`integration/g1` porte encore des changements non commités. Le SHA G0 ne devient pas une base G1 par renommage. Avant la vague suivante, autoriser et vérifier les actions Git prévues dans la coordination, puis inscrire le SHA intégré réel.
+Le code G1 est porté par `96edeab0904141a6441b2c0f4e7099b11a977a1d`. La [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) conserve les contrôles et son SHA de fusion. Pour V2, relever ce SHA après l’état `MERGED` et vérifier sa présence sur `origin/main`. Les worktrees sources restent conservés.
 
 ## 8. État des missions
 
@@ -227,10 +227,10 @@ Le [résultat G1](../livraisons/G1/RESULTAT.md) et les [décisions](../livraison
 | S00 | Intégré et vérifié | Correction du lanceur et recette réelle du Dashboard réalisées en G0 |
 | S01 | Livré et recette du prototype vérifiée | Parcours et quatre dimensions vérifiés ; approbation finale des maquettes distincte, écrans métier futurs |
 | S02 | Intégré et vérifié pour ses formats | Source commune et exemples vérifiés ; garanties métier à implémenter dans leurs lots |
-| G0 | Intégré et vérifié | Base locale portée par le premier commit de `main` ; push distinct |
-| S10, S11, S12 | Intégrées et vérifiées localement en G1 | Parcours commun exécuté ; worktrees sources conservés |
-| G1 | Technique vérifiée ; versionnement en attente | [Résultat et preuves](../livraisons/G1/RESULTAT.md), commit/PR/fusion à autoriser ; aucun nouveau SHA prétendu |
-| S20, S21, S22 | Fiches préparées, non lancées | Même base G1 commitée et intégrée à vérifier avant lancement |
+| G0 | Intégré et vérifié | Premier commit de `main`, publié avant G1 |
+| S10, S11, S12 | Intégrées et vérifiées en G1 | Parcours commun exécuté ; worktrees sources conservés |
+| G1 | Intégré et vérifié | [Résultat et preuves](../livraisons/G1/RESULTAT.md), [PR #1](https://github.com/Lavic69/E-com-system-AI/pull/1) et SHA de fusion comme base suivante |
+| S20, S21, S22 | Fiches préparées, non lancées | Même SHA de fusion de la PR #1 à vérifier avant lancement |
 | S30 à S82 | À détailler | Vague précédente intégrée, accès et critères propres au lot |
 | S90 à S92 | À détailler | Périmètre complet intégré et candidat figé |
 
